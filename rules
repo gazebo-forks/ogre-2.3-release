@@ -26,7 +26,8 @@ UURL_BRANCH=v2-2
 PKD  = $(abspath $(dir $(MAKEFILE_LIST)))
 PKG  = ogre-2.2
 DATE = $(shell date +%Y%m%d)
-HASH = $(shell git ls-remote $(UURL) $(UURL_BRANCH) | cut -c 1-6)
+# enable when needed to crate a new orig tarball. Disabled otherwise since it will ask for credentials in github
+# HASH = $(shell git ls-remote $(UURL) $(UURL_BRANCH) | cut -c 1-6)
 LATEST_VER ?= $(shell dpkg-parsechangelog -l debian/changelog | grep ^Version | sed -n 's/.* \([0-9]\+\.[0-9]\+\.[0-9]\+\)\+.*/\1/p')
 VER = $(LATEST_VER)+$(DATE)r$(HASH)
 
@@ -55,6 +56,7 @@ override_dh_auto_configure:
 
         # RPATH from http://www.ogre3d.org/tikiwiki/Building+Ogre+With+CMake
 	dh_auto_configure -- \
+	        -DOGRE_IGNORE_UNKNOWN_DEBUG=1 \
 		-DOGRE_LIB_DIRECTORY="$(LIB_MULTIARCH_OGRE_RELATIVE)" \
 		-DOGRE_FULL_RPATH:BOOL=FALSE \
 		-DOGRE_BUILD_RENDERSYSTEM_GLES2:BOOL=FALSE \
@@ -112,7 +114,7 @@ override_dh_installchangelogs:
 	dh_installchangelogs -- $(OGRE_CHANGELOG)
 
 # workaround in Debian buster for the error:
-# man: error while loading shared libraries: libmandb-2.8.5.so: cannot stat shared object: Permission denied 
+# man: error while loading shared libraries: libmandb-2.8.5.so: cannot stat shared object: Permission denied
 override_dh_installman:
 	true
 
