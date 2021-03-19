@@ -3,4 +3,5 @@ usr/share/OGRE/docs/2.0/*
 usr/share/OGRE/docs/*.html
 usr/share/OGRE/docs/*.gif
 usr/share/OGRE/docs/*.css
+usr/share/OGRE/docs/frontpage/*
 usr/share/OGRE/docs/CMakeLists.txt
