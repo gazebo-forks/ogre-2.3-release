@@ -1,3 +1,9 @@
+ogre-2.2 (2.2.5+20210824~ec3f70c-1) focal; urgency=medium
+
+  * New upstream version 2.2.5+20210824~ec3f70c
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 24 Aug 2021 19:11:16 +0200
+
 ogre-2.2 (2.1.9999~20210319~3aa42f-1) focal; urgency=medium
 
   * Focal version
