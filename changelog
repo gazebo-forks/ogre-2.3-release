@@ -1,8 +1,14 @@
+ogre-2.2 (2.2.5+20210824~ec3f70c-3) bionic; urgency=medium
+
+  * Stable release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 27 Aug 2021 12:49:19 +0200
+
 ogre-2.2 (2.2.5+20210824~ec3f70c-2) bionic; urgency=medium
 
   * Build ogre-2.2 with rapidjson support
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 26 Aug 2021 11:49:36 +0200
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 27 Aug 2021 12:48:46 +0200
 
 ogre-2.2 (2.2.5+20210824~ec3f70c-1) bionic; urgency=medium
 
