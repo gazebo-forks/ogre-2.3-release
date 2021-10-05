@@ -1,3 +1,9 @@
+ogre-2.2 (2.2.5+20210824~ec3f70c-3) buster; urgency=medium
+
+  * Stable release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 27 Aug 2021 12:49:19 +0200
+
 ogre-2.2 (2.2.5+20210824~ec3f70c-3) bionic; urgency=medium
 
   * Stable release
