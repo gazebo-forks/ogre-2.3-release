@@ -1,3 +1,10 @@
+ogre-2.2 (2.2.5+20210824~ec3f70c-4) buster; urgency=medium
+
+  * New compilation flags from
+    https://github.com/ignition-forks/ogre-2.2-release/pull/4
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Oct 2021 20:51:27 +0200
+
 ogre-2.2 (2.2.5+20210824~ec3f70c-4) bionic; urgency=medium
 
   * New compilation flags from
