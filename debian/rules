@@ -24,7 +24,7 @@ UURL = https://github.com/ignition-forks/ogre-next.git
 UURL_BRANCH=v2-2
 
 PKD  = $(abspath $(dir $(MAKEFILE_LIST)))
-PKG  = ogre-2.2
+PKG  = ogre-2.3
 DATE = $(shell date +%Y%m%d)
 # enable when needed to crate a new orig tarball. Disabled otherwise since it will ask for credentials in github
 # HASH = $(shell git ls-remote $(UURL) $(UURL_BRANCH) | cut -c 1-6)
