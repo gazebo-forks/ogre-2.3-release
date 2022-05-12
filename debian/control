@@ -104,7 +104,7 @@ Description: 3D Object-Oriented Graphics Rendering Engine (tools)
  This package contains tools used to convert from and to OGRE's native mesh
  format.
 
-Package: blender-ogrexml-2.2
+Package: blender-ogrexml-next-2.3
 Section: graphics
 Architecture: all
 Depends: ${misc:Depends},
