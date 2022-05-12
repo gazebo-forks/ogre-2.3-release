@@ -1,6 +1,6 @@
-ogre-2.3 (2.2.5+20210824~ec3f70c-4) focal; urgency=medium
+ogre-next-2.3 (2.2.5+20210824~ec3f70c-4) focal; urgency=medium
 
-  * Inital setup of ogre-2.3 package.
+  * Inital setup of ogre-next-2.3 package.
     https://github.com/gazebo-forks/ogre-2.3-release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 11 May 2022 20:51:27 +0200
