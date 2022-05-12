@@ -6,8 +6,6 @@
 export DEB_BUILD_MAINT_OPTIONS   := hardening=+bindnow
 SHELL := bash
 
-DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
-
 # Use this variable to define the particular version of OGRE that we're building
 OGRE_VERSION=2.2
 
