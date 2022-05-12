@@ -59,33 +59,6 @@ override_dh_auto_build-indep:
 	dh_auto_build -i -- OgreDoc
 
 override_dh_install-arch:
-	# Support multiple OGRE versions at once. Relocate headers
-	mv debian/tmp/usr/include/OGRE/ debian/tmp/${HEADERS_MULTIARCH_PRIVATE_DIR}
-	sed -i '/^includedir/s/$$/\/OGRE-$(OGRE_VERSION)/' debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/pkgconfig/*
-	# Modify pkgconfig names
-	sed -i 's/Name:\ OGRE/Name:\ OGRE-$(OGRE_VERSION)/' debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/pkgconfig/*
-	# Change pkgconfig file names
-	for f in $(wildcard  debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/pkgconfig/*.pc); do \
-	   mv $$f `sed 's/OGRE\(.*\)OGRE\(.*\).pc/OGRE\1OGRE-$(OGRE_VERSION)\2.pc/' <<< $$f`; \
-	done
-	# Remove extra Include in main pkgconfig file and MeshLoadGenerator
-	sed -i 's:-I$${includedir}/OGRE::' debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/pkgconfig/OGRE-${OGRE_VERSION}.pc
-	sed -i 's:$${includedir}/OGRE:$${includedir}:' debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/pkgconfig/OGRE-${OGRE_VERSION}-MeshLodGenerator.pc
-
-	# Change pkgconfig/cmake path to be in the standard location
-	mv debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/pkgconfig/ debian/tmp/$(LIB_MULTIARCH_DIR)/
-	mv debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/OGRE/cmake debian/tmp/$(LIB_MULTIARCH_DIR)/OGRE-${OGRE_VERSION}/
-        # Move libraries (.so.2.*) to standard location
-	mv debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/lib*.so.2.* debian/tmp/$(LIB_MULTIARCH_DIR)/
-	# Fix symlinks to .so.2.* moved above
-	for f in $(wildcard debian/tmp/usr/$(LIB_MULTIARCH_OGRE_RELATIVE)/*.so); do \
-	    ln -sfn `readlink $$f | sed s:^:../:` $$f ; \
-	done
-
-        # Samples
-        #sed -i "/OGRE/ s|/OGRE|/OGRE-$(OGRE_VERSION)|g" debian/tmp/usr/share/OGRE/*.cfg
-        #mv debian/tmp/usr/share/OGRE debian/tmp/usr/share/OGRE-$(OGRE_VERSION)
-
 	dh_install -a
 	dh_missing --list-missing
 
