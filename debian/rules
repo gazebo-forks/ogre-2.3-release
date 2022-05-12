@@ -7,7 +7,7 @@ export DEB_BUILD_MAINT_OPTIONS   := hardening=+bindnow
 SHELL := bash
 
 # Use this variable to define the particular version of OGRE that we're building
-OGRE_VERSION=2.2
+OGRE_VERSION=2.3
 
 OGRE_CHANGELOG = Docs/ChangeLog.html
 
