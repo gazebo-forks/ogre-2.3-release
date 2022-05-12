@@ -30,6 +30,7 @@ endif
 
 
 override_dh_auto_configure:
+	# TODO(nuclearsandwich) remove using patches
 	# Samples removed (do not meet DFSG), modify CMake files accordingly
 	sed -i 's|^add_subdirectory(Samples)|#add_subdirectory(Samples)|' CMakeLists.txt
 	#sed -i "/OGRE_.*_PATH/ s|share/OGRE|share/OGRE-$(OGRE_VERSION)|g" CMake/InstallResources.cmake
