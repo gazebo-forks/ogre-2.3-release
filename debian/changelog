@@ -1,3 +1,35 @@
+ogre-next-2.3 (2.3.0-1) focal; urgency=medium
+
+  [ Steven! Ragnarök ]
+  * This file is invalid.
+  * Drop trailing slashes per uscan's recommendation.
+  * Rename files for updated package name.
+  * Update debian contents for new package name: ogre-2.3
+  * Update package name in changelog
+  * Create upstream branch.
+  * New upstream version 2.3.0
+
+  [ Jose Luis Rivero ]
+  * Import upstream patch to rename libraries
+
+  [ Steven! Ragnarök ]
+  * Update riscv support patch.
+  * Update Ogre patches for 2.3.
+  * Use new project name in dh_auto_configure.
+  * This variable is automatically defined.
+  * Update Ogre version being packaged.
+  * Remove old rules for updating from upstream.
+  * Remove unused variable.
+  * Clear out commented block.
+  * Try to install "vanilla" ogre with the project rename patch.
+  * Debian Buster is no longer a target platform.
+  * Add a note to come back to this later.
+  * Remove unused pre- and post- install scripts.
+  * Update package basename to ogre-next-2.3
+  * Update package name for blender-ogrexml.
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Thu, 12 May 2022 16:22:19 +0000
+
 ogre-next-2.3 (2.2.5+20210824~ec3f70c-4) focal; urgency=medium
 
   * Inital setup of ogre-next-2.3 package.
