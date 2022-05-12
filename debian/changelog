@@ -1,3 +1,9 @@
+ogre-next-2.3 (2.3.0+ds1-1) focal; urgency=medium
+
+  * New upstream version 2.3.0+ds1
+
+ -- Steven! Ragnarök <steven@ros2-focal.lxd>  Thu, 12 May 2022 16:46:47 +0000
+
 ogre-next-2.3 (2.2.0-1) focal; urgency=medium
 
   [ Steven! Ragnarök ]
