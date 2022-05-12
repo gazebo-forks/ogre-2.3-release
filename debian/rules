@@ -18,16 +18,6 @@ LIB_MULTIARCH_OGRE_RELATIVE=lib/$(DEB_HOST_MULTIARCH)/OGRE-$(OGRE_VERSION)
 LIB_MULTIARCH_PRIVATE_DIR = /usr/$(LIB_MULTIARCH_OGRE_RELATIVE)
 HEADERS_MULTIARCH_PRIVATE_DIR = /usr/include/OGRE-$(OGRE_VERSION)
 
-UURL = https://github.com/ignition-forks/ogre-next.git
-UURL_BRANCH=v2-2
-
-PKD  = $(abspath $(dir $(MAKEFILE_LIST)))
-PKG  = ogre-2.3
-DATE = $(shell date +%Y%m%d)
-# enable when needed to crate a new orig tarball. Disabled otherwise since it will ask for credentials in github
-# HASH = $(shell git ls-remote $(UURL) $(UURL_BRANCH) | cut -c 1-6)
-LATEST_VER ?= $(shell dpkg-parsechangelog -l debian/changelog | grep ^Version | sed -n 's/.* \([0-9]\+\.[0-9]\+\.[0-9]\+\)\+.*/\1/p')
-VER = $(LATEST_VER)+$(DATE)r$(HASH)
 
 EXTRA_CMAKE_FLAGS =
 ifeq ($(DEB_HOST_ARCH),arm64)
@@ -39,12 +29,6 @@ ifeq ($(DEB_HOST_ARCH),armhf)
 		      -DOGRE_SIMD_SSE2:BOOL=FALSE
 endif
 
-
-.PHONY: get-orig-source \
-	override_dh_auto_configure \
-	override_dh_auto_build-indep \
-	override_dh_installchangelogs \
-	override_dh_shlibdeps
 
 override_dh_auto_configure:
 	# Samples removed (do not meet DFSG), modify CMake files accordingly
@@ -119,27 +103,6 @@ override_dh_installchangelogs:
 # man: error while loading shared libraries: libmandb-2.8.5.so: cannot stat shared object: Permission denied
 override_dh_installman:
 	true
-
-get-orig-source: $(PKG)_$(VER).orig.tar.xz $(info I: $(PKG)_$(VER))
-
-$(PKG)_$(VER).orig.tar.xz:
-	$(if $(wildcard $(PKG)-$(VER)),$(error $(PKG)-$(VER) exist, aborting..))
-	@echo "# Downloading ${PKG} repo ..."
-	git clone $(UURL) $(PKG)-$(VER) \
-	|| $(RM) -r $(PKG)-$(VER)
-	cd $(PKG)-$(VER) \
-	&& git checkout ${UURL_BRANCH} \
-	&& echo "# Setting times..." \
-	&& git ls-tree -r --name-only HEAD | while read F ; do touch --no-dereference -d "$$(git log -1 --format="%ai" -- "$$F")" "$$F"; done \
-	&& echo "# Cleaning-up..." \
-	&& $(RM) -r -v \
-	notneededdir/unwantedfile1 \
-	notneededdir/unwantedfiles.* \
-	&& $(RM) -r .git .git*
-	@echo "# Packing..."
-	find -L "$(PKG)-$(VER)" -xdev -type f -print | LC_ALL=C sort \
-	| XZ_OPT="-0v" tar -caf "$(PKG)_$(VER).orig.tar.xz" -T- --owner=root --group=root --mode=a+rX \
-	&& $(RM) -r "$(PKG)-$(VER)"
 
 %:
 	dh $@ --buildsystem=cmake
