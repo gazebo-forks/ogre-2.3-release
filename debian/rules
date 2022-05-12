@@ -17,7 +17,6 @@ LIB_MULTIARCH_DIR = /usr/lib/$(DEB_HOST_MULTIARCH)
 LIB_MULTIARCH_OGRE_RELATIVE=lib/$(DEB_HOST_MULTIARCH)/OGRE-$(OGRE_VERSION)
 HEADERS_MULTIARCH_PRIVATE_DIR = /usr/include/OGRE-$(OGRE_VERSION)
 
-
 EXTRA_CMAKE_FLAGS =
 ifeq ($(DEB_HOST_ARCH),arm64)
   EXTRA_CMAKE_FLAGS = -DOGRE_SIMD_NEON:BOOL=FALSE \
@@ -33,12 +32,9 @@ override_dh_auto_configure:
 	# TODO(nuclearsandwich) remove using patches
 	# Samples removed (do not meet DFSG), modify CMake files accordingly
 	sed -i 's|^add_subdirectory(Samples)|#add_subdirectory(Samples)|' CMakeLists.txt
-	#sed -i "/OGRE_.*_PATH/ s|share/OGRE|share/OGRE-$(OGRE_VERSION)|g" CMake/InstallResources.cmake
 
-
-        # RPATH from http://www.ogre3d.org/tikiwiki/Building+Ogre+With+CMake
 	dh_auto_configure -- \
-	        -DOGRE_IGNORE_UNKNOWN_DEBUG=1 \
+		-DOGRE_IGNORE_UNKNOWN_DEBUG=1 \
 		-DOGRE_LIB_DIRECTORY="$(LIB_MULTIARCH_OGRE_RELATIVE)" \
 		-DOGRE_USE_NEW_PROJECT_NAME=ON \
 		-DOGRE_FULL_RPATH:BOOL=FALSE \
@@ -54,9 +50,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build-indep:
 	dh_auto_build -i --
-
-        # generate doxygen API doc
-        #cd obj-$(DEB_HOST_MULTIARCH) && make OgreDoc
+	# generate doxygen API doc
 	dh_auto_build -i -- OgreDoc
 
 override_dh_install-arch:
