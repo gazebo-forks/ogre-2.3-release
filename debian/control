@@ -44,7 +44,7 @@ Package: libogre-next-2.3-dev
 Architecture: any
 Section: libdevel
 Depends: ${misc:Depends},
-         libogre-next-2.3 (= ${binary:Version}),
+         libogre-next-2.3.0 (= ${binary:Version}),
          libboost-dev,
          libboost-thread-dev
 Suggests: ogre-next-2.3-doc
