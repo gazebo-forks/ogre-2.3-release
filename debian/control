@@ -24,10 +24,13 @@ Build-Depends: debhelper (>= 11),
                libglu1-mesa-dev | libglu-dev,
                libgl1-mesa-dev | libgl-dev,
                libgles2-mesa-dev | libgles2-dev,
-               libpoco-dev,
                libois-dev [linux-any],
+               libpoco-dev,
+               libsdl2-dev,
                libtbb-dev,
                libtinyxml-dev,
+               libx11-xcb-dev,
+               libxcb-randr0-dev,
                libxrandr-dev,
                libxxf86vm-dev,
                libxaw7-dev,
@@ -35,7 +38,12 @@ Build-Depends: debhelper (>= 11),
                libzzip-dev,
                libz-dev,
                rapidjson-dev,
-               zlib1g-dev
+               zlib1g-dev,
+# vulkan dependencies. validationlayers version is only avilable in Jammy
+# for Focal we build the package without vulkan support
+               glslang-dev,
+               libvulkan-dev,
+               vulkan-validationlayers-dev (>= 1.3.213) | libc6
 Build-Depends-Indep: doxygen,
                      graphviz,
                      texinfo

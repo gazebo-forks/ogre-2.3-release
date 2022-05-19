@@ -1,2 +1,3 @@
 riscv64-support.patch
 ogre-next-rename.patch
+vulkan-remove-sharedrc.patch
