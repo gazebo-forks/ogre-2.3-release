@@ -1,4 +1,4 @@
-usr/include/OGRE
+usr/include/OGRE-*
 usr/lib/*/OGRE-*/OGRE/*.so
 usr/lib/*/OGRE-*/libOgre*.so
 usr/lib/*/OGRE-*/pkgconfig/*.pc
