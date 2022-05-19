@@ -1,6 +1,6 @@
 var NAVTREEINDEX227 =
 {
-"class_ogre_1_1_pcc_per_pixel_grid_placement.html#aed6feb92ffd56d1b821e7c7381ff3eb0":[7,0,0,817,8],
+"class_ogre_1_1_pcc_per_pixel_grid_placement.html#aed6feb92ffd56d1b821e7c7381ff3eb0":[6,0,0,844,8],
 "class_ogre_1_1_pixel_box.html":[5,2,3,17],
 "class_ogre_1_1_pixel_box.html#a098dfd052183aeb4025794758ed59021":[5,2,3,17,10],
 "class_ogre_1_1_pixel_box.html#a196c57b3cf61c1545c46896cff269efb":[5,2,3,17,0],
