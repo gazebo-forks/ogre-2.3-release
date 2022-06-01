@@ -3,3 +3,4 @@ ogre-next-rename.patch
 vulkan-remove-sharedrc.patch
 vulkan-look-for-validationlayers.patch
 versioned-header-dir.patch
+versioned-pc-files.patch
