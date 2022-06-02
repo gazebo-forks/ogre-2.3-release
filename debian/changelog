@@ -1,3 +1,9 @@
+ogre-next-2.3 (2.3.0+ds1-1) jammy; urgency=medium
+
+  * New upstream version 2.3.0+ds1
+
+ -- Steven! Ragnarök <steven@nuclearsandwich.com>  Thu, 02 Jun 2022 23:26:29 +0000
+
 ogre-next-2.3 (2.3.0+ds1-1) focal; urgency=medium
 
   * New upstream version 2.3.0+ds1
