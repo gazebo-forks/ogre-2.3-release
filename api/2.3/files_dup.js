@@ -368,13 +368,6 @@ var files_dup =
     [ "OgreAPKZipArchive.h", "_ogre_a_p_k_zip_archive_8h.html", [
       [ "Ogre::APKZipArchiveFactory", "class_ogre_1_1_a_p_k_zip_archive_factory.html", "class_ogre_1_1_a_p_k_zip_archive_factory" ]
     ] ],
-    [ "Android/OgreTimerImp.h", "_android_2_ogre_timer_imp_8h.html", null ],
-    [ "Emscripten/OgreTimerImp.h", "_emscripten_2_ogre_timer_imp_8h.html", null ],
-    [ "GLX/OgreTimerImp.h", "_g_l_x_2_ogre_timer_imp_8h.html", null ],
-    [ "iOS/OgreTimerImp.h", "i_o_s_2_ogre_timer_imp_8h.html", null ],
-    [ "NaCl/OgreTimerImp.h", "_na_cl_2_ogre_timer_imp_8h.html", null ],
-    [ "OSX/OgreTimerImp.h", "_o_s_x_2_ogre_timer_imp_8h.html", null ],
-    [ "WIN32/OgreTimerImp.h", "_w_i_n32_2_ogre_timer_imp_8h.html", "_w_i_n32_2_ogre_timer_imp_8h" ],
     [ "OgreBone.h", "_ogre_bone_8h.html", null ],
     [ "OgreSkeletonAnimation.h", "_ogre_skeleton_animation_8h.html", "_ogre_skeleton_animation_8h" ],
     [ "OgreSkeletonAnimationDef.h", "_ogre_skeleton_animation_def_8h.html", "_ogre_skeleton_animation_def_8h" ],
@@ -492,22 +485,6 @@ var files_dup =
     [ "OgreRenderWindow.h", "_ogre_render_window_8h.html", null ],
     [ "OgreTexture.h", "_ogre_texture_8h.html", "_ogre_texture_8h" ],
     [ "OgreTextureManager.h", "_ogre_texture_manager_8h.html", null ],
-    [ "Android/OgreConfigDialogImp.h", "_android_2_ogre_config_dialog_imp_8h.html", null ],
-    [ "Emscripten/OgreConfigDialogImp.h", "_emscripten_2_ogre_config_dialog_imp_8h.html", null ],
-    [ "GLX/OgreConfigDialogImp.h", "_g_l_x_2_ogre_config_dialog_imp_8h.html", null ],
-    [ "gtk/OgreConfigDialogImp.h", "gtk_2_ogre_config_dialog_imp_8h.html", null ],
-    [ "iOS/OgreConfigDialogImp.h", "i_o_s_2_ogre_config_dialog_imp_8h.html", null ],
-    [ "NaCl/OgreConfigDialogImp.h", "_na_cl_2_ogre_config_dialog_imp_8h.html", null ],
-    [ "OSX/OgreConfigDialogImp.h", "_o_s_x_2_ogre_config_dialog_imp_8h.html", null ],
-    [ "WIN32/OgreConfigDialogImp.h", "_w_i_n32_2_ogre_config_dialog_imp_8h.html", "_w_i_n32_2_ogre_config_dialog_imp_8h" ],
-    [ "Android/OgreErrorDialogImp.h", "_android_2_ogre_error_dialog_imp_8h.html", null ],
-    [ "Emscripten/OgreErrorDialogImp.h", "_emscripten_2_ogre_error_dialog_imp_8h.html", null ],
-    [ "GLX/OgreErrorDialogImp.h", "_g_l_x_2_ogre_error_dialog_imp_8h.html", null ],
-    [ "gtk/OgreErrorDialogImp.h", "gtk_2_ogre_error_dialog_imp_8h.html", null ],
-    [ "iOS/OgreErrorDialogImp.h", "i_o_s_2_ogre_error_dialog_imp_8h.html", null ],
-    [ "NaCl/OgreErrorDialogImp.h", "_na_cl_2_ogre_error_dialog_imp_8h.html", null ],
-    [ "OSX/OgreErrorDialogImp.h", "_o_s_x_2_ogre_error_dialog_imp_8h.html", null ],
-    [ "WIN32/OgreErrorDialogImp.h", "_w_i_n32_2_ogre_error_dialog_imp_8h.html", "_w_i_n32_2_ogre_error_dialog_imp_8h" ],
     [ "OgreOSXCocoaTouchView.h", "_ogre_o_s_x_cocoa_touch_view_8h.html", [
       [ "OgreView", "interface_ogre_view.html", "interface_ogre_view" ],
       [ "OgreWindow", "interface_ogre_window.html", null ]
@@ -515,6 +492,10 @@ var files_dup =
     [ "OgreMathlibC.h", "_ogre_mathlib_c_8h.html", [
       [ "Ogre::MathlibC", "class_ogre_1_1_mathlib_c.html", "class_ogre_1_1_mathlib_c" ]
     ] ],
+    [ "C/OgreArrayAabb.h", "_c_2_ogre_array_aabb_8h.html", null ],
+    [ "NEON/Single/OgreArrayAabb.h", "_n_e_o_n_2_single_2_ogre_array_aabb_8h.html", null ],
+    [ "OgreArrayAabb.h", "_ogre_array_aabb_8h.html", null ],
+    [ "SSE2/Single/OgreArrayAabb.h", "_s_s_e2_2_single_2_ogre_array_aabb_8h.html", null ],
     [ "C/OgreArrayMatrix4.h", "_c_2_ogre_array_matrix4_8h.html", null ],
     [ "NEON/Single/OgreArrayMatrix4.h", "_n_e_o_n_2_single_2_ogre_array_matrix4_8h.html", null ],
     [ "OgreArrayMatrix4.h", "_ogre_array_matrix4_8h.html", null ],
@@ -546,10 +527,6 @@ var files_dup =
       [ "Ogre::BooleanMask4", "class_ogre_1_1_boolean_mask4.html", "class_ogre_1_1_boolean_mask4" ]
     ] ],
     [ "OgreMathlibNEON.h", "_ogre_mathlib_n_e_o_n_8h.html", null ],
-    [ "C/OgreArrayAabb.h", "_c_2_ogre_array_aabb_8h.html", null ],
-    [ "NEON/Single/OgreArrayAabb.h", "_n_e_o_n_2_single_2_ogre_array_aabb_8h.html", null ],
-    [ "OgreArrayAabb.h", "_ogre_array_aabb_8h.html", null ],
-    [ "SSE2/Single/OgreArrayAabb.h", "_s_s_e2_2_single_2_ogre_array_aabb_8h.html", null ],
     [ "OgreArrayConfig.h", "_ogre_array_config_8h.html", "_ogre_array_config_8h" ],
     [ "OgreArrayMemoryManager.h", "_ogre_array_memory_manager_8h.html", "_ogre_array_memory_manager_8h" ],
     [ "OgreArrayRay.h", "_ogre_array_ray_8h.html", [
@@ -1120,9 +1097,32 @@ var files_dup =
     [ "OgreVertexBufferPacked.h", "_ogre_vertex_buffer_packed_8h.html", "_ogre_vertex_buffer_packed_8h" ],
     [ "OgreVertexElements.h", "_ogre_vertex_elements_8h.html", "_ogre_vertex_elements_8h" ],
     [ "OgreComPtr.h", "_ogre_com_ptr_8h.html", "_ogre_com_ptr_8h" ],
+    [ "Android/OgreConfigDialogImp.h", "_android_2_ogre_config_dialog_imp_8h.html", null ],
+    [ "Emscripten/OgreConfigDialogImp.h", "_emscripten_2_ogre_config_dialog_imp_8h.html", null ],
+    [ "GLX/OgreConfigDialogImp.h", "_g_l_x_2_ogre_config_dialog_imp_8h.html", null ],
+    [ "gtk/OgreConfigDialogImp.h", "gtk_2_ogre_config_dialog_imp_8h.html", null ],
+    [ "iOS/OgreConfigDialogImp.h", "i_o_s_2_ogre_config_dialog_imp_8h.html", null ],
+    [ "NaCl/OgreConfigDialogImp.h", "_na_cl_2_ogre_config_dialog_imp_8h.html", null ],
+    [ "OSX/OgreConfigDialogImp.h", "_o_s_x_2_ogre_config_dialog_imp_8h.html", null ],
+    [ "WIN32/OgreConfigDialogImp.h", "_w_i_n32_2_ogre_config_dialog_imp_8h.html", "_w_i_n32_2_ogre_config_dialog_imp_8h" ],
     [ "OgreConfigDialogImpWinRT.h", "_ogre_config_dialog_imp_win_r_t_8h.html", "_ogre_config_dialog_imp_win_r_t_8h" ],
+    [ "Android/OgreErrorDialogImp.h", "_android_2_ogre_error_dialog_imp_8h.html", null ],
+    [ "Emscripten/OgreErrorDialogImp.h", "_emscripten_2_ogre_error_dialog_imp_8h.html", null ],
+    [ "GLX/OgreErrorDialogImp.h", "_g_l_x_2_ogre_error_dialog_imp_8h.html", null ],
+    [ "gtk/OgreErrorDialogImp.h", "gtk_2_ogre_error_dialog_imp_8h.html", null ],
+    [ "iOS/OgreErrorDialogImp.h", "i_o_s_2_ogre_error_dialog_imp_8h.html", null ],
+    [ "NaCl/OgreErrorDialogImp.h", "_na_cl_2_ogre_error_dialog_imp_8h.html", null ],
+    [ "OSX/OgreErrorDialogImp.h", "_o_s_x_2_ogre_error_dialog_imp_8h.html", null ],
+    [ "WIN32/OgreErrorDialogImp.h", "_w_i_n32_2_ogre_error_dialog_imp_8h.html", "_w_i_n32_2_ogre_error_dialog_imp_8h" ],
     [ "OgreErrorDialogImpWinRT.h", "_ogre_error_dialog_imp_win_r_t_8h.html", null ],
     [ "OgreMinGWSupport.h", "_ogre_min_g_w_support_8h.html", null ],
+    [ "Android/OgreTimerImp.h", "_android_2_ogre_timer_imp_8h.html", null ],
+    [ "Emscripten/OgreTimerImp.h", "_emscripten_2_ogre_timer_imp_8h.html", null ],
+    [ "GLX/OgreTimerImp.h", "_g_l_x_2_ogre_timer_imp_8h.html", null ],
+    [ "iOS/OgreTimerImp.h", "i_o_s_2_ogre_timer_imp_8h.html", null ],
+    [ "NaCl/OgreTimerImp.h", "_na_cl_2_ogre_timer_imp_8h.html", null ],
+    [ "OSX/OgreTimerImp.h", "_o_s_x_2_ogre_timer_imp_8h.html", null ],
+    [ "WIN32/OgreTimerImp.h", "_w_i_n32_2_ogre_timer_imp_8h.html", "_w_i_n32_2_ogre_timer_imp_8h" ],
     [ "OgreHlmsTextureManager.h", "_ogre_hlms_texture_manager_8h.html", [
       [ "Ogre::HlmsTextureManager::DefaultTextureParameters", "struct_ogre_1_1_hlms_texture_manager_1_1_default_texture_parameters.html", "struct_ogre_1_1_hlms_texture_manager_1_1_default_texture_parameters" ],
       [ "Ogre::HlmsTextureManager::MetadataCacheEntry", "struct_ogre_1_1_hlms_texture_manager_1_1_metadata_cache_entry.html", "struct_ogre_1_1_hlms_texture_manager_1_1_metadata_cache_entry" ],
@@ -1934,12 +1934,6 @@ var files_dup =
     [ "GLES2/include/EGL/OgreEGLWindow.h", "_g_l_e_s2_2include_2_e_g_l_2_ogre_e_g_l_window_8h.html", [
       [ "Ogre::EGLWindow", "class_ogre_1_1_e_g_l_window.html", "class_ogre_1_1_e_g_l_window" ]
     ] ],
-    [ "EGL/Android/OgreGLES2Util.h", "_e_g_l_2_android_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_android_2_ogre_g_l_e_s2_util_8h" ],
-    [ "EGL/Emscripten/OgreGLES2Util.h", "_e_g_l_2_emscripten_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_emscripten_2_ogre_g_l_e_s2_util_8h" ],
-    [ "EGL/OgreGLES2Util.h", "_e_g_l_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_ogre_g_l_e_s2_util_8h" ],
-    [ "EGL/WIN32/OgreGLES2Util.h", "_e_g_l_2_w_i_n32_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_w_i_n32_2_ogre_g_l_e_s2_util_8h" ],
-    [ "EGL/X11/OgreGLES2Util.h", "_e_g_l_2_x11_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_x11_2_ogre_g_l_e_s2_util_8h" ],
-    [ "NaCl/OgreGLES2Util.h", "_na_cl_2_ogre_g_l_e_s2_util_8h.html", "_na_cl_2_ogre_g_l_e_s2_util_8h" ],
     [ "OgreWin32EGLContext.h", "_ogre_win32_e_g_l_context_8h.html", [
       [ "Ogre::Win32EGLContext", "class_ogre_1_1_win32_e_g_l_context.html", "class_ogre_1_1_win32_e_g_l_context" ]
     ] ],
@@ -1958,6 +1952,12 @@ var files_dup =
     [ "OgreX11EGLWindow.h", "_ogre_x11_e_g_l_window_8h.html", [
       [ "Ogre::X11EGLWindow", "class_ogre_1_1_x11_e_g_l_window.html", "class_ogre_1_1_x11_e_g_l_window" ]
     ] ],
+    [ "EGL/Android/OgreGLES2Util.h", "_e_g_l_2_android_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_android_2_ogre_g_l_e_s2_util_8h" ],
+    [ "EGL/Emscripten/OgreGLES2Util.h", "_e_g_l_2_emscripten_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_emscripten_2_ogre_g_l_e_s2_util_8h" ],
+    [ "EGL/OgreGLES2Util.h", "_e_g_l_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_ogre_g_l_e_s2_util_8h" ],
+    [ "EGL/WIN32/OgreGLES2Util.h", "_e_g_l_2_w_i_n32_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_w_i_n32_2_ogre_g_l_e_s2_util_8h" ],
+    [ "EGL/X11/OgreGLES2Util.h", "_e_g_l_2_x11_2_ogre_g_l_e_s2_util_8h.html", "_e_g_l_2_x11_2_ogre_g_l_e_s2_util_8h" ],
+    [ "NaCl/OgreGLES2Util.h", "_na_cl_2_ogre_g_l_e_s2_util_8h.html", "_na_cl_2_ogre_g_l_e_s2_util_8h" ],
     [ "OgreNaClGLContext.h", "_ogre_na_cl_g_l_context_8h.html", [
       [ "Ogre::NaClGLContext", "class_ogre_1_1_na_cl_g_l_context.html", "class_ogre_1_1_na_cl_g_l_context" ]
     ] ],
