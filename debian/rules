@@ -29,10 +29,6 @@ endif
 
 
 override_dh_auto_configure:
-	# TODO(nuclearsandwich) remove using patches
-	# Samples removed (do not meet DFSG), modify CMake files accordingly
-	sed -i 's|^add_subdirectory(Samples)|#add_subdirectory(Samples)|' CMakeLists.txt
-
 	dh_auto_configure -- \
 		-DOGRE_IGNORE_UNKNOWN_DEBUG=1 \
 		-DOGRE_LIB_DIRECTORY="$(LIB_MULTIARCH_OGRE_RELATIVE)" \

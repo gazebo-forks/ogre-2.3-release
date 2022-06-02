@@ -1,0 +1,12 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -630,9 +630,6 @@
+   add_subdirectory(Tests)
+ endif ()
+ 
+-# Setup samples
+-add_subdirectory(Samples)
+-
+ # Add android JNI binding
+ if(ANDROID AND OGRE_BUILD_ANDROID_JNI_SAMPLE)
+   include(toolchain/AndroidJNI)
