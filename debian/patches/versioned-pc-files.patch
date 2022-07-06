@@ -1,12 +1,6 @@
 --- a/CMake/ConfigureBuild.cmake
 +++ b/CMake/ConfigureBuild.cmake
-@@ -244,11 +244,16 @@
- # generate OgreBuildSettings.h
- configure_file(${OGRE_TEMPLATES_DIR}/OgreBuildSettings.h.in ${OGRE_BINARY_DIR}/include/OgreBuildSettings.h @ONLY)
- configure_file(${OGRE_TEMPLATES_DIR}/OgreGL3PlusBuildSettings.h.in ${OGRE_BINARY_DIR}/include/OgreGL3PlusBuildSettings.h @ONLY)
--install(FILES ${OGRE_BINARY_DIR}/include/OgreBuildSettings.h DESTINATION include/${OGRE_VERSIONED_DIR})
-+install(FILES ${OGRE_BINARY_DIR}/include/OgreBuildSettings.h DESTINATION include/OGRE)
- 
+@@ -256,6 +256,11 @@
  
  # Create the pkg-config package files on Unix systems
  if (UNIX)
@@ -18,7 +12,7 @@
    set(OGRE_LIB_SUFFIX "")
    set(OGRE_PLUGIN_PREFIX "")
    set(OGRE_PLUGIN_EXT ".so")
-@@ -275,55 +280,55 @@
+@@ -282,55 +287,55 @@
      endif ()
      # there is no pkgconfig file for freeimage, so we need to add that lib manually
      set(OGRE_ADDITIONAL_LIBS "${OGRE_ADDITIONAL_LIBS} -lfreeimage")
