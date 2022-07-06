@@ -521,14 +521,14 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
    target_link_libraries(RenderSystem_NULL ${OGRE_THREAD_LIBRARIES})
 --- a/RenderSystems/Vulkan/CMakeLists.txt
 +++ b/RenderSystems/Vulkan/CMakeLists.txt
-@@ -33,7 +33,7 @@
+@@ -35,7 +35,7 @@
  include_directories( ${Vulkan_INCLUDE_DIRS} )
  
  ogre_add_library(RenderSystem_Vulkan ${OGRE_LIB_TYPE} ${HEADER_FILES} ${SOURCE_FILES})
 -target_link_libraries(RenderSystem_Vulkan OgreMain ${Vulkan_LIBRARIES})
 +target_link_libraries(RenderSystem_Vulkan ${OGRE_NEXT}Main ${Vulkan_LIBRARIES})
  
- if( UNIX AND NOT ANDROID )
+ if( OGRE_VULKAN_WINDOW_XCB )
  	target_link_libraries(RenderSystem_Vulkan xcb-randr X11-xcb)
 --- a/Tests/CMakeLists.txt
 +++ b/Tests/CMakeLists.txt
