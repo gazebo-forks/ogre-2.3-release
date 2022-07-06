@@ -76,6 +76,38 @@ namespace Ogre {
         void setValue(Real value) { mTarget->_update(value); }
 
     };
+
+    class ParticleSystemUpdateValueDeterministic : public ControllerValue<Real>
+    {
+    protected:
+        ParticleSystem *mTarget;
+        Real mLeftOver;
+
+    public:
+        ParticleSystemUpdateValueDeterministic( ParticleSystem *target ) :
+            mTarget( target ),
+            mLeftOver( 0 )
+        {
+        }
+
+        Real getValue() const override { return 0; }  // N/A
+
+        void setValue( Real value ) override
+        {
+            value += mLeftOver;
+            Real timeStep = ParticleSystemManager::getSingleton().getSimulationTickRate();
+
+            if( timeStep <= 0.0f )
+                timeStep = 1.0f;
+
+            const size_t numIterations = static_cast<size_t>( value / timeStep );
+
+            for( size_t i = 0u; i < numIterations; ++i )
+                mTarget->_update( timeStep );
+
+            mLeftOver = value - static_cast<Real>( numIterations ) * timeStep;
+        }
+    };
     //-----------------------------------------------------------------------
     ParticleSystem::ParticleSystem( IdType id, ObjectMemoryManager *objectMemoryManager,
                                     SceneManager *manager, const String& resourceGroup )
@@ -718,13 +750,12 @@ namespace Ogre {
         if (mSorted)
             _sortParticles(camera);
 
-        if (mRenderer)
+        // We cannot render until mIsRendererConfigured = true
+        // and we can NOT call configureRenderer from inside _updateRenderQueue
+        if( mRenderer && mIsRendererConfigured )
         {
-            if (!mIsRendererConfigured)
-                configureRenderer();
-
-            mRenderer->_updateRenderQueue(queue, camera, lodCamera, mActiveParticles, mCullIndividual,
-                                          mRenderables);
+            mRenderer->_updateRenderQueue( queue, camera, lodCamera, mActiveParticles, mCullIndividual,
+                                           mRenderables );
         }
     }
     //---------------------------------------------------------------------
@@ -946,9 +977,14 @@ namespace Ogre {
             mLastVisibleFrame = Root::getSingleton().getNextFrameNumber();
 
             // Create time controller when attached
-            ControllerManager& mgr = ControllerManager::getSingleton(); 
-            ControllerValueRealPtr updValue(OGRE_NEW ParticleSystemUpdateValue(this));
-            mTimeController = mgr.createFrameTimePassthroughController(updValue);
+            ControllerManager &mgr = ControllerManager::getSingleton();
+            ControllerValueRealPtr updValue;
+
+            if( ParticleSystemManager::getSingleton().getSimulationTickRate() <= Real( 0.0 ) )
+                updValue.reset( OGRE_NEW ParticleSystemUpdateValue( this ) );
+            else
+                updValue.reset( OGRE_NEW ParticleSystemUpdateValueDeterministic( this ) );
+            mTimeController = mgr.createFrameTimePassthroughController( updValue );
         }
         else if (!parent && mTimeController)
         {
