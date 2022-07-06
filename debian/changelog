@@ -1,3 +1,9 @@
+ogre-next-2.3 (2.3.0+66~9fba78104b~ds1-1) jammy; urgency=medium
+
+  * Update sources from v2-3 branch upstream. v2.3.0-66-g9fba78104b
+
+ -- Steven! Ragnarök <steven@nuclearsandwich.com>  Wed, 06 Jul 2022 17:42:30 +0000
+
 ogre-next-2.3 (2.3.0+ds1-1) jammy; urgency=medium
 
   * New upstream version 2.3.0+ds1
