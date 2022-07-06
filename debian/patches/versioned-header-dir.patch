@@ -6,15 +6,15 @@ Last-Update: 2022-05-19
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/CMake/ConfigureBuild.cmake
 +++ b/CMake/ConfigureBuild.cmake
-@@ -244,7 +244,7 @@
- # generate OgreBuildSettings.h
- configure_file(${OGRE_TEMPLATES_DIR}/OgreBuildSettings.h.in ${OGRE_BINARY_DIR}/include/OgreBuildSettings.h @ONLY)
- configure_file(${OGRE_TEMPLATES_DIR}/OgreGL3PlusBuildSettings.h.in ${OGRE_BINARY_DIR}/include/OgreGL3PlusBuildSettings.h @ONLY)
--install(FILES ${OGRE_BINARY_DIR}/include/OgreBuildSettings.h DESTINATION include/OGRE)
-+install(FILES ${OGRE_BINARY_DIR}/include/OgreBuildSettings.h DESTINATION include/${OGRE_VERSIONED_DIR})
+@@ -250,7 +250,7 @@
+ 	${OGRE_BINARY_DIR}/include/OgreBuildSettings.h
+ 	${OGRE_BINARY_DIR}/include/OgreGL3PlusBuildSettings.h
+ 	${OGRE_BINARY_DIR}/include/OgreVulkanBuildSettings.h
+-	DESTINATION include/OGRE
++  DESTINATION include/${OGRE_VERSIONED_DIR}
+ )
  
  
- # Create the pkg-config package files on Unix systems
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -89,6 +89,8 @@
@@ -287,7 +287,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 +install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include DESTINATION include/${OGRE_VERSIONED_DIR}/RenderSystems/NULL)
 --- a/RenderSystems/Vulkan/CMakeLists.txt
 +++ b/RenderSystems/Vulkan/CMakeLists.txt
-@@ -46,6 +46,6 @@
+@@ -48,6 +48,6 @@
  ogre_config_framework(RenderSystem_Vulkan)
  
  ogre_config_plugin(RenderSystem_Vulkan)
