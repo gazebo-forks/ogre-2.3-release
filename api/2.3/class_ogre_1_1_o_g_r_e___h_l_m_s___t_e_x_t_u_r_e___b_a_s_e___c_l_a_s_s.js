@@ -57,6 +57,7 @@ var class_ogre_1_1_o_g_r_e___h_l_m_s___t_e_x_t_u_r_e___b_a_s_e___c_l_a_s_s =
     [ "operator new", "class_ogre_1_1_o_g_r_e___h_l_m_s___t_e_x_t_u_r_e___b_a_s_e___c_l_a_s_s.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
     [ "operator new[]", "class_ogre_1_1_o_g_r_e___h_l_m_s___t_e_x_t_u_r_e___b_a_s_e___c_l_a_s_s.html#adce32528577d71b228692df906ecd17c", null ],
     [ "operator new[]", "class_ogre_1_1_o_g_r_e___h_l_m_s___t_e_x_t_u_r_e___b_a_s_e___c_l_a_s_s.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
+    [ "preload", "group___resources.html#gae3f0a6ba5e0ff365bd0e4e72a6a41dba", null ],
     [ "saveTextures", "group___resources.html#ga44c599e0df4f7d91bae4bd3e37184657", null ],
     [ "setAlphaTest", "class_ogre_1_1_o_g_r_e___h_l_m_s___t_e_x_t_u_r_e___b_a_s_e___c_l_a_s_s.html#a4c5bc6488a0f67fa0838f41352172b4d", null ],
     [ "setAlphaTestThreshold", "class_ogre_1_1_o_g_r_e___h_l_m_s___t_e_x_t_u_r_e___b_a_s_e___c_l_a_s_s.html#a1a2d38b259d670575af205798067c612", null ],

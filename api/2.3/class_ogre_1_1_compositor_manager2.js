@@ -15,7 +15,6 @@ var class_ogre_1_1_compositor_manager2 =
     [ "addWorkspace", "class_ogre_1_1_compositor_manager2.html#a256558b3d233e35e5aef88105766b979", null ],
     [ "addWorkspace", "class_ogre_1_1_compositor_manager2.html#ad3d721d1abe8a98f90290951053b86ea", null ],
     [ "addWorkspaceDefinition", "class_ogre_1_1_compositor_manager2.html#ad407d79c31cae9c4b2693ec904808f10", null ],
-    [ "connectOutput", "class_ogre_1_1_compositor_manager2.html#a2570335ea7df7e197a88334d65468c01", null ],
     [ "createBasicWorkspaceDef", "class_ogre_1_1_compositor_manager2.html#a261d69d7a799f9e4f3516c86f9859c90", null ],
     [ "getBarrierSolver", "class_ogre_1_1_compositor_manager2.html#a643fc919747ce0200231bb701483975d", null ],
     [ "getCompositorPassProvider", "class_ogre_1_1_compositor_manager2.html#a71896f2b94f1cd0dff67fc2c9e127f4c", null ],

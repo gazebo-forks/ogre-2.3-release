@@ -43,6 +43,7 @@ var class_ogre_1_1_hlms_pbs_mobile_datablock =
     [ "operator new", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
     [ "operator new[]", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#adce32528577d71b228692df906ecd17c", null ],
     [ "operator new[]", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
+    [ "preload", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a2bdfaaee402c04a5db850af5382af2c3", null ],
     [ "saveTextures", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a3f0826a189eec659051ce6513eafaa57", null ],
     [ "setAlphaTest", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a76dcfbf1c4510d7bc5568fa2b6bc15e7", null ],
     [ "setAlphaTest", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a4c5bc6488a0f67fa0838f41352172b4d", null ],

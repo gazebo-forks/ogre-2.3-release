@@ -126,7 +126,7 @@ var class_ogre_1_1_vulkan_render_system =
     [ "destroyRenderPassDescriptor", "class_ogre_1_1_vulkan_render_system.html#a60e5ffa2ec8f2709435c3d11e8a321f6", null ],
     [ "destroyRenderWindow", "class_ogre_1_1_vulkan_render_system.html#a36a560a1e0e171b9a1a19a2748e6dd15", null ],
     [ "endCopyEncoder", "class_ogre_1_1_vulkan_render_system.html#a128c02e920ced6f2a536d50ddb5cca2f", null ],
-    [ "endGpuDebuggerFrameCapture", "class_ogre_1_1_vulkan_render_system.html#a0a72b69bed67cdf99239d884748bcb08", null ],
+    [ "endGpuDebuggerFrameCapture", "class_ogre_1_1_vulkan_render_system.html#af6e6be5710a412edd5d35b967d2aa7fe", null ],
     [ "endGPUSampleProfile", "class_ogre_1_1_vulkan_render_system.html#ac88fd177ee265df40400f20e9eff9954", null ],
     [ "endProfileEvent", "class_ogre_1_1_vulkan_render_system.html#a96d61ff7dc3f7f03cb8a5cacf04f3219", null ],
     [ "endRenderPassDescriptor", "class_ogre_1_1_vulkan_render_system.html#a7ea4426a68b00e155be8b655b9f5385a", null ],
