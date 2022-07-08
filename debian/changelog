@@ -1,3 +1,10 @@
+ogre-next-2.3 (2.3.0+66~9fba78104b~ds1-3) UNRELEASED; urgency=medium
+
+  * Fix error introduced by pkg-config patch.
+  * Update expected installation path for pkg-config files. 
+
+ -- Steven! Ragnarök <steven@nuclearsandwich.com>  Fri, 08 Jul 2022 19:43:16 +0000
+
 ogre-next-2.3 (2.3.0+66~9fba78104b~ds1-2) jammy; urgency=medium
 
   * Install pkg-config files to the top-level multiarch lib pkgconfig directory.
