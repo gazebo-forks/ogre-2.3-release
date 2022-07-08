@@ -1,3 +1,9 @@
+ogre-next-2.3 (2.3.0+66~9fba78104b~ds1-2) jammy; urgency=medium
+
+  * Install pkg-config files to the top-level multiarch lib pkgconfig directory.
+
+ -- Steven! Ragnarök <steven@nuclearsandwich.com>  Fri, 08 Jul 2022 17:16:36 +0000
+
 ogre-next-2.3 (2.3.0+66~9fba78104b~ds1-1) jammy; urgency=medium
 
   * Update sources from v2-3 branch upstream. v2.3.0-66-g9fba78104b
