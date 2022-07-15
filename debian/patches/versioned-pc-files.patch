@@ -121,8 +121,10 @@
  Version: @OGRE_VERSION@
  Requires: OGRE = @OGRE_VERSION@
 -Libs: -L${libdir} -lOgreHlmsPbs@OGRE_LIB_SUFFIX@ -lOgreHlmsUnlit@OGRE_LIB_SUFFIX@
+-Cflags: -I${includedir}/OGRE/Hlms @OGRE_CFLAGS@
+\ No newline at end of file
 +Libs: -L${libdir} -l@OGRE_NEXT@HlmsPbs@OGRE_LIB_SUFFIX@ -l@OGRE_NEXT@HlmsUnlit@OGRE_LIB_SUFFIX@
- Cflags: -I${includedir}/OGRE/Hlms @OGRE_CFLAGS@
++Cflags: -I${includedir}/OGRE/Hlms @OGRE_CFLAGS@
 --- a/CMake/Templates/OGRE-MeshLodGenerator.pc.in
 +++ b/CMake/Templates/OGRE-MeshLodGenerator.pc.in
 @@ -1,11 +1,11 @@
@@ -155,8 +157,10 @@
  Version: @OGRE_VERSION@
  Requires: OGRE = @OGRE_VERSION@
 -Libs: -L${libdir} -lOgreOverlay@OGRE_LIB_SUFFIX@
+-Cflags: -I${includedir}/OGRE/Overlay @OGRE_CFLAGS@
+\ No newline at end of file
 +Libs: -L${libdir} -l@OGRE_NEXT@Overlay@OGRE_LIB_SUFFIX@
- Cflags: -I${includedir}/OGRE/Overlay @OGRE_CFLAGS@
++Cflags: -I${includedir}/OGRE/Overlay @OGRE_CFLAGS@
 --- a/CMake/Templates/OGRE-Paging.pc.in
 +++ b/CMake/Templates/OGRE-Paging.pc.in
 @@ -1,11 +1,11 @@
