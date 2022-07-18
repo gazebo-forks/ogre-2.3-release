@@ -3,7 +3,7 @@ var class_ogre_1_1_vulkan_plugin =
     [ "VulkanPlugin", "class_ogre_1_1_vulkan_plugin.html#ade0fe63e9df49c9c62a16834b47dcf98", null ],
     [ "getName", "class_ogre_1_1_vulkan_plugin.html#aa11181129c216da6181827bd6c2df92f", null ],
     [ "initialise", "class_ogre_1_1_vulkan_plugin.html#a436226261d9f3be9133f030918429581", null ],
-    [ "install", "class_ogre_1_1_vulkan_plugin.html#ac253a49234edeb85c34bb24401f24f08", null ],
+    [ "install", "class_ogre_1_1_vulkan_plugin.html#aa53a016ac7c855978b27540d50976bba", null ],
     [ "operator delete", "class_ogre_1_1_vulkan_plugin.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_vulkan_plugin.html#acb46d4b0a597156d9ba5abc39d127792", null ],
     [ "operator delete", "class_ogre_1_1_vulkan_plugin.html#a1c727e879a260c37b00ce5505fe8e144", null ],

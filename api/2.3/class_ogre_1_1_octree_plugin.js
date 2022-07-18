@@ -4,6 +4,7 @@ var class_ogre_1_1_octree_plugin =
     [ "getName", "class_ogre_1_1_octree_plugin.html#a1e0c80d0befa4e6fc36f1a2891fdb121", null ],
     [ "initialise", "class_ogre_1_1_octree_plugin.html#ad2b23416ee0422293069c2a160b16691", null ],
     [ "install", "class_ogre_1_1_octree_plugin.html#aab0bc3abb7e83f39589abe57f555d42e", null ],
+    [ "install", "class_ogre_1_1_octree_plugin.html#a6b24a7a7634a32b14b95a0d1969fbbab", null ],
     [ "operator delete", "class_ogre_1_1_octree_plugin.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_octree_plugin.html#acb46d4b0a597156d9ba5abc39d127792", null ],
     [ "operator delete", "class_ogre_1_1_octree_plugin.html#a1c727e879a260c37b00ce5505fe8e144", null ],

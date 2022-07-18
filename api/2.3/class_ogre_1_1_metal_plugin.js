@@ -3,7 +3,7 @@ var class_ogre_1_1_metal_plugin =
     [ "MetalPlugin", "class_ogre_1_1_metal_plugin.html#a6c7e655606a460a6a297013255b7c547", null ],
     [ "getName", "class_ogre_1_1_metal_plugin.html#ad23eadd0a64a20d7d8a76ef4937aa911", null ],
     [ "initialise", "class_ogre_1_1_metal_plugin.html#ac16b36ae0986ed72e0b20af3302fda35", null ],
-    [ "install", "class_ogre_1_1_metal_plugin.html#a6b89b559a7ae8f04742e344fc1a9f51d", null ],
+    [ "install", "class_ogre_1_1_metal_plugin.html#ab02f550d74c00185420a494d07829430", null ],
     [ "operator delete", "class_ogre_1_1_metal_plugin.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_metal_plugin.html#acb46d4b0a597156d9ba5abc39d127792", null ],
     [ "operator delete", "class_ogre_1_1_metal_plugin.html#a1c727e879a260c37b00ce5505fe8e144", null ],

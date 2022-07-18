@@ -3,7 +3,7 @@ var class_ogre_1_1_particle_f_x_plugin =
     [ "ParticleFXPlugin", "class_ogre_1_1_particle_f_x_plugin.html#a7ee1b48ba37ab4a5bf4b8863dd2281fa", null ],
     [ "getName", "class_ogre_1_1_particle_f_x_plugin.html#a16376a7b224ce9e0579dc55a4485afd4", null ],
     [ "initialise", "class_ogre_1_1_particle_f_x_plugin.html#abee6bbe7e7d5382201a3cbb29dd30adb", null ],
-    [ "install", "class_ogre_1_1_particle_f_x_plugin.html#af0d441da00274250fbb3b6cf746bd767", null ],
+    [ "install", "class_ogre_1_1_particle_f_x_plugin.html#a59f42a240db5021ee63871cecbb2de36", null ],
     [ "operator delete", "class_ogre_1_1_particle_f_x_plugin.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_particle_f_x_plugin.html#acb46d4b0a597156d9ba5abc39d127792", null ],
     [ "operator delete", "class_ogre_1_1_particle_f_x_plugin.html#a1c727e879a260c37b00ce5505fe8e144", null ],

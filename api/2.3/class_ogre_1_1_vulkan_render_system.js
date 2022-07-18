@@ -1,6 +1,6 @@
 var class_ogre_1_1_vulkan_render_system =
 [
-    [ "VulkanRenderSystem", "class_ogre_1_1_vulkan_render_system.html#a3256329a9db37b1a3f1d9093d287372c", null ],
+    [ "VulkanRenderSystem", "class_ogre_1_1_vulkan_render_system.html#aa8ff406902ce6c87f4116a6be04fa3c2", null ],
     [ "~VulkanRenderSystem", "class_ogre_1_1_vulkan_render_system.html#a7c7413d33c75a04a5539f5675f559c5c", null ],
     [ "_addMetrics", "class_ogre_1_1_vulkan_render_system.html#a54ebaf329b7173ef06cbfcd0dff64cb5", null ],
     [ "_beginFrame", "class_ogre_1_1_vulkan_render_system.html#a46fb89504034e6cd3fcf112ef34d4a8c", null ],
@@ -182,7 +182,8 @@ var class_ogre_1_1_vulkan_render_system =
     [ "initConfigOptions", "class_ogre_1_1_vulkan_render_system.html#a2ed03ae8d85301b4f0ff8f9600a5d773", null ],
     [ "initGPUProfiling", "class_ogre_1_1_vulkan_render_system.html#af222d1c3db1422c6e4cf769c4b13898b", null ],
     [ "initialiseFromRenderSystemCapabilities", "class_ogre_1_1_vulkan_render_system.html#af2b49f6b438607103afe7e5b39ddb4e7", null ],
-    [ "initializeVkInstance", "class_ogre_1_1_vulkan_render_system.html#afc63a05c50f353c1b6535fa64fab22c0", null ],
+    [ "initializeExternalVkInstance", "class_ogre_1_1_vulkan_render_system.html#a8f785531abac2dfbb3c8db20471281e9", null ],
+    [ "initializeVkInstance", "class_ogre_1_1_vulkan_render_system.html#a3ec2b18d19494341bde265021a25b523", null ],
     [ "isGpuProgramBound", "class_ogre_1_1_vulkan_render_system.html#a1ac003196b5b51384f714924a0041081", null ],
     [ "isReverseDepth", "class_ogre_1_1_vulkan_render_system.html#a780e5c6941c2f5d1f699dbf3e8c5b869", null ],
     [ "isSameLayout", "class_ogre_1_1_vulkan_render_system.html#aa3d5e16d9001259b50b308b2997d33eb", null ],
@@ -228,6 +229,7 @@ var class_ogre_1_1_vulkan_render_system =
     [ "setStencilBufferParams", "class_ogre_1_1_vulkan_render_system.html#acc017685d33e8c38fccf93ca6fdc6957", null ],
     [ "setUavStartingSlot", "class_ogre_1_1_vulkan_render_system.html#a2d0de2f7b75ffb2d4048534ebe90bb73", null ],
     [ "setWBufferEnabled", "class_ogre_1_1_vulkan_render_system.html#a01c339f6e89d82b526fb7725424a4263", null ],
+    [ "sharedVkInitialization", "class_ogre_1_1_vulkan_render_system.html#acf4ba4fa8ff3b5387cd18f617538516f", null ],
     [ "shutdown", "class_ogre_1_1_vulkan_render_system.html#ae6e1a201c02b0fdcec4363e5d2f230f3", null ],
     [ "startGpuDebuggerFrameCapture", "class_ogre_1_1_vulkan_render_system.html#afe7705e26f10dccebf2e6db0b3d6859e", null ],
     [ "unregisterThread", "class_ogre_1_1_vulkan_render_system.html#aff153290d3133c817fede28a2adb6765", null ],

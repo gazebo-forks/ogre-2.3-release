@@ -3,7 +3,7 @@ var class_ogre_1_1_d3_d11_plugin =
     [ "D3D11Plugin", "class_ogre_1_1_d3_d11_plugin.html#a4b5e726a7e96e7298d8d347b13c0caaf", null ],
     [ "getName", "class_ogre_1_1_d3_d11_plugin.html#a0ae57f6a8ac2cf88ac8c091066c6312c", null ],
     [ "initialise", "class_ogre_1_1_d3_d11_plugin.html#a456b2be12aea02c4b5c7de2570da8333", null ],
-    [ "install", "class_ogre_1_1_d3_d11_plugin.html#adab23d0c7b46a1edca177b0d2a36da3f", null ],
+    [ "install", "class_ogre_1_1_d3_d11_plugin.html#a17571423c8e2d617954d6ecd2d0e25d2", null ],
     [ "operator delete", "class_ogre_1_1_d3_d11_plugin.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_d3_d11_plugin.html#acb46d4b0a597156d9ba5abc39d127792", null ],
     [ "operator delete", "class_ogre_1_1_d3_d11_plugin.html#a1c727e879a260c37b00ce5505fe8e144", null ],

@@ -4,6 +4,7 @@ var class_ogre_1_1_p_c_z_plugin =
     [ "getName", "class_ogre_1_1_p_c_z_plugin.html#a8ac151a7fda9de45dcadc27c3ee7456a", null ],
     [ "initialise", "class_ogre_1_1_p_c_z_plugin.html#aceaa39473e822631dcfbc016f106d8da", null ],
     [ "install", "class_ogre_1_1_p_c_z_plugin.html#a54e7b58ac77a99651c71df5fb29634de", null ],
+    [ "install", "class_ogre_1_1_p_c_z_plugin.html#a6b24a7a7634a32b14b95a0d1969fbbab", null ],
     [ "operator delete", "class_ogre_1_1_p_c_z_plugin.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_p_c_z_plugin.html#acb46d4b0a597156d9ba5abc39d127792", null ],
     [ "operator delete", "class_ogre_1_1_p_c_z_plugin.html#a1c727e879a260c37b00ce5505fe8e144", null ],

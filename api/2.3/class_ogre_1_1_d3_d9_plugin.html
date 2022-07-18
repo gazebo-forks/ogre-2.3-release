@@ -88,7 +88,7 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_d3_d9_plugin.html','');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_ogre_1_1_d3_d9_plugin-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Ogre::D3D9Plugin Class Reference</div></div>
+  <div class="headertitle"><div class="title">Ogre::D3D9Plugin Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -118,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac36cae5597f61ed2b8f694c23cbac4a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d9_plugin.html#ac36cae5597f61ed2b8f694c23cbac4a8">install</a> ()</td></tr>
 <tr class="memdesc:ac36cae5597f61ed2b8f694c23cbac4a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the plugin initial installation sequence.  <a href="class_ogre_1_1_d3_d9_plugin.html#ac36cae5597f61ed2b8f694c23cbac4a8">More...</a><br /></td></tr>
 <tr class="separator:ac36cae5597f61ed2b8f694c23cbac4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b24a7a7634a32b14b95a0d1969fbbab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_plugin.html#a6b24a7a7634a32b14b95a0d1969fbbab">install</a> (const <a class="el" href="group___general.html#gad887d0555b483f6499fcd3a4dab0e0c6">NameValuePairList</a> *options)=0</td></tr>
+<tr class="memdesc:a6b24a7a7634a32b14b95a0d1969fbbab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the plugin initial installation sequence.  <a href="class_ogre_1_1_plugin.html#a6b24a7a7634a32b14b95a0d1969fbbab">More...</a><br /></td></tr>
+<tr class="separator:a6b24a7a7634a32b14b95a0d1969fbbab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8357fe4fb4849772b94baa4bf47c7ded"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_allocated_object.html#a8357fe4fb4849772b94baa4bf47c7ded">operator delete</a> (void *ptr)</td></tr>
 <tr class="separator:a8357fe4fb4849772b94baa4bf47c7ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb46d4b0a597156d9ba5abc39d127792"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_allocated_object.html#acb46d4b0a597156d9ba5abc39d127792">operator delete</a> (void *ptr, const char *, int, const char *)</td></tr>
@@ -230,13 +233,10 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ac36cae5597f61ed2b8f694c23cbac4a8" name="ac36cae5597f61ed2b8f694c23cbac4a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac36cae5597f61ed2b8f694c23cbac4a8">&#9670;&nbsp;</a></span>install()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36cae5597f61ed2b8f694c23cbac4a8">&#9670;&nbsp;</a></span>install() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Ogre::D3D9Plugin::install </td>
@@ -245,9 +245,33 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+<p>Perform the plugin initial installation sequence. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>An implementation must be supplied for this method. It must perform the startup tasks necessary to install any rendersystem customisations or anything else that is not dependent on system initialisation, ie only dependent on the core of <a class="el" href="namespace_ogre.html">Ogre</a>. It must not perform any operations that would create rendersystem-specific objects at this stage, that should be done in <a class="el" href="class_ogre_1_1_d3_d9_plugin.html#a8946e752e2dcd9d4047d43020607babb" title="Perform any tasks the plugin needs to perform on full system initialisation.">initialise()</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a6b24a7a7634a32b14b95a0d1969fbbab" name="a6b24a7a7634a32b14b95a0d1969fbbab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b24a7a7634a32b14b95a0d1969fbbab">&#9670;&nbsp;</a></span>install() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Ogre::Plugin::install </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___general.html#gad887d0555b483f6499fcd3a4dab0e0c6">NameValuePairList</a> *&#160;</td>
+          <td class="paramname"><em>options</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -255,7 +279,7 @@ Public Member Functions</h2></td></tr>
 <p>Perform the plugin initial installation sequence. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>An implementation must be supplied for this method. It must perform the startup tasks necessary to install any rendersystem customisations or anything else that is not dependent on system initialisation, ie only dependent on the core of <a class="el" href="namespace_ogre.html">Ogre</a>. It must not perform any operations that would create rendersystem-specific objects at this stage, that should be done in <a class="el" href="class_ogre_1_1_d3_d9_plugin.html#a8946e752e2dcd9d4047d43020607babb" title="Perform any tasks the plugin needs to perform on full system initialisation.">initialise()</a>. </dd></dl>
 
-<p>Implements <a class="el" href="class_ogre_1_1_plugin.html#a556fd0c6a5a05cce82dc7df998c99c0f">Ogre::Plugin</a>.</p>
+<p>Implemented in <a class="el" href="class_ogre_1_1_particle_f_x_plugin.html#a59f42a240db5021ee63871cecbb2de36">Ogre::ParticleFXPlugin</a>, <a class="el" href="class_ogre_1_1_d3_d11_plugin.html#a17571423c8e2d617954d6ecd2d0e25d2">Ogre::D3D11Plugin</a>, <a class="el" href="class_ogre_1_1_g_l3_plus_plugin.html#a7e4b20701f14cbf53c11730873e27ab0">Ogre::GL3PlusPlugin</a>, <a class="el" href="class_ogre_1_1_metal_plugin.html#ab02f550d74c00185420a494d07829430">Ogre::MetalPlugin</a>, <a class="el" href="class_ogre_1_1_n_u_l_l_plugin.html#a13fd4650e803d1b336861d8968c975cb">Ogre::NULLPlugin</a>, and <a class="el" href="class_ogre_1_1_vulkan_plugin.html#aa53a016ac7c855978b27540d50976bba">Ogre::VulkanPlugin</a>.</p>
 
 </div>
 </div>

@@ -24,7 +24,8 @@ var searchData=
   ['glversion_21',['GLVersion',['../struct_ogre_1_1_hlms_base_prop.html#a853a25c5cf4564534c84c8d77f056708',1,'Ogre::HlmsBaseProp']]],
   ['gmask_22',['gmask',['../struct_ogre_1_1_pixel_format_description.html#a723d21ee7c90729ad374e94ca1f2fc4d',1,'Ogre::PixelFormatDescription']]],
   ['gpuindexdata_23',['gpuIndexData',['../struct_ogre_1_1_terrain_quad_tree_node_1_1_lod_level.html#aacadac4ebd2adbe9d879b781faa90230',1,'Ogre::TerrainQuadTreeNode::LodLevel']]],
-  ['green_24',['Green',['../class_ogre_1_1_colour_value.html#a00384a789ac354ea8dd252c62cb17aa4',1,'Ogre::ColourValue']]],
-  ['gridbuffer_25',['gridBuffer',['../struct_ogre_1_1_forward_plus_base_1_1_cached_grid_buffer.html#a3c2d97651d44fdc5ff786331b8387864',1,'Ogre::ForwardPlusBase::CachedGridBuffer']]],
-  ['gshift_26',['gshift',['../struct_ogre_1_1_pixel_format_description.html#a5f04927c7369d1174d6eb77d2a34a76b',1,'Ogre::PixelFormatDescription']]]
+  ['graphicsqueue_24',['graphicsQueue',['../struct_ogre_1_1_vulkan_external_device.html#a5b0885f035ad244cf6500aa464a9a1d5',1,'Ogre::VulkanExternalDevice']]],
+  ['green_25',['Green',['../class_ogre_1_1_colour_value.html#a00384a789ac354ea8dd252c62cb17aa4',1,'Ogre::ColourValue']]],
+  ['gridbuffer_26',['gridBuffer',['../struct_ogre_1_1_forward_plus_base_1_1_cached_grid_buffer.html#a3c2d97651d44fdc5ff786331b8387864',1,'Ogre::ForwardPlusBase::CachedGridBuffer']]],
+  ['gshift_27',['gshift',['../struct_ogre_1_1_pixel_format_description.html#a5f04927c7369d1174d6eb77d2a34a76b',1,'Ogre::PixelFormatDescription']]]
 ];

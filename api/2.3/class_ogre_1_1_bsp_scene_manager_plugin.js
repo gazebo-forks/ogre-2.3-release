@@ -4,6 +4,7 @@ var class_ogre_1_1_bsp_scene_manager_plugin =
     [ "getName", "class_ogre_1_1_bsp_scene_manager_plugin.html#aa5ec47827d5bee7fad86ac190a6a07fd", null ],
     [ "initialise", "class_ogre_1_1_bsp_scene_manager_plugin.html#ad4ed3db160dbbb447ad84973cc45ca13", null ],
     [ "install", "class_ogre_1_1_bsp_scene_manager_plugin.html#a4f304f5c47ece3a7e844dac9ff92ed40", null ],
+    [ "install", "class_ogre_1_1_bsp_scene_manager_plugin.html#a6b24a7a7634a32b14b95a0d1969fbbab", null ],
     [ "operator delete", "class_ogre_1_1_bsp_scene_manager_plugin.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_bsp_scene_manager_plugin.html#acb46d4b0a597156d9ba5abc39d127792", null ],
     [ "operator delete", "class_ogre_1_1_bsp_scene_manager_plugin.html#a1c727e879a260c37b00ce5505fe8e144", null ],

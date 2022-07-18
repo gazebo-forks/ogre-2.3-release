@@ -3,7 +3,7 @@ var class_ogre_1_1_g_l3_plus_plugin =
     [ "GL3PlusPlugin", "class_ogre_1_1_g_l3_plus_plugin.html#a285d0186236b457df69d13d79d1ece3b", null ],
     [ "getName", "class_ogre_1_1_g_l3_plus_plugin.html#a6f9cce60e821e47029df53627499ae30", null ],
     [ "initialise", "class_ogre_1_1_g_l3_plus_plugin.html#a8ac68fa9d444d2274c3fc8639089cc1e", null ],
-    [ "install", "class_ogre_1_1_g_l3_plus_plugin.html#a55fc9e5ff550436a77ede2f32f266f62", null ],
+    [ "install", "class_ogre_1_1_g_l3_plus_plugin.html#a7e4b20701f14cbf53c11730873e27ab0", null ],
     [ "operator delete", "class_ogre_1_1_g_l3_plus_plugin.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_g_l3_plus_plugin.html#acb46d4b0a597156d9ba5abc39d127792", null ],
     [ "operator delete", "class_ogre_1_1_g_l3_plus_plugin.html#a1c727e879a260c37b00ce5505fe8e144", null ],
