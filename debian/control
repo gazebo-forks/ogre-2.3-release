@@ -43,7 +43,7 @@ Build-Depends: debhelper (>= 11),
 # for Focal we build the package without vulkan support
                glslang-dev,
                libvulkan-dev,
-               vulkan-validationlayers-dev (>= 1.3.213) | libc6
+               vulkan-validationlayers-dev (>= 1.3.204) | libc6
 Build-Depends-Indep: doxygen,
                      graphviz,
                      texinfo
