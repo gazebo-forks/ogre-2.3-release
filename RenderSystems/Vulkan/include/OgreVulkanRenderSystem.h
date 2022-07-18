@@ -47,6 +47,7 @@ namespace Ogre
         class HardwareBufferManager;
     }
 
+    struct VulkanExternalInstance;
     struct VulkanHlmsPso;
     class VulkanSupport;
 
@@ -71,6 +72,8 @@ namespace Ogre
 
         VkInstance mVkInstance;
         VulkanSupport *mVulkanSupport;
+
+        std::map<IdString, VulkanSupport *> mAvailableVulkanSupports;
 
         // TODO: AutoParamsBuffer probably belongs to MetalDevice (because it's per device?)
         typedef vector<ConstBufferPacked *>::type ConstBufferPackedVec;
@@ -97,6 +100,8 @@ namespace Ogre
         uint32_t mStencilRefValue;
         bool mStencilEnabled;
 
+        bool mVkInstanceIsExternal;
+
         bool mTableDirty;
         bool mComputeTableDirty;
         VulkanGlobalBindingTable mGlobalTable;
@@ -119,13 +124,6 @@ namespace Ogre
 
         bool mValidationError;
 
-#if OGRE_PLATFORM == OGRE_PLATFORM_WIN32
-        bool mHasWin32Support;
-#elif OGRE_PLATFORM == OGRE_PLATFORM_ANDROID
-        bool mHasAndroidSupport;
-#else
-        bool mHasXcbSupport;
-#endif
 #if OGRE_DEBUG_MODE >= OGRE_DEBUG_HIGH
         bool mHasValidationLayers;
 #endif
@@ -153,7 +151,7 @@ namespace Ogre
         void flushRootLayoutCS( void );
 
     public:
-        VulkanRenderSystem();
+        VulkanRenderSystem( const NameValuePairList *options );
         ~VulkanRenderSystem();
 
         virtual void shutdown( void );
@@ -177,7 +175,10 @@ namespace Ogre
 
         virtual void reinitialise( void );
 
-        void initializeVkInstance( void );
+        void initializeExternalVkInstance( VulkanExternalInstance *externalInstance );
+        void initializeVkInstance();
+
+        void sharedVkInitialization();
 
         VkInstance getVkInstance( void ) const { return mVkInstance; }
 
@@ -301,6 +302,8 @@ namespace Ogre
         virtual void deinitGPUProfiling( void );
         virtual void beginGPUSampleProfile( const String &name, uint32 *hashCache );
         virtual void endGPUSampleProfile( const String &name );
+
+        virtual void endGpuDebuggerFrameCapture( Window *window );
 
         virtual bool hasAnisotropicMipMapFilter() const { return true; }
 

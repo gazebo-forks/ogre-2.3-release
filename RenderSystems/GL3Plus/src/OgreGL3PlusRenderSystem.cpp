@@ -168,21 +168,21 @@ namespace Ogre {
         ogreGlObjectLabel( identifier, name, label.size(), label.c_str() );
     }
 
-    GL3PlusRenderSystem::GL3PlusRenderSystem()
-        : mBlendChannelMask( HlmsBlendblock::BlendChannelAll ),
-          mDepthWrite(true),
-          mScissorsEnabled(false),
-          mSupportsTargetIndependentRasterization(false),
-          mGlobalVao( 0 ),
-          mCurrentVertexBuffer( 0 ),
-          mCurrentIndexBuffer( 0 ),
-          mCurrentPolygonMode( GL_TRIANGLES ),
-          mShaderManager(0),
-          mGLSLShaderFactory(0),
-          mHardwareBufferManager(0),
-          mActiveTextureUnit(0),
-          mHasArbInvalidateSubdata( false ),
-          mNullColourFramebuffer( 0 )
+    GL3PlusRenderSystem::GL3PlusRenderSystem( const NameValuePairList *options ) :
+        mBlendChannelMask( HlmsBlendblock::BlendChannelAll ),
+        mDepthWrite( true ),
+        mScissorsEnabled( false ),
+        mSupportsTargetIndependentRasterization( false ),
+        mGlobalVao( 0 ),
+        mCurrentVertexBuffer( 0 ),
+        mCurrentIndexBuffer( 0 ),
+        mCurrentPolygonMode( GL_TRIANGLES ),
+        mShaderManager( 0 ),
+        mGLSLShaderFactory( 0 ),
+        mHardwareBufferManager( 0 ),
+        mActiveTextureUnit( 0 ),
+        mHasArbInvalidateSubdata( false ),
+        mNullColourFramebuffer( 0 )
     {
         size_t i;
 
@@ -998,7 +998,7 @@ namespace Ogre {
                 }
             }
             glViewportArrayv( 0u, numViewports, reinterpret_cast<GLfloat*>( xywhVp ) );
-            glScissorArrayv( 0u, numViewports, reinterpret_cast<GLint*>( xywhVp ) );
+            glScissorArrayv( 0u, numViewports, reinterpret_cast<GLint*>( xywhSc ) );
         }
         /*else
         {
@@ -1698,6 +1698,10 @@ namespace Ogre {
 
     void GL3PlusRenderSystem::_hlmsPipelineStateObjectCreated( HlmsPso *newBlock )
     {
+#if OGRE_DEBUG_MODE >= OGRE_DEBUG_MEDIUM
+        debugLogPso( newBlock );
+#endif
+
         GL3PlusHlmsPso *pso = new GL3PlusHlmsPso();
         memset( pso, 0, sizeof(GL3PlusHlmsPso) );
 
@@ -1893,7 +1897,7 @@ namespace Ogre {
         {
             OCGE( glSamplerParameteri( samplerName, GL_TEXTURE_COMPARE_MODE,
                                        GL_COMPARE_REF_TO_TEXTURE ) );
-            OCGE( glSamplerParameterf( samplerName, GL_TEXTURE_COMPARE_FUNC,
+            OCGE( glSamplerParameteri( samplerName, GL_TEXTURE_COMPARE_FUNC,
                                        convertCompareFunction( newBlock->mCompareFunction ) ) );
         }
 
@@ -2410,8 +2414,11 @@ namespace Ogre {
 
     void GL3PlusRenderSystem::_hlmsComputePipelineStateObjectCreated( HlmsComputePso *newPso )
     {
-        newPso->rsData = reinterpret_cast<void*>( static_cast<GLSLShader*>(
-                                                      newPso->computeShader->_getBindingDelegate() ) );
+#if OGRE_DEBUG_MODE >= OGRE_DEBUG_MEDIUM
+        debugLogPso( newPso );
+#endif
+        newPso->rsData = reinterpret_cast<void *>(
+            static_cast<GLSLShader *>( newPso->computeShader->_getBindingDelegate() ) );
     }
 
     void GL3PlusRenderSystem::_hlmsComputePipelineStateObjectDestroyed( HlmsComputePso *newPso )
@@ -3505,8 +3512,12 @@ namespace Ogre {
             mPso->vertexShader->bindSharedParameters(params, mask);
             break;
         case GPT_FRAGMENT_PROGRAM:
-            mActiveFragmentGpuProgramParameters = params;
-            mPso->pixelShader->bindSharedParameters(params, mask);
+            // PixelShader can be nullptr if blend channel is BlendChannelForceDisabled
+            if( mPso->pixelShader )
+            {
+                mActiveFragmentGpuProgramParameters = params;
+                mPso->pixelShader->bindSharedParameters( params, mask );
+            }
             break;
         case GPT_GEOMETRY_PROGRAM:
             mActiveGeometryGpuProgramParameters = params;
@@ -3537,8 +3548,12 @@ namespace Ogre {
             mPso->vertexShader->bindParameters(params, mask);
             break;
         case GPT_FRAGMENT_PROGRAM:
-            mActiveFragmentGpuProgramParameters = params;
-            mPso->pixelShader->bindParameters(params, mask);
+            // PixelShader can be nullptr if blend channel is BlendChannelForceDisabled
+            if( mPso->pixelShader )
+            {
+                mActiveFragmentGpuProgramParameters = params;
+                mPso->pixelShader->bindParameters( params, mask );
+            }
             break;
         case GPT_GEOMETRY_PROGRAM:
             mActiveGeometryGpuProgramParameters = params;
@@ -3574,7 +3589,9 @@ namespace Ogre {
             mPso->vertexShader->bindPassIterationParameters(mActiveVertexGpuProgramParameters);
             break;
         case GPT_FRAGMENT_PROGRAM:
-            mPso->pixelShader->bindPassIterationParameters(mActiveFragmentGpuProgramParameters);
+            // PixelShader can be nullptr if blend channel is BlendChannelForceDisabled
+            if( mPso->pixelShader )
+                mPso->pixelShader->bindPassIterationParameters( mActiveFragmentGpuProgramParameters );
             break;
         case GPT_GEOMETRY_PROGRAM:
             mPso->geometryShader->bindPassIterationParameters(mActiveGeometryGpuProgramParameters);

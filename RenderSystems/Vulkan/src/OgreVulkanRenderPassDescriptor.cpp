@@ -316,15 +316,18 @@ namespace Ogre
         attachment.stencilStoreOp = VK_ATTACHMENT_STORE_OP_DONT_CARE;
         if( !bResolveTex )
         {
+            if( attachment.loadOp == VK_ATTACHMENT_LOAD_OP_LOAD )
+                attachment.initialLayout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
+            else
+                attachment.initialLayout = VK_IMAGE_LAYOUT_UNDEFINED;
+
             if( texture->isRenderWindowSpecific() && !texture->isMultisample() &&
                 mReadyWindowForPresent )
             {
-                attachment.initialLayout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
                 attachment.finalLayout = VK_IMAGE_LAYOUT_PRESENT_SRC_KHR;
             }
             else
             {
-                attachment.initialLayout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
                 attachment.finalLayout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
             }
         }
@@ -407,7 +410,10 @@ namespace Ogre
         }
         else
         {
-            attachment.initialLayout = VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL;
+            if( attachment.loadOp == VK_ATTACHMENT_LOAD_OP_LOAD )
+                attachment.initialLayout = VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL;
+            else
+                attachment.initialLayout = VK_IMAGE_LAYOUT_UNDEFINED;
             attachment.finalLayout = VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL;
         }
 
@@ -421,7 +427,49 @@ namespace Ogre
     void VulkanRenderPassDescriptor::setupFbo( VulkanFrameBufferDescValue &fboDesc )
     {
         if( fboDesc.mRenderPass )
-            return;  // Already initialized
+        {
+            // Already initialized. Only set clear values and early return
+            uint32 attachmentIdx = 0u;
+            for( size_t i = 0; i < mNumColourEntries; ++i )
+            {
+                if( mColour[i].texture->getPixelFormat() == PFG_NULL )
+                    continue;
+
+                mClearValues[attachmentIdx].color =
+                    getClearColour( mColour[i].clearColour, mColour[i].texture->getPixelFormat() );
+                ++attachmentIdx;
+
+                const RenderPassColourTarget &colour = mColour[i];
+                if( !( !colour.texture->getSampleDescription().isMultisample() ||
+                       !colour.resolveTexture ||
+                       ( colour.storeAction != StoreAction::MultisampleResolve &&
+                         colour.storeAction != StoreAction::StoreAndMultisampleResolve ) ) )
+                {
+                    // There is a resolve attachment. Theoretically we shouldn't need
+                    // to set a clear colour here, but we do it just in case.
+                    mClearValues[attachmentIdx].color = mClearValues[attachmentIdx - 1u].color;
+                    ++attachmentIdx;
+                }
+            }
+
+            if( mDepth.texture )
+            {
+                if( !mRenderSystem->isReverseDepth() )
+                {
+                    mClearValues[attachmentIdx].depthStencil.depth =
+                        static_cast<float>( mDepth.clearDepth );
+                }
+                else
+                {
+                    mClearValues[attachmentIdx].depthStencil.depth =
+                        static_cast<float>( Real( 1.0 ) - mDepth.clearDepth );
+                }
+                mClearValues[attachmentIdx].depthStencil.stencil = mStencil.clearStencil;
+                ++attachmentIdx;
+            }
+
+            return;  // We're done
+        }
 
         if( mDepth.texture && mDepth.texture->getResidencyStatus() != GpuResidency::Resident )
         {
@@ -888,7 +936,7 @@ namespace Ogre
         passBeginInfo.renderArea.offset.y = 0;
         passBeginInfo.renderArea.extent.width = mTargetWidth;
         passBeginInfo.renderArea.extent.height = mTargetHeight;
-        passBeginInfo.clearValueCount = sizeof( mClearValues ) / sizeof( mClearValues[0] );
+        passBeginInfo.clearValueCount = fboDesc.mNumImageViews;
         passBeginInfo.pClearValues = mClearValues;
 
         if( renderingWasInterrupted )
