@@ -1,6 +1,6 @@
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -630,9 +630,6 @@
+@@ -640,9 +640,6 @@ if (OGRE_BUILD_TESTS AND 0)
    add_subdirectory(Tests)
  endif ()
  

@@ -1,3 +1,9 @@
+ogre-next-2.3 (2.3.1-5) jammy; urgency=medium
+
+  * Fix pkgconfig issues
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 19 Jul 2022 09:50:42 -0500
+
 ogre-next-2.3 (2.3.1-4) jammy; urgency=medium
 
   * Split vulkan dep for Jammy 
