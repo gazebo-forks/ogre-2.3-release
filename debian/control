@@ -39,12 +39,9 @@ Build-Depends: debhelper (>= 11),
                libz-dev,
                rapidjson-dev,
                zlib1g-dev,
-# vulkan dependencies. validationlayers version is only avilable in Jammy
-# for Focal we build the package without vulkan support
                glslang-dev,
                libvulkan-dev,
-               vulkan-validationlayers-dev | libc6,
-               vulk-validation-layers | libc6
+               vulkan-validationlayers-dev
 Build-Depends-Indep: doxygen,
                      graphviz,
                      texinfo
