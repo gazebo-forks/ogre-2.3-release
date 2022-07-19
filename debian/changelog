@@ -22,21 +22,14 @@ ogre-next-2.3 (2.3.1-4) jammy; urgency=medium
 
  -- Michael Carroll <michael@openrobotics.org>  Mon, 18 Jul 2022 15:59:32 -0500
 
+ogre-next-2.3 (2.3.1-2) focal; urgency=medium
+  * Split debian control and remove vulkan from focal 
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 18 Jul 2022 15:59:32 -0500
+
 ogre-next-2.3 (2.3.1-3) jammy; urgency=medium
 
-  * Fix vulkan dep 
-
- -- Michael Carroll <michael@openrobotics.org>  Mon, 18 Jul 2022 15:59:32 -0500
-
-ogre-next-2.3 (2.3.1-2) jammy; urgency=medium
-
-  * Fix vulkan dep 
-
- -- Michael Carroll <michael@openrobotics.org>  Mon, 18 Jul 2022 15:59:32 -0500
-
-ogre-next-2.3 (2.3.1-1) jammy; urgency=medium
-
-  * Update to use 2.3.1 tag from upstream
+  * Split debian control and remove vulkan from focal 
 
  -- Michael Carroll <michael@openrobotics.org>  Mon, 18 Jul 2022 15:59:32 -0500
 

@@ -39,9 +39,7 @@ Build-Depends: debhelper (>= 11),
                libz-dev,
                rapidjson-dev,
                zlib1g-dev,
-               glslang-dev,
-               libvulkan-dev,
-               vulkan-validationlayers-dev
+
 Build-Depends-Indep: doxygen,
                      graphviz,
                      texinfo
