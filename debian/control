@@ -38,8 +38,7 @@ Build-Depends: debhelper (>= 11),
                libzzip-dev,
                libz-dev,
                rapidjson-dev,
-               zlib1g-dev,
-
+               zlib1g-dev
 Build-Depends-Indep: doxygen,
                      graphviz,
                      texinfo
