@@ -1,3 +1,9 @@
+ogre-next-2.3 (2.3.1-7) jammy; urgency=medium
+
+  * Force gzip compression
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 21 Jul 2022 08:24:38 -0500
+
 ogre-next-2.3 (2.3.1-6) jammy; urgency=medium
 
   * Add HLMS component pkgconfig

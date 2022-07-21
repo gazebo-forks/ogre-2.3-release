@@ -61,5 +61,8 @@ override_dh_installchangelogs:
 override_dh_shlibdeps:
 	dh_shlibdeps -l/usr/lib/$(DEB_HOST_MULTIARCH)/OGRE-$(OGRE_VERSION)/
 
+override_dh_builddeb:
+	dh_builddeb -- -Zgzip
+
 %:
 	dh $@ --buildsystem=cmake
