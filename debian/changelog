@@ -1,3 +1,9 @@
+ogre-next-2.3 (2.3.1-8) jammy; urgency=medium
+
+  * Force static linking for vulkan renderengin
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 27 Jul 2022 16:14:06 -0500
+
 ogre-next-2.3 (2.3.1-7) jammy; urgency=medium
 
   * Force gzip compression
