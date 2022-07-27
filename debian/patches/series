@@ -6,3 +6,4 @@ vulkan-look-for-validationlayers.patch
 versioned-header-dir.patch
 versioned-pc-files.patch
 install-pc-files-to-lib-multiarch.patch
+vulkan_needs_glslang_spirv.diff
