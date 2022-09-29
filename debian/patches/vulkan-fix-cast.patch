@@ -3,11 +3,9 @@ Author: Jose Luis Rivero <jrivero@openrobotics.org>
 Forwarded: no
 Last-Update: 2022-09-29
 
-diff --git a/RenderSystems/Vulkan/src/OgreVulkanRenderSystem.cpp b/RenderSystems/Vulkan/src/OgreVulkanRenderSystem.cpp
-index ce6f3bc4..d3d0cfe7 100644
 --- a/RenderSystems/Vulkan/src/OgreVulkanRenderSystem.cpp
 +++ b/RenderSystems/Vulkan/src/OgreVulkanRenderSystem.cpp
-@@ -3362,7 +3362,7 @@ namespace Ogre
+@@ -3362,13 +3362,13 @@
              vkCreateSampler( mActiveDevice->mDevice, &samplerDescriptor, 0, &textureSampler );
          checkVkResult( result, "vkCreateSampler" );
  
@@ -16,3 +14,10 @@ index ce6f3bc4..d3d0cfe7 100644
      }
      //-------------------------------------------------------------------------
      void VulkanRenderSystem::_hlmsSamplerblockDestroyed( HlmsSamplerblock *block )
+     {
+         assert( block->mRsData );
+-        VkSampler textureSampler = static_cast<VkSampler>( block->mRsData );
++        VkSampler textureSampler = reinterpret_cast<VkSampler>( block->mRsData );
+         delayed_vkDestroySampler( mVaoManager, mActiveDevice->mDevice, textureSampler, 0 );
+     }
+     //-------------------------------------------------------------------------
