@@ -21,3 +21,17 @@ Last-Update: 2022-09-29
          delayed_vkDestroySampler( mVaoManager, mActiveDevice->mDevice, textureSampler, 0 );
      }
      //-------------------------------------------------------------------------
+--- a/RenderSystems/Vulkan/src/Vao/OgreVulkanVaoManager.cpp
++++ b/RenderSystems/Vulkan/src/Vao/OgreVulkanVaoManager.cpp
+@@ -976,9 +976,9 @@
+                         {
+                             // Found one!
+                             size_t defaultPoolSize =
+-                                std::min( mDefaultPoolSize[vboFlag],
++                                std::min( mDefaultPoolSize[vboFlag], reinterpret_cast<size_t>(
+                                           memHeaps[memTypes[*itMemTypeIdx].heapIndex].size -
+-                                              mUsedHeapMemory[heapIdx] );
++                                              mUsedHeapMemory[heapIdx] ));
+                             poolSize = std::max( defaultPoolSize, sizeBytes );
+                             break;
+                         }
