@@ -33,6 +33,7 @@ THE SOFTWARE.
 #include "OgreResourceManager.h"
 #include "OgreGpuProgram.h"
 #include "OgreSingleton.h"
+#include "Threading/OgreLightweightMutex.h"
 #include "OgreHeaderPrefix.h"
 
 namespace Ogre {
@@ -77,7 +78,8 @@ namespace Ogre {
 
     protected:
         SharedParametersMap mSharedParametersMap;
-        MicrocodeMap mMicrocodeCache;
+        MicrocodeMap mMicrocodeCache;  // GUARDED_BY( mMicrocodeCacheMutex )
+        mutable LightweightMutex mMicrocodeCacheMutex;
         bool mSaveMicrocodesToCache;
         bool mCacheDirty;           // When this is true the cache is 'dirty' and should be resaved to disk.
 
@@ -227,10 +229,16 @@ namespace Ogre {
 
         bool canGetCompiledShaderBuffer();
         /** Check if a microcode is available for a program in the microcode cache.
+            Deprecated: Use getMicrocodeFromCache()
+
+            This version is subject to race conditions.
         @param name The name of the program.
         */
         virtual bool isMicrocodeAvailableInCache( const String &source ) const;
         /** Returns a microcode for a program from the microcode cache.
+            Deprecated: Use getMicrocodeFromCache()
+
+            This version is subject to race conditions.
         @param name The name of the program.
         */
         virtual const Microcode & getMicrocodeFromCache( const String &source ) const;

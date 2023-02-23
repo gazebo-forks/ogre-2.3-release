@@ -270,6 +270,7 @@ namespace Ogre {
     bool GpuProgramManager::getMicrocodeFromCache( const String &source,
                                                    const Microcode **outMicrocode ) const
     {
+        ScopedLock lock( mMicrocodeCacheMutex );
         MicrocodeMap ::const_iterator itor =
             mMicrocodeCache.find( computeHashWithRenderSystemName( source ) );
         if( itor != mMicrocodeCache.end() )
@@ -289,25 +290,30 @@ namespace Ogre {
         return Microcode(OGRE_NEW MemoryDataStream(size));  
     }
     //---------------------------------------------------------------------
-    void GpuProgramManager::addMicrocodeToCache( const String & source, const GpuProgramManager::Microcode & microcode )
-    {   
+    void GpuProgramManager::addMicrocodeToCache( const String &source,
+                                                 const GpuProgramManager::Microcode &microcode )
+    {
+        ScopedLock lock( mMicrocodeCacheMutex );
         Hash hash = computeHashWithRenderSystemName( source );
 
         MicrocodeMap::iterator foundIter = mMicrocodeCache.find(hash);
         if ( foundIter == mMicrocodeCache.end() )
         {
-            mMicrocodeCache.insert( std::make_pair(hash, microcode) );
-            // if cache is modified, mark it as dirty.
-            mCacheDirty = true;
+            mMicrocodeCache.emplace( hash, microcode );
         }
         else
         {
             foundIter->second = microcode;
         }
+
+        // if cache is modified, mark it as dirty.
+        // We don't check foundIter->second == microcode
+        mCacheDirty = true;
     }
     //---------------------------------------------------------------------
     void GpuProgramManager::removeMicrocodeFromCache( const String & source )
     {
+        ScopedLock lock( mMicrocodeCacheMutex );
         Hash hash = computeHashWithRenderSystemName( source );
         MicrocodeMap::iterator foundIter = mMicrocodeCache.find( hash );
 
@@ -320,8 +326,9 @@ namespace Ogre {
     //---------------------------------------------------------------------
     void GpuProgramManager::saveMicrocodeCache( DataStreamPtr stream ) const
     {
-        if (!mCacheDirty)
-            return; 
+        ScopedLock lock( mMicrocodeCacheMutex );
+        if( !mCacheDirty )
+            return;
 
         if (!stream->isWriteable())
         {
@@ -356,6 +363,7 @@ namespace Ogre {
     //---------------------------------------------------------------------
     void GpuProgramManager::loadMicrocodeCache( DataStreamPtr stream )
     {
+        ScopedLock lock( mMicrocodeCacheMutex );
         mMicrocodeCache.clear();
 
         // write the size of the array
@@ -388,6 +396,7 @@ namespace Ogre {
     //---------------------------------------------------------------------
     void GpuProgramManager::clearMicrocodeCache(void)
     {
+        ScopedLock lock( mMicrocodeCacheMutex );
         mMicrocodeCache.clear();
         mCacheDirty = false;
     }
