@@ -168,7 +168,12 @@ namespace Ogre
         return EShLangFragment;
     }
     //-----------------------------------------------------------------------
-    bool VulkanProgram::extractRootLayoutFromSource( void )
+    String VulkanProgram::getNameForMicrocodeCache( const String &preamble ) const
+    {
+        return mSource + "_" + preamble;
+    }
+    //-----------------------------------------------------------------------
+    bool VulkanProgram::extractRootLayoutFromSource()
     {
         if( mRootLayout )
             return false;  // Programmatically specified
@@ -311,7 +316,81 @@ namespace Ogre
         resources.limits.generalConstantMatrixVectorIndexing = 1;
     }
     //-----------------------------------------------------------------------
-    void VulkanProgram::loadFromSource( void ) { compile( true ); }
+    void VulkanProgram::loadFromSource()
+    {
+        OGRE_ASSERT_LOW( !mCompiled );
+        OGRE_ASSERT_LOW( mSpirv.empty() );
+
+        if( mReplaceVersionMacro )
+            replaceVersionMacros();
+
+        if( mCustomRootLayout && !mReflectArrayRootLayouts )
+        {
+            GpuProgramManager &gpuProgramManager = GpuProgramManager::getSingleton();
+            String preamble;
+            getPreamble( preamble );
+
+            GpuProgramManager::Microcode const *microcodePtr;
+            if( gpuProgramManager.getMicrocodeFromCache( getNameForMicrocodeCache( preamble ),
+                                                         &microcodePtr ) )
+            {
+                const GpuProgramManager::Microcode &microcode = *microcodePtr;
+
+                // We can't use microcode->read() because it's not thread safe.
+                const size_t spirvSizeBytes = microcode->size();
+                mSpirv.resize( spirvSizeBytes / sizeof( uint32 ) );
+                memcpy( mSpirv.data(), microcode->getPtr(), spirvSizeBytes );
+                mCompiled = true;
+
+                LogManager::getSingleton().logMessage( "Shader " + mName + " was in microcode cache." );
+
+                {
+                    VkShaderModuleCreateInfo moduleCi;
+                    makeVkStruct( moduleCi, VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO );
+                    moduleCi.codeSize = mSpirv.size() * sizeof( uint32 );
+                    moduleCi.pCode = mSpirv.data();
+                    VkResult result =
+                        vkCreateShaderModule( mDevice->mDevice, &moduleCi, 0, &mShaderModule );
+                    checkVkResult( result, "vkCreateShaderModule" );
+
+                    setObjectName( mDevice->mDevice, (uint64_t)mShaderModule,
+                                   VK_DEBUG_REPORT_OBJECT_TYPE_IMAGE_EXT, mName.c_str() );
+                }
+
+                if( !mSpirv.empty() && mType == GPT_VERTEX_PROGRAM )
+                {
+                    OgreProfileExhaustive( "VulkanProgram::compile::SpvReflectShaderModule" );
+                    SpvReflectShaderModule module;
+                    memset( &module, 0, sizeof( module ) );
+                    SpvReflectResult result = spvReflectCreateShaderModule(
+                        mSpirv.size() * sizeof( uint32 ), mSpirv.data(), &module );
+                    if( result != SPV_REFLECT_RESULT_SUCCESS )
+                    {
+                        OGRE_EXCEPT( Exception::ERR_RENDERINGAPI_ERROR,
+                                     "spvReflectCreateShaderModule failed on shader " + mName +
+                                         " error code: " + getSpirvReflectError( result ),
+                                     "VulkanProgram::compile" );
+                    }
+
+                    FreeModuleOnDestructor modulePtr( &module );
+                    gatherVertexInputs( module );
+                }
+
+#if OGRE_DEBUG_MODE >= OGRE_DEBUG_MEDIUM
+                gatherArrayedDescs( true );
+#endif
+            }
+            else
+            {
+                // Note: In multithreaded compilation, if two threads try to compile the same
+                // shader, both threads could end up here. When both threads try to add the
+                // microcode, one will be discarded. Last thread wins.
+                compile( true );
+            }
+        }
+        else
+            compile( true );
+    }
     //-----------------------------------------------------------------------
     /**
     @brief VulkanProgram::replaceVersionMacros
@@ -557,12 +636,10 @@ namespace Ogre
         const char *sourceCString = mSource.c_str();
         shader.setStrings( &sourceCString, 1 );
 
+        String preamble;
+
         if( !mCompileError )
         {
-            if( mReplaceVersionMacro )
-                replaceVersionMacros();
-
-            String preamble;
             getPreamble( preamble );
             shader.setPreamble( preamble.c_str() );
 
@@ -670,12 +747,26 @@ namespace Ogre
                          "VulkanProgram::compile" );
         }
 
-        if( mCompiled && !mSpirv.empty() )
+        // TODO: Support SPIR-Vs with mReflectArrayRootLayouts == true or with mCustomRootLayout == false
+        // Is it even worth it? Most shaders won't need and it just adds complexity.
+        if( mCompiled && !mSpirv.empty() && mCustomRootLayout && !mReflectArrayRootLayouts )
         {
+            GpuProgramManager &gpuProgramManager = GpuProgramManager::getSingleton();
+            if( gpuProgramManager.getSaveMicrocodesToCache() )
+            {
+                const uint32 spirvSizeBytes = static_cast<uint32>( mSpirv.size() * sizeof( uint32 ) );
+                GpuProgramManager::Microcode newMicrocode =
+                    gpuProgramManager.createMicrocode( spirvSizeBytes );
+
+                newMicrocode->write( mSpirv.data(), spirvSizeBytes );
+                gpuProgramManager.addMicrocodeToCache( getNameForMicrocodeCache( preamble ),
+                                                       newMicrocode );
+            }
+
             VkShaderModuleCreateInfo moduleCi;
             makeVkStruct( moduleCi, VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO );
             moduleCi.codeSize = mSpirv.size() * sizeof( uint32 );
-            moduleCi.pCode = &mSpirv[0];
+            moduleCi.pCode = mSpirv.data();
             VkResult result = vkCreateShaderModule( mDevice->mDevice, &moduleCi, 0, &mShaderModule );
             checkVkResult( result, "vkCreateShaderModule" );
 
@@ -689,7 +780,7 @@ namespace Ogre
             SpvReflectShaderModule module;
             memset( &module, 0, sizeof( module ) );
             SpvReflectResult result =
-                spvReflectCreateShaderModule( mSpirv.size() * sizeof( uint32 ), &mSpirv[0], &module );
+                spvReflectCreateShaderModule( mSpirv.size() * sizeof( uint32 ), mSpirv.data(), &module );
             if( result != SPV_REFLECT_RESULT_SUCCESS )
             {
                 OGRE_EXCEPT( Exception::ERR_RENDERINGAPI_ERROR,
@@ -714,7 +805,7 @@ namespace Ogre
     {
         mAssemblerProgram = GpuProgramPtr( this, SPFM_NONE );
         if( !mCompiled )
-            compile( true );
+            loadFromSource();
     }
     //---------------------------------------------------------------------------
     void VulkanProgram::unloadImpl()
@@ -800,7 +891,7 @@ namespace Ogre
         SpvReflectShaderModule module;
         memset( &module, 0, sizeof( module ) );
         SpvReflectResult result =
-            spvReflectCreateShaderModule( mSpirv.size() * sizeof( uint32 ), &mSpirv[0], &module );
+            spvReflectCreateShaderModule( mSpirv.size() * sizeof( uint32 ), mSpirv.data(), &module );
         if( result != SPV_REFLECT_RESULT_SUCCESS )
         {
             OGRE_EXCEPT( Exception::ERR_RENDERINGAPI_ERROR,
@@ -1131,7 +1222,7 @@ namespace Ogre
         SpvReflectShaderModule module;
         memset( &module, 0, sizeof( module ) );
         SpvReflectResult result =
-            spvReflectCreateShaderModule( mSpirv.size() * sizeof( uint32 ), &mSpirv[0], &module );
+            spvReflectCreateShaderModule( mSpirv.size() * sizeof( uint32 ), mSpirv.data(), &module );
         if( result != SPV_REFLECT_RESULT_SUCCESS )
         {
             OGRE_EXCEPT( Exception::ERR_RENDERINGAPI_ERROR,
