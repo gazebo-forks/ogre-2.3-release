@@ -1,3 +1,6 @@
+Description: Fix GPU on Windows Subsystem for Linux
+Origin: https://github.com/OGRECave/ogre-next/pull/388
+
 diff --git a/RenderSystems/GL3Plus/src/OgreGL3PlusTextureGpu.cpp b/RenderSystems/GL3Plus/src/OgreGL3PlusTextureGpu.cpp
 index c9a1147b188..85a94ae7a71 100644
 --- a/RenderSystems/GL3Plus/src/OgreGL3PlusTextureGpu.cpp
