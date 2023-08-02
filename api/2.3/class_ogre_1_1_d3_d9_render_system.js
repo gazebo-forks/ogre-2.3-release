@@ -19,7 +19,6 @@ var class_ogre_1_1_d3_d9_render_system =
     [ "_convertOpenVrProjectionMatrix", "class_ogre_1_1_d3_d9_render_system.html#ad05022b35e523cdba22d993a51fc4b78", null ],
     [ "_convertProjectionMatrix", "class_ogre_1_1_d3_d9_render_system.html#a2228dcfce5ec360f8f421f9544872f01", null ],
     [ "_createDepthBufferFor", "class_ogre_1_1_d3_d9_render_system.html#a949fa1062460e37e5a9ca9815486d56d", null ],
-    [ "_createRenderWindow", "class_ogre_1_1_d3_d9_render_system.html#ab120136ac65bef3def024f27532c03fb", null ],
     [ "_createRenderWindow", "class_ogre_1_1_d3_d9_render_system.html#ad8469f0aa267bf80682e08cdd0a41aaf", null ],
     [ "_createRenderWindows", "class_ogre_1_1_d3_d9_render_system.html#af2e127de3a611d547520a667fe067f29", null ],
     [ "_createRenderWindows", "class_ogre_1_1_d3_d9_render_system.html#a2d1a6b690161dcd972d7cfc13b59dc10", null ],

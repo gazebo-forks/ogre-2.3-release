@@ -1,13 +1,5 @@
 var NAVTREEINDEX142 =
 {
-"class_ogre_1_1_hlms_buffer_manager.html#a6e629e7a87a40040e12d2bfb4ff80d58a1aba1d888e0aa8e695416e9ad2af44b9":[5,0,0,3,2,2],
-"class_ogre_1_1_hlms_buffer_manager.html#a6e629e7a87a40040e12d2bfb4ff80d58a6461fe4856b648eb0bc6ec35df2e4712":[5,0,0,3,2,0],
-"class_ogre_1_1_hlms_buffer_manager.html#a6e629e7a87a40040e12d2bfb4ff80d58a792d2cdce23b4018b9c149540ebb1a93":[5,0,0,3,2,1],
-"class_ogre_1_1_hlms_buffer_manager.html#a6e629e7a87a40040e12d2bfb4ff80d58aa53123a5601281132955a27422df66bc":[5,0,0,3,2,3],
-"class_ogre_1_1_hlms_buffer_manager.html#a761bbbb8ac57759c2d2529a5d485c8c5":[5,0,0,3,68],
-"class_ogre_1_1_hlms_buffer_manager.html#a7a0ec84d5e6078c5627f40e95d8d8ca3":[5,0,0,3,46],
-"class_ogre_1_1_hlms_buffer_manager.html#a8357fe4fb4849772b94baa4bf47c7ded":[5,0,0,3,50],
-"class_ogre_1_1_hlms_buffer_manager.html#a85c00acdba7c9a0bcab3c6a0a48d587f":[5,0,0,3,70],
 "class_ogre_1_1_hlms_buffer_manager.html#a93e6a86dde5483c053ca0f2a85bbfd6c":[5,0,0,3,53],
 "class_ogre_1_1_hlms_buffer_manager.html#a96a00c457700a223c82fddde81ffdbd3":[5,0,0,3,31],
 "class_ogre_1_1_hlms_buffer_manager.html#a9a1b12239e46b90448d960ed784148d8":[5,0,0,3,17],
@@ -249,5 +241,13 @@ var NAVTREEINDEX142 =
 "class_ogre_1_1_hlms_datablock.html#adce32528577d71b228692df906ecd17c":[5,2,11,67,30],
 "class_ogre_1_1_hlms_datablock.html#adf23753369e49972120337bcbffc743d":[5,2,11,67,17],
 "class_ogre_1_1_hlms_datablock.html#ae0ab6a48ea79da805bc7ba0e4908190c":[5,2,11,67,43],
-"class_ogre_1_1_hlms_datablock.html#ae3b54a6d547a9478cde09086bab07542":[5,2,11,67,44]
+"class_ogre_1_1_hlms_datablock.html#ae3b54a6d547a9478cde09086bab07542":[5,2,11,67,44],
+"class_ogre_1_1_hlms_datablock.html#ae8f09ce4391c44bdde8bc4c26acc19af":[5,2,11,67,2],
+"class_ogre_1_1_hlms_datablock.html#ae98b240d749de133737090afd9912df8":[5,2,11,67,36],
+"class_ogre_1_1_hlms_datablock.html#aeabeb1aca625e7c98b5ad36217dc2ad4":[5,2,11,67,45],
+"class_ogre_1_1_hlms_datablock.html#aed1464ac3de21ff20db8f9f1f8608dc7":[5,2,11,67,31],
+"class_ogre_1_1_hlms_datablock.html#aed6e51cb5a915a02143b46b1712a0d60":[5,2,11,67,18],
+"class_ogre_1_1_hlms_datablock.html#af1ac88fb51276fb7145e0b9d7ce77acd":[5,2,11,67,41],
+"class_ogre_1_1_hlms_datablock.html#af1eceea7ae2d0610b0b2f8a0ec025015":[5,2,11,67,37],
+"class_ogre_1_1_hlms_disk_cache.html":[5,2,11,68]
 };

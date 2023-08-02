@@ -45,7 +45,6 @@ var class_ogre_1_1_cocoa_window =
     [ "operator new[]", "class_ogre_1_1_cocoa_window.html#adce32528577d71b228692df906ecd17c", null ],
     [ "operator new[]", "class_ogre_1_1_cocoa_window.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
     [ "reposition", "class_ogre_1_1_cocoa_window.html#adb12d5c2438757376799fa325176a7e1", null ],
-    [ "reposition", "class_ogre_1_1_cocoa_window.html#a5d39c20103e51bd756ebc97956b3c98d", null ],
     [ "requestFullscreenSwitch", "class_ogre_1_1_cocoa_window.html#a2d5423c38fb53d7346a00c0e7e582347", null ],
     [ "requestResolution", "class_ogre_1_1_cocoa_window.html#a1284a6c13adf9c244e4dcc2f973d7749", null ],
     [ "setActive", "class_ogre_1_1_cocoa_window.html#a868fe5d41f9bc1f1285f35f7f48a5601", null ],

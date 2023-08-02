@@ -175,6 +175,8 @@ var NAVTREEINDEX4 =
 "_ogre_lw_string_8h.html":[8,0,2,0,134],
 "_ogre_lw_string_8h.html#a5a16a58b685bb43e9ecf56e345dcdc1d":[8,0,2,0,134,4],
 "_ogre_lw_string_8h.html#aabb8b876e7495cfb11a152cdf728815c":[8,0,2,0,134,3],
+"_ogre_lw_string_8h.html#ab8d0c29be4a0623c3de58011991e86e9":[8,0,2,0,134,5],
+"_ogre_lw_string_8h.html#ac582131d7a7c8ee57e73180d1714f9d5":[8,0,2,0,134,6],
 "_ogre_manual_object2_8h.html":[8,0,2,0,136],
 "_ogre_manual_object_8h.html":[8,0,2,0,135],
 "_ogre_material_8h.html":[8,0,2,0,137],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "_ogre_metal_pixel_format_to_shader_type_8h.html#a320bd6a6b273a3abe76add6b64ff8540a026ebce5adccd870eca80da92b7c9880":[8,0,4,4,0,14,1,17],
 "_ogre_metal_pixel_format_to_shader_type_8h.html#a320bd6a6b273a3abe76add6b64ff8540a29348aa812cf20e7441259050ef4c48e":[8,0,4,4,0,14,1,13],
 "_ogre_metal_pixel_format_to_shader_type_8h.html#a320bd6a6b273a3abe76add6b64ff8540a3758c57e1d1f100889ca50f7c538fb82":[8,0,4,4,0,14,1,8],
-"_ogre_metal_pixel_format_to_shader_type_8h.html#a320bd6a6b273a3abe76add6b64ff8540a64978914a6898c4840c1c4788f7a2a79":[8,0,4,4,0,14,1,11],
-"_ogre_metal_pixel_format_to_shader_type_8h.html#a320bd6a6b273a3abe76add6b64ff8540a64978914a6898c4840c1c4788f7a2a79":[8,0,4,4,0,14,1,23],
-"_ogre_metal_pixel_format_to_shader_type_8h.html#a320bd6a6b273a3abe76add6b64ff8540a7173060e28d9c17e78e871d3072e6f49":[8,0,4,4,0,14,1,27]
+"_ogre_metal_pixel_format_to_shader_type_8h.html#a320bd6a6b273a3abe76add6b64ff8540a64978914a6898c4840c1c4788f7a2a79":[8,0,4,4,0,14,1,23]
 };

@@ -42,7 +42,6 @@ var class_ogre_1_1_d3_d11_window_swap_chain_based =
     [ "operator new[]", "class_ogre_1_1_d3_d11_window_swap_chain_based.html#adce32528577d71b228692df906ecd17c", null ],
     [ "operator new[]", "class_ogre_1_1_d3_d11_window_swap_chain_based.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
     [ "reposition", "class_ogre_1_1_d3_d11_window_swap_chain_based.html#a67e3922f9cdc6d2b8bfaa2e4ccfed206", null ],
-    [ "reposition", "class_ogre_1_1_d3_d11_window_swap_chain_based.html#a5d39c20103e51bd756ebc97956b3c98d", null ],
     [ "requestFullscreenSwitch", "class_ogre_1_1_d3_d11_window_swap_chain_based.html#a2d5423c38fb53d7346a00c0e7e582347", null ],
     [ "requestResolution", "class_ogre_1_1_d3_d11_window_swap_chain_based.html#a1284a6c13adf9c244e4dcc2f973d7749", null ],
     [ "setBorderless", "class_ogre_1_1_d3_d11_window_swap_chain_based.html#aa6ee76edb7111f8feefbb1f73aae50be", null ],
