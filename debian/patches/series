@@ -7,3 +7,4 @@ versioned-header-dir.patch
 versioned-pc-files.patch
 install-pc-files-to-lib-multiarch.patch
 vulkan-fix-cast.patch
+fix-gpu-in-wsl.patch
