@@ -1,3 +1,14 @@
+ogre-next-2.3 (2.3.1-9) noble; urgency=medium
+
+  [ Jose Luis Rivero ]
+  * Fix vulkan compilation on Ubuntu Jammy armhf
+  * Add minimal DEP-3 information
+
+  [ Silvio Traversaro ]
+  * Backport fix for GPU on WSL
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 12 Sep 2023 21:01:21 +0200
+
 ogre-next-2.3 (2.3.1-9) jammy; urgency=medium
 
   [ Jose Luis Rivero ]
