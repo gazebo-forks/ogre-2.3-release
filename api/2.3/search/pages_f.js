@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['what_27s_20new_20in_20ogre_202_2e2_0',['What&apos;s new in Ogre 2.2',['../_ogre22_changes.html',1,'manual']]],
-  ['what_27s_20new_20in_20ogre_202_2e3_1',['What&apos;s new in Ogre 2.3',['../_ogre23_changes.html',1,'manual']]],
-  ['windows_2',['Windows',['../_setting_up_ogre_windows.html',1,'SettingUpOgre']]]
+  ['reference_20start_20page_0',['API Reference Start Page',['../index.html',1,'']]],
+  ['resources_1',['Tunning memory consumption and resources',['../_tuning_memory_resources.html',1,'manual']]],
+  ['root_20layouts_2',['Root Layouts',['../_root_layouts.html',1,'manual']]]
 ];

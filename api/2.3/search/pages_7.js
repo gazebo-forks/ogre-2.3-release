@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['linux_0',['Linux',['../_setting_up_ogre_linux.html',1,'SettingUpOgre']]]
+  ['global_20illumination_20methods_0',['Global Illumination Methods',['../_gi_methods.html',1,'manual']]]
 ];

@@ -1,12 +1,21 @@
 <map id="Ogre::v1::HardwareVertexBuffer" name="Ogre::v1::HardwareVertexBuffer">
-<area shape="rect" id="node1" title="Specialisation of HardwareBuffer for a vertex buffer." alt="" coords="353,197,523,237"/>
-<area shape="rect" id="node4" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for D3D11." alt="" coords="574,5,782,45"/>
-<area shape="rect" id="node5" href="$class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="591,69,765,109"/>
-<area shape="rect" id="node6" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="594,133,762,173"/>
-<area shape="rect" id="node7" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for OpenGL." alt="" coords="587,197,769,237"/>
-<area shape="rect" id="node8" href="$class_ogre_1_1v1_1_1_g_l_e_s2_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="571,261,785,301"/>
-<area shape="rect" id="node9" href="$class_ogre_1_1v1_1_1_metal_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for Metal." alt="" coords="577,325,779,365"/>
-<area shape="rect" id="node10" href="$class_ogre_1_1v1_1_1_vulkan_hardware_vertex_buffer.html" title=" " alt="" coords="592,389,764,429"/>
-<area shape="rect" id="node2" href="$class_ogre_1_1v1_1_1_hardware_buffer.html" title="Abstract class defining common features of hardware buffers." alt="" coords="139,205,305,230"/>
-<area shape="rect" id="node3" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,205,91,230"/>
+<area shape="rect" id="Node000001" title="Specialisation of HardwareBuffer for a vertex buffer." alt="" coords="351,201,519,242"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for D3D11." alt="" coords="571,5,778,46"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="453,186,499,121,530,86,566,57,589,44,591,49,569,61,534,90,503,124,457,189"/>
+<area shape="rect" id="Node000005" href="$class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="588,71,761,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="469,189,514,154,566,122,595,109,597,114,569,127,517,159,473,193"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="591,136,758,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="526,194,596,175,598,180,527,199"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for OpenGL." alt="" coords="583,201,766,242"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="535,219,583,219,583,224,535,224"/>
+<area shape="rect" id="Node000008" href="$class_ogre_1_1v1_1_1_g_l_e_s2_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="567,267,782,307"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="527,244,598,263,596,269,526,249"/>
+<area shape="rect" id="Node000009" href="$class_ogre_1_1v1_1_1_metal_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for Metal." alt="" coords="574,332,775,373"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="473,250,517,285,569,317,597,329,595,334,566,321,514,289,469,254"/>
+<area shape="rect" id="Node000010" href="$class_ogre_1_1v1_1_1_vulkan_hardware_vertex_buffer.html" title=" " alt="" coords="589,397,760,438"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="457,254,503,319,534,353,569,382,591,394,589,399,566,387,530,357,499,323,453,257"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1v1_1_1_hardware_buffer.html" title="Abstract class defining common features of hardware buffers." alt="" coords="138,209,303,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="318,219,351,219,351,224,318,224"/>
+<area shape="rect" id="Node000003" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,209,90,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,219,137,219,137,224,105,224"/>
 </map>

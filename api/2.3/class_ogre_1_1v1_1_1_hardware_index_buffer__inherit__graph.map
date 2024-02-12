@@ -1,12 +1,21 @@
 <map id="Ogre::v1::HardwareIndexBuffer" name="Ogre::v1::HardwareIndexBuffer">
-<area shape="rect" id="node1" title="Specialisation of HardwareBuffer for vertex index buffers, still abstract." alt="" coords="353,205,551,230"/>
-<area shape="rect" id="node4" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_index_buffer.html" title=" " alt="" coords="605,5,807,45"/>
-<area shape="rect" id="node5" href="$class_ogre_1_1v1_1_1_default_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for emulation." alt="" coords="619,69,793,109"/>
-<area shape="rect" id="node6" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for emulation." alt="" coords="622,133,790,173"/>
-<area shape="rect" id="node7" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html" title=" " alt="" coords="615,197,797,237"/>
-<area shape="rect" id="node8" href="$class_ogre_1_1v1_1_1_g_l_e_s2_default_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for emulation." alt="" coords="599,261,813,301"/>
-<area shape="rect" id="node9" href="$class_ogre_1_1v1_1_1_metal_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for Metal." alt="" coords="609,325,803,365"/>
-<area shape="rect" id="node10" href="$class_ogre_1_1v1_1_1_vulkan_hardware_index_buffer.html" title=" " alt="" coords="620,389,792,429"/>
-<area shape="rect" id="node2" href="$class_ogre_1_1v1_1_1_hardware_buffer.html" title="Abstract class defining common features of hardware buffers." alt="" coords="139,205,305,230"/>
-<area shape="rect" id="node3" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,205,91,230"/>
+<area shape="rect" id="Node000001" title="Specialisation of HardwareBuffer for vertex index buffers, still abstract." alt="" coords="351,209,547,235"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_index_buffer.html" title=" " alt="" coords="602,5,803,46"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="465,194,517,126,553,89,594,57,618,44,621,49,597,61,557,93,521,130,469,198"/>
+<area shape="rect" id="Node000005" href="$class_ogre_1_1v1_1_1_default_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for emulation." alt="" coords="616,71,789,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="477,197,530,159,594,122,625,109,627,114,597,127,533,164,481,201"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for emulation." alt="" coords="619,136,786,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="516,202,620,175,621,180,517,207"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html" title=" " alt="" coords="611,201,794,242"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="563,219,611,219,611,224,563,224"/>
+<area shape="rect" id="Node000008" href="$class_ogre_1_1v1_1_1_g_l_e_s2_default_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for emulation." alt="" coords="595,267,810,307"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="517,236,621,263,620,269,516,241"/>
+<area shape="rect" id="Node000009" href="$class_ogre_1_1v1_1_1_metal_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for Metal." alt="" coords="605,332,800,373"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="481,242,533,280,597,317,627,329,625,334,594,321,530,284,477,247"/>
+<area shape="rect" id="Node000010" href="$class_ogre_1_1v1_1_1_vulkan_hardware_index_buffer.html" title=" " alt="" coords="617,397,788,438"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="469,246,521,314,557,351,597,382,621,395,618,399,594,387,553,354,517,317,465,249"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1v1_1_1_hardware_buffer.html" title="Abstract class defining common features of hardware buffers." alt="" coords="138,209,303,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,219,351,219,351,224,319,224"/>
+<area shape="rect" id="Node000003" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,209,90,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,219,137,219,137,224,105,224"/>
 </map>

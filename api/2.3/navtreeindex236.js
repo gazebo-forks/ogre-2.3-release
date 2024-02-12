@@ -1,7 +1,5 @@
 var NAVTREEINDEX236 =
 {
-"class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#adce32528577d71b228692df906ecd17c":[5,2,9,10,15],
-"class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7":[5,2,9,10,16],
 "class_ogre_1_1_r_t_shader_1_1_f_f_p_render_state_builder.html":[5,2,9,11],
 "class_ogre_1_1_r_t_shader_1_1_f_f_p_render_state_builder.html#a1c727e879a260c37b00ce5505fe8e144":[5,2,9,11,9],
 "class_ogre_1_1_r_t_shader_1_1_f_f_p_render_state_builder.html#a364e6e991a2e73a5920b7542979884b2":[5,2,9,11,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX236 =
 "class_ogre_1_1_r_t_shader_1_1_g_l_s_l_program_writer.html#ad39cb4912190dd26c5afed7e15b12a0c":[5,2,9,22,13],
 "class_ogre_1_1_r_t_shader_1_1_g_l_s_l_program_writer.html#adb246108d4c3d88367f04a720d1e2c20":[5,2,9,22,1],
 "class_ogre_1_1_r_t_shader_1_1_g_l_s_l_program_writer.html#adce32528577d71b228692df906ecd17c":[5,2,9,22,11],
-"class_ogre_1_1_r_t_shader_1_1_g_l_s_l_program_writer.html#aed1464ac3de21ff20db8f9f1f8608dc7":[5,2,9,22,12]
+"class_ogre_1_1_r_t_shader_1_1_g_l_s_l_program_writer.html#aed1464ac3de21ff20db8f9f1f8608dc7":[5,2,9,22,12],
+"class_ogre_1_1_r_t_shader_1_1_h_l_s_l_program_processor.html":[5,2,9,26],
+"class_ogre_1_1_r_t_shader_1_1_h_l_s_l_program_processor.html#a1c727e879a260c37b00ce5505fe8e144":[5,2,9,26,5]
 };

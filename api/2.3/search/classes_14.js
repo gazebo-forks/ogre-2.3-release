@@ -10,7 +10,7 @@ var searchData=
   ['unimplementedexception_7',['UnimplementedException',['../class_ogre_1_1_unimplemented_exception.html',1,'Ogre']]],
   ['unlitmobileprop_8',['UnlitMobileProp',['../struct_ogre_1_1_unlit_mobile_prop.html',1,'Ogre']]],
   ['unlitproperty_9',['UnlitProperty',['../struct_ogre_1_1_unlit_property.html',1,'Ogre']]],
-  ['unsafeblock_10',['UnsafeBlock',['../struct_ogre_1_1_metal_discard_buffer_manager_1_1_unsafe_block.html',1,'Ogre::MetalDiscardBufferManager::UnsafeBlock'],['../struct_ogre_1_1_vulkan_discard_buffer_manager_1_1_unsafe_block.html',1,'Ogre::VulkanDiscardBufferManager::UnsafeBlock']]],
+  ['unsafeblock_10',['unsafeblock',['../struct_ogre_1_1_metal_discard_buffer_manager_1_1_unsafe_block.html',1,'Ogre::MetalDiscardBufferManager::UnsafeBlock'],['../struct_ogre_1_1_vulkan_discard_buffer_manager_1_1_unsafe_block.html',1,'Ogre::VulkanDiscardBufferManager::UnsafeBlock']]],
   ['updatelodrequest_11',['UpdateLodRequest',['../struct_ogre_1_1_update_lod_request.html',1,'Ogre']]],
   ['updatetransformrequest_12',['UpdateTransformRequest',['../struct_ogre_1_1_update_transform_request.html',1,'Ogre']]],
   ['uploadfromstagingtex_13',['UploadFromStagingTex',['../class_ogre_1_1_obj_cmd_buffer_1_1_upload_from_staging_tex.html',1,'Ogre::ObjCmdBuffer']]],

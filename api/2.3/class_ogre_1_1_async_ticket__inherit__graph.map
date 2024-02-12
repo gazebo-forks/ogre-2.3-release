@@ -1,10 +1,17 @@
 <map id="Ogre::AsyncTicket" name="Ogre::AsyncTicket">
-<area shape="rect" id="node1" title="In Ogre 2.0 data structures, reading data from GPU back to CPU is asynchronous." alt="" coords="168,129,296,155"/>
-<area shape="rect" id="node3" href="$class_ogre_1_1_d3_d11_async_ticket.html" title=" " alt="" coords="350,5,517,31"/>
-<area shape="rect" id="node4" href="$class_ogre_1_1_g_l3_plus_async_ticket.html" title=" " alt="" coords="344,55,523,80"/>
-<area shape="rect" id="node5" href="$class_ogre_1_1_g_l_e_s2_async_ticket.html" title=" " alt="" coords="348,104,519,129"/>
-<area shape="rect" id="node6" href="$class_ogre_1_1_metal_async_ticket.html" title=" " alt="" coords="353,153,513,179"/>
-<area shape="rect" id="node7" href="$class_ogre_1_1_n_u_l_l_async_ticket.html" title=" " alt="" coords="351,203,515,228"/>
-<area shape="rect" id="node8" href="$class_ogre_1_1_vulkan_async_ticket.html" title=" " alt="" coords="349,252,517,277"/>
-<area shape="rect" id="node2" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,129,120,155"/>
+<area shape="rect" id="Node000001" title="In Ogre 2.0 data structures, reading data from GPU back to CPU is asynchronous." alt="" coords="167,129,294,155"/>
+<area shape="rect" id="Node000003" href="$class_ogre_1_1_d3_d11_async_ticket.html" title=" " alt="" coords="348,5,514,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,116,290,77,341,40,365,29,368,34,343,44,293,81,254,119"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1_g_l3_plus_async_ticket.html" title=" " alt="" coords="342,55,520,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,120,341,89,374,78,376,84,343,94,272,125"/>
+<area shape="rect" id="Node000005" href="$class_ogre_1_1_g_l_e_s2_async_ticket.html" title=" " alt="" coords="347,104,516,130"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="309,130,346,125,346,130,310,135"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_metal_async_ticket.html" title=" " alt="" coords="352,153,511,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="310,149,351,154,351,159,309,154"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1_n_u_l_l_async_ticket.html" title=" " alt="" coords="350,203,513,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="273,159,343,189,376,200,375,205,341,194,271,164"/>
+<area shape="rect" id="Node000008" href="$class_ogre_1_1_vulkan_async_ticket.html" title=" " alt="" coords="348,252,515,278"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="255,165,294,203,343,239,368,249,365,254,341,243,290,207,251,169"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,129,119,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,140,166,140,166,145,134,145"/>
 </map>

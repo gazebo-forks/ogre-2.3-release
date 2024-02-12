@@ -1,12 +1,21 @@
 <map id="Ogre::ConstBufferPacked" name="Ogre::ConstBufferPacked">
-<area shape="rect" id="node1" title="Represents constant buffers (also known as Uniform Buffers in GL)" alt="" coords="419,145,587,171"/>
-<area shape="rect" id="node5" href="$class_ogre_1_1_d3_d11_const_buffer_packed.html" title=" " alt="" coords="637,5,843,31"/>
-<area shape="rect" id="node6" href="$class_ogre_1_1_g_l3_plus_const_buffer_packed.html" title=" " alt="" coords="653,55,827,95"/>
-<area shape="rect" id="node7" href="$class_ogre_1_1_g_l_e_s2_const_buffer_packed.html" title=" " alt="" coords="635,120,845,145"/>
-<area shape="rect" id="node8" href="$class_ogre_1_1_metal_const_buffer_packed.html" title=" " alt="" coords="640,169,840,195"/>
-<area shape="rect" id="node9" href="$class_ogre_1_1_n_u_l_l_const_buffer_packed.html" title=" " alt="" coords="638,219,842,244"/>
-<area shape="rect" id="node10" href="$class_ogre_1_1_vulkan_const_buffer_packed.html" title=" " alt="" coords="636,268,844,293"/>
-<area shape="rect" id="node2" href="$class_ogre_1_1_buffer_packed.html" title=" " alt="" coords="236,145,371,171"/>
-<area shape="rect" id="node3" href="$struct_ogre_1_1_gpu_tracked_resource.html" title=" " alt="" coords="5,120,188,145"/>
-<area shape="rect" id="node4" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="32,169,161,195"/>
+<area shape="rect" id="Node000001" title="Represents constant buffers (also known as Uniform Buffers in GL)" alt="" coords="416,145,583,171"/>
+<area shape="rect" id="Node000005" href="$class_ogre_1_1_d3_d11_const_buffer_packed.html" title=" " alt="" coords="633,5,839,31"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="520,132,567,85,597,61,630,41,660,29,662,34,633,46,601,66,571,89,524,136"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_g_l3_plus_const_buffer_packed.html" title=" " alt="" coords="649,55,823,96"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="547,137,630,105,664,94,666,99,632,110,549,142"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1_g_l_e_s2_const_buffer_packed.html" title=" " alt="" coords="631,120,841,146"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="598,145,631,141,631,147,599,150"/>
+<area shape="rect" id="Node000008" href="$class_ogre_1_1_metal_const_buffer_packed.html" title=" " alt="" coords="636,169,836,195"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="599,166,636,169,636,175,598,171"/>
+<area shape="rect" id="Node000009" href="$class_ogre_1_1_n_u_l_l_const_buffer_packed.html" title=" " alt="" coords="634,219,838,244"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="548,175,632,205,672,216,670,221,631,210,546,180"/>
+<area shape="rect" id="Node000010" href="$class_ogre_1_1_vulkan_const_buffer_packed.html" title=" " alt="" coords="632,268,840,294"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="527,180,574,219,633,254,661,265,659,270,630,259,571,223,524,184"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_buffer_packed.html" title=" " alt="" coords="235,145,368,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="384,156,415,156,415,161,384,161"/>
+<area shape="rect" id="Node000003" href="$struct_ogre_1_1_gpu_tracked_resource.html" title=" " alt="" coords="5,120,187,146"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,143,234,147,234,153,201,149"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="32,169,160,195"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="175,170,234,163,235,169,176,176"/>
 </map>

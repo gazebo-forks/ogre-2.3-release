@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['behavor_20of_20stagingtexture_20in_20d3d11_0',['Behavor of StagingTexture in D3D11',['../_behavor_staging_texture_d3_d11.html',1,'manual']]]
+  ['3_0',['What&apos;s new in Ogre 2.3',['../_ogre23_changes.html',1,'manual']]]
 ];

@@ -1,6 +1,9 @@
 <map id="Ogre::D3D11StagingBuffer" name="Ogre::D3D11StagingBuffer">
-<area shape="rect" id="node1" title="NOTE FOR D3D12 PORTING: The GL3Plus implementation should be used as reference, since it is much lowe..." alt="" coords="79,152,253,177"/>
-<area shape="rect" id="node2" href="$class_ogre_1_1_staging_buffer.html" title="A staging buffer is a buffer that resides on the GPU and be written to/from both CPU &amp; GPU However th..." alt="" coords="5,79,140,104"/>
-<area shape="rect" id="node3" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="8,5,137,31"/>
-<area shape="rect" id="node4" href="$class_ogre_1_1_d3_d11_device_resource.html" title="Represents a Direct3D rendering resource." alt="" coords="164,79,355,104"/>
+<area shape="rect" id="Node000001" title="NOTE FOR D3D12 PORTING: The GL3Plus implementation should be used as reference, since it is much lowe..." alt="" coords="78,153,250,178"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_staging_buffer.html" title="A staging buffer is a buffer that resides on the GPU and be written to/from both CPU &amp; GPU However th..." alt="" coords="5,79,139,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,112,150,150,147,154,98,117"/>
+<area shape="rect" id="Node000003" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="8,5,136,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,46,75,79,69,79,69,46"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1_d3_d11_device_resource.html" title="Represents a Direct3D rendering resource." alt="" coords="163,79,352,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="231,117,181,154,178,150,228,112"/>
 </map>

@@ -1,9 +1,15 @@
 <map id="Ogre::ParallaxCorrectedCubemap" name="Ogre::ParallaxCorrectedCubemap">
-<area shape="rect" id="node1" title=" " alt="" coords="315,167,529,192"/>
-<area shape="rect" id="node2" href="$class_ogre_1_1_parallax_corrected_cubemap_base.html" title=" " alt="" coords="85,93,327,119"/>
-<area shape="rect" id="node3" href="$class_ogre_1_1_id_object.html" title=" " alt="" coords="5,13,111,38"/>
-<area shape="rect" id="node4" href="$class_ogre_1_1_render_system_1_1_listener.html" title="Defines a listener on the custom events that this render system can raise." alt="" coords="135,5,277,45"/>
-<area shape="rect" id="node5" href="$class_ogre_1_1_compositor_workspace_listener.html" title=" " alt="" coords="301,5,487,45"/>
-<area shape="rect" id="node6" href="$class_ogre_1_1_frame_listener.html" title="A interface class defining a listener which can be used to receive notifications of frame events." alt="" coords="352,93,492,119"/>
-<area shape="rect" id="node7" href="$class_ogre_1_1_manual_resource_loader.html" title="Interface describing a manual resource loader." alt="" coords="516,93,709,119"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="313,168,525,193"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_parallax_corrected_cubemap_base.html" title=" " alt="" coords="83,94,325,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,122,383,165,381,170,254,127"/>
+<area shape="rect" id="Node000003" href="$class_ogre_1_1_id_object.html" title=" " alt="" coords="5,13,110,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,44,183,91,180,96,92,48"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1_render_system_1_1_listener.html" title="Defines a listener on the custom events that this render system can raise." alt="" coords="134,5,274,46"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="207,62,207,93,202,93,202,62"/>
+<area shape="rect" id="Node000005" href="$class_ogre_1_1_compositor_workspace_listener.html" title=" " alt="" coords="299,5,485,46"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="332,55,234,96,232,91,330,50"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_frame_listener.html" title="A interface class defining a listener which can be used to receive notifications of frame events." alt="" coords="349,94,489,120"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="422,135,422,167,416,167,416,135"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1_manual_resource_loader.html" title="Interface describing a manual resource loader." alt="" coords="512,94,704,120"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="563,128,452,170,450,165,561,123"/>
 </map>

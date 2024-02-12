@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"_ogre_vulkan_utils_8h.html#a32e622e97e3c73068c785dda09562751":[8,0,4,6,0,32,0],
-"_ogre_vulkan_utils_8h.html#a35281bec85547bd26f9ef56c75171459":[8,0,4,6,0,32,5],
 "_ogre_vulkan_utils_8h.html#a439278da9ec600ca236ce06ce5007657":[8,0,4,6,0,32,1],
 "_ogre_vulkan_utils_8h.html#a9b895fae7e7ce5a60cbfe4bdfbe9e634":[8,0,4,6,0,32,7],
 "_ogre_vulkan_utils_8h.html#abdb3f1738cb3647211a3ce693d8fafdd":[8,0,4,6,0,32,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX10 =
 "_using_ogre_in_your_app.html#autotoc_md76":[3,1,1],
 "_vao_2_ogre_g_l3_plus_vertex_array_object_8h.html":[8,0,4,2,0,2,11],
 "_vao_2_ogre_g_l_e_s2_vertex_array_object_8h.html":[8,0,4,3,0,2,8],
-"_w_i_n32_2_ogre_config_dialog_imp_8h.html":[8,0,2,0,15,1]
+"_w_i_n32_2_ogre_config_dialog_imp_8h.html":[8,0,2,0,15,1],
+"_w_i_n32_2_ogre_config_dialog_imp_8h.html#ac7bef5d85e3dcd73eef56ad39ffc84a9":[8,0,2,0,15,1,0],
+"_w_i_n32_2_ogre_error_dialog_imp_8h.html":[8,0,2,0,15,3]
 };

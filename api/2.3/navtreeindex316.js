@@ -1,7 +1,5 @@
 var NAVTREEINDEX316 =
 {
-"class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a28b1ee3a62509c78ab8c6c7a13ad8059":[5,2,10,21,32],
-"class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a3d598f5c8dd22d52ce27fd9e73a7b23a":[5,2,10,21,9],
 "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a43a2a3d014f873b4284b229173d1514e":[5,2,10,21,2],
 "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a4b495397711f2183c49b4900bb425e78":[5,2,10,21,11],
 "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a595ea4c05da8aa987d3800e65d23355d":[5,2,10,21,24],
@@ -240,14 +238,16 @@ var NAVTREEINDEX316 =
 "class_ogre_1_1v1_1_1_edge_list_builder.html#a843c3bb7f3538ec0bcbe6f1adee4304a":[5,2,6,31,3],
 "class_ogre_1_1v1_1_1_edge_list_builder.html#aa24c98d5bbb06b7d673cf5cc870a3d47":[5,2,6,31,2],
 "class_ogre_1_1v1_1_1_edge_list_builder.html#ad319a0ee6ee198f07034055216493b61":[5,2,6,31,5],
-"class_ogre_1_1v1_1_1_entity.html":[5,2,12,62],
 "class_ogre_1_1v1_1_1_entity.html":[5,0,1,62],
+"class_ogre_1_1v1_1_1_entity.html":[5,2,12,62],
 "class_ogre_1_1v1_1_1_entity.html#a015c3801632c98bca5dbb5aa3da1aa24":[5,0,1,62,48],
 "class_ogre_1_1v1_1_1_entity.html#a015c3801632c98bca5dbb5aa3da1aa24":[5,2,12,62,48],
 "class_ogre_1_1v1_1_1_entity.html#a01f48775e48b672d7796311f3ffe2930":[5,0,1,62,51],
 "class_ogre_1_1v1_1_1_entity.html#a01f48775e48b672d7796311f3ffe2930":[5,2,12,62,51],
-"class_ogre_1_1v1_1_1_entity.html#a035e6db8660175cea4be00701697e0e4":[5,0,1,62,146],
 "class_ogre_1_1v1_1_1_entity.html#a035e6db8660175cea4be00701697e0e4":[5,2,12,62,146],
+"class_ogre_1_1v1_1_1_entity.html#a035e6db8660175cea4be00701697e0e4":[5,0,1,62,146],
 "class_ogre_1_1v1_1_1_entity.html#a03a3aebe35b027599a2df5434a8898c4":[5,2,12,62,99],
-"class_ogre_1_1v1_1_1_entity.html#a03a3aebe35b027599a2df5434a8898c4":[5,0,1,62,99]
+"class_ogre_1_1v1_1_1_entity.html#a03a3aebe35b027599a2df5434a8898c4":[5,0,1,62,99],
+"class_ogre_1_1v1_1_1_entity.html#a054616f1324b7f07e92991bfd2695d66":[5,2,12,62,17],
+"class_ogre_1_1v1_1_1_entity.html#a054616f1324b7f07e92991bfd2695d66":[5,0,1,62,17]
 };

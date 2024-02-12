@@ -15,7 +15,7 @@ var searchData=
   ['uniformparameterlist_12',['UniformParameterList',['../group___r_t_shader.html#ga76848ed6c023c3fe0a5e9f25f87b78a8',1,'Ogre::RTShader']]],
   ['uniformparameterptr_13',['UniformParameterPtr',['../namespace_ogre_1_1_r_t_shader.html#ae0e6b89f6ed3986b0a87e2472e3ff7f1',1,'Ogre::RTShader']]],
   ['uniquevertexset_14',['UniqueVertexSet',['../struct_ogre_1_1_lod_data.html#a9e26fcf32eabb9261a14ff8b90cf9d63',1,'Ogre::LodData']]],
-  ['unsafeblockvec_15',['UnsafeBlockVec',['../class_ogre_1_1_vulkan_discard_buffer_manager.html#ab1c67584902d5c96beac8796eeb98c1e',1,'Ogre::VulkanDiscardBufferManager::UnsafeBlockVec()'],['../class_ogre_1_1_metal_discard_buffer_manager.html#a3651ee834a507f877021ffcdebc01734',1,'Ogre::MetalDiscardBufferManager::UnsafeBlockVec()']]],
+  ['unsafeblockvec_15',['unsafeblockvec',['../class_ogre_1_1_vulkan_discard_buffer_manager.html#ab1c67584902d5c96beac8796eeb98c1e',1,'Ogre::VulkanDiscardBufferManager::UnsafeBlockVec'],['../class_ogre_1_1_metal_discard_buffer_manager.html#a3651ee834a507f877021ffcdebc01734',1,'Ogre::MetalDiscardBufferManager::UnsafeBlockVec']]],
   ['unsignedintconstantlist_16',['UnsignedIntConstantList',['../group___materials.html#gab353aaf9b52a6f32e2f81985364b2426',1,'Ogre']]],
   ['unspecified_5fbool_5ftype_17',['unspecified_bool_type',['../class_ogre_1_1_shared_ptr.html#a0d782aa6b8e566367c6178732813fa9f',1,'Ogre::SharedPtr']]],
   ['ushort_18',['ushort',['../namespace_ogre.html#af851e71354d841df7138f9877c6f5931',1,'Ogre']]],

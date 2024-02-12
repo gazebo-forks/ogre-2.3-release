@@ -1,7 +1,11 @@
 <map id="Ogre::VulkanAndroidWindow" name="Ogre::VulkanAndroidWindow">
-<area shape="rect" id="node1" title=" " alt="" coords="16,313,203,339"/>
-<area shape="rect" id="node2" href="$class_ogre_1_1_vulkan_window_swap_chain_based.html" title=" " alt="" coords="5,225,213,265"/>
-<area shape="rect" id="node3" href="$class_ogre_1_1_vulkan_window.html" title=" " alt="" coords="38,152,181,177"/>
-<area shape="rect" id="node4" href="$class_ogre_1_1_window.html" title=" " alt="" coords="58,79,161,104"/>
-<area shape="rect" id="node5" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="52,5,167,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="16,315,202,341"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_vulkan_window_swap_chain_based.html" title=" " alt="" coords="5,226,213,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,283,112,314,106,314,106,283"/>
+<area shape="rect" id="Node000003" href="$class_ogre_1_1_vulkan_window.html" title=" " alt="" coords="38,153,180,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,194,112,226,106,226,106,194"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1_window.html" title=" " alt="" coords="58,79,160,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="112,120,112,152,106,152,106,120"/>
+<area shape="rect" id="Node000005" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="52,5,166,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="112,46,112,79,106,79,106,46"/>
 </map>
