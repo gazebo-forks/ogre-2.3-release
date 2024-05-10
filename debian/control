@@ -1,29 +1,23 @@
 Source: ogre-next-2.3
-Priority: optional
-Section: libs
-Standards-Version: 4.1.4
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Uploaders: Manuel A. Fernandez Montecelo <mafm@debian.org>
-Homepage: http://ogre3d.org/
-Vcs-Browser: https://github.com/gazebo-forks/ogre-2.3-release
-Vcs-Git: https://github.com/gazebo-forks/ogre-2.3-release.git
+Priority: optional
+Section: libs
 Build-Depends: debhelper (>= 11),
-               dpkg-dev (>= 1.16.1~),
-               cmake (>= 3.5.1),
                chrpath,
+               cmake,
                pkg-config,
                libboost-dev,
                libboost-atomic-dev,
                libboost-date-time-dev,
                libboost-thread-dev,
                libcppunit-dev,
-               libegl-dev (>= 1.3.2-1~bpo10+2) | libegl1-mesa-dev,
-               libegl-dev (>= 1.3.2-1~bpo10+2) | libglvnd-dev,
+               libegl-dev,
+               libglu1-mesa-dev,
+               libgl1-mesa-dev,
+               libgles2-mesa-dev,
                libfreeimage-dev,
                libfreetype6-dev,
-               libglu1-mesa-dev | libglu-dev,
-               libgl1-mesa-dev | libgl-dev,
-               libgles2-mesa-dev | libgles2-dev,
                libois-dev [linux-any],
                libpoco-dev,
                libsdl2-dev,
@@ -35,16 +29,20 @@ Build-Depends: debhelper (>= 11),
                libxxf86vm-dev,
                libxaw7-dev,
                libxt-dev,
-               libzzip-dev,
                libz-dev,
+               libzzip-dev,
                rapidjson-dev,
                zlib1g-dev,
                glslang-dev,
                libvulkan-dev,
-               vulkan-validationlayers
+               vulkan-utility-libraries-dev
 Build-Depends-Indep: doxygen,
                      graphviz,
                      texinfo
+Standards-Version: 4.6.0
+Vcs-Browser: https://github.com/gazebo-forks/ogre-2.3-release
+Vcs-Git: https://github.com/gazebo-forks/ogre-2.3-release.git
+Homepage: http://ogre3d.org/
 
 Package: libogre-next-2.3-dev
 Architecture: any
