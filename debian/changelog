@@ -1,3 +1,12 @@
+ogre-next-2.3 (2.3.3+osrf1-1) noble; urgency=medium
+
+  * New upstream version 2.3.3+osrf1
+  * Bump metadata to 2.3.3
+  * Sync d/control with Ubuntu official
+  * Include master branch in gbp conf
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 10 May 2024 16:16:02 +0200
+
 ogre-next-2.3 (2.3.1-9) noble; urgency=medium
 
   * First noble release in master_noble branch
