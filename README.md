@@ -21,7 +21,7 @@ differences have diverged long enough.
 
 | Build | Status (github) |
 |-------|-----------------|
-| MSVC | [![Build status](https://ci.appveyor.com/api/projects/status/github/OGRECave/ogre-next?branch=master&svg=true)](https://ci.appveyor.com/project/MatiasNGoldberg/ogre-next/branch/master)|
+| MSVC | [![Build status](https://ci.appveyor.com/api/projects/status/github/OGRECave/ogre-next?branch=v2-3&svg=true)](https://ci.appveyor.com/project/MatiasNGoldberg/ogre-next/branch/v2-3)|
 
 ## Supported Backends
 
@@ -106,6 +106,7 @@ For a list of samples and their demonstrated features, refer to the [samples sec
 * Git
 * For HW & SW requirements, please visit http://www.ogre3d.org/developers/requirements
 * Our source dependencies are grouped in [ogre-next-deps](https://github.com/OGRECave/ogre-next-deps) repo
+* Python 3.x is needed to build shaderc dependency for Vulkan.
 
 # Dependencies (Windows)
 

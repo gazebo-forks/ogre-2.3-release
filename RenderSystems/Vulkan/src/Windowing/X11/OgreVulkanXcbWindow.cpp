@@ -67,7 +67,7 @@ namespace Ogre
 
     VulkanXcbWindow::VulkanXcbWindow( const String &title, uint32 width, uint32 height,
                                       bool fullscreenMode ) :
-        VulkanWindow( title, width, height, fullscreenMode ),
+        VulkanWindowSwapChainBased( title, width, height, fullscreenMode ),
         mConnection( 0 ),
         mScreen( 0 ),
         mXcbWindow( 0 ),
@@ -127,7 +127,7 @@ namespace Ogre
     //-----------------------------------------------------------------------------------
     void VulkanXcbWindow::destroy( void )
     {
-        VulkanWindow::destroy();
+        VulkanWindowSwapChainBased::destroy();
 
         if( mClosed )
             return;
@@ -254,8 +254,6 @@ namespace Ogre
         {
             mTexture->_setDepthBufferDefaults( DepthBuffer::POOL_NO_DEPTH, false, PFG_NULL );
         }
-
-        mTexture->_transitionTo( GpuResidency::Resident, (uint8 *)0 );
 
         createSwapchain();
     }
@@ -583,7 +581,7 @@ namespace Ogre
         }
         else
         {
-            VulkanWindow::getCustomAttribute( name, pData );
+            VulkanWindowSwapChainBased::getCustomAttribute( name, pData );
         }
     }
 }  // namespace Ogre

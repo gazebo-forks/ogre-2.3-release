@@ -215,6 +215,49 @@ namespace Ogre
         mQueueIdx = queueIdx;
     }
     //-------------------------------------------------------------------------
+    void VulkanQueue::setExternalQueue( VulkanDevice *owner, QueueFamily family, VkQueue queue )
+    {
+        mOwnerDevice = owner;
+        mFamily = family;
+        mQueue = queue;
+        mFamilyIdx = std::numeric_limits<uint32>::max();
+        mQueueIdx = std::numeric_limits<uint32>::max();
+
+        // Find out the family index
+        uint32 familyIdx = 0u;
+        FastArray<VkQueueFamilyProperties>::const_iterator itor = owner->mQueueProps.begin();
+        FastArray<VkQueueFamilyProperties>::const_iterator endt = owner->mQueueProps.end();
+
+        while( itor != endt && mFamilyIdx == std::numeric_limits<uint32>::max() )
+        {
+            if( ( itor->queueFlags & VK_QUEUE_GRAPHICS_BIT && family == Graphics ) ||
+                ( itor->queueFlags & VK_QUEUE_COMPUTE_BIT && family == Compute ) )
+            {
+                const uint32 queueCount = itor->queueCount;
+                for( uint32_t i = 0u; i < queueCount && mFamilyIdx == std::numeric_limits<uint32>::max();
+                     ++i )
+                {
+                    VkQueue tmpQueue = 0;
+                    vkGetDeviceQueue( owner->mDevice, familyIdx, i, &tmpQueue );
+                    if( tmpQueue == queue )
+                    {
+                        mFamilyIdx = familyIdx;
+                        mQueueIdx = i;
+                    }
+                }
+            }
+            ++familyIdx;
+            ++itor;
+        }
+
+        if( mFamilyIdx == std::numeric_limits<uint32>::max() )
+        {
+            OGRE_EXCEPT( Exception::ERR_INVALIDPARAMS,
+                         "Externally provided VkQueue: Could not find its Family Index",
+                         "VulkanQueue::setExternalQueue" );
+        }
+    }
+    //-------------------------------------------------------------------------
     void VulkanQueue::init( VkDevice device, VkQueue queue, VulkanRenderSystem *renderSystem )
     {
         mDevice = device;
@@ -701,7 +744,6 @@ namespace Ogre
 
                     if( texture->isRenderToTexture() )
                     {
-                        texAccessFlags |= VK_ACCESS_COLOR_ATTACHMENT_WRITE_BIT;
                         if( !PixelFormatGpuUtils::isDepth( texture->getPixelFormat() ) )
                         {
                             texAccessFlags |= VK_ACCESS_COLOR_ATTACHMENT_WRITE_BIT;
@@ -1009,10 +1051,14 @@ namespace Ogre
         if( mEncoderState == EncoderCopyOpen )
         {
             bool needsToFlush = false;
+            bool mustRemoveFromBarrier = false;
             TextureGpuDownloadMap::const_iterator itor = mCopyDownloadTextures.find( texture );
 
             if( itor != mCopyDownloadTextures.end() )
+            {
                 needsToFlush = true;
+                mustRemoveFromBarrier = true;
+            }
             else
             {
                 FastArray<TextureGpu *>::const_iterator it2 =
@@ -1030,6 +1076,14 @@ namespace Ogre
                 OGRE_ASSERT_LOW( texture->mCurrLayout == VK_IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL ||
                                  texture->mCurrLayout == VK_IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL );
                 endCopyEncoder();
+
+                if( mustRemoveFromBarrier )
+                {
+                    // endCopyEncoder() just called solver.assumeTransition() on this texture
+                    // but we're destroying the texture. Remove the dangling pointer.
+                    BarrierSolver &solver = mRenderSystem->getBarrierSolver();
+                    solver.textureDeleted( texture );
+                }
             }
         }
     }
