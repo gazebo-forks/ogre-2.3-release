@@ -48,7 +48,7 @@ Package: libogre-next-2.3-dev
 Architecture: any
 Section: libdevel
 Depends: ${misc:Depends},
-         libogre-next-2.3.0 (= ${binary:Version}),
+         libogre-next-2.3.3 (= ${binary:Version}),
          libboost-dev,
          libboost-thread-dev
 Suggests: ogre-next-2.3-doc
@@ -62,7 +62,7 @@ Description: 3D Object-Oriented Graphics Rendering Engine (development files)
  .
  This package contains the headers needed to develop with OGRE.
 
-Package: libogre-next-2.3.0
+Package: libogre-next-2.3.3
 Architecture: any
 Multi-Arch: same
 Depends: ${shlibs:Depends},
