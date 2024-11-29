@@ -162,9 +162,10 @@ namespace Ogre
         {
             mTemplatesOutOfDate = true;
             LogManager::getSingleton().logMessage(
-                        "INFO: The cached Hlms is for shader profile in '" + mShaderProfile +
-                        "' but it does not match the current one '" + hlms->getShaderProfile() +
-                        "'. This increases loading times." );
+                "INFO: The cached Hlms is for shader profile in '" + mShaderProfile +
+                "' but it does not match the current one '" + hlms->getShaderProfile() +
+                "'. HlmsDiskCache won't be applied." );
+            return;
         }
 
         {
