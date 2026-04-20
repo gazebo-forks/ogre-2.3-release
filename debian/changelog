@@ -2,38 +2,12 @@ ogre-next-2.3 (2.3.3+osrf1-3) resolute; urgency=medium
 
   * New upstream version 2.3.3
 
- -- Jose Luis Rivero <jrivero@honurobotics.com>  Tue, 05 May 2026 13:17:38 +0200
+ -- Jose Luis Rivero <jrivero@honurobotics.com>  Tue, 05 May 2026 13:17:38 +020
 
-ogre-next-2.3 (2.3.3+osrf1-2) resolute; urgency=medium
+ogre-next-2.3 (2.3.1-9) resolute; urgency=medium
 
-  * First Resolute release in master_resolute branch
-  * Set debian branch to master_resolute
+  * First Resolute release in master_resolute_2.3.1 branch
+  * Set debian branch to master_resolute_2.3.1
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 20 Apr 2026 17:53:57 +0200
 
-ogre-next-2.3 (2.3.3+osrf1-1) noble; urgency=medium
-
-  * New upstream version 2.3.3+osrf1
-  * Bump metadata to 2.3.3
-  * Sync d/control with Ubuntu official
-  * Include master branch in gbp conf
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 10 May 2024 16:16:02 +0200
-
-ogre-next-2.3 (2.3.1-9) noble; urgency=medium
-
-  * First noble release in master_noble branch
-  * Rename vulkan-validationlayers-dev to just vulkan-validationlayers
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 12 Sep 2023 21:01:21 +0200
-
-ogre-next-2.3 (2.3.1-9) jammy; urgency=medium
-
-  [ Jose Luis Rivero ]
-  * Fix vulkan compilation on Ubuntu Jammy armhf
-  * Add minimal DEP-3 information
-
-  [ Silvio Traversaro ]
-  * Backport fix for GPU on WSL
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 12 Sep 2023 21:01:21 +0200
