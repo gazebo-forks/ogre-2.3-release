@@ -1,3 +1,10 @@
+ogre-next-2.3 (2.3.1-9) resolute; urgency=medium
+
+  * First Resolute release in master_resolute_2.3.1 branch
+  * Set debian branch to master_resolute_2.3.1
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 20 Apr 2026 17:53:57 +0200
+
 ogre-next-2.3 (2.3.1-9) noble; urgency=medium
 
   * First noble release in master_noble branch
@@ -15,4 +22,3 @@ ogre-next-2.3 (2.3.1-9) jammy; urgency=medium
   * Backport fix for GPU on WSL
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 12 Sep 2023 21:01:21 +0200
-
