@@ -1,3 +1,9 @@
+ogre-next-2.3 (2.3.1-10) resolute; urgency=medium
+
+  * Add DEP-3 patch to make STLAllocator constexpr for C++20 builds.
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 22 Apr 2026 16:05:24 +0200
+
 ogre-next-2.3 (2.3.1-9) resolute; urgency=medium
 
   * First Resolute release in master_resolute_2.3.1 branch
