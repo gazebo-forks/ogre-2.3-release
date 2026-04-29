@@ -10,3 +10,4 @@ vulkan_needs_glslang_spirv.diff
 vulkan-fix-cast.patch
 fix-gpu-in-wsl.patch
 cxx20-constexpr-stlallocator.patch
+stbi-codec-fixes.patch
