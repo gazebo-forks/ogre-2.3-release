@@ -404,6 +404,8 @@ namespace Ogre
         if( !bDeviceStall )
             waitForTailFrameToFinish();
 
+        const VkMemoryType *memTypes = mDevice->mDeviceMemoryProperties.memoryTypes;
+
         set<VboIndex>::type::iterator itor = mEmptyVboPools.begin();
         set<VboIndex>::type::iterator endt = mEmptyVboPools.end();
 
@@ -415,6 +417,10 @@ namespace Ogre
 
             if( ( mFrameCount - vbo.emptyFrame ) >= mDynamicBufferMultiplier || bDeviceStall )
             {
+                OGRE_ASSERT_LOW( mUsedHeapMemory[memTypes[vbo.vkMemoryTypeIdx].heapIndex] >=
+                                 vbo.sizeBytes );
+                mUsedHeapMemory[memTypes[vbo.vkMemoryTypeIdx].heapIndex] -= vbo.sizeBytes;
+
                 vkDestroyBuffer( mDevice->mDevice, vbo.vkBuffer, 0 );
                 vkFreeMemory( mDevice->mDevice, vbo.vboName, 0 );
 
@@ -976,9 +982,8 @@ namespace Ogre
                         {
                             // Found one!
                             size_t defaultPoolSize =
-                                std::min( mDefaultPoolSize[vboFlag],
-                                          memHeaps[memTypes[*itMemTypeIdx].heapIndex].size -
-                                              mUsedHeapMemory[heapIdx] );
+                                std::min( (VkDeviceSize)mDefaultPoolSize[vboFlag],
+                                          memHeaps[heapIdx].size - mUsedHeapMemory[heapIdx] );
                             poolSize = std::max( defaultPoolSize, sizeBytes );
                             break;
                         }
@@ -1004,14 +1009,13 @@ namespace Ogre
                             {
                                 // We didn't try this memory type. Let's check if we can use it
                                 // TODO: See comment above about memHeaps[heapIdx].size
-                                const size_t heapIdx = memTypes[memTypes[i].heapIndex].heapIndex;
+                                const size_t heapIdx = memTypes[i].heapIndex;
                                 if( mUsedHeapMemory[heapIdx] + poolSize < memHeaps[heapIdx].size )
                                 {
                                     // Found one!
                                     size_t defaultPoolSize =
-                                        std::min( mDefaultPoolSize[vboFlag],
-                                                  memHeaps[memTypes[heapIdx].heapIndex].size -
-                                                      mUsedHeapMemory[heapIdx] );
+                                        std::min( (VkDeviceSize)mDefaultPoolSize[vboFlag],
+                                                  memHeaps[heapIdx].size - mUsedHeapMemory[heapIdx] );
                                     chosenMemoryTypeIdx = static_cast<uint32>( i );
                                     poolSize = std::max( defaultPoolSize, sizeBytes );
                                     break;
