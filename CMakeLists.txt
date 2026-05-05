@@ -46,8 +46,22 @@ if (APPLE AND NOT ANDROID)
   set(CMAKE_XCODE_ATTRIBUTE_GCC_VERSION "com.apple.compilers.llvm.clang.1_0")
   set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LANGUAGE_STANDARD "c++11")
   set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LIBRARY "libc++")
+  set(CMAKE_XCODE_ATTRIBUTE_USE_HEADERMAP NO)
 endif ()
 
+# This option needs to be set now
+# OgreAddTargets and OgreConfigTargets make use of OGRE_NEXT and OGRE_NEXT_PREFIX
+option(OGRE_USE_NEW_PROJECT_NAME
+	"Libraries containing Ogre name will be called OgreNext, e.g. 'OgreNext.dll' instead of 'Ogre.dll'"
+	FALSE)
+
+if( OGRE_USE_NEW_PROJECT_NAME )
+	set( OGRE_NEXT "OgreNext" )
+  set( OGRE_NEXT_PREFIX "OGRE-Next")
+else()
+	set( OGRE_NEXT "Ogre" )
+  set( OGRE_NEXT_PREFIX "OGRE" )
+endif()
 
 project(OGRE)
 
@@ -252,11 +266,15 @@ endif (APPLE AND OGRE_BUILD_RENDERSYSTEM_METAL)
 # Find dependencies
 include(Dependencies)
 # definitions for samples
-set(OGRE_LIBRARIES OgreMain)
-set(OGRE_MeshLodGenerator_LIBRARIES OgreMeshLodGenerator)
-set(OGRE_Paging_LIBRARIES OgrePaging)
-set(OGRE_Terrain_LIBRARIES OgreTerrain)
-set(OGRE_Volume_LIBRARIES OgreVolume)
+set(OGRE_LIBRARIES ${OGRE_NEXT}Main)
+set(OGRE_MeshLodGenerator_LIBRARIES ${OGRE_NEXT}MeshLodGenerator)
+set(OGRE_Paging_LIBRARIES ${OGRE_NEXT}Paging)
+set(OGRE_Terrain_LIBRARIES ${OGRE_NEXT}Terrain)
+set(OGRE_Volume_LIBRARIES ${OGRE_NEXT}Volume)
+
+if( OGRE_STATIC AND UNIX AND NOT OGRE_CONFIG_UNIX_NO_X11 )
+	set( OGRE_LIBRARIES ${OGRE_LIBRARIES} xcb xcb-randr )
+endif()
 
 # Specify build paths
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${OGRE_BINARY_DIR}/lib")

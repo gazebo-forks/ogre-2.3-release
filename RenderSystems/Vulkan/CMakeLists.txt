@@ -35,7 +35,7 @@ include_directories(
 include_directories( ${Vulkan_INCLUDE_DIRS} )
 
 ogre_add_library(RenderSystem_Vulkan ${OGRE_LIB_TYPE} ${HEADER_FILES} ${SOURCE_FILES})
-target_link_libraries(RenderSystem_Vulkan OgreMain ${Vulkan_LIBRARIES})
+target_link_libraries(RenderSystem_Vulkan ${OGRE_NEXT}Main ${Vulkan_LIBRARIES})
 
 if( OGRE_VULKAN_WINDOW_XCB )
 	target_link_libraries(RenderSystem_Vulkan xcb-randr X11-xcb)
@@ -48,6 +48,6 @@ endif ()
 ogre_config_framework(RenderSystem_Vulkan)
 
 ogre_config_plugin(RenderSystem_Vulkan)
-install(FILES ${HEADER_FILES} DESTINATION include/OGRE/RenderSystems/Vulkan)
-install(FILES ${PLATFORM_HEADERS} DESTINATION include/OGRE/RenderSystems/Vulkan/${PLATFORM_HEADER_INSTALL})
-install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include DESTINATION include/OGRE/RenderSystems/Vulkan)
+install(FILES ${HEADER_FILES} DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/Vulkan)
+install(FILES ${PLATFORM_HEADERS} DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/Vulkan/${PLATFORM_HEADER_INSTALL})
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/Vulkan)
