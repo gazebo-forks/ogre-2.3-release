@@ -1,5 +1,7 @@
 ogre-next-2.3 (2.3.3+osrf1-3) resolute; urgency=medium
 
+  * Forced OGRE DEBUG to be off
+  * debian: add DEP-3 STLAllocator patch
   * New upstream version 2.3.3
 
  -- Jose Luis Rivero <jrivero@honurobotics.com>  Tue, 05 May 2026 13:17:38 +020
