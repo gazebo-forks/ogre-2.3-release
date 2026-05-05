@@ -52,10 +52,12 @@ namespace Ogre
 
         virtual void setConfigOption( const String &name, const String &value );
 
+        virtual IdString getInterfaceName() const;
+        virtual String getInterfaceNameStr() const;
+
     private:
         // Allowed video modes
         FastArray<DEVMODE> mDevModes;
-        vector<int>::type mFSAALevels;
 
         void refreshConfig();
     };

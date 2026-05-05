@@ -17,7 +17,7 @@ include_directories(
 )
 
 ogre_add_library(RenderSystem_NULL ${OGRE_LIB_TYPE} ${HEADER_FILES} ${SOURCE_FILES})
-target_link_libraries(RenderSystem_NULL OgreMain)
+target_link_libraries(RenderSystem_NULL ${OGRE_NEXT}Main)
 
 if (OGRE_CONFIG_THREADS)
   target_link_libraries(RenderSystem_NULL ${OGRE_THREAD_LIBRARIES})
@@ -26,6 +26,6 @@ endif ()
 ogre_config_framework(RenderSystem_NULL)
 
 ogre_config_plugin(RenderSystem_NULL)
-install(FILES ${HEADER_FILES} DESTINATION include/OGRE/RenderSystems/NULL)
-install(FILES ${PLATFORM_HEADERS} DESTINATION include/OGRE/RenderSystems/NULL/${PLATFORM_HEADER_INSTALL})
-install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include DESTINATION include/OGRE/RenderSystems/NULL)
+install(FILES ${HEADER_FILES} DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/NULL)
+install(FILES ${PLATFORM_HEADERS} DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/NULL/${PLATFORM_HEADER_INSTALL})
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/NULL)

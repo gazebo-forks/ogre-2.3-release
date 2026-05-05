@@ -50,7 +50,7 @@ namespace Ogre
 {
     VulkanAndroidWindow::VulkanAndroidWindow( const String &title, uint32 width, uint32 height,
                                               bool fullscreenMode ) :
-        VulkanWindow( title, width, height, fullscreenMode ),
+        VulkanWindowSwapChainBased( title, width, height, fullscreenMode ),
         mNativeWindow( 0 ),
         mVisible( true ),
         mHidden( false ),
@@ -90,7 +90,7 @@ namespace Ogre
     //-----------------------------------------------------------------------------------
     void VulkanAndroidWindow::destroy( void )
     {
-        VulkanWindow::destroy();
+        VulkanWindowSwapChainBased::destroy();
 
         if( mClosed )
             return;
@@ -275,8 +275,6 @@ namespace Ogre
             {
                 mTexture->_setDepthBufferDefaults( DepthBuffer::POOL_NO_DEPTH, false, PFG_NULL );
             }
-
-            mTexture->_transitionTo( GpuResidency::Resident, (uint8 *)0 );
         }
 
         createSwapchain();
@@ -291,7 +289,7 @@ namespace Ogre
         }
         else
         {
-            VulkanWindow::getCustomAttribute( name, pData );
+            VulkanWindowSwapChainBased::getCustomAttribute( name, pData );
         }
     }
 }  // namespace Ogre

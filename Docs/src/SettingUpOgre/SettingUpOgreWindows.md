@@ -14,6 +14,7 @@
     * Windows 7 or higher is highly recommended. For Windows Vista & 7, you need to have the
       [KB2670838 update](https://support.microsoft.com/en-us/kb/2670838) installed.
       **YOUR END USERS NEED THIS UPDATE AS WELL**.
+    * Python 3.x is needed to build shaderc dependency for Vulkan.
     * For HW & SW requirements, please visit http://www.ogre3d.org/developers/requirements
 
 @copydoc DownloadingOgreScriptsCommon
@@ -79,7 +80,7 @@ Don't worry, those CMake configs are about the *old threading* model. For more i
 
 # Automatic download & build scripts
 
-We easy-to-use scripts that will download and setup all dependencies for you in a self-contained folder
+We provide easy-to-use scripts that will download and setup all dependencies for you in a self-contained folder
 Download build_ogre_scripts for the branch you need from:
 
 https://www.ogre3d.org/download/sdk/sdk-ogre-next
@@ -91,7 +92,7 @@ https://www.ogre3d.org/download/sdk/sdk-ogre-next
 @{
 Most dependencies are conveniently stored in its own repository called "ogredeps" for you to download.
 
-**IMPORTANT:** Do NOT use the the "Download" feature from Bitbucket. It will not follow subrepositories.
+**IMPORTANT:** Do NOT use the the "Download" feature from Github. It will not follow subrepositories.
 
 **Command line**:
 ```sh

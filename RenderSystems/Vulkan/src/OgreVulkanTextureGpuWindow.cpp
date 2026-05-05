@@ -47,7 +47,7 @@ namespace Ogre
     VulkanTextureGpuWindow::VulkanTextureGpuWindow(
         GpuPageOutStrategy::GpuPageOutStrategy pageOutStrategy, VaoManager *vaoManager, IdString name,
         uint32 textureFlags, TextureTypes::TextureTypes initialType, TextureGpuManager *textureManager,
-        VulkanWindow *window ) :
+        VulkanWindowSwapChainBased *window ) :
         VulkanTextureGpuRenderTarget( pageOutStrategy, vaoManager, name, textureFlags, initialType,
                                       textureManager ),
         mWindow( window ),
@@ -113,8 +113,6 @@ namespace Ogre
         if( name == "Window" )
             *static_cast<Window **>( pData ) = mWindow;
     }
-    //-----------------------------------------------------------------------------------
-    bool VulkanTextureGpuWindow::isOpenGLRenderWindow( void ) const { return true; }
     //-----------------------------------------------------------------------------------
     void VulkanTextureGpuWindow::_setToDisplayDummyTexture( void ) {}
     //-----------------------------------------------------------------------------------

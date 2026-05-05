@@ -24,9 +24,9 @@ include_directories(
 
 ogre_add_library(RenderSystem_Metal ${OGRE_LIB_TYPE} ${HEADER_FILES} ${SOURCE_FILES})
 if (OGRE_BUILD_PLATFORM_APPLE_IOS)
-target_link_libraries(RenderSystem_Metal OgreMain "-framework Metal" "-framework QuartzCore")
+target_link_libraries(RenderSystem_Metal ${OGRE_NEXT}Main "-framework Metal" "-framework QuartzCore")
 else()
-target_link_libraries(RenderSystem_Metal OgreMain "-framework Metal" "-framework AppKit" "-framework QuartzCore")
+target_link_libraries(RenderSystem_Metal ${OGRE_NEXT}Main "-framework Metal" "-framework AppKit" "-framework QuartzCore")
 endif()
 
 target_compile_options(RenderSystem_Metal PRIVATE "-fobjc-arc")
@@ -39,6 +39,6 @@ endif ()
 ogre_config_framework(RenderSystem_Metal)
 
 ogre_config_plugin(RenderSystem_Metal)
-install(FILES ${HEADER_FILES} DESTINATION include/OGRE/RenderSystems/Metal)
-install(FILES ${PLATFORM_HEADERS} DESTINATION include/OGRE/RenderSystems/Metal/${PLATFORM_HEADER_INSTALL})
-install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include DESTINATION include/OGRE/RenderSystems/Metal)
+install(FILES ${HEADER_FILES} DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/Metal)
+install(FILES ${PLATFORM_HEADERS} DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/Metal/${PLATFORM_HEADER_INSTALL})
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include DESTINATION include/${OGRE_NEXT_PREFIX}/RenderSystems/Metal)
