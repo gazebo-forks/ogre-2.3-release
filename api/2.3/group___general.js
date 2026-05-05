@@ -60,7 +60,7 @@ var group___general =
       [ "reset", "class_ogre_1_1_any.html#a222ee6835ca577d5984049d0b1176505", null ],
       [ "swap", "class_ogre_1_1_any.html#a6966abacf1848ea305390cfcfaeb5586", null ],
       [ "type", "class_ogre_1_1_any.html#ab0c58b9a5837415a9a463406fd87364f", null ],
-      [ "any_cast", "class_ogre_1_1_any.html#a1d1a2830fe7ab3bdebc8fd1c7e53560f", null ],
+      [ "any_cast", "class_ogre_1_1_any.html#aab5c5bda14d771914149eb1816562b8a", null ],
       [ "operator<<", "class_ogre_1_1_any.html#a87506f2c7b90ce5bd6e0d87b2e28b9df", null ]
     ] ],
     [ "Ogre::AnyNumeric", "class_ogre_1_1_any_numeric.html", [
@@ -184,9 +184,9 @@ var group___general =
         [ "operator new[]", "class_ogre_1_1_codec_1_1_codec_data.html#adce32528577d71b228692df906ecd17c", null ],
         [ "operator new[]", "class_ogre_1_1_codec_1_1_codec_data.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
       ] ],
-      [ "CodecDataPtr", "class_ogre_1_1_codec.html#a29e31ad112b08ea7fb648b63f426ff1f", null ],
-      [ "CodecIterator", "class_ogre_1_1_codec.html#a21f4b8a16d070793d576f827c9fee218", null ],
-      [ "DecodeResult", "class_ogre_1_1_codec.html#a8cc81c85bd7d4e25393aa153c5e01454", null ],
+      [ "CodecDataPtr", "class_ogre_1_1_codec.html#a00c6f94e9d2392aaff52f8e23d199b51", null ],
+      [ "CodecIterator", "class_ogre_1_1_codec.html#a58dc852023813264e3adb4e91201d52c", null ],
+      [ "DecodeResult", "class_ogre_1_1_codec.html#a119fe09a28c80877a9f9da55b5d1eb56", null ],
       [ "~Codec", "class_ogre_1_1_codec.html#aee7d2a1126a22bbf3da40088495cb00b", null ],
       [ "decode", "class_ogre_1_1_codec.html#a63f306b8171a0ea5cf319824044958e4", null ],
       [ "encode", "class_ogre_1_1_codec.html#ac2d5b19075d7c38a0e7c351838242bff", null ],
@@ -429,8 +429,8 @@ var group___general =
       [ "SafeBoolHelper", "struct_ogre_1_1_com_ptr_1_1_safe_bool_helper.html", [
         [ "member", "struct_ogre_1_1_com_ptr_1_1_safe_bool_helper.html#a6cccff8074f72e8b40cbbcc9c324010d", null ]
       ] ],
-      [ "SafeBoolType", "class_ogre_1_1_com_ptr.html#a1cb5413c581370dfaf0dde6313d7ef40", null ],
-      [ "Type", "class_ogre_1_1_com_ptr.html#acea4812003c2493f333bd710a077a32a", null ],
+      [ "SafeBoolType", "class_ogre_1_1_com_ptr.html#aba66b960bedf374634f21f142431d00c", null ],
+      [ "Type", "class_ogre_1_1_com_ptr.html#ab825674f490fe9474917f7c32e63b7fe", null ],
       [ "ComPtr", "class_ogre_1_1_com_ptr.html#ab66cb01a9d6afcad5b0111480d33b701", null ],
       [ "ComPtr", "class_ogre_1_1_com_ptr.html#a81d9482c2f0db380fd2f00bbaef2c97d", null ],
       [ "ComPtr", "class_ogre_1_1_com_ptr.html#a68febc3fda729e37504598546ccdc76f", null ],
@@ -520,10 +520,10 @@ var group___general =
       [ "run", "class_ogre_1_1_config_dialog.html#aafd08070efcdb79e02065f3182b64e3c", null ]
     ] ],
     [ "Ogre::ConfigFile", "class_ogre_1_1_config_file.html", [
-      [ "SectionIterator", "class_ogre_1_1_config_file.html#aa0167bf5f0a33e109d2de01a6a14f2f0", null ],
-      [ "SettingsBySection", "class_ogre_1_1_config_file.html#a42170ea1bba5c3f5591c7fe87746e479", null ],
-      [ "SettingsIterator", "class_ogre_1_1_config_file.html#adf764e20ebcf5c52d0ea887b1468a283", null ],
-      [ "SettingsMultiMap", "class_ogre_1_1_config_file.html#a1f7ee36885fdf936056ff773500cdff6", null ],
+      [ "SectionIterator", "class_ogre_1_1_config_file.html#abadac1f8e7a115ae777aff915d00c949", null ],
+      [ "SettingsBySection", "class_ogre_1_1_config_file.html#a4f9a96f66c87b0a0638a55355da31c11", null ],
+      [ "SettingsIterator", "class_ogre_1_1_config_file.html#a6105a5709c33af54b991490159fb7cd3", null ],
+      [ "SettingsMultiMap", "class_ogre_1_1_config_file.html#a40108e902c195b71211d81d0f967b6ee", null ],
       [ "ConfigFile", "class_ogre_1_1_config_file.html#ae9cea1fe4ad70279841635eb892ba514", null ],
       [ "~ConfigFile", "class_ogre_1_1_config_file.html#aeb74fca345254b1701f509d3b0e77694", null ],
       [ "clear", "class_ogre_1_1_config_file.html#a210c66181466a969725d196d09880fc7", null ],
@@ -691,7 +691,7 @@ var group___general =
       [ "mType", "class_ogre_1_1_create_particle_system_script_compiler_event.html#ae83d6b4f8c27207b09f2bae4e7c51ce6", null ]
     ] ],
     [ "Ogre::DefaultWorkQueueBase", "class_ogre_1_1_default_work_queue_base.html", [
-      [ "RequestID", "class_ogre_1_1_default_work_queue_base.html#a1908257e726af6caa80f1a6cd5682d76", null ],
+      [ "RequestID", "class_ogre_1_1_default_work_queue_base.html#a0bdef005c63c8af1c3ded55f04c38ae1", null ],
       [ "DefaultWorkQueueBase", "class_ogre_1_1_default_work_queue_base.html#ad8c782f13059f74607be6c01df9d10be", null ],
       [ "~DefaultWorkQueueBase", "class_ogre_1_1_default_work_queue_base.html#a2e286e7a9a4d6b0818127510e98f0cc4", null ],
       [ "_processNextRequest", "class_ogre_1_1_default_work_queue_base.html#af981193d550a56ea146f7b3f544f1013", null ],
@@ -938,17 +938,17 @@ var group___general =
       [ "translateProgramParameters", "class_ogre_1_1_gpu_program_translator.html#a571cfeb6714865e07c224b904ebc9cd1", null ]
     ] ],
     [ "Ogre::HashedVector< T >", "class_ogre_1_1_hashed_vector.html", [
-      [ "const_iterator", "class_ogre_1_1_hashed_vector.html#aba664c4d307e5dd9ac7ba03252fbe167", null ],
-      [ "const_reference", "class_ogre_1_1_hashed_vector.html#aa0b7d89231b3ebf5944562ef7db7d83b", null ],
-      [ "const_reverse_iterator", "class_ogre_1_1_hashed_vector.html#a89ddf073b6f26e4ef2f035ae134a4792", null ],
-      [ "difference_type", "class_ogre_1_1_hashed_vector.html#a576ba91ab5ef4d1623fb71d1925518b4", null ],
-      [ "iterator", "class_ogre_1_1_hashed_vector.html#a9e1f2a609eb5a7be9cc3d51b49f755df", null ],
-      [ "pointer", "class_ogre_1_1_hashed_vector.html#ace139bbc4ce2c45d0102edea246468a4", null ],
-      [ "reference", "class_ogre_1_1_hashed_vector.html#a3ad011d104e03019a4e9b9840439ef17", null ],
-      [ "reverse_iterator", "class_ogre_1_1_hashed_vector.html#a96a361e91069936d53fb954b07acf424", null ],
-      [ "size_type", "class_ogre_1_1_hashed_vector.html#af0b04cbf9823c57128855d112f3581e4", null ],
-      [ "value_type", "class_ogre_1_1_hashed_vector.html#a3f4e73221e49df80e2ec1c531fe6916d", null ],
-      [ "VectorImpl", "class_ogre_1_1_hashed_vector.html#a424ccf9cdafb55c00df022b9d8460750", null ],
+      [ "const_iterator", "class_ogre_1_1_hashed_vector.html#a9165c72e949d73676173109bfc6f81d3", null ],
+      [ "const_reference", "class_ogre_1_1_hashed_vector.html#add488c0f76612609328cf0da36452a2b", null ],
+      [ "const_reverse_iterator", "class_ogre_1_1_hashed_vector.html#a83311a5324db4798bdb78a162b05571d", null ],
+      [ "difference_type", "class_ogre_1_1_hashed_vector.html#ac6fd9457ddd1ed5c2d5b2c3fd7cc186a", null ],
+      [ "iterator", "class_ogre_1_1_hashed_vector.html#a7a566a4e7303df373b964d3b1a78cc81", null ],
+      [ "pointer", "class_ogre_1_1_hashed_vector.html#a80ac6c036dfdb215e60434330242c0d9", null ],
+      [ "reference", "class_ogre_1_1_hashed_vector.html#af8e9b3892f6202bfa5629c5f8c67a2cd", null ],
+      [ "reverse_iterator", "class_ogre_1_1_hashed_vector.html#af512f7b66bd1d1af670f2a67bafaad41", null ],
+      [ "size_type", "class_ogre_1_1_hashed_vector.html#aaeaaecb67def826430da2403afef60f0", null ],
+      [ "value_type", "class_ogre_1_1_hashed_vector.html#a8f5b7999d2d6251d6be6d34f195c0817", null ],
+      [ "VectorImpl", "class_ogre_1_1_hashed_vector.html#ab762490efed0bb6903aed03326b294c0", null ],
       [ "HashedVector", "class_ogre_1_1_hashed_vector.html#a872c867036dd05bd1d85ad690a355396", null ],
       [ "HashedVector", "class_ogre_1_1_hashed_vector.html#aa48ea0c4375e6d83e286824e891603c4", null ],
       [ "HashedVector", "class_ogre_1_1_hashed_vector.html#a9700cee4608a9bd76c872c156fb06ba6", null ],
@@ -1512,8 +1512,8 @@ var group___general =
       [ "totalTimePercent", "struct_ogre_1_1_profile_history.html#aa867c70fb3bb7c845b68a4379c5f3e22", null ]
     ] ],
     [ "Ogre::ProfileInstance", "class_ogre_1_1_profile_instance.html", [
-      [ "ProfileChildrenMap", "class_ogre_1_1_profile_instance.html#a57bcfc956ed84e6e4a85bf485a98d7c3", null ],
-      [ "ProfileChildrenVec", "class_ogre_1_1_profile_instance.html#a0d07b5ee2f25241fed784e92accd86c1", null ],
+      [ "ProfileChildrenMap", "class_ogre_1_1_profile_instance.html#a933d748db85a13deb285dcd8be2e7289", null ],
+      [ "ProfileChildrenVec", "class_ogre_1_1_profile_instance.html#a8e73112846312fb5b82d689adc293ac1", null ],
       [ "ProfileInstance", "class_ogre_1_1_profile_instance.html#a4921211276e29e72155077235687cf54", null ],
       [ "~ProfileInstance", "class_ogre_1_1_profile_instance.html#af16b392bd516cb3acacc99d598d0ad39", null ],
       [ "destroyAllChildren", "class_ogre_1_1_profile_instance.html#a41f4675a0f1e9bebe386851423f2e682", null ],
@@ -1629,7 +1629,7 @@ var group___general =
       [ "values", "class_ogre_1_1_property_abstract_node.html#aaedb640096a77b579a255b4dfc1c0dab", null ]
     ] ],
     [ "Ogre::RadixSort< TContainer, TContainerValueType, TCompValueType >", "class_ogre_1_1_radix_sort.html", [
-      [ "ContainerIter", "class_ogre_1_1_radix_sort.html#ae6832006de9925d59d8795d4f708f08f", null ],
+      [ "ContainerIter", "class_ogre_1_1_radix_sort.html#a3a83d89579586d8ed86f8321342c33be", null ],
       [ "RadixSort", "class_ogre_1_1_radix_sort.html#a2c982200600a22b21906e3f43a0a962d", null ],
       [ "~RadixSort", "class_ogre_1_1_radix_sort.html#a8f49cae4360e7c83b6ca7cf5714db761", null ],
       [ "sort", "class_ogre_1_1_radix_sort.html#a4fc283b678dfda772eb6600436d97579", null ]
@@ -1668,9 +1668,9 @@ var group___general =
       [ "mVertexCount", "struct_ogre_1_1_rendering_metrics.html#aec6cb495fca1733334602271d043cfff", null ]
     ] ],
     [ "Ogre::Root", "class_ogre_1_1_root.html", [
-      [ "MovableObjectFactoryIterator", "class_ogre_1_1_root.html#a724ee7dcbdb7b8052420df2fecd07c0d", null ],
-      [ "PluginInstanceList", "class_ogre_1_1_root.html#a5483dc1f87b9861cae629b5aba6a6071", null ],
-      [ "PluginLibList", "class_ogre_1_1_root.html#a4f51fe7c71b67eb166e0c34891611f65", null ],
+      [ "MovableObjectFactoryIterator", "class_ogre_1_1_root.html#a1d4436f211080a71ef1072ee05a9b348", null ],
+      [ "PluginInstanceList", "class_ogre_1_1_root.html#a01d8877cb10ae89d0aae4d062077a0b0", null ],
+      [ "PluginLibList", "class_ogre_1_1_root.html#a5c476000f108071775789beb9970ecc5", null ],
       [ "Root", "class_ogre_1_1_root.html#a0ea40f8d4eea652bc121a15fcedfaba5", null ],
       [ "~Root", "class_ogre_1_1_root.html#ae093f91224577ccb051ac3d8e84c6db8", null ],
       [ "_fireFrameEnded", "class_ogre_1_1_root.html#a57ec49d0fd19402ea8a4336f53ab62b4", null ],
@@ -1848,9 +1848,9 @@ var group___general =
         [ "line", "struct_ogre_1_1_script_compiler_1_1_error.html#a4f22509637a1cefc4238e11cd1b078c6", null ],
         [ "message", "struct_ogre_1_1_script_compiler_1_1_error.html#a0e7fe500e20f60c88b23cc78d62858f5", null ]
       ] ],
-      [ "ErrorList", "class_ogre_1_1_script_compiler.html#ab81a3bd9b3bf2b3c9c8b56dddd265c7b", null ],
-      [ "ErrorPtr", "class_ogre_1_1_script_compiler.html#a9bdb03769614f51602e845c7cba1a64c", null ],
-      [ "IdMap", "class_ogre_1_1_script_compiler.html#ad0303e1b06bcaa4b300c9c4912d74a00", null ],
+      [ "ErrorList", "class_ogre_1_1_script_compiler.html#ab86d3f1d42a8c0cfaba30d2d5f06d5aa", null ],
+      [ "ErrorPtr", "class_ogre_1_1_script_compiler.html#a5b8602456fa1fe761335456fdd954460", null ],
+      [ "IdMap", "class_ogre_1_1_script_compiler.html#a28678b766f05d04934e04d0162488820", null ],
       [ "ScriptCompiler", "class_ogre_1_1_script_compiler.html#abaeff81518b37e63e1f1d66b9e04e655", null ],
       [ "~ScriptCompiler", "class_ogre_1_1_script_compiler.html#ad8149dbada56288fbc02148c1a27c3c8", null ],
       [ "_compile", "class_ogre_1_1_script_compiler.html#a0fb27db0a80a4243e9376702e402f469", null ],
@@ -2028,7 +2028,7 @@ var group___general =
       [ "translateSharedParamNamed", "class_ogre_1_1_shared_params_translator.html#a784693b5685a488930c625227a55d6d0", null ]
     ] ],
     [ "Ogre::SharedPtr< T >", "class_ogre_1_1_shared_ptr.html", [
-      [ "unspecified_bool_type", "class_ogre_1_1_shared_ptr.html#a0d782aa6b8e566367c6178732813fa9f", null ],
+      [ "unspecified_bool_type", "class_ogre_1_1_shared_ptr.html#a8859c152c5e41f914c1b753d887ea93a", null ],
       [ "SharedPtr", "class_ogre_1_1_shared_ptr.html#a6dc65b8171394624d1bb43fd9d54a8f6", null ],
       [ "SharedPtr", "class_ogre_1_1_shared_ptr.html#a9daf742e1f2c363bdcaccff255f2dd2d", null ],
       [ "SharedPtr", "class_ogre_1_1_shared_ptr.html#ab1fae2b13ec9cb470b4616c56cb599d8", null ],
@@ -2452,7 +2452,7 @@ var group___general =
         [ "canHandleResponse", "class_ogre_1_1_work_queue_1_1_response_handler.html#a7a2fabae7f92bed384f100526055a899", null ],
         [ "handleResponse", "class_ogre_1_1_work_queue_1_1_response_handler.html#a8fab0334551e482042df078a5945f5de", null ]
       ] ],
-      [ "RequestID", "class_ogre_1_1_work_queue.html#a1908257e726af6caa80f1a6cd5682d76", null ],
+      [ "RequestID", "class_ogre_1_1_work_queue.html#a0bdef005c63c8af1c3ded55f04c38ae1", null ],
       [ "WorkQueue", "class_ogre_1_1_work_queue.html#a522d959bdec37026c5ad9eb2e2b189cc", null ],
       [ "~WorkQueue", "class_ogre_1_1_work_queue.html#a2e7a64f2d114bf2828355e83e43f8172", null ],
       [ "abortAllRequests", "class_ogre_1_1_work_queue.html#aae92816d648918690f76f6fe14f125c0", null ],

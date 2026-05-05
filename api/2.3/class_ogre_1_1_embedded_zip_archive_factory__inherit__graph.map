@@ -1,6 +1,6 @@
 <map id="Ogre::EmbeddedZipArchiveFactory" name="Ogre::EmbeddedZipArchiveFactory">
 <area shape="rect" id="Node000001" title="Specialisation of ZipArchiveFactory for embedded Zip files." alt="" coords="90,226,268,267"/>
-<area shape="rect" id="Node000006" href="$class_ogre_1_1_a_p_k_zip_archive_factory.html" title=" " alt="" coords="85,315,273,341"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_a_p_k_zip_archive_factory.html" title=" " alt="" coords="85,315,272,341"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="182,283,182,314,176,314,176,283"/>
 <area shape="rect" id="Node000002" href="$class_ogre_1_1_zip_archive_factory.html" title="Specialisation of ArchiveFactory for Zip files." alt="" coords="99,153,259,178"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,194,182,226,176,226,176,194"/>

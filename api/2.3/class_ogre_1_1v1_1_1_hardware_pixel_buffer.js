@@ -41,7 +41,6 @@ var class_ogre_1_1v1_1_1_hardware_pixel_buffer =
     [ "isSystemMemory", "class_ogre_1_1v1_1_1_hardware_pixel_buffer.html#ac6d97282de4e5937ff00cf2ff14860a8", null ],
     [ "lock", "class_ogre_1_1v1_1_1_hardware_pixel_buffer.html#a54dcf44f73f3e73e188e299345b56644", null ],
     [ "lock", "class_ogre_1_1v1_1_1_hardware_pixel_buffer.html#a15616b1645a8d88b0824b77a3cca3a78", null ],
-    [ "lock", "class_ogre_1_1v1_1_1_hardware_pixel_buffer.html#a31666db1708eb234e02e0c2cf4c7973b", null ],
     [ "lock", "class_ogre_1_1v1_1_1_hardware_pixel_buffer.html#ad108795104afe2dd9062ac27c039b358", null ],
     [ "operator delete", "class_ogre_1_1v1_1_1_hardware_pixel_buffer.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1v1_1_1_hardware_pixel_buffer.html#acb46d4b0a597156d9ba5abc39d127792", null ],

@@ -1,6 +1,6 @@
 <map id="Ogre::OctreeCamera" name="Ogre::OctreeCamera">
 <area shape="rect" id="Node000001" title="Specialized viewpoint from which an Octree can be rendered." alt="" coords="235,300,374,326"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1_camera.html" title="A viewpoint from which the scene will be rendered." alt="" coords="254,226,355,252"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_camera.html" title="A viewpoint from which the scene will be rendered." alt="" coords="254,226,354,252"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="307,267,307,300,302,300,302,267"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_frustum.html" title="A frustum represents a pyramid, capped at the near and far end which is used to represent either a vi..." alt="" coords="253,153,356,178"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,194,307,226,302,226,302,194"/>
@@ -10,7 +10,7 @@
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="119,36,203,76,201,81,117,41"/>
 <area shape="rect" id="Node000006" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="177,5,277,31"/>
 <area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="230,46,230,79,224,79,224,46"/>
-<area shape="rect" id="Node000007" href="$class_ogre_1_1_id_object.html" title=" " alt="" coords="300,5,405,31"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1_id_object.html" title=" " alt="" coords="300,5,404,31"/>
 <area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="319,41,250,81,247,76,317,37"/>
 <area shape="rect" id="Node000008" href="$class_ogre_1_1_renderable.html" title="Abstract class defining the interface all renderable objects must implement." alt="" coords="323,79,443,105"/>
 <area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="360,117,319,154,316,150,357,113"/>

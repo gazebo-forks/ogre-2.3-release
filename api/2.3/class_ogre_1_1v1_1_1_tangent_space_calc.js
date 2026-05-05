@@ -2,9 +2,9 @@ var class_ogre_1_1v1_1_1_tangent_space_calc =
 [
     [ "IndexRemap", "struct_ogre_1_1v1_1_1_tangent_space_calc_1_1_index_remap.html", "struct_ogre_1_1v1_1_1_tangent_space_calc_1_1_index_remap" ],
     [ "Result", "struct_ogre_1_1v1_1_1_tangent_space_calc_1_1_result.html", "struct_ogre_1_1v1_1_1_tangent_space_calc_1_1_result" ],
-    [ "IndexRemapList", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a27509b25be312161ab4ac2201388dc7b", null ],
-    [ "VertexSplit", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a91c18e2215d94245a27a19dfb2480cb8", null ],
-    [ "VertexSplits", "class_ogre_1_1v1_1_1_tangent_space_calc.html#ac22657e60e6409d4be16c4cdb4363090", null ],
+    [ "IndexRemapList", "class_ogre_1_1v1_1_1_tangent_space_calc.html#af96ee3e4caf44a28e77214748a89a355", null ],
+    [ "VertexSplit", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a609f7c87d6835433924d8709657e4956", null ],
+    [ "VertexSplits", "class_ogre_1_1v1_1_1_tangent_space_calc.html#af4e05e812fa579322c761fc4d1e4d04b", null ],
     [ "TangentSpaceCalc", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a8045b1b895f98f85bd10ac6a344f77f7", null ],
     [ "~TangentSpaceCalc", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a749e8a51fe0768865ba40138492ba4c1", null ],
     [ "addIndexData", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a43db6ab527e768b01c3d3f4bdf063146", null ],

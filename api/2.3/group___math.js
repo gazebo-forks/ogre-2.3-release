@@ -659,7 +659,7 @@ var group___math =
       [ "snorm8ToFloat", "class_ogre_1_1_bitwise.html#a2ac4db143f155c6d05d0dbcfa05b0775", null ]
     ] ],
     [ "Ogre::ConvexBody", "class_ogre_1_1_convex_body.html", [
-      [ "PolygonList", "class_ogre_1_1_convex_body.html#ad627244a01ee761e604048d2d4aaaffd", null ],
+      [ "PolygonList", "class_ogre_1_1_convex_body.html#adc8abf34f0002d3b6d7dca1f30ff1553", null ],
       [ "ConvexBody", "class_ogre_1_1_convex_body.html#a55e376da89733093d9061f2b5acebfb2", null ],
       [ "~ConvexBody", "class_ogre_1_1_convex_body.html#a6f643f10031458c33cc9b51dc4a8f893", null ],
       [ "ConvexBody", "class_ogre_1_1_convex_body.html#ae9792f9784f57a75d89a8aecb9ee2f58", null ],
@@ -748,8 +748,8 @@ var group___math =
       [ "z", "class_ogre_1_1_dual_quaternion.html#aca62cb2fb2eeab0637b35bc920a7cae4", null ]
     ] ],
     [ "Ogre::Frustum", "class_ogre_1_1_frustum.html", [
-      [ "CustomParameterMap", "class_ogre_1_1_frustum.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-      [ "MovableObjectArray", "class_ogre_1_1_frustum.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "CustomParameterMap", "class_ogre_1_1_frustum.html#a20353a0495f93d3a065081809ba105bd", null ],
+      [ "MovableObjectArray", "class_ogre_1_1_frustum.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "Frustum", "class_ogre_1_1_frustum.html#a980f0e1f6479ba9089529eb408251d6d", null ],
       [ "~Frustum", "class_ogre_1_1_frustum.html#af09e77efe374e5ec5b419498b495ef1c", null ],
       [ "_getCachedFrustumPlanes", "class_ogre_1_1_frustum.html#aec6093bd4d699b8a1257892cca49df8b", null ],
@@ -860,8 +860,8 @@ var group___math =
       [ "getUseIdentityWorldMatrix", "class_ogre_1_1_frustum.html#a73de2dd2cc45eee54c7a9262ff6da180", null ],
       [ "getUserAny", "class_ogre_1_1_frustum.html#a3bee104c7359ba6c41d65d88cfc3d418", null ],
       [ "getUserObjectBindings", "class_ogre_1_1_frustum.html#aa6ae8d976be50b007ba1e87732a6397d", null ],
-      [ "getUserObjectBindings", "class_ogre_1_1_frustum.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1_frustum.html#a27eb8980ee187b42ea619c582eaebf73", null ],
+      [ "getUserObjectBindings", "class_ogre_1_1_frustum.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1_frustum.html#af85238872bb197dea36acf21a578ecec", null ],
       [ "getVaos", "class_ogre_1_1_frustum.html#a02e8c5cc62dadc7db0ead1cccdefdb65", null ],
       [ "getViewMatrix", "class_ogre_1_1_frustum.html#a92458707f72c934401187bbde3948b79", null ],
@@ -1210,7 +1210,7 @@ var group___math =
       [ "normal", "class_ogre_1_1_plane.html#a3f97462d3822f6add8c070048f6c2d92", null ]
     ] ],
     [ "Ogre::PlaneBoundedVolume", "class_ogre_1_1_plane_bounded_volume.html", [
-      [ "PlaneList", "class_ogre_1_1_plane_bounded_volume.html#abf9680d4eaffa0b1e56882d6c0a05edc", null ],
+      [ "PlaneList", "class_ogre_1_1_plane_bounded_volume.html#a75f632fae0b44f02f3d510e244d7c5b8", null ],
       [ "PlaneBoundedVolume", "class_ogre_1_1_plane_bounded_volume.html#a9f3907950c9fd279e01ac1d4a03d9871", null ],
       [ "PlaneBoundedVolume", "class_ogre_1_1_plane_bounded_volume.html#a1f07490e0ddb2809e1e2b71a89c23856", null ],
       [ "intersects", "class_ogre_1_1_plane_bounded_volume.html#ac92a3d627da4cadbc9ebe7331b368e6e", null ],
@@ -1220,9 +1220,9 @@ var group___math =
       [ "planes", "class_ogre_1_1_plane_bounded_volume.html#a20b9a9b8d76a970c5f6cbac4cb438054", null ]
     ] ],
     [ "Ogre::Polygon", "class_ogre_1_1_polygon.html", [
-      [ "Edge", "class_ogre_1_1_polygon.html#a9405d8c298356e329363ed663d2fbd20", null ],
-      [ "EdgeMap", "class_ogre_1_1_polygon.html#a2e9e0c2abd6c18c910b7b75ab01f1513", null ],
-      [ "VertexList", "class_ogre_1_1_polygon.html#a55b73fdabd35c480dd873009c546c20f", null ],
+      [ "Edge", "class_ogre_1_1_polygon.html#a2f959125977cfe8c19dac52c30949451", null ],
+      [ "EdgeMap", "class_ogre_1_1_polygon.html#a5693e383483bdf143666773e30a9e4fa", null ],
+      [ "VertexList", "class_ogre_1_1_polygon.html#a507c3a270734311407717cebbba35fee", null ],
       [ "Polygon", "class_ogre_1_1_polygon.html#a1530c1d4761371c423916f4b497d612e", null ],
       [ "~Polygon", "class_ogre_1_1_polygon.html#a7ce008c85c18f7c28776a7e6b5fb60f3", null ],
       [ "Polygon", "class_ogre_1_1_polygon.html#a86fb38e409c2792034bb6754ff373dc0", null ],
@@ -1438,11 +1438,11 @@ var group___math =
         [ "vertexSet", "struct_ogre_1_1v1_1_1_edge_data_1_1_triangle.html#aa462ca2d29cb55f385548bcdab445959", null ],
         [ "vertIndex", "struct_ogre_1_1v1_1_1_edge_data_1_1_triangle.html#ae8cc6b69dc29714d6baebb5419ef39cf", null ]
       ] ],
-      [ "EdgeGroupList", "class_ogre_1_1v1_1_1_edge_data.html#a34b1a681e59b574901ac0b7674a8c844", null ],
-      [ "EdgeList", "class_ogre_1_1v1_1_1_edge_data.html#aae835b2af42b95957f2ae9c8cf568883", null ],
-      [ "TriangleFaceNormalList", "class_ogre_1_1v1_1_1_edge_data.html#a9cab4a6f07b3e3ae5042bdaedf9b5c58", null ],
-      [ "TriangleLightFacingList", "class_ogre_1_1v1_1_1_edge_data.html#a2b1d687ea4871ee5ad09891a6173e321", null ],
-      [ "TriangleList", "class_ogre_1_1v1_1_1_edge_data.html#a45723039bb49600179299233d4306224", null ],
+      [ "EdgeGroupList", "class_ogre_1_1v1_1_1_edge_data.html#ac11fd8c37081871e6db1f0c1c0165d58", null ],
+      [ "EdgeList", "class_ogre_1_1v1_1_1_edge_data.html#ac29598fd4c5f63829bbf1ed2d9f37f60", null ],
+      [ "TriangleFaceNormalList", "class_ogre_1_1v1_1_1_edge_data.html#a256261254e471a34f325a597a0f501c8", null ],
+      [ "TriangleLightFacingList", "class_ogre_1_1v1_1_1_edge_data.html#a8f335edb20a6ff0cea4c0d192d1f370e", null ],
+      [ "TriangleList", "class_ogre_1_1v1_1_1_edge_data.html#aed8e7f2585491db2eba7ce04899b18f3", null ],
       [ "EdgeData", "class_ogre_1_1v1_1_1_edge_data.html#a3cf19c3b830128033aabfe6d0c71c045", null ],
       [ "clone", "class_ogre_1_1v1_1_1_edge_data.html#afd6ea027484c4e739ec5db39e5a2c22f", null ],
       [ "log", "class_ogre_1_1v1_1_1_edge_data.html#adf559492b955ae7f03a177e2a42d48b2", null ],
@@ -1484,9 +1484,9 @@ var group___math =
         [ "indexesRemapped", "struct_ogre_1_1v1_1_1_tangent_space_calc_1_1_result.html#a692c1b17cbf67bff3a6d7e1d25c85caf", null ],
         [ "vertexSplits", "struct_ogre_1_1v1_1_1_tangent_space_calc_1_1_result.html#a35bc995de2b199bd476b34a6be915a63", null ]
       ] ],
-      [ "IndexRemapList", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a27509b25be312161ab4ac2201388dc7b", null ],
-      [ "VertexSplit", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a91c18e2215d94245a27a19dfb2480cb8", null ],
-      [ "VertexSplits", "class_ogre_1_1v1_1_1_tangent_space_calc.html#ac22657e60e6409d4be16c4cdb4363090", null ],
+      [ "IndexRemapList", "class_ogre_1_1v1_1_1_tangent_space_calc.html#af96ee3e4caf44a28e77214748a89a355", null ],
+      [ "VertexSplit", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a609f7c87d6835433924d8709657e4956", null ],
+      [ "VertexSplits", "class_ogre_1_1v1_1_1_tangent_space_calc.html#af4e05e812fa579322c761fc4d1e4d04b", null ],
       [ "TangentSpaceCalc", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a8045b1b895f98f85bd10ac6a344f77f7", null ],
       [ "~TangentSpaceCalc", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a749e8a51fe0768865ba40138492ba4c1", null ],
       [ "addIndexData", "class_ogre_1_1v1_1_1_tangent_space_calc.html#a43db6ab527e768b01c3d3f4bdf063146", null ],
@@ -1731,8 +1731,8 @@ var group___math =
     [ "Ogre::Radian::operator=", "group___math.html#gafab8ce89cde3034f3cc5c2537d5ea6fd", null ],
     [ "Ogre::rawOffsetPointer", "group___math.html#ga612a67caac00c73415ae3f1954106832", null ],
     [ "Ogre::rawOffsetPointer", "group___math.html#ga851eb77e2ef235338b9f072977c14e99", null ],
-    [ "Ogre::Radian::valueAngleUnits", "group___math.html#ga8f7034ef9399fbeed2e1183ee34c26d8", null ],
     [ "Ogre::Degree::valueAngleUnits", "group___math.html#gaa8f0b95bb9c1b907676f4f80d733efd3", null ],
+    [ "Ogre::Radian::valueAngleUnits", "group___math.html#ga8f7034ef9399fbeed2e1183ee34c26d8", null ],
     [ "Ogre::Radian::valueDegrees", "group___math.html#ga562b349029e40604b6cf201fc49ef68a", null ],
     [ "Ogre::Degree::valueRadians", "group___math.html#gad18eb71b870151f8db42f9f4c8318096", null ]
 ];

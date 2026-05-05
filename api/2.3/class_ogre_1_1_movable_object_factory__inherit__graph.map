@@ -10,7 +10,7 @@
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="256,377,275,338,303,291,340,244,385,204,420,188,422,193,387,208,344,247,307,294,279,340,260,379"/>
 <area shape="rect" id="Node000007" href="$class_ogre_1_1_manual_object_factory.html" title="Factory object for creating ManualObject instances." alt="" coords="396,219,574,244"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="261,378,311,315,346,281,385,253,408,242,410,247,387,258,349,285,315,318,265,381"/>
-<area shape="rect" id="Node000008" href="$class_ogre_1_1_p_c_z_light_factory.html" title="Factory object for creating PCZLight instances." alt="" coords="409,268,562,294"/>
+<area shape="rect" id="Node000008" href="$class_ogre_1_1_p_c_z_light_factory.html" title="Factory object for creating PCZLight instances." alt="" coords="408,268,562,294"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="271,379,322,340,385,302,414,292,416,297,387,307,325,344,274,384"/>
 <area shape="rect" id="Node000009" href="$class_ogre_1_1_particle_system_factory.html" title="Factory object for creating ParticleSystem instances." alt="" coords="392,317,578,343"/>
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="293,384,385,352,424,341,425,346,387,357,295,389"/>

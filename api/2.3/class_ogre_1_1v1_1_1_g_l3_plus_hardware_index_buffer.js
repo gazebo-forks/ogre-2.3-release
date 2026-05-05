@@ -1,6 +1,6 @@
 var class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer =
 [
-    [ "IndexType", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a06f21d817782a7f95017e59581b9ddb5", null ],
+    [ "IndexType", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a2de2c639133017a4c44f2d0fa70ce067", null ],
     [ "LockOptions", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cf", [
       [ "HBL_NORMAL", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaf32b55fa8a975d085b07236f89900f26", null ],
       [ "HBL_DISCARD", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa364f94b757045261468e68fe09c36cca", null ],
@@ -20,8 +20,8 @@ var class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer =
     [ "GL3PlusHardwareIndexBuffer", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a41b2f0d2af3c5337630f4514f3b93a52", null ],
     [ "~GL3PlusHardwareIndexBuffer", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a7d38204f28a31459b1121f9b83b7dd0e", null ],
     [ "_updateFromShadow", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a719ce8f394862a70eaed596c8ef18761", null ],
-    [ "copyData", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a5caebd4b5db7696029eb412351d7767f", null ],
     [ "copyData", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a6749dc889682ff3685a100b1f60d0b93", null ],
+    [ "copyData", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a5caebd4b5db7696029eb412351d7767f", null ],
     [ "getGLBufferId", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#aac425ea3e7be8d91d8e0d12a126cca0e", null ],
     [ "getIndexSize", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a36fe33b74e8d2e3ce779026d264eb4b7", null ],
     [ "getManager", "class_ogre_1_1v1_1_1_g_l3_plus_hardware_index_buffer.html#a76b05fc8856aa8aa9da03d026a3cc0a8", null ],

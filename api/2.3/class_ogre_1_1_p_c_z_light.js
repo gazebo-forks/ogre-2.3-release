@@ -1,6 +1,6 @@
 var class_ogre_1_1_p_c_z_light =
 [
-    [ "MovableObjectArray", "class_ogre_1_1_p_c_z_light.html#afb58624fb567bb790c55d8a716b472da", null ],
+    [ "MovableObjectArray", "class_ogre_1_1_p_c_z_light.html#a317b125b7fabcad7c8a344164455e08d", null ],
     [ "LightTypes", "class_ogre_1_1_p_c_z_light.html#a4f1dea084d1497c6f49e802ade940dbc", [
       [ "LT_DIRECTIONAL", "class_ogre_1_1_p_c_z_light.html#a4f1dea084d1497c6f49e802ade940dbca4c5582d28848ce40c2b652488494b4a3", null ],
       [ "LT_POINT", "class_ogre_1_1_p_c_z_light.html#a4f1dea084d1497c6f49e802ade940dbca0d59bfdcfeb338dbfe06e2e2999e752f", null ],

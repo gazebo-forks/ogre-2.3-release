@@ -1,8 +1,8 @@
 var class_ogre_1_1_root =
 [
-    [ "MovableObjectFactoryIterator", "class_ogre_1_1_root.html#a724ee7dcbdb7b8052420df2fecd07c0d", null ],
-    [ "PluginInstanceList", "class_ogre_1_1_root.html#a5483dc1f87b9861cae629b5aba6a6071", null ],
-    [ "PluginLibList", "class_ogre_1_1_root.html#a4f51fe7c71b67eb166e0c34891611f65", null ],
+    [ "MovableObjectFactoryIterator", "class_ogre_1_1_root.html#a1d4436f211080a71ef1072ee05a9b348", null ],
+    [ "PluginInstanceList", "class_ogre_1_1_root.html#a01d8877cb10ae89d0aae4d062077a0b0", null ],
+    [ "PluginLibList", "class_ogre_1_1_root.html#a5c476000f108071775789beb9970ecc5", null ],
     [ "Root", "class_ogre_1_1_root.html#a0ea40f8d4eea652bc121a15fcedfaba5", null ],
     [ "~Root", "class_ogre_1_1_root.html#ae093f91224577ccb051ac3d8e84c6db8", null ],
     [ "_fireFrameEnded", "class_ogre_1_1_root.html#a57ec49d0fd19402ea8a4336f53ab62b4", null ],

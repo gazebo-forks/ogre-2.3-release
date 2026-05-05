@@ -1,8 +1,8 @@
 var class_ogre_1_1_bsp_node =
 [
     [ "Brush", "struct_ogre_1_1_bsp_node_1_1_brush.html", "struct_ogre_1_1_bsp_node_1_1_brush" ],
-    [ "IntersectingObjectSet", "class_ogre_1_1_bsp_node.html#aa72c953038f927f46660c1d073b3a076", null ],
-    [ "NodeBrushList", "class_ogre_1_1_bsp_node.html#ade6cf2f9bdd72538d3b2863bfb598f98", null ],
+    [ "IntersectingObjectSet", "class_ogre_1_1_bsp_node.html#a9fbbd8d2b62bb0204273f316bc951bae", null ],
+    [ "NodeBrushList", "class_ogre_1_1_bsp_node.html#a82d95a74f22f04e2a14bf3781ac15c1f", null ],
     [ "BspNode", "class_ogre_1_1_bsp_node.html#a39b74504f7252462d27f69bbeef5dc99", null ],
     [ "BspNode", "class_ogre_1_1_bsp_node.html#a10395588ed29a1d34e3b028643dd2d77", null ],
     [ "~BspNode", "class_ogre_1_1_bsp_node.html#a74871a4318ee6f0bfdf068a988bc2496", null ],

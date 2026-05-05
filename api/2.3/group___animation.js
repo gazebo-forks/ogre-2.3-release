@@ -58,8 +58,8 @@ var group___animation =
       [ "mBaseValueReal", "class_ogre_1_1_animable_value.html#a4e26a76b98c42eda570e551322aff11d", null ]
     ] ],
     [ "Ogre::Bone", "class_ogre_1_1_bone.html", [
-      [ "BoneVec", "class_ogre_1_1_bone.html#a1bf9edc137803668416a296bd1e92683", null ],
-      [ "TagPointVec", "class_ogre_1_1_bone.html#acf337040209b1221baa1333b6600d27f", null ],
+      [ "BoneVec", "class_ogre_1_1_bone.html#acc7c3b5a67f84c5412a1a962a848c76a", null ],
+      [ "TagPointVec", "class_ogre_1_1_bone.html#a2bfcab44281bee4ac75bec626a93d537", null ],
       [ "Bone", "class_ogre_1_1_bone.html#a2d481ad6008265351c727cddfa6c5850", null ],
       [ "~Bone", "class_ogre_1_1_bone.html#aa83714c8cb965617b8ac6290bf9a6fdb", null ],
       [ "_deinitialize", "class_ogre_1_1_bone.html#a74797e5e891071719c35d104ede940fb", null ],
@@ -170,14 +170,14 @@ var group___animation =
       [ "mWeight", "class_ogre_1_1_skeleton_animation.html#a39b51a51e9723884ee70e075eb8ac607", null ]
     ] ],
     [ "Ogre::SkeletonAnimManager", "struct_ogre_1_1_skeleton_anim_manager.html", [
-      [ "BySkeletonDefList", "struct_ogre_1_1_skeleton_anim_manager.html#a98cfe511ba91e23e15045a8baf197354", null ],
+      [ "BySkeletonDefList", "struct_ogre_1_1_skeleton_anim_manager.html#a2a8faf1403e84c0b7838a2f3bdc579d5", null ],
       [ "createSkeletonInstance", "struct_ogre_1_1_skeleton_anim_manager.html#afc5a0338f33505685a78a3476cca19e3", null ],
       [ "destroySkeletonInstance", "struct_ogre_1_1_skeleton_anim_manager.html#a9427616b2e6665921774f1b11c00531e", null ],
       [ "removeSkeletonDef", "struct_ogre_1_1_skeleton_anim_manager.html#a1a3b0f80233bcd1dc6b4664356674ec8", null ],
       [ "bySkeletonDefs", "struct_ogre_1_1_skeleton_anim_manager.html#a9d88700d4fb7416b52e5474b6db0c52b", null ]
     ] ],
     [ "Ogre::SkeletonInstance", "class_ogre_1_1_skeleton_instance.html", [
-      [ "BoneVec", "class_ogre_1_1_skeleton_instance.html#a696805c293d38f474a2fa0b39c9f1af1", null ],
+      [ "BoneVec", "class_ogre_1_1_skeleton_instance.html#a930723bcf746b1cf760ec19d834fabd1", null ],
       [ "SkeletonInstance", "class_ogre_1_1_skeleton_instance.html#a6aba30c431b3acf9f054ba7153667009", null ],
       [ "~SkeletonInstance", "class_ogre_1_1_skeleton_instance.html#a40bc8568f64b07ce7e54267319536234", null ],
       [ "_decrementRefCount", "class_ogre_1_1_skeleton_instance.html#ad9197a47bd218aa97cda27c9d9c1eb2a", null ],
@@ -241,12 +241,12 @@ var group___animation =
       [ "remove", "class_ogre_1_1_skeleton_manager.html#aa5de657acff092ae119cbc3715c1e4b8", null ]
     ] ],
     [ "Ogre::TagPoint", "class_ogre_1_1_tag_point.html", [
-      [ "ConstNodeVecIterator", "class_ogre_1_1_tag_point.html#a84efd2062a90048361e94e4db7bc79bc", null ],
-      [ "ConstObjectIterator", "class_ogre_1_1_tag_point.html#abb509726b3e96301eb5fcb3b5977a236", null ],
-      [ "NodeVec", "class_ogre_1_1_tag_point.html#ac781fd1e67dee5a278fa08a43e40c402", null ],
-      [ "NodeVecIterator", "class_ogre_1_1_tag_point.html#a21d127688e5dbfb0eeca46f34e2e1017", null ],
-      [ "ObjectIterator", "class_ogre_1_1_tag_point.html#a20e3d329929dda096ae10ac469289c90", null ],
-      [ "ObjectVec", "class_ogre_1_1_tag_point.html#a26962cbb48314baa7c2e20445b52c6f1", null ],
+      [ "ConstNodeVecIterator", "class_ogre_1_1_tag_point.html#a120364a384cadd5afe448708b8252dec", null ],
+      [ "ConstObjectIterator", "class_ogre_1_1_tag_point.html#a7b2ebb602fb94dce633bcf37b944a247", null ],
+      [ "NodeVec", "class_ogre_1_1_tag_point.html#af82c98ae28164cea0a462daeb50b0515", null ],
+      [ "NodeVecIterator", "class_ogre_1_1_tag_point.html#ad4566e5b224bd00021cfc203c01fe22b", null ],
+      [ "ObjectIterator", "class_ogre_1_1_tag_point.html#ab4d6e3b901abea2690afcaa116f71eee", null ],
+      [ "ObjectVec", "class_ogre_1_1_tag_point.html#a3b640d5166521ffbf7d2afdaeaff01cc", null ],
       [ "TransformSpace", "class_ogre_1_1_tag_point.html#ac42e2063379286eb673eaffff6ca5e99", [
         [ "TS_LOCAL", "class_ogre_1_1_tag_point.html#ac42e2063379286eb673eaffff6ca5e99afcc5f69a4f8962eec29c8b57c1a675a2", null ],
         [ "TS_PARENT", "class_ogre_1_1_tag_point.html#ac42e2063379286eb673eaffff6ca5e99a34e6c3ebabc2e9fa00de4f62be0ce7ce", null ],
@@ -385,15 +385,15 @@ var group___animation =
       [ "mParentIndex", "class_ogre_1_1_tag_point.html#af133224a62eb73055298c3e2a889f6f5", null ]
     ] ],
     [ "Ogre::v1::Animation", "class_ogre_1_1v1_1_1_animation.html", [
-      [ "NodeTrackIterator", "class_ogre_1_1v1_1_1_animation.html#ac1fd11a647bbf155a947ed40b08239eb", null ],
-      [ "NodeTrackList", "class_ogre_1_1v1_1_1_animation.html#a0836e8971433181cf227b1d1e211356f", null ],
-      [ "NumericTrackIterator", "class_ogre_1_1v1_1_1_animation.html#a363522d07c2cd00f6ff12360f58195f2", null ],
-      [ "NumericTrackList", "class_ogre_1_1v1_1_1_animation.html#a3c704fdc2771b08b4b165f5765492c36", null ],
-      [ "OldNodeTrackIterator", "class_ogre_1_1v1_1_1_animation.html#ad9e54dd728bed41c79cbd85f9999eda5", null ],
-      [ "OldNodeTrackList", "class_ogre_1_1v1_1_1_animation.html#a01c432abd31a7429461aba38c4e3278d", null ],
-      [ "TrackHandleList", "class_ogre_1_1v1_1_1_animation.html#a31f93e13dd472bac411e02569cc852b2", null ],
-      [ "VertexTrackIterator", "class_ogre_1_1v1_1_1_animation.html#a3f25ad85a1502856d1eb4ceb1b7b7fee", null ],
-      [ "VertexTrackList", "class_ogre_1_1v1_1_1_animation.html#a3f776e70ac07a50648d183f808fd54dd", null ],
+      [ "NodeTrackIterator", "class_ogre_1_1v1_1_1_animation.html#a2e442b7359d98ed353c35f9d5ad010e8", null ],
+      [ "NodeTrackList", "class_ogre_1_1v1_1_1_animation.html#a9f9a55c67d544f236da3df352b3ad991", null ],
+      [ "NumericTrackIterator", "class_ogre_1_1v1_1_1_animation.html#a317a064eba69fa7b795135def3d1502c", null ],
+      [ "NumericTrackList", "class_ogre_1_1v1_1_1_animation.html#a7141fdeee3f8bd4f5ef18bed5d53097e", null ],
+      [ "OldNodeTrackIterator", "class_ogre_1_1v1_1_1_animation.html#ae66aa47200310b89486d28db491d90c4", null ],
+      [ "OldNodeTrackList", "class_ogre_1_1v1_1_1_animation.html#a215e951b7753a07ac6f8fbc8998afd48", null ],
+      [ "TrackHandleList", "class_ogre_1_1v1_1_1_animation.html#a248a087baf76456db39293f61edf727a", null ],
+      [ "VertexTrackIterator", "class_ogre_1_1v1_1_1_animation.html#a81b5fd41f1da8023e0d0834673a55681", null ],
+      [ "VertexTrackList", "class_ogre_1_1v1_1_1_animation.html#a743f1cd3aa71ccafa798db97d9c553bd", null ],
       [ "InterpolationMode", "class_ogre_1_1v1_1_1_animation.html#a2af4091d20dc0b5478ba955c844fd932", [
         [ "IM_LINEAR", "class_ogre_1_1v1_1_1_animation.html#a2af4091d20dc0b5478ba955c844fd932aae1ccff77481526786d8751975530962", null ],
         [ "IM_SPLINE", "class_ogre_1_1v1_1_1_animation.html#a2af4091d20dc0b5478ba955c844fd932aa33b1ec690f16e7a76871b4ca9145dc7", null ]
@@ -492,7 +492,7 @@ var group___animation =
       [ "removeAnimation", "class_ogre_1_1v1_1_1_animation_container.html#af9734c7fd5436948ffb90c5bcbed542a", null ]
     ] ],
     [ "Ogre::v1::AnimationState", "class_ogre_1_1v1_1_1_animation_state.html", [
-      [ "BoneBlendMask", "class_ogre_1_1v1_1_1_animation_state.html#a4ccb4b0731a11747d32344cf9c5fb7cd", null ],
+      [ "BoneBlendMask", "class_ogre_1_1v1_1_1_animation_state.html#abd01b34b1d7271fd9601d2db06c10fe7", null ],
       [ "AnimationState", "class_ogre_1_1v1_1_1_animation_state.html#a16f9a355a9718d775867a9b2945fd896", null ],
       [ "AnimationState", "class_ogre_1_1v1_1_1_animation_state.html#a5961f79c59cbe386b732f83a2387476c", null ],
       [ "~AnimationState", "class_ogre_1_1v1_1_1_animation_state.html#a9ec8706ff3182e7ea4cdf7e601ec56d2", null ],
@@ -734,9 +734,9 @@ var group___animation =
       [ "setValue", "class_ogre_1_1v1_1_1_numeric_key_frame.html#ac7d6a12046a84355f0193abad20b677f", null ]
     ] ],
     [ "Ogre::v1::OldBone", "class_ogre_1_1v1_1_1_old_bone.html", [
-      [ "ChildOldNodeIterator", "class_ogre_1_1v1_1_1_old_bone.html#aa07e088aeac0a960cfc9b89f28036591", null ],
-      [ "ChildOldNodeMap", "class_ogre_1_1v1_1_1_old_bone.html#ab8ee650e5c340e9ac8fd7f9323300652", null ],
-      [ "ConstChildOldNodeIterator", "class_ogre_1_1v1_1_1_old_bone.html#a29c493e2b4cd70ecffca8e27f2f472b4", null ],
+      [ "ChildOldNodeIterator", "class_ogre_1_1v1_1_1_old_bone.html#a0d81b4caec8093aa93bb6e3201f180e4", null ],
+      [ "ChildOldNodeMap", "class_ogre_1_1v1_1_1_old_bone.html#a553735cef4ea0ead946955ba96d60919", null ],
+      [ "ConstChildOldNodeIterator", "class_ogre_1_1v1_1_1_old_bone.html#adfc7be3fd52d5da38b1ee8d9bc8f7bcb", null ],
       [ "TransformSpace", "class_ogre_1_1v1_1_1_old_bone.html#a0244945288b15d4b8fa79cedf162c84c", [
         [ "TS_LOCAL", "class_ogre_1_1v1_1_1_old_bone.html#a0244945288b15d4b8fa79cedf162c84ca574ea07da94ee5a6dcfd93020eb0f17e", null ],
         [ "TS_PARENT", "class_ogre_1_1v1_1_1_old_bone.html#a0244945288b15d4b8fa79cedf162c84cab30c0d3446450dbbe8ed4194880dae93", null ],
@@ -762,9 +762,9 @@ var group___animation =
       [ "convertLocalToWorldPosition", "class_ogre_1_1v1_1_1_old_bone.html#add5d696bba25609295a3f218baa0e16c", null ],
       [ "convertWorldToLocalOrientation", "class_ogre_1_1v1_1_1_old_bone.html#a1eff1a0d0601cd2717456535cb6d00ad", null ],
       [ "convertWorldToLocalPosition", "class_ogre_1_1v1_1_1_old_bone.html#ad82589f40410e62b714a89741394302d", null ],
+      [ "createChild", "class_ogre_1_1v1_1_1_old_bone.html#a210b9ea97c9ed20b9972d5b32c5a871e", null ],
       [ "createChild", "class_ogre_1_1v1_1_1_old_bone.html#a82b2917a844ccb9fd43b63027934f78e", null ],
       [ "createChild", "class_ogre_1_1v1_1_1_old_bone.html#a153b87514ac504fc5f5c5cf0dfd194a1", null ],
-      [ "createChild", "class_ogre_1_1v1_1_1_old_bone.html#a210b9ea97c9ed20b9972d5b32c5a871e", null ],
       [ "getChild", "class_ogre_1_1v1_1_1_old_bone.html#afd8ce2a5f90678e2b549d4cf5c65c8d1", null ],
       [ "getChild", "class_ogre_1_1v1_1_1_old_bone.html#ac87a0731f591799149729f7be4c1bc26", null ],
       [ "getChildIterator", "class_ogre_1_1v1_1_1_old_bone.html#a2053b39140ba377748d36cd8ff26cb1a", null ],
@@ -875,11 +875,11 @@ var group___animation =
       [ "setUseShortestRotationPath", "class_ogre_1_1v1_1_1_old_node_animation_track.html#a69ef1bd925eb16c7040510dac6ff494b", null ]
     ] ],
     [ "Ogre::v1::OldSkeletonManager", "class_ogre_1_1v1_1_1_old_skeleton_manager.html", [
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
       [ "OldSkeletonManager", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a6415e10522b2a9b364acc3dff6f11499", null ],
       [ "~OldSkeletonManager", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#a16dc9205eb077e5919f3c7ca89ece02a", null ],
       [ "_notifyResourceLoaded", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#af1a871ac005af0be0b8c1857a4f8eea9", null ],
@@ -937,12 +937,12 @@ var group___animation =
       [ "OGRE_AUTO_MUTEX", "class_ogre_1_1v1_1_1_old_skeleton_manager.html#abbb523a827bc6ea90d3b5ec80f0cf770", null ]
     ] ],
     [ "Ogre::v1::Pose", "class_ogre_1_1v1_1_1_pose.html", [
-      [ "ConstNormalsIterator", "class_ogre_1_1v1_1_1_pose.html#a97f2dae9b78eaa78edee2e489096e3af", null ],
-      [ "ConstVertexOffsetIterator", "class_ogre_1_1v1_1_1_pose.html#a9642793a9643a047cd3e61298d0ea71a", null ],
-      [ "NormalsIterator", "class_ogre_1_1v1_1_1_pose.html#a8d0753d04b4ec97b0f3e4c44cea99bcf", null ],
-      [ "NormalsMap", "class_ogre_1_1v1_1_1_pose.html#a786c5bdd55aaeb9ce54b27cce8ae8d6f", null ],
-      [ "VertexOffsetIterator", "class_ogre_1_1v1_1_1_pose.html#a7cfe100c3a8e4b07713792139419fca5", null ],
-      [ "VertexOffsetMap", "class_ogre_1_1v1_1_1_pose.html#a723f7b25a41f7e0b88ed340359843233", null ],
+      [ "ConstNormalsIterator", "class_ogre_1_1v1_1_1_pose.html#a41d0ab7840a570f572b5f4537e16a17b", null ],
+      [ "ConstVertexOffsetIterator", "class_ogre_1_1v1_1_1_pose.html#af5b9358a9f502456f5ac90706457539b", null ],
+      [ "NormalsIterator", "class_ogre_1_1v1_1_1_pose.html#ac9d9ce1b2e6d373cd06925f114103326", null ],
+      [ "NormalsMap", "class_ogre_1_1v1_1_1_pose.html#abc72003f1cf0dae0a84393840e331654", null ],
+      [ "VertexOffsetIterator", "class_ogre_1_1v1_1_1_pose.html#a83f0c1d020062f7cc05e3170ee4949f2", null ],
+      [ "VertexOffsetMap", "class_ogre_1_1v1_1_1_pose.html#aa9f8edcd462a0a846c99fd2c4791478a", null ],
       [ "Pose", "class_ogre_1_1v1_1_1_pose.html#a7203a457cd0d2f869d4a06bf13b4d8bd", null ],
       [ "~Pose", "class_ogre_1_1v1_1_1_pose.html#a381c469895f851b474a8026c812576cd", null ],
       [ "_getHardwareVertexBuffer", "class_ogre_1_1v1_1_1_pose.html#a35cf2e06e7e7465dbb06aea16244f5e9", null ],
@@ -972,12 +972,12 @@ var group___animation =
       [ "removeVertex", "class_ogre_1_1v1_1_1_pose.html#ab5ec5f0c9551f1d0cc574bb9a91bc130", null ]
     ] ],
     [ "Ogre::v1::Skeleton", "class_ogre_1_1v1_1_1_skeleton.html", [
-      [ "BoneHandleMap", "class_ogre_1_1v1_1_1_skeleton.html#a5143df141afa2327f7cd2f96783c5db5", null ],
-      [ "BoneIterator", "class_ogre_1_1v1_1_1_skeleton.html#ad67b0ae2df3eb1aaf0ba2571af1e13da", null ],
-      [ "BoneList", "class_ogre_1_1v1_1_1_skeleton.html#ad8ce92e1906da29a3c88bf6eac51b8a1", null ],
-      [ "ConstBoneIterator", "class_ogre_1_1v1_1_1_skeleton.html#af39ab762efce530e4a8783ba622082b9", null ],
-      [ "LinkedSkeletonAnimSourceIterator", "class_ogre_1_1v1_1_1_skeleton.html#ae38d5ae67a12f752ed2e54501a977c82", null ],
-      [ "LinkedSkeletonAnimSourceList", "class_ogre_1_1v1_1_1_skeleton.html#a5130ea4fe3c4941b1efa0e3688d10ed9", null ],
+      [ "BoneHandleMap", "class_ogre_1_1v1_1_1_skeleton.html#a67caf72b61a41e36421a200ee1934d27", null ],
+      [ "BoneIterator", "class_ogre_1_1v1_1_1_skeleton.html#aeb9f58863cc011dccf7544256e3abb5b", null ],
+      [ "BoneList", "class_ogre_1_1v1_1_1_skeleton.html#a54da8d75e0c5bd707cb2c006901491a1", null ],
+      [ "ConstBoneIterator", "class_ogre_1_1v1_1_1_skeleton.html#a6bd8efdc9076390053f4da665e7f5672", null ],
+      [ "LinkedSkeletonAnimSourceIterator", "class_ogre_1_1v1_1_1_skeleton.html#a75f005a9cd9879ee0b2e343634215234", null ],
+      [ "LinkedSkeletonAnimSourceList", "class_ogre_1_1v1_1_1_skeleton.html#af3fec6ffa2b34e7cf1c82fd800bfabd2", null ],
       [ "LoadingFlags", "class_ogre_1_1v1_1_1_skeleton.html#a1aa750a4b994f2b1066220936cdfdb94", [
         [ "LF_DEFAULT", "class_ogre_1_1v1_1_1_skeleton.html#a1aa750a4b994f2b1066220936cdfdb94ab49695ac949df3a7d2e2f9a03267097c", null ],
         [ "LF_INCLUDE_NON_RELOADABLE", "class_ogre_1_1v1_1_1_skeleton.html#a1aa750a4b994f2b1066220936cdfdb94a6ee542226e1cf18df28ab88426be6809", null ],
@@ -1113,9 +1113,9 @@ var group___animation =
       [ "operator new[]", "class_ogre_1_1v1_1_1_skeleton_serializer.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
     ] ],
     [ "Ogre::v1::TagPoint", "class_ogre_1_1v1_1_1_tag_point.html", [
-      [ "ChildOldNodeIterator", "class_ogre_1_1v1_1_1_tag_point.html#aa07e088aeac0a960cfc9b89f28036591", null ],
-      [ "ChildOldNodeMap", "class_ogre_1_1v1_1_1_tag_point.html#ab8ee650e5c340e9ac8fd7f9323300652", null ],
-      [ "ConstChildOldNodeIterator", "class_ogre_1_1v1_1_1_tag_point.html#a29c493e2b4cd70ecffca8e27f2f472b4", null ],
+      [ "ChildOldNodeIterator", "class_ogre_1_1v1_1_1_tag_point.html#a0d81b4caec8093aa93bb6e3201f180e4", null ],
+      [ "ChildOldNodeMap", "class_ogre_1_1v1_1_1_tag_point.html#a553735cef4ea0ead946955ba96d60919", null ],
+      [ "ConstChildOldNodeIterator", "class_ogre_1_1v1_1_1_tag_point.html#adfc7be3fd52d5da38b1ee8d9bc8f7bcb", null ],
       [ "TransformSpace", "class_ogre_1_1v1_1_1_tag_point.html#a0244945288b15d4b8fa79cedf162c84c", [
         [ "TS_LOCAL", "class_ogre_1_1v1_1_1_tag_point.html#a0244945288b15d4b8fa79cedf162c84ca574ea07da94ee5a6dcfd93020eb0f17e", null ],
         [ "TS_PARENT", "class_ogre_1_1v1_1_1_tag_point.html#a0244945288b15d4b8fa79cedf162c84cab30c0d3446450dbbe8ed4194880dae93", null ],
@@ -1141,9 +1141,9 @@ var group___animation =
       [ "convertLocalToWorldPosition", "class_ogre_1_1v1_1_1_tag_point.html#add5d696bba25609295a3f218baa0e16c", null ],
       [ "convertWorldToLocalOrientation", "class_ogre_1_1v1_1_1_tag_point.html#a1eff1a0d0601cd2717456535cb6d00ad", null ],
       [ "convertWorldToLocalPosition", "class_ogre_1_1v1_1_1_tag_point.html#ad82589f40410e62b714a89741394302d", null ],
+      [ "createChild", "class_ogre_1_1v1_1_1_tag_point.html#a210b9ea97c9ed20b9972d5b32c5a871e", null ],
       [ "createChild", "class_ogre_1_1v1_1_1_tag_point.html#a82b2917a844ccb9fd43b63027934f78e", null ],
       [ "createChild", "class_ogre_1_1v1_1_1_tag_point.html#a153b87514ac504fc5f5c5cf0dfd194a1", null ],
-      [ "createChild", "class_ogre_1_1v1_1_1_tag_point.html#a210b9ea97c9ed20b9972d5b32c5a871e", null ],
       [ "getChild", "class_ogre_1_1v1_1_1_tag_point.html#afd8ce2a5f90678e2b549d4cf5c65c8d1", null ],
       [ "getChild", "class_ogre_1_1v1_1_1_tag_point.html#ac87a0731f591799149729f7be4c1bc26", null ],
       [ "getChildIterator", "class_ogre_1_1v1_1_1_tag_point.html#a2053b39140ba377748d36cd8ff26cb1a", null ],
@@ -1324,9 +1324,9 @@ var group___animation =
         [ "influence", "struct_ogre_1_1v1_1_1_vertex_pose_key_frame_1_1_pose_ref.html#a6d1a2d339faf5006d287ff9672b6de76", null ],
         [ "poseIndex", "struct_ogre_1_1v1_1_1_vertex_pose_key_frame_1_1_pose_ref.html#ae84042b7177ea6d85dbdd8f18f643eb4", null ]
       ] ],
-      [ "ConstPoseRefIterator", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#ab2d1895053271b34c18f7e0ecc6b9d58", null ],
-      [ "PoseRefIterator", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#a287a5298f86d14803a1471aa76446b28", null ],
-      [ "PoseRefList", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#a9db75a67a9f9745a437a85ea3c55cac0", null ],
+      [ "ConstPoseRefIterator", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#aa17f5a3d0858c9e585e38a39b2d3bc00", null ],
+      [ "PoseRefIterator", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#adb48abfc6109d715e8918f28b4bc640f", null ],
+      [ "PoseRefList", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#acddc0eebe7a4a3ddec06b4d864251819", null ],
       [ "VertexPoseKeyFrame", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#ac9d3901e82798c507f1581bbfcecc1f1", null ],
       [ "~VertexPoseKeyFrame", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#a6a0dc8dd3fb55dc5d337fc2ad67d7564", null ],
       [ "_applyBaseKeyFrame", "class_ogre_1_1v1_1_1_vertex_pose_key_frame.html#aa8270fe2053e11bd87fff97184e680b7", null ],

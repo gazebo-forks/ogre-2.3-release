@@ -1,6 +1,6 @@
 var class_ogre_1_1_skeleton_instance =
 [
-    [ "BoneVec", "class_ogre_1_1_skeleton_instance.html#a696805c293d38f474a2fa0b39c9f1af1", null ],
+    [ "BoneVec", "class_ogre_1_1_skeleton_instance.html#a930723bcf746b1cf760ec19d834fabd1", null ],
     [ "SkeletonInstance", "class_ogre_1_1_skeleton_instance.html#a6aba30c431b3acf9f054ba7153667009", null ],
     [ "~SkeletonInstance", "class_ogre_1_1_skeleton_instance.html#a40bc8568f64b07ce7e54267319536234", null ],
     [ "_decrementRefCount", "class_ogre_1_1_skeleton_instance.html#ad9197a47bd218aa97cda27c9d9c1eb2a", null ],

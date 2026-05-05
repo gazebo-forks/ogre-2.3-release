@@ -8,7 +8,7 @@
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="215,112,263,150,259,154,212,116"/>
 <area shape="rect" id="Node000005" href="$struct_ogre_1_1_gpu_tracked_resource.html" title=" " alt="" coords="5,5,187,31"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="125,39,173,77,170,81,121,43"/>
-<area shape="rect" id="Node000006" href="$class_ogre_1_1_gpu_resource.html" title=" " alt="" coords="210,5,345,31"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_gpu_resource.html" title=" " alt="" coords="210,5,344,31"/>
 <area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="252,43,203,81,200,77,249,39"/>
 <area shape="rect" id="Node000008" href="$class_ogre_1_1_d3_d11_device_resource.html" title="Represents a Direct3D rendering resource." alt="" coords="272,79,461,105"/>
 <area shape="poly" id="edge6_Node000003_Node000008" title=" " alt="" coords="341,117,293,154,290,150,338,112"/>

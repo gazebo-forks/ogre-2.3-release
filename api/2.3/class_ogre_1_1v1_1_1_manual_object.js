@@ -1,8 +1,8 @@
 var class_ogre_1_1v1_1_1_manual_object =
 [
     [ "ManualObjectSection", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section" ],
-    [ "MovableObjectArray", "class_ogre_1_1v1_1_1_manual_object.html#afb58624fb567bb790c55d8a716b472da", null ],
-    [ "SectionList", "class_ogre_1_1v1_1_1_manual_object.html#a57e986c779f94db589a4e87e6dec5d53", null ],
+    [ "MovableObjectArray", "class_ogre_1_1v1_1_1_manual_object.html#a317b125b7fabcad7c8a344164455e08d", null ],
+    [ "SectionList", "class_ogre_1_1v1_1_1_manual_object.html#ac72ce5d6b20ea7e0e4f9a1806fd2cf8c", null ],
     [ "ManualObject", "class_ogre_1_1v1_1_1_manual_object.html#a174786272c9fb66ab71d86ed8a498a17", null ],
     [ "~ManualObject", "class_ogre_1_1v1_1_1_manual_object.html#af9c00d90845665ff5ee219bc804fa0f9", null ],
     [ "_getLightList", "class_ogre_1_1v1_1_1_manual_object.html#a862e7d3af40ee31de2f95a626207f96d", null ],

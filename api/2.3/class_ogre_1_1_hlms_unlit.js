@@ -1,7 +1,7 @@
 var class_ogre_1_1_hlms_unlit =
 [
-    [ "HlmsDatablockMap", "class_ogre_1_1_hlms_unlit.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-    [ "LibraryVec", "class_ogre_1_1_hlms_unlit.html#a6515668f13ae08887b8104c7133e5c29", null ],
+    [ "HlmsDatablockMap", "class_ogre_1_1_hlms_unlit.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+    [ "LibraryVec", "class_ogre_1_1_hlms_unlit.html#a50341583e32c59496e9b11391c3db824", null ],
     [ "DirtyFlags", "class_ogre_1_1_hlms_unlit.html#a4dc8f3f46667d44648238e9c396fd9a7", [
       [ "DirtyNone", "class_ogre_1_1_hlms_unlit.html#a4dc8f3f46667d44648238e9c396fd9a7a301241051482fed014ff5553f6c2ac38", null ],
       [ "DirtyConstBuffer", "class_ogre_1_1_hlms_unlit.html#a4dc8f3f46667d44648238e9c396fd9a7a8c28fc09ec9008631054b52064cc4165", null ],

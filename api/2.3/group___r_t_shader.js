@@ -274,8 +274,8 @@ var group___r_t_shader =
       [ "Type", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour.html#afc7d63fa0126181c60229be8cb5a1560", null ]
     ] ],
     [ "Ogre::RTShader::FFPColourFactory", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html", [
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#a02c512efa225ca073f48dc826cb86a50", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -291,8 +291,8 @@ var group___r_t_shader =
       [ "operator new", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#adce32528577d71b228692df906ecd17c", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#af707b80a34dd94e60f774804f0e46d19", null ]
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#af707b80a34dd94e60f774804f0e46d19", null ],
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_colour_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
     ] ],
     [ "Ogre::RTShader::FFPFog", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog.html", [
       [ "CalcMode", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog.html#a3f3fe627121288337ab50fb196b27c24", [
@@ -324,8 +324,8 @@ var group___r_t_shader =
       [ "Type", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog.html#a440a7bcc86823142c7cb0adc114e33bc", null ]
     ] ],
     [ "Ogre::RTShader::FFPFogFactory", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html", [
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#a1da4086c34407d1360b61c2b28a297e9", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -341,8 +341,8 @@ var group___r_t_shader =
       [ "operator new", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#adce32528577d71b228692df906ecd17c", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#a3aa5f8c428bde322595cafda2880fbc9", null ]
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#a3aa5f8c428bde322595cafda2880fbc9", null ],
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_fog_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
     ] ],
     [ "Ogre::RTShader::FFPLighting", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting.html", [
       [ "FFPLighting", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting.html#a2c0f6b8cb10057e12f22b7d10c08d00c", null ],
@@ -367,8 +367,8 @@ var group___r_t_shader =
       [ "Type", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting.html#afddadd54341fb6c2a3fd2f0441bceb7d", null ]
     ] ],
     [ "Ogre::RTShader::FFPLightingFactory", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html", [
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#aa6f240508f46fa150679c08f6d6046d2", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -384,8 +384,8 @@ var group___r_t_shader =
       [ "operator new", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#adce32528577d71b228692df906ecd17c", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a7bd66ed4824b4330bb02ae06f552cf43", null ]
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a7bd66ed4824b4330bb02ae06f552cf43", null ],
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
     ] ],
     [ "Ogre::RTShader::FFPRenderStateBuilder", "class_ogre_1_1_r_t_shader_1_1_f_f_p_render_state_builder.html", [
       [ "FFPRenderStateBuilder", "class_ogre_1_1_r_t_shader_1_1_f_f_p_render_state_builder.html#a6add17ebb95cd9a20fe018abc78d8fe7", null ],
@@ -431,8 +431,8 @@ var group___r_t_shader =
       [ "Type", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing.html#ab434bdfe34677e27315ab1e1bbcab3f8", null ]
     ] ],
     [ "Ogre::RTShader::FFPTexturingFactory", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html", [
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#a7dfee8581f6c51b96a727d2c044703e4", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -448,8 +448,8 @@ var group___r_t_shader =
       [ "operator new", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#adce32528577d71b228692df906ecd17c", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#af4928e53ce907e3282753452f692d497", null ]
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#af4928e53ce907e3282753452f692d497", null ],
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_texturing_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
     ] ],
     [ "Ogre::RTShader::FFPTransform", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform.html", [
       [ "copyFrom", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform.html#a67d200c690c3231cb4ba61868bcba344", null ],
@@ -473,8 +473,8 @@ var group___r_t_shader =
       [ "Type", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform.html#a8668a04b70e49c568493fb4dd85afbd4", null ]
     ] ],
     [ "Ogre::RTShader::FFPTransformFactory", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html", [
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#a2e3160cd4f3bafa5214f97b2303e1e06", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -490,8 +490,8 @@ var group___r_t_shader =
       [ "operator new", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#adce32528577d71b228692df906ecd17c", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#a6909fe6ad89136e2b2eaeb7527e18581", null ]
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#a6909fe6ad89136e2b2eaeb7527e18581", null ],
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_transform_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
     ] ],
     [ "Ogre::RTShader::Function", "class_ogre_1_1_r_t_shader_1_1_function.html", [
       [ "FunctionType", "class_ogre_1_1_r_t_shader_1_1_function.html#a147da0e3a9d408f20e8afcced1a15ccf", [
@@ -560,7 +560,7 @@ var group___r_t_shader =
       [ "FunctionInvocationLessThan", "struct_ogre_1_1_r_t_shader_1_1_function_invocation_1_1_function_invocation_less_than.html", [
         [ "operator()", "struct_ogre_1_1_r_t_shader_1_1_function_invocation_1_1_function_invocation_less_than.html#ac3d3e63542d1e06cf8fc16d0a2f39a1c", null ]
       ] ],
-      [ "OperandVector", "class_ogre_1_1_r_t_shader_1_1_function_invocation.html#a709fbe496a60e5c9568461c236b4fa26", null ],
+      [ "OperandVector", "class_ogre_1_1_r_t_shader_1_1_function_invocation.html#aab1cb3c5c34253a7b09e477535cc1096", null ],
       [ "FunctionInvocation", "class_ogre_1_1_r_t_shader_1_1_function_invocation.html#a34fb49292fea4d2b9b0915e7557b0f87", null ],
       [ "FunctionInvocation", "class_ogre_1_1_r_t_shader_1_1_function_invocation.html#ab5cef3873f219044a14d32f89e165750", null ],
       [ "getFunctionAtomType", "class_ogre_1_1_r_t_shader_1_1_function_invocation.html#a14f2971b8f2f0bc571b12bdc75baa053", null ],
@@ -694,8 +694,8 @@ var group___r_t_shader =
     ] ],
     [ "Ogre::RTShader::HardwareSkinningFactory", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html", [
       [ "HardwareSkinningFactory", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a3475a3c6970fa475a23df8fbeec8a295", null ],
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a4e8c5ce729c1c8e7a76314121d41908b", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -720,8 +720,8 @@ var group___r_t_shader =
       [ "setCustomShadowCasterMaterials", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#ab22415d71a22c1b10191c3f089ab1437", null ],
       [ "setCustomShadowReceiverMaterials", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#af4d9f984b5af5e50c841ed0a03a4678c", null ],
       [ "setMaxCalculableBoneCount", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a4e0233a6a8a7482b8b3b5278029354bd", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#af5695d48c4d58f91f0939b49a2bbd4cb", null ]
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#af5695d48c4d58f91f0939b49a2bbd4cb", null ],
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
     ] ],
     [ "Ogre::RTShader::HardwareSkinningTechnique", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_technique.html", [
       [ "HardwareSkinningTechnique", "group___r_t_shader.html#ga6e9f20a122d6130adce810efd2930ace", null ],
@@ -783,7 +783,7 @@ var group___r_t_shader =
       [ "TargetLanguage", "class_ogre_1_1_r_t_shader_1_1_h_l_s_l_program_writer.html#a02d4047f37908da902877d31f9c360a7", null ]
     ] ],
     [ "Ogre::RTShader::IntegratedPSSM3", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3.html", [
-      [ "SplitPointList", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3.html#a92f8ec8b38ba0335c10cf6d27594fb0c", null ],
+      [ "SplitPointList", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3.html#a9b261d333da65e0a8fc5846915154b68", null ],
       [ "IntegratedPSSM3", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3.html#ad5842ce77404705bb053a2a1d8414d5f", null ],
       [ "copyFrom", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3.html#a16eef6c0e01090596db2068d22e8dbeb", null ],
       [ "createCpuSubPrograms", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3.html#a4b43c261946926ebbc6456deccc6697a", null ],
@@ -807,8 +807,8 @@ var group___r_t_shader =
       [ "Type", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3.html#a89475300fcd2bcdf1f72314d2fa0d1ac", null ]
     ] ],
     [ "Ogre::RTShader::IntegratedPSSM3Factory", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3_factory.html", [
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3_factory.html#a7e67d3f0a5b4b4989e4979fa5fba6518", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_integrated_p_s_s_m3_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -889,8 +889,8 @@ var group___r_t_shader =
       [ "Type", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting.html#ad789db93efb4c43bc708e49551eb867c", null ]
     ] ],
     [ "Ogre::RTShader::NormalMapLightingFactory", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html", [
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#ae22249967c9f7e670077b02d86d654f9", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -906,8 +906,8 @@ var group___r_t_shader =
       [ "operator new", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#adce32528577d71b228692df906ecd17c", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#a9146933d8a0abbca680ae204db22c86f", null ]
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#a9146933d8a0abbca680ae204db22c86f", null ],
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_normal_map_lighting_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
     ] ],
     [ "Ogre::RTShader::Operand", "class_ogre_1_1_r_t_shader_1_1_operand.html", [
       [ "OpMask", "class_ogre_1_1_r_t_shader_1_1_operand.html#a54e58fe60624832b03f124eaeff0f5a6", [
@@ -1191,8 +1191,8 @@ var group___r_t_shader =
       [ "Type", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting.html#ae766f76cad4b3a4339a0cd50abbddcc2", null ]
     ] ],
     [ "Ogre::RTShader::PerPixelLightingFactory", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html", [
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#ad8fe2b980c0a7529dc962eb3cfd32c9b", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -1208,8 +1208,8 @@ var group___r_t_shader =
       [ "operator new", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#adce32528577d71b228692df906ecd17c", null ],
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#a558d6dce6cf22456fdc71ac6e17a9ffe", null ]
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#a558d6dce6cf22456fdc71ac6e17a9ffe", null ],
+      [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
     ] ],
     [ "Ogre::RTShader::Program", "class_ogre_1_1_r_t_shader_1_1_program.html", [
       [ "addDependency", "class_ogre_1_1_r_t_shader_1_1_program.html#a9eae71bfcd0da6a9daac3ddc52d27e25", null ],
@@ -1337,7 +1337,7 @@ var group___r_t_shader =
       [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_program_writer_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
     ] ],
     [ "Ogre::RTShader::ProgramWriterManager", "class_ogre_1_1_r_t_shader_1_1_program_writer_manager.html", [
-      [ "FactoryMap", "class_ogre_1_1_r_t_shader_1_1_program_writer_manager.html#a157211ba4d1c1665a2a410d5881842e5", null ],
+      [ "FactoryMap", "class_ogre_1_1_r_t_shader_1_1_program_writer_manager.html#a821b03c2199bac4af85f3b5ca8f0d89a", null ],
       [ "ProgramWriterManager", "class_ogre_1_1_r_t_shader_1_1_program_writer_manager.html#aa7d6b319ff45bc9861dba292f9b2ff7a", null ],
       [ "~ProgramWriterManager", "class_ogre_1_1_r_t_shader_1_1_program_writer_manager.html#a97fa340b976122ebe93939ea47580bc8", null ],
       [ "addFactory", "class_ogre_1_1_r_t_shader_1_1_program_writer_manager.html#a58504fc8e566b0172c448249f724522d", null ],
@@ -1415,7 +1415,7 @@ var group___r_t_shader =
       [ "translate", "group___r_t_shader.html#ga50913d8a64482eeefcccaaa9b9eeb1c1", null ]
     ] ],
     [ "Ogre::RTShader::ShaderGenerator", "class_ogre_1_1_r_t_shader_1_1_shader_generator.html", [
-      [ "RenderStateCreateOrRetrieveResult", "class_ogre_1_1_r_t_shader_1_1_shader_generator.html#ac7eb87c69e1a22e1ad0c0c4a3a9dded1", null ],
+      [ "RenderStateCreateOrRetrieveResult", "class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a06df5d324fc168abb4d662dd8a243cc9", null ],
       [ "_setActiveSceneManager", "class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a4724bbbba4c2e18a7306f98cdfa8ffe1", null ],
       [ "addSceneManager", "class_ogre_1_1_r_t_shader_1_1_shader_generator.html#a60704776c069e2a6bd37692f88c56815", null ],
       [ "addSubRenderStateFactory", "class_ogre_1_1_r_t_shader_1_1_shader_generator.html#ac266946244d79b2d4732607ae9479bd9", null ],
@@ -1681,8 +1681,8 @@ var group___r_t_shader =
       [ "addTexutreAtlasDefinition", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#abbaa4a035e8200b818f2101ec79b3bf9", null ],
       [ "addTexutreAtlasDefinition", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#a0b9c87db6768def43ccc98361afdd56b", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#ac06ae0feabd69e0cbe74d77ad352b1ba", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#ac06ae0feabd69e0cbe74d77ad352b1ba", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
       [ "destroyInstance", "class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html#a23839e5fc35257e4ffb9076e2aaf9409", null ],
@@ -1735,8 +1735,8 @@ var group___r_t_shader =
     ] ],
     [ "Ogre::RTShader::TriplanarTexturingFactory", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html", [
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
-      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a88fe9663d4ac213e8f689a36668e4858", null ],
       [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
+      [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a88fe9663d4ac213e8f689a36668e4858", null ],
       [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
       [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
       [ "destroyInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a23839e5fc35257e4ffb9076e2aaf9409", null ],
@@ -2086,8 +2086,8 @@ var group___r_t_shader =
     [ "Ogre::RTShader::SGScriptTranslator::SGScriptTranslator", "group___r_t_shader.html#ga86e3c331a22325d04420a5a84b905595", null ],
     [ "Ogre::RTShader::HardwareSkinningTechnique::~HardwareSkinningTechnique", "group___r_t_shader.html#ga083fdff17f9b61562b3e5e32cd032006", null ],
     [ "Ogre::RTShader::DualQuaternionSkinning::addFunctionInvocations", "group___r_t_shader.html#ga96acaf8eb55fa1cd0e0dfd98222b0640", null ],
-    [ "Ogre::RTShader::LinearSkinning::addFunctionInvocations", "group___r_t_shader.html#ga652ed7534ddb7b72ae2661a37a94c1f8", null ],
     [ "Ogre::RTShader::HardwareSkinningTechnique::addFunctionInvocations", "group___r_t_shader.html#ga8bc4f0e1b535ddf22a3354e1973ddf8c", null ],
+    [ "Ogre::RTShader::LinearSkinning::addFunctionInvocations", "group___r_t_shader.html#ga652ed7534ddb7b72ae2661a37a94c1f8", null ],
     [ "Ogre::RTShader::HardwareSkinningTechnique::copyFrom", "group___r_t_shader.html#ga85e711c9def8444e407820c07e23d126", null ],
     [ "Ogre::RTShader::HardwareSkinningTechnique::getBoneCount", "group___r_t_shader.html#ga3a272a71bc57581c22597533d085c10c", null ],
     [ "Ogre::RTShader::SGScriptTranslator::getGeneratedSubRenderState", "group___r_t_shader.html#gaa051b58444aedec84801aa00b8ef3852", null ],
@@ -2099,11 +2099,11 @@ var group___r_t_shader =
     [ "Ogre::RTShader::operator<<", "group___r_t_shader.html#ga9a4d58acd00118cb86ff41e88e3d2ea3", null ],
     [ "Ogre::RTShader::SGMaterialSerializerListener::passEventRaised", "group___r_t_shader.html#gae7cd570f009ae6daa1436bb3a1b93b1c", null ],
     [ "Ogre::RTShader::DualQuaternionSkinning::resolveDependencies", "group___r_t_shader.html#ga2d9c2c117871a07a446b468b0127895a", null ],
-    [ "Ogre::RTShader::LinearSkinning::resolveDependencies", "group___r_t_shader.html#ga2dae1b6c5230f79fbfefde6297f8941c", null ],
     [ "Ogre::RTShader::HardwareSkinningTechnique::resolveDependencies", "group___r_t_shader.html#ga697114bc7de598adf544c9abb433912b", null ],
+    [ "Ogre::RTShader::LinearSkinning::resolveDependencies", "group___r_t_shader.html#ga2dae1b6c5230f79fbfefde6297f8941c", null ],
     [ "Ogre::RTShader::DualQuaternionSkinning::resolveParameters", "group___r_t_shader.html#gaa007b47a606d45373658a277c6c89f4a", null ],
-    [ "Ogre::RTShader::LinearSkinning::resolveParameters", "group___r_t_shader.html#ga9c743be98b0e70a0d56d765b9a62986e", null ],
     [ "Ogre::RTShader::HardwareSkinningTechnique::resolveParameters", "group___r_t_shader.html#gab6ae229cd5136c5d55e1f0766b30b058", null ],
+    [ "Ogre::RTShader::LinearSkinning::resolveParameters", "group___r_t_shader.html#ga9c743be98b0e70a0d56d765b9a62986e", null ],
     [ "Ogre::RTShader::HardwareSkinningTechnique::setDoBoneCalculations", "group___r_t_shader.html#ga9f6040d44ac57c6bdb187bc111716aa7", null ],
     [ "Ogre::RTShader::HardwareSkinningTechnique::setHardwareSkinningParam", "group___r_t_shader.html#gafa9516c0d0a2b16f3dae733a989b844e", null ],
     [ "Ogre::RTShader::SGMaterialSerializerListener::techniqueEventRaised", "group___r_t_shader.html#gae69f34379ca56e44da81e6bb94e569d2", null ],

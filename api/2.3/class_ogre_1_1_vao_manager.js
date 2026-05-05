@@ -1,7 +1,7 @@
 var class_ogre_1_1_vao_manager =
 [
     [ "MemoryStatsEntry", "struct_ogre_1_1_vao_manager_1_1_memory_stats_entry.html", "struct_ogre_1_1_vao_manager_1_1_memory_stats_entry" ],
-    [ "MemoryStatsEntryVec", "class_ogre_1_1_vao_manager.html#a8a984ae987b00e95b35198131a4e9a6b", null ],
+    [ "MemoryStatsEntryVec", "class_ogre_1_1_vao_manager.html#a9af50e0b3cfbdde01f6f4478e8311737", null ],
     [ "VaoManager", "class_ogre_1_1_vao_manager.html#aefc5b9e08e0a507c264f5e3c93f6c706", null ],
     [ "~VaoManager", "class_ogre_1_1_vao_manager.html#a947e41649220c4e3bdc012476b71c89d", null ],
     [ "_beginFrame", "class_ogre_1_1_vao_manager.html#ad255ed9aad893f120f6a29e172052ccd", null ],

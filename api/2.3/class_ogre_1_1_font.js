@@ -1,10 +1,10 @@
 var class_ogre_1_1_font =
 [
     [ "GlyphInfo", "struct_ogre_1_1_font_1_1_glyph_info.html", "struct_ogre_1_1_font_1_1_glyph_info" ],
-    [ "CodePoint", "class_ogre_1_1_font.html#ad48cf05dd479e7c8f1d7a97221d933b1", null ],
-    [ "CodePointRange", "class_ogre_1_1_font.html#aa455a399457bd458852555c696b28f6a", null ],
-    [ "CodePointRangeList", "class_ogre_1_1_font.html#afae0e84cc4a86dcd4fb721d137ea4011", null ],
-    [ "UVRect", "class_ogre_1_1_font.html#a17ebc3668a45365c1243a83f36a512ef", null ],
+    [ "CodePoint", "class_ogre_1_1_font.html#a05ceb0ff42de0c170380af9ba1cdefee", null ],
+    [ "CodePointRange", "class_ogre_1_1_font.html#a3683df497f7a2dc4e0665053a7e822ae", null ],
+    [ "CodePointRangeList", "class_ogre_1_1_font.html#a4a3113adf87493522fc510af9c3c5921", null ],
+    [ "UVRect", "class_ogre_1_1_font.html#a0fe3b8c5ee5faae063b3ec21da004b78", null ],
     [ "LoadingFlags", "class_ogre_1_1_font.html#a1aa750a4b994f2b1066220936cdfdb94", [
       [ "LF_DEFAULT", "class_ogre_1_1_font.html#a1aa750a4b994f2b1066220936cdfdb94ab49695ac949df3a7d2e2f9a03267097c", null ],
       [ "LF_INCLUDE_NON_RELOADABLE", "class_ogre_1_1_font.html#a1aa750a4b994f2b1066220936cdfdb94a6ee542226e1cf18df28ab88426be6809", null ],

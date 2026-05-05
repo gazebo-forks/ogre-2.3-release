@@ -1,7 +1,7 @@
 var struct_ogre_1_1_lod_config =
 [
     [ "Advanced", "struct_ogre_1_1_lod_config_1_1_advanced.html", "struct_ogre_1_1_lod_config_1_1_advanced" ],
-    [ "LodLevelList", "struct_ogre_1_1_lod_config.html#afde8b2012578a20adfde035aa518f13e", null ],
+    [ "LodLevelList", "struct_ogre_1_1_lod_config.html#ade0f57123601a3d76a7bc636d63d3651", null ],
     [ "LodConfig", "struct_ogre_1_1_lod_config.html#a1344213f8ee863fab847136e13dc1195", null ],
     [ "LodConfig", "struct_ogre_1_1_lod_config.html#ae2ae0ac3ec6f97efcaeb586dcf3b4d89", null ],
     [ "createGeneratedLodLevel", "struct_ogre_1_1_lod_config.html#a197e4bbdc17c5645e9775d0ea1863c4d", null ],

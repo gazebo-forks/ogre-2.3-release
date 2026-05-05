@@ -1,7 +1,7 @@
 var class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket =
 [
-    [ "MaterialBucketMap", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#afea16190c321deed70f8f017f55a2f99", null ],
-    [ "MaterialIterator", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#afd97fbe6b58285b8adb1418337546316", null ],
+    [ "MaterialBucketMap", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#afd1c3ab13754905b780e1ad688f9b4b8", null ],
+    [ "MaterialIterator", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#a8fe2bb65b42f5ba3f4590f19e81d50bd", null ],
     [ "LODBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#ab8958e70cb0b5d50f5fcde9153bf2cf2", null ],
     [ "~LODBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#a9a092c47b0c58306f7ec3dfabb22038b", null ],
     [ "addRenderables", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#a9ebf3ea48266665d1a1f07b2bca79359", null ],

@@ -1,11 +1,11 @@
 var class_ogre_1_1_material_manager =
 [
     [ "Listener", "class_ogre_1_1_material_manager_1_1_listener.html", "class_ogre_1_1_material_manager_1_1_listener" ],
-    [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_material_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-    [ "ResourceHandleMap", "class_ogre_1_1_material_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-    [ "ResourceMap", "class_ogre_1_1_material_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-    [ "ResourceMapIterator", "class_ogre_1_1_material_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-    [ "ResourceWithGroupMap", "class_ogre_1_1_material_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+    [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_material_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+    [ "ResourceHandleMap", "class_ogre_1_1_material_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+    [ "ResourceMap", "class_ogre_1_1_material_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+    [ "ResourceMapIterator", "class_ogre_1_1_material_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+    [ "ResourceWithGroupMap", "class_ogre_1_1_material_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
     [ "MaterialManager", "class_ogre_1_1_material_manager.html#aef0e85acfedd02d09bc78829607725b9", null ],
     [ "~MaterialManager", "class_ogre_1_1_material_manager.html#aabb8080830988a13ac1ee7fa12898e39", null ],
     [ "_arbitrateMissingTechniqueForActiveScheme", "class_ogre_1_1_material_manager.html#a88fbd340847931e3dae4aa57cf21ad6b", null ],

@@ -1,8 +1,8 @@
 var class_ogre_1_1_vulkan_texture_gpu_manager =
 [
-    [ "BudgetEntryVec", "class_ogre_1_1_vulkan_texture_gpu_manager.html#a243112239378b673ba9f1df5e7abdbf3", null ],
-    [ "MetadataCacheMap", "class_ogre_1_1_vulkan_texture_gpu_manager.html#a75e42d75a1eae1a28e52e4613832edb3", null ],
-    [ "ResourceEntryMap", "class_ogre_1_1_vulkan_texture_gpu_manager.html#ad657330e7020f561860d24366460271c", null ],
+    [ "BudgetEntryVec", "class_ogre_1_1_vulkan_texture_gpu_manager.html#af62ba2e7914448756265ad421d59e093", null ],
+    [ "MetadataCacheMap", "class_ogre_1_1_vulkan_texture_gpu_manager.html#a36e610eef744569c8aaea9ea4874df99", null ],
+    [ "ResourceEntryMap", "class_ogre_1_1_vulkan_texture_gpu_manager.html#a0026780a9be7db6f2e97baf5fbdf42b2", null ],
     [ "Reason", "class_ogre_1_1_vulkan_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7d", [
       [ "Unknown", "class_ogre_1_1_vulkan_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da2b732a317de0915527e291485ca42e82", null ],
       [ "FromStorageToSysRam", "class_ogre_1_1_vulkan_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da58fd07194714679ed3ba9857d7656f27", null ],

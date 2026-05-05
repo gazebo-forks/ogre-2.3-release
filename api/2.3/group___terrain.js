@@ -64,8 +64,8 @@ var group___terrain =
         [ "textureNames", "struct_ogre_1_1_terrain_1_1_layer_instance.html#a14363e8e526e90ea47ea93cac3764fc1", null ],
         [ "worldSize", "struct_ogre_1_1_terrain_1_1_layer_instance.html#a54f726e8a0c17ec1579a16afa1a9398c", null ]
       ] ],
-      [ "LayerInstanceList", "class_ogre_1_1_terrain.html#a7f4f256f962849538b8e46eebd6da94c", null ],
-      [ "RealVector", "class_ogre_1_1_terrain.html#aa2b09fef0fe773201df2e55cc995d312", null ],
+      [ "LayerInstanceList", "class_ogre_1_1_terrain.html#a0efccd00111cf07fadf9e9bdf1ce334b", null ],
+      [ "RealVector", "class_ogre_1_1_terrain.html#ac5551c11d5350aab48807b429dd5567c", null ],
       [ "Alignment", "class_ogre_1_1_terrain.html#aca4fcebfb7ed4684682347d325477e91", [
         [ "ALIGN_X_Z", "class_ogre_1_1_terrain.html#aca4fcebfb7ed4684682347d325477e91ac4699c4f99bea344a309d5544b33c140", null ],
         [ "ALIGN_X_Y", "class_ogre_1_1_terrain.html#aca4fcebfb7ed4684682347d325477e91adfc96b5a388b3e48709d56b899098508", null ],
@@ -430,10 +430,10 @@ var group___terrain =
         [ "filename", "struct_ogre_1_1_terrain_group_1_1_terrain_slot_definition.html#a5b0c56d3b577d08fd3800f0399ac8bff", null ],
         [ "importData", "struct_ogre_1_1_terrain_group_1_1_terrain_slot_definition.html#a13c37aea760bd2537db790c8cf6271ce", null ]
       ] ],
-      [ "ConstTerrainIterator", "class_ogre_1_1_terrain_group.html#a715d18edfe80acd905f82e69145b58ce", null ],
-      [ "TerrainIterator", "class_ogre_1_1_terrain_group.html#a0ede78efc787db283ade7fdf25f85fe5", null ],
-      [ "TerrainList", "class_ogre_1_1_terrain_group.html#afb09ef57afe5c35986ac5c38f9f94342", null ],
-      [ "TerrainSlotMap", "class_ogre_1_1_terrain_group.html#ab88ae79e0667f34a48571d9bae1f3139", null ],
+      [ "ConstTerrainIterator", "class_ogre_1_1_terrain_group.html#a28ce249f802a03bf7260885a156c9462", null ],
+      [ "TerrainIterator", "class_ogre_1_1_terrain_group.html#a15497d38a2ad5c76905ad7f22f665151", null ],
+      [ "TerrainList", "class_ogre_1_1_terrain_group.html#a524e42fd01afd6863a6977398c457f17", null ],
+      [ "TerrainSlotMap", "class_ogre_1_1_terrain_group.html#a852d649b58977cf91faa871d24f21faa", null ],
       [ "TerrainGroup", "class_ogre_1_1_terrain_group.html#a7be4b53fbb7f1edd7707c69b4ee883f4", null ],
       [ "TerrainGroup", "class_ogre_1_1_terrain_group.html#a1ceb1403ef71bd8c5badd1861f17a566", null ],
       [ "~TerrainGroup", "class_ogre_1_1_terrain_group.html#a8fa89b425d4ce101a4f3973096d204b2", null ],
@@ -581,8 +581,8 @@ var group___terrain =
         [ "treeEnd", "struct_ogre_1_1_terrain_lod_manager_1_1_lod_info.html#a2018decb1162dedf8e1904d9df092d53", null ],
         [ "treeStart", "struct_ogre_1_1_terrain_lod_manager_1_1_lod_info.html#a0f891ce26a83a44aa6a3478ffe58e335", null ]
       ] ],
-      [ "LodData", "class_ogre_1_1_terrain_lod_manager.html#aec765a99ffa77be2c237d802e37a6cb5", null ],
-      [ "LodsData", "class_ogre_1_1_terrain_lod_manager.html#a7d26d51b9497371fc3fc420eb0bd5ebf", null ],
+      [ "LodData", "class_ogre_1_1_terrain_lod_manager.html#a8cce2e489010b9ea5f95fd3d527a90af", null ],
+      [ "LodsData", "class_ogre_1_1_terrain_lod_manager.html#a5c75de596f05360d6b08f144047e0d7a", null ],
       [ "TerrainLodManager", "class_ogre_1_1_terrain_lod_manager.html#ab5f4ef928bce023bc3ac359191e8c379", null ],
       [ "TerrainLodManager", "class_ogre_1_1_terrain_lod_manager.html#a9a14a5692b839d0c0a68c0111fb9192a", null ],
       [ "~TerrainLodManager", "class_ogre_1_1_terrain_lod_manager.html#adb27b3785755085b8aadf0c46a35bc27", null ],
@@ -641,7 +641,7 @@ var group___terrain =
         [ "updateParams", "class_ogre_1_1_terrain_material_generator_1_1_profile.html#a8efea3f1c4506d600d96995ba0d61164", null ],
         [ "updateParamsForCompositeMap", "class_ogre_1_1_terrain_material_generator_1_1_profile.html#abcb1087d4d2f5b60ba99a22a86dde5f4", null ]
       ] ],
-      [ "ProfileList", "class_ogre_1_1_terrain_material_generator.html#a337b92bbdb7651a87c2deaaabfee61bd", null ],
+      [ "ProfileList", "class_ogre_1_1_terrain_material_generator.html#a7969fdd315e6798c16300d7cd15dbf41", null ],
       [ "TerrainMaterialGenerator", "class_ogre_1_1_terrain_material_generator.html#a533d059caa8ac039c9591fb47b1ea82e", null ],
       [ "~TerrainMaterialGenerator", "class_ogre_1_1_terrain_material_generator.html#a1de7023a59600699ae10003ec5005fb4", null ],
       [ "_getCompositeMapRTT", "class_ogre_1_1_terrain_material_generator.html#a9a644d1701f65993222a4592ad917176", null ],
@@ -725,7 +725,7 @@ var group___terrain =
         [ "updateParams", "class_ogre_1_1_terrain_material_generator_a_1_1_s_m2_profile.html#a6e7d0b079cef03335718ec90d96828c8", null ],
         [ "updateParamsForCompositeMap", "class_ogre_1_1_terrain_material_generator_a_1_1_s_m2_profile.html#a003757f0377d6fa5f5e4028ac0ad8a91", null ]
       ] ],
-      [ "ProfileList", "class_ogre_1_1_terrain_material_generator_a.html#a337b92bbdb7651a87c2deaaabfee61bd", null ],
+      [ "ProfileList", "class_ogre_1_1_terrain_material_generator_a.html#a7969fdd315e6798c16300d7cd15dbf41", null ],
       [ "TerrainMaterialGeneratorA", "class_ogre_1_1_terrain_material_generator_a.html#ac41cdd05e80c7eed45f59a16e13ec740", null ],
       [ "~TerrainMaterialGeneratorA", "class_ogre_1_1_terrain_material_generator_a.html#af5c5973e8e5c79a9134fad7b5a4f7212", null ],
       [ "_getCompositeMapRTT", "class_ogre_1_1_terrain_material_generator_a.html#a9a644d1701f65993222a4592ad917176", null ],
@@ -775,7 +775,7 @@ var group___terrain =
         [ "operator new[]", "class_ogre_1_1_terrain_paged_world_section_1_1_terrain_definer.html#adce32528577d71b228692df906ecd17c", null ],
         [ "operator new[]", "class_ogre_1_1_terrain_paged_world_section_1_1_terrain_definer.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
       ] ],
-      [ "PageMap", "class_ogre_1_1_terrain_paged_world_section.html#a871d56cd48e818c61bd4b3bae305e063", null ],
+      [ "PageMap", "class_ogre_1_1_terrain_paged_world_section.html#abeff123bd0888c643ee1fb6940e69389", null ],
       [ "TerrainPagedWorldSection", "class_ogre_1_1_terrain_paged_world_section.html#ac4015e82e2e994378bfd26ce7303df7e", null ],
       [ "~TerrainPagedWorldSection", "class_ogre_1_1_terrain_paged_world_section.html#a7efd9deef0452bcbdca21d5ac1cf079c", null ],
       [ "_loadProceduralPage", "class_ogre_1_1_terrain_paged_world_section.html#ac0c8f91bad2fa313ecde9d0f6e8491b9", null ],
@@ -885,7 +885,7 @@ var group___terrain =
         [ "lastTransitionDist", "struct_ogre_1_1_terrain_quad_tree_node_1_1_lod_level.html#ac82a3ddf378272493d9d82100c17597a", null ],
         [ "maxHeightDelta", "struct_ogre_1_1_terrain_quad_tree_node_1_1_lod_level.html#a01670093b32d51d33f54146984fcd7ae", null ]
       ] ],
-      [ "LodLevelList", "class_ogre_1_1_terrain_quad_tree_node.html#a475e46c4f95eafc0ec21489eeaafb1c5", null ],
+      [ "LodLevelList", "class_ogre_1_1_terrain_quad_tree_node.html#a37e46e029c233c7be340a4c8c742b467", null ],
       [ "TerrainQuadTreeNode", "class_ogre_1_1_terrain_quad_tree_node.html#a26773bdba96ca94ddeed96265d2cef1a", null ],
       [ "~TerrainQuadTreeNode", "class_ogre_1_1_terrain_quad_tree_node.html#a525a7166daaa69292b2350de66784f58", null ],
       [ "_getRenderable", "class_ogre_1_1_terrain_quad_tree_node.html#a7aab464b2da0097f3d723f8fcc1328eb", null ],

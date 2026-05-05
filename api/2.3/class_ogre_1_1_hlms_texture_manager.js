@@ -4,8 +4,8 @@ var class_ogre_1_1_hlms_texture_manager =
     [ "MetadataCacheEntry", "struct_ogre_1_1_hlms_texture_manager_1_1_metadata_cache_entry.html", "struct_ogre_1_1_hlms_texture_manager_1_1_metadata_cache_entry" ],
     [ "TextureLocation", "struct_ogre_1_1_hlms_texture_manager_1_1_texture_location.html", "struct_ogre_1_1_hlms_texture_manager_1_1_texture_location" ],
     [ "Threshold", "struct_ogre_1_1_hlms_texture_manager_1_1_threshold.html", "struct_ogre_1_1_hlms_texture_manager_1_1_threshold" ],
-    [ "MetadataCacheMap", "class_ogre_1_1_hlms_texture_manager.html#a7b3977b9fb03736f6ca502663c28aa09", null ],
-    [ "ThresholdVec", "class_ogre_1_1_hlms_texture_manager.html#af745c356168ccf555f7d563591e8bec9", null ],
+    [ "MetadataCacheMap", "class_ogre_1_1_hlms_texture_manager.html#a4f78952da573700b95711bed660487a6", null ],
+    [ "ThresholdVec", "class_ogre_1_1_hlms_texture_manager.html#a9bbfb6f9ec604f69f7a0eef70fd2880f", null ],
     [ "PackingMethod", "class_ogre_1_1_hlms_texture_manager.html#a81fae92def0f944479999b84e01b7b60", [
       [ "TextureArrays", "class_ogre_1_1_hlms_texture_manager.html#a81fae92def0f944479999b84e01b7b60a4b05666bac375f4eac50d2ab01d8459d", null ],
       [ "Atlas", "class_ogre_1_1_hlms_texture_manager.html#a81fae92def0f944479999b84e01b7b60a600e4ff0438a7a3d14a1acdbb3a849ad", null ]

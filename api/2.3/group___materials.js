@@ -305,11 +305,11 @@ var group___materials =
         [ "elementType", "struct_ogre_1_1_gpu_program_parameters_1_1_auto_constant_definition.html#afd666b79a5ca388640daf451d7da8c07", null ],
         [ "name", "struct_ogre_1_1_gpu_program_parameters_1_1_auto_constant_definition.html#ae5ad78cdb1c72d317aaf994fdc801b6b", null ]
       ] ],
-      [ "AutoConstantIterator", "class_ogre_1_1_gpu_program_parameters.html#ab4d7fa4e86c8f3f0bb4ef73787034e15", null ],
-      [ "AutoConstantList", "class_ogre_1_1_gpu_program_parameters.html#a04af8d22a74d8f2acaf2b750f93eecfd", null ],
-      [ "GpuSharedParamUsageList", "class_ogre_1_1_gpu_program_parameters.html#a424d7678a54980bc33a7ca2c785424c1", null ],
-      [ "SubroutineIterator", "class_ogre_1_1_gpu_program_parameters.html#ad61f5576b157252e4ef190a3b039deb1", null ],
-      [ "SubroutineMap", "class_ogre_1_1_gpu_program_parameters.html#ac26ad12dae20a813ae969d2403e9fa7f", null ],
+      [ "AutoConstantIterator", "class_ogre_1_1_gpu_program_parameters.html#a14e9a16f86c7352baa29381da9abc1f6", null ],
+      [ "AutoConstantList", "class_ogre_1_1_gpu_program_parameters.html#aa91e494233e943cf31b72ac2fcf1e2aa", null ],
+      [ "GpuSharedParamUsageList", "class_ogre_1_1_gpu_program_parameters.html#aabb188f0f865cca83d19e2b3968a93ca", null ],
+      [ "SubroutineIterator", "class_ogre_1_1_gpu_program_parameters.html#a3926f53e394825757d8e3caa3938d877", null ],
+      [ "SubroutineMap", "class_ogre_1_1_gpu_program_parameters.html#a1f10f7d08c52aec1de9c72ad51bfe066", null ],
       [ "ACDataType", "class_ogre_1_1_gpu_program_parameters.html#a1fe0f4aa9dd371e8eef09f36a50e45bf", [
         [ "ACDT_NONE", "class_ogre_1_1_gpu_program_parameters.html#a1fe0f4aa9dd371e8eef09f36a50e45bfa41602082222cd38696bd6a19698fbfa2", null ],
         [ "ACDT_INT", "class_ogre_1_1_gpu_program_parameters.html#a1fe0f4aa9dd371e8eef09f36a50e45bfa6fd9aa5051e0af84e977e26d2bc45726", null ],
@@ -725,9 +725,9 @@ var group___materials =
       [ "source2", "class_ogre_1_1_layer_blend_mode_ex.html#a94eeae80ba84e9aa5271d317d48f2688", null ]
     ] ],
     [ "Ogre::Material", "class_ogre_1_1_material.html", [
-      [ "LodValueArray", "class_ogre_1_1_material.html#a7726f446442e5df77f29e2fd91af1633", null ],
-      [ "LodValueIterator", "class_ogre_1_1_material.html#aefc64a391f751ffb3cb5153c3d81bc1b", null ],
-      [ "TechniqueIterator", "class_ogre_1_1_material.html#a4969168248bff6aea70eafcf75497689", null ],
+      [ "LodValueArray", "class_ogre_1_1_material.html#a78bc4e9a02e998a3174080e3c6d5c0ee", null ],
+      [ "LodValueIterator", "class_ogre_1_1_material.html#aa84de033775a678b244f5f1c228f8bcd", null ],
+      [ "TechniqueIterator", "class_ogre_1_1_material.html#ad11f7b446e37cebe6e472240f68f6cc8", null ],
       [ "LoadingFlags", "class_ogre_1_1_material.html#a1aa750a4b994f2b1066220936cdfdb94", [
         [ "LF_DEFAULT", "class_ogre_1_1_material.html#a1aa750a4b994f2b1066220936cdfdb94ab49695ac949df3a7d2e2f9a03267097c", null ],
         [ "LF_INCLUDE_NON_RELOADABLE", "class_ogre_1_1_material.html#a1aa750a4b994f2b1066220936cdfdb94a6ee542226e1cf18df28ab88426be6809", null ],
@@ -854,11 +854,11 @@ var group___materials =
         [ "beforeIlluminationPassesCleared", "class_ogre_1_1_material_manager_1_1_listener.html#aef0450842376d1438af02dce20487890", null ],
         [ "handleSchemeNotFound", "class_ogre_1_1_material_manager_1_1_listener.html#aefe59620e9a345442740cfae43a86f02", null ]
       ] ],
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_material_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1_material_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1_material_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1_material_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1_material_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_material_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1_material_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1_material_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1_material_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1_material_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
       [ "MaterialManager", "class_ogre_1_1_material_manager.html#aef0e85acfedd02d09bc78829607725b9", null ],
       [ "~MaterialManager", "class_ogre_1_1_material_manager.html#aabb8080830988a13ac1ee7fa12898e39", null ],
       [ "_arbitrateMissingTechniqueForActiveScheme", "class_ogre_1_1_material_manager.html#a88fbd340847931e3dae4aa57cf21ad6b", null ],
@@ -982,8 +982,8 @@ var group___materials =
       [ "writeValue", "class_ogre_1_1_material_serializer.html#ad7221314131e7f6a76c864fbd3b5d0c7", null ]
     ] ],
     [ "Ogre::Pass", "class_ogre_1_1_pass.html", [
-      [ "ConstTextureUnitStateIterator", "class_ogre_1_1_pass.html#a98b42a4f4304f3f2d08fb9394cbefe83", null ],
-      [ "TextureUnitStateIterator", "class_ogre_1_1_pass.html#ac7bc2b00e42ad2699a1e2a1de340d3b4", null ],
+      [ "ConstTextureUnitStateIterator", "class_ogre_1_1_pass.html#ac95db75cb036fe01bc7e9a37934c6ff8", null ],
+      [ "TextureUnitStateIterator", "class_ogre_1_1_pass.html#a8ac6972d87fade69312d80d8c7049d59", null ],
       [ "Pass", "class_ogre_1_1_pass.html#a7f36f2c48b62fd29b2abdee4425d6a2c", null ],
       [ "Pass", "class_ogre_1_1_pass.html#a2af67ca21bb1a91d6c228db8207384fc", null ],
       [ "~Pass", "class_ogre_1_1_pass.html#a73276f829c68266eca0c0fd700e13638", null ],
@@ -1176,11 +1176,11 @@ var group___materials =
         [ "includeOrExclude", "struct_ogre_1_1_technique_1_1_g_p_u_vendor_rule.html#a60cb77ded55eb1fd08da385acf4ad903", null ],
         [ "vendor", "struct_ogre_1_1_technique_1_1_g_p_u_vendor_rule.html#a79d34dde82e07466421e7fb2660d3db7", null ]
       ] ],
-      [ "GPUDeviceNameRuleIterator", "class_ogre_1_1_technique.html#a63da4eb10f7272486a9806374b09bab6", null ],
-      [ "GPUDeviceNameRuleList", "class_ogre_1_1_technique.html#a98091dbc9cb06b40138458537c36e3ed", null ],
-      [ "GPUVendorRuleIterator", "class_ogre_1_1_technique.html#a2497a0043902e9d2af0757d769da655c", null ],
-      [ "GPUVendorRuleList", "class_ogre_1_1_technique.html#aa110f5f6056965bfb02099099fb46958", null ],
-      [ "PassIterator", "class_ogre_1_1_technique.html#a3b4640d3383f331657fd9ee05cb835c2", null ],
+      [ "GPUDeviceNameRuleIterator", "class_ogre_1_1_technique.html#a8a2ba76a578806288a5fa55b0cfe51cf", null ],
+      [ "GPUDeviceNameRuleList", "class_ogre_1_1_technique.html#af6aa7bcda6586df9e81e71b64d633717", null ],
+      [ "GPUVendorRuleIterator", "class_ogre_1_1_technique.html#a0369e12cf1c7bc004c3bb3c13c5cc99c", null ],
+      [ "GPUVendorRuleList", "class_ogre_1_1_technique.html#a6880ccab3ad4fe31332cac8d02041e9f", null ],
+      [ "PassIterator", "class_ogre_1_1_technique.html#a65c839b7dce2ad6d843909bfb8a12028", null ],
       [ "IncludeOrExclude", "class_ogre_1_1_technique.html#a1ade219e17b5e8d73d079d11f64a2a2d", [
         [ "INCLUDE", "class_ogre_1_1_technique.html#a1ade219e17b5e8d73d079d11f64a2a2dabd4cc2de655eff5194cda7ea50d00ee3", null ],
         [ "EXCLUDE", "class_ogre_1_1_technique.html#a1ade219e17b5e8d73d079d11f64a2a2da043f697946b7a6d01bb858768e6646a3", null ]
@@ -1275,7 +1275,7 @@ var group___materials =
         [ "type", "struct_ogre_1_1_texture_unit_state_1_1_texture_effect.html#aded68c8d04446c4e9b9616f356be06de", null ],
         [ "waveType", "struct_ogre_1_1_texture_unit_state_1_1_texture_effect.html#a4727405325577a8151cd706ef6bef824", null ]
       ] ],
-      [ "EffectMap", "class_ogre_1_1_texture_unit_state.html#a34fc8b60505dce134d07d441849df4cb", null ],
+      [ "EffectMap", "class_ogre_1_1_texture_unit_state.html#a38516b99491abc74c3c257a775546d7d", null ],
       [ "BindingType", "class_ogre_1_1_texture_unit_state.html#a411bcf3e69280ce146f09ddc73d9e7e8", [
         [ "BT_FRAGMENT", "class_ogre_1_1_texture_unit_state.html#a411bcf3e69280ce146f09ddc73d9e7e8a39c5f87a9b1c5873ece87f48cba19970", null ],
         [ "BT_VERTEX", "class_ogre_1_1_texture_unit_state.html#a411bcf3e69280ce146f09ddc73d9e7e8a857de1fa5e307a5a5b0df779ad4a470e", null ],

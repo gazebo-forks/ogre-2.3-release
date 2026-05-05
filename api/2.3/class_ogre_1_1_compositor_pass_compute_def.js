@@ -2,9 +2,9 @@ var class_ogre_1_1_compositor_pass_compute_def =
 [
     [ "BufferSource", "struct_ogre_1_1_compositor_pass_compute_def_1_1_buffer_source.html", "struct_ogre_1_1_compositor_pass_compute_def_1_1_buffer_source" ],
     [ "ComputeTextureSource", "struct_ogre_1_1_compositor_pass_compute_def_1_1_compute_texture_source.html", "struct_ogre_1_1_compositor_pass_compute_def_1_1_compute_texture_source" ],
-    [ "BufferSourceVec", "class_ogre_1_1_compositor_pass_compute_def.html#ad8655c4ab2ce6f1a125497417dff551e", null ],
-    [ "TextureSources", "class_ogre_1_1_compositor_pass_compute_def.html#af6e901071fbb5faee136de03a300c644", null ],
-    [ "UavDependencyVec", "class_ogre_1_1_compositor_pass_compute_def.html#a114c9c278a29353ebe78cc7d7e3fce6f", null ],
+    [ "BufferSourceVec", "class_ogre_1_1_compositor_pass_compute_def.html#af014b8e99cfba5d984b0eff12a2b28e2", null ],
+    [ "TextureSources", "class_ogre_1_1_compositor_pass_compute_def.html#a4c9254919c263dc71ca7d3f25e2020da", null ],
+    [ "UavDependencyVec", "class_ogre_1_1_compositor_pass_compute_def.html#aec52e0a35fa518680417b08c975793bc", null ],
     [ "CompositorPassComputeDef", "class_ogre_1_1_compositor_pass_compute_def.html#a74a57fc23aefeecfe9c6e4c418ec4658", null ],
     [ "addTextureSource", "class_ogre_1_1_compositor_pass_compute_def.html#aa71cff03824277a3f69dfa58c4aeafe6", null ],
     [ "addTextureSource", "class_ogre_1_1_compositor_pass_compute_def.html#a41a615c71dc71248ce6b51917f7566ad", null ],

@@ -1,6 +1,6 @@
 var class_ogre_1_1_p_s_s_m_shadow_camera_setup =
 [
-    [ "SplitPointList", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#aad0d2ebd7081a0916ba725a109f7219a", null ],
+    [ "SplitPointList", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#a965d4b2c7407d0421e49a49337fff940", null ],
     [ "PSSMShadowCameraSetup", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#ad19943dab4695c37674eedcd574a4844", null ],
     [ "~PSSMShadowCameraSetup", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#aea92d3872f6f0f8bbab04eb8f0474fa2", null ],
     [ "calculateSplitPoints", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#a9cf6fe9aa7709668f3404b5ed9575975", null ],

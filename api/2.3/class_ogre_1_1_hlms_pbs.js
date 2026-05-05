@@ -1,7 +1,7 @@
 var class_ogre_1_1_hlms_pbs =
 [
-    [ "HlmsDatablockMap", "class_ogre_1_1_hlms_pbs.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-    [ "LibraryVec", "class_ogre_1_1_hlms_pbs.html#a6515668f13ae08887b8104c7133e5c29", null ],
+    [ "HlmsDatablockMap", "class_ogre_1_1_hlms_pbs.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+    [ "LibraryVec", "class_ogre_1_1_hlms_pbs.html#a50341583e32c59496e9b11391c3db824", null ],
     [ "AmbientLightMode", "class_ogre_1_1_hlms_pbs.html#a5fed9e596a4ec91b729d9fdbfc054c67", [
       [ "AmbientAuto", "class_ogre_1_1_hlms_pbs.html#a5fed9e596a4ec91b729d9fdbfc054c67a3bfb356813bf7725ccbae6fd23af36b2", null ],
       [ "AmbientFixed", "class_ogre_1_1_hlms_pbs.html#a5fed9e596a4ec91b729d9fdbfc054c67a22cf2cf1dafcb142a6a8d9ffab2cc3df", null ],

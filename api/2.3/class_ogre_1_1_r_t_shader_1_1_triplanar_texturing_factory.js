@@ -1,8 +1,8 @@
 var class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory =
 [
     [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
-    [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a88fe9663d4ac213e8f689a36668e4858", null ],
     [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
+    [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a88fe9663d4ac213e8f689a36668e4858", null ],
     [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
     [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
     [ "destroyInstance", "class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html#a23839e5fc35257e4ffb9076e2aaf9409", null ],

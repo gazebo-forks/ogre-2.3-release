@@ -1,8 +1,8 @@
 var class_ogre_1_1_hlms_manager =
 [
-    [ "BlockIdxVec", "class_ogre_1_1_hlms_manager.html#a8a2d293e9ccbaf4da452c4cab3bf9a67", null ],
-    [ "HlmsDatablockMap", "class_ogre_1_1_hlms_manager.html#afc2984534f1d52fe054541ee798c80c2", null ],
-    [ "ResourceToTexExtensionMap", "class_ogre_1_1_hlms_manager.html#aaf389a4d1d62b5493ed9b544486a9544", null ],
+    [ "BlockIdxVec", "class_ogre_1_1_hlms_manager.html#ad96de1fd3056bb53d77eb165d3912df2", null ],
+    [ "HlmsDatablockMap", "class_ogre_1_1_hlms_manager.html#aade29ecdc1e3e93e265c91aa9ad89873", null ],
+    [ "ResourceToTexExtensionMap", "class_ogre_1_1_hlms_manager.html#a18058d5b128efa3b7bcc843c76d5f15a", null ],
     [ "HlmsManager", "class_ogre_1_1_hlms_manager.html#a1f6b12ef40fc0d93ac57b71f838fbc83", null ],
     [ "~HlmsManager", "class_ogre_1_1_hlms_manager.html#a252584e81202dc9987325b13e20b41f9", null ],
     [ "_changeRenderSystem", "class_ogre_1_1_hlms_manager.html#af8b291ff4c71f90410cead7e426c0f27", null ],

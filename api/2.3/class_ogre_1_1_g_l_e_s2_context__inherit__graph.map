@@ -1,6 +1,6 @@
 <map id="Ogre::GLES2Context" name="Ogre::GLES2Context">
 <area shape="rect" id="Node000001" title="Class that encapsulates an GL context." alt="" coords="5,105,147,131"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1_e_g_l_context.html" title=" " alt="" coords="205,80,331,106"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_e_g_l_context.html" title=" " alt="" coords="205,80,330,106"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,104,205,98,205,104,162,109"/>
 <area shape="rect" id="Node000007" href="$class_ogre_1_1_na_cl_g_l_context.html" title=" " alt="" coords="195,129,341,155"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="163,126,195,130,194,136,162,132"/>

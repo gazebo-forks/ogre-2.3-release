@@ -2,9 +2,9 @@ var group___property =
 [
     [ "OgreProperty.h", "_ogre_property_8h.html", null ],
     [ "Ogre::Property< T >", "class_ogre_1_1_property.html", [
-      [ "getter_func", "class_ogre_1_1_property.html#aad6a9bb90d4c502d392dc93a2b5c6d9e", null ],
-      [ "setter_func", "class_ogre_1_1_property.html#a17a075b8283c837859cd72c546b674ce", null ],
-      [ "value_type", "class_ogre_1_1_property.html#a06f442becff5384a8fd99c21eeb0234b", null ],
+      [ "getter_func", "class_ogre_1_1_property.html#a0b5e208d22af752c9e9fcf7690ad4eb5", null ],
+      [ "setter_func", "class_ogre_1_1_property.html#ad5f36321611505904fb1910de7855bbe", null ],
+      [ "value_type", "class_ogre_1_1_property.html#a8da448c26b42a5da753c60a5cda0e252", null ],
       [ "Property", "class_ogre_1_1_property.html#a12487350ad5d420e7c607551da33bb2c", null ],
       [ "get", "class_ogre_1_1_property.html#a3580aea5f32b075c0ec343fe9862ce75", null ],
       [ "getDescription", "class_ogre_1_1_property.html#add7694e00dea1d297b00eb8fe00e2f2b", null ],
@@ -75,8 +75,8 @@ var group___property =
       [ "operator new[]", "class_ogre_1_1_property_def.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
     ] ],
     [ "Ogre::PropertySet", "class_ogre_1_1_property_set.html", [
-      [ "PropertyIterator", "class_ogre_1_1_property_set.html#a7f4ea40ca663fd32e4833801323033df", null ],
-      [ "PropertyMap", "class_ogre_1_1_property_set.html#aa85526c6b31e3616f984be318a1d8b65", null ],
+      [ "PropertyIterator", "class_ogre_1_1_property_set.html#a4e2e708dbd8d73d319087ba2c60be3b5", null ],
+      [ "PropertyMap", "class_ogre_1_1_property_set.html#ac7344306448681061ecc4c6a4375eb5c", null ],
       [ "PropertySet", "class_ogre_1_1_property_set.html#a95cb8be54dee5698a4918dd26366b954", null ],
       [ "~PropertySet", "class_ogre_1_1_property_set.html#aa1890e8ea2cd4d2006bba05deb780d3d", null ],
       [ "addProperty", "class_ogre_1_1_property_set.html#a6a96a84c9d133c98681f860c7d6565b0", null ],

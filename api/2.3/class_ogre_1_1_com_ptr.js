@@ -1,8 +1,8 @@
 var class_ogre_1_1_com_ptr =
 [
     [ "SafeBoolHelper", "struct_ogre_1_1_com_ptr_1_1_safe_bool_helper.html", "struct_ogre_1_1_com_ptr_1_1_safe_bool_helper" ],
-    [ "SafeBoolType", "class_ogre_1_1_com_ptr.html#a1cb5413c581370dfaf0dde6313d7ef40", null ],
-    [ "Type", "class_ogre_1_1_com_ptr.html#acea4812003c2493f333bd710a077a32a", null ],
+    [ "SafeBoolType", "class_ogre_1_1_com_ptr.html#aba66b960bedf374634f21f142431d00c", null ],
+    [ "Type", "class_ogre_1_1_com_ptr.html#ab825674f490fe9474917f7c32e63b7fe", null ],
     [ "ComPtr", "class_ogre_1_1_com_ptr.html#ab66cb01a9d6afcad5b0111480d33b701", null ],
     [ "ComPtr", "class_ogre_1_1_com_ptr.html#a81d9482c2f0db380fd2f00bbaef2c97d", null ],
     [ "ComPtr", "class_ogre_1_1_com_ptr.html#a68febc3fda729e37504598546ccdc76f", null ],

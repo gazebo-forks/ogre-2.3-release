@@ -1,8 +1,8 @@
 <map id="Ogre::NULLTextureManager" name="Ogre::NULLTextureManager">
-<area shape="rect" id="Node000001" title=" " alt="" coords="141,241,325,267"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1_texture_manager.html" title="Class for loading &amp; managing textures." alt="" coords="159,168,307,193"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="140,241,325,267"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_texture_manager.html" title="Class for loading &amp; managing textures." alt="" coords="158,168,307,193"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,209,235,241,230,241,230,209"/>
-<area shape="rect" id="Node000003" href="$class_ogre_1_1_resource_manager.html" title="Defines a generic resource handler." alt="" coords="61,87,221,112"/>
+<area shape="rect" id="Node000003" href="$class_ogre_1_1_resource_manager.html" title="Defines a generic resource handler." alt="" coords="60,86,221,112"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,120,220,165,217,169,164,124"/>
 <area shape="rect" id="Node000004" href="$class_ogre_1_1_script_loader.html" title="Abstract class defining the interface used by classes which wish to perform script loading to define ..." alt="" coords="5,5,135,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="93,41,132,84,128,88,89,45"/>

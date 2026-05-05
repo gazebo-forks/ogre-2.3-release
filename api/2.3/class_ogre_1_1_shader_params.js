@@ -4,7 +4,7 @@ var class_ogre_1_1_shader_params =
     [ "ManualParam", "struct_ogre_1_1_shader_params_1_1_manual_param.html", "struct_ogre_1_1_shader_params_1_1_manual_param" ],
     [ "ManualParamEx", "struct_ogre_1_1_shader_params_1_1_manual_param_ex.html", "struct_ogre_1_1_shader_params_1_1_manual_param_ex" ],
     [ "Param", "struct_ogre_1_1_shader_params_1_1_param.html", "struct_ogre_1_1_shader_params_1_1_param" ],
-    [ "ParamVec", "class_ogre_1_1_shader_params.html#a32bd59e412c4d5caf320bd4d0c97debe", null ],
+    [ "ParamVec", "class_ogre_1_1_shader_params.html#a3a3759f5cdc73b66054467f535850a78", null ],
     [ "ElementType", "class_ogre_1_1_shader_params.html#a2eeaceb51d472b719762ad4b8b9b5d97", [
       [ "ElementInt", "class_ogre_1_1_shader_params.html#a2eeaceb51d472b719762ad4b8b9b5d97a78aa8cfbb5e6ac220c67b9311953d718", null ],
       [ "ElementUInt", "class_ogre_1_1_shader_params.html#a2eeaceb51d472b719762ad4b8b9b5d97a72e2d35f8eefca40bae065126930a7d6", null ],

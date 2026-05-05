@@ -63,7 +63,7 @@ var group___resources =
       [ "operator new[]", "class_ogre_1_1_archive_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
     ] ],
     [ "Ogre::ArchiveManager", "class_ogre_1_1_archive_manager.html", [
-      [ "ArchiveMapIterator", "class_ogre_1_1_archive_manager.html#a912729e3f6383f3883ffd361bca0464f", null ],
+      [ "ArchiveMapIterator", "class_ogre_1_1_archive_manager.html#acd5f1010e7f379eddc8dac0f5f97c652", null ],
       [ "ArchiveManager", "class_ogre_1_1_archive_manager.html#a4af6cf74f6bc68dfbc25032799261c3a", null ],
       [ "~ArchiveManager", "class_ogre_1_1_archive_manager.html#a0abcd0bcbab592304b00023b87d2b48e", null ],
       [ "addArchiveFactory", "class_ogre_1_1_archive_manager.html#ab6c255acb890a2d21ae1d3379a512730", null ],
@@ -216,9 +216,9 @@ var group___resources =
       [ "mStencil", "class_ogre_1_1_d3_d11_render_pass_descriptor.html#a6e1deb374021a878920d2a2fdef0b332", null ]
     ] ],
     [ "Ogre::D3D11TextureGpuManager", "class_ogre_1_1_d3_d11_texture_gpu_manager.html", [
-      [ "BudgetEntryVec", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#a243112239378b673ba9f1df5e7abdbf3", null ],
-      [ "MetadataCacheMap", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#a75e42d75a1eae1a28e52e4613832edb3", null ],
-      [ "ResourceEntryMap", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#ad657330e7020f561860d24366460271c", null ],
+      [ "BudgetEntryVec", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#af62ba2e7914448756265ad421d59e093", null ],
+      [ "MetadataCacheMap", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#a36e610eef744569c8aaea9ea4874df99", null ],
+      [ "ResourceEntryMap", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#a0026780a9be7db6f2e97baf5fbdf42b2", null ],
       [ "Reason", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7d", [
         [ "Unknown", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da2b732a317de0915527e291485ca42e82", null ],
         [ "FromStorageToSysRam", "class_ogre_1_1_d3_d11_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da58fd07194714679ed3ba9857d7656f27", null ],
@@ -497,7 +497,7 @@ var group___resources =
       [ "mUavs", "struct_ogre_1_1_descriptor_set_uav.html#a21f7bcdcebf98e4dd4e70f429f047d18", null ]
     ] ],
     [ "Ogre::EmbeddedZipArchiveFactory", "class_ogre_1_1_embedded_zip_archive_factory.html", [
-      [ "DecryptEmbeddedZipFileFunc", "class_ogre_1_1_embedded_zip_archive_factory.html#a9ef899ac1ebf7ab54f115c8ced9ff433", null ],
+      [ "DecryptEmbeddedZipFileFunc", "class_ogre_1_1_embedded_zip_archive_factory.html#a1ff410fc9109fd10d687aeaa48c13cf0", null ],
       [ "EmbeddedZipArchiveFactory", "class_ogre_1_1_embedded_zip_archive_factory.html#a5af58e0e7685eddfd25f2c241ccc1a5c", null ],
       [ "~EmbeddedZipArchiveFactory", "class_ogre_1_1_embedded_zip_archive_factory.html#ab2ec7ad5b0989ef7088dc77ef9b7351f", null ],
       [ "addEmbbeddedFile", "class_ogre_1_1_embedded_zip_archive_factory.html#aa2c388afbb8ff7dfb301bbe95495ed6b", null ],
@@ -659,10 +659,10 @@ var group___resources =
         [ "codePoint", "struct_ogre_1_1_font_1_1_glyph_info.html#a5df1a038d81fcf018ea7f5aac3181a62", null ],
         [ "uvRect", "struct_ogre_1_1_font_1_1_glyph_info.html#a46b20f8f199e3d2f698aa44a6553ab50", null ]
       ] ],
-      [ "CodePoint", "class_ogre_1_1_font.html#ad48cf05dd479e7c8f1d7a97221d933b1", null ],
-      [ "CodePointRange", "class_ogre_1_1_font.html#aa455a399457bd458852555c696b28f6a", null ],
-      [ "CodePointRangeList", "class_ogre_1_1_font.html#afae0e84cc4a86dcd4fb721d137ea4011", null ],
-      [ "UVRect", "class_ogre_1_1_font.html#a17ebc3668a45365c1243a83f36a512ef", null ],
+      [ "CodePoint", "class_ogre_1_1_font.html#a05ceb0ff42de0c170380af9ba1cdefee", null ],
+      [ "CodePointRange", "class_ogre_1_1_font.html#a3683df497f7a2dc4e0665053a7e822ae", null ],
+      [ "CodePointRangeList", "class_ogre_1_1_font.html#a4a3113adf87493522fc510af9c3c5921", null ],
+      [ "UVRect", "class_ogre_1_1_font.html#a0fe3b8c5ee5faae063b3ec21da004b78", null ],
       [ "LoadingFlags", "class_ogre_1_1_font.html#a1aa750a4b994f2b1066220936cdfdb94", [
         [ "LF_DEFAULT", "class_ogre_1_1_font.html#a1aa750a4b994f2b1066220936cdfdb94ab49695ac949df3a7d2e2f9a03267097c", null ],
         [ "LF_INCLUDE_NON_RELOADABLE", "class_ogre_1_1_font.html#a1aa750a4b994f2b1066220936cdfdb94a6ee542226e1cf18df28ab88426be6809", null ],
@@ -773,11 +773,11 @@ var group___resources =
       [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_font.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
     ] ],
     [ "Ogre::FontManager", "class_ogre_1_1_font_manager.html", [
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_font_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1_font_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1_font_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1_font_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1_font_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_font_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1_font_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1_font_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1_font_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1_font_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
       [ "FontManager", "class_ogre_1_1_font_manager.html#a159ba6550b0c2731768db9df66472d19", null ],
       [ "~FontManager", "class_ogre_1_1_font_manager.html#af5a0d804aaaa961248f0bc4ae92ccad5", null ],
       [ "_notifyResourceLoaded", "class_ogre_1_1_font_manager.html#af1a871ac005af0be0b8c1857a4f8eea9", null ],
@@ -835,7 +835,7 @@ var group___resources =
       [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_font_manager.html#abbb523a827bc6ea90d3b5ec80f0cf770", null ]
     ] ],
     [ "Ogre::Forward3D", "class_ogre_1_1_forward3_d.html", [
-      [ "CachedGridBufferVec", "class_ogre_1_1_forward3_d.html#a0fad7b0861595972abd72288f2742549", null ],
+      [ "CachedGridBufferVec", "class_ogre_1_1_forward3_d.html#a9d7153697a9481a9aa62fef13a94c63d", null ],
       [ "ForwardPlusMethods", "class_ogre_1_1_forward3_d.html#aa439cebd12e355190a361d06fe9486e2", [
         [ "MethodForward3D", "class_ogre_1_1_forward3_d.html#aa439cebd12e355190a361d06fe9486e2a764d1a4f051d1b411a48ea2d69963ff9", null ],
         [ "MethodForwardClustered", "class_ogre_1_1_forward3_d.html#aa439cebd12e355190a361d06fe9486e2a98c8d76dea9b04102dc00bb463bdc3e9", null ],
@@ -884,7 +884,7 @@ var group___resources =
       [ "MinDecalRq", "class_ogre_1_1_forward3_d.html#aa833d186cda639884547b760b8aafb44", null ]
     ] ],
     [ "Ogre::ForwardClustered", "class_ogre_1_1_forward_clustered.html", [
-      [ "CachedGridBufferVec", "class_ogre_1_1_forward_clustered.html#a0fad7b0861595972abd72288f2742549", null ],
+      [ "CachedGridBufferVec", "class_ogre_1_1_forward_clustered.html#a9d7153697a9481a9aa62fef13a94c63d", null ],
       [ "ForwardPlusMethods", "class_ogre_1_1_forward_clustered.html#aa439cebd12e355190a361d06fe9486e2", [
         [ "MethodForward3D", "class_ogre_1_1_forward_clustered.html#aa439cebd12e355190a361d06fe9486e2a764d1a4f051d1b411a48ea2d69963ff9", null ],
         [ "MethodForwardClustered", "class_ogre_1_1_forward_clustered.html#aa439cebd12e355190a361d06fe9486e2a98c8d76dea9b04102dc00bb463bdc3e9", null ],
@@ -944,7 +944,7 @@ var group___resources =
         [ "globalLightListBuffer", "struct_ogre_1_1_forward_plus_base_1_1_cached_grid_buffer.html#a1c35b05ab36cd5080dd993fb6b9ad04f", null ],
         [ "gridBuffer", "struct_ogre_1_1_forward_plus_base_1_1_cached_grid_buffer.html#a3c2d97651d44fdc5ff786331b8387864", null ]
       ] ],
-      [ "CachedGridBufferVec", "class_ogre_1_1_forward_plus_base.html#a0fad7b0861595972abd72288f2742549", null ],
+      [ "CachedGridBufferVec", "class_ogre_1_1_forward_plus_base.html#a9d7153697a9481a9aa62fef13a94c63d", null ],
       [ "ForwardPlusMethods", "class_ogre_1_1_forward_plus_base.html#aa439cebd12e355190a361d06fe9486e2", [
         [ "MethodForward3D", "class_ogre_1_1_forward_plus_base.html#aa439cebd12e355190a361d06fe9486e2a764d1a4f051d1b411a48ea2d69963ff9", null ],
         [ "MethodForwardClustered", "class_ogre_1_1_forward_plus_base.html#aa439cebd12e355190a361d06fe9486e2a98c8d76dea9b04102dc00bb463bdc3e9", null ],
@@ -1075,9 +1075,9 @@ var group___resources =
       [ "mStencil", "class_ogre_1_1_g_l3_plus_render_pass_descriptor.html#a6e1deb374021a878920d2a2fdef0b332", null ]
     ] ],
     [ "Ogre::GL3PlusTextureGpuManager", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html", [
-      [ "BudgetEntryVec", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#a243112239378b673ba9f1df5e7abdbf3", null ],
-      [ "MetadataCacheMap", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#a75e42d75a1eae1a28e52e4613832edb3", null ],
-      [ "ResourceEntryMap", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#ad657330e7020f561860d24366460271c", null ],
+      [ "BudgetEntryVec", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#af62ba2e7914448756265ad421d59e093", null ],
+      [ "MetadataCacheMap", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#a36e610eef744569c8aaea9ea4874df99", null ],
+      [ "ResourceEntryMap", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#a0026780a9be7db6f2e97baf5fbdf42b2", null ],
       [ "Reason", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7d", [
         [ "Unknown", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da2b732a317de0915527e291485ca42e82", null ],
         [ "FromStorageToSysRam", "class_ogre_1_1_g_l3_plus_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da58fd07194714679ed3ba9857d7656f27", null ],
@@ -1323,15 +1323,15 @@ var group___resources =
         [ "operator<", "struct_ogre_1_1_gpu_program_manager_1_1_hash.html#a1d04db1ae40160fcfaf4df19e928d47a", null ],
         [ "hashVal", "struct_ogre_1_1_gpu_program_manager_1_1_hash.html#ac6ba538d30d90c857164295600d3e4b2", null ]
       ] ],
-      [ "Microcode", "class_ogre_1_1_gpu_program_manager.html#aef34af73ab87b0b09d2707ebeb43508d", null ],
-      [ "MicrocodeMap", "class_ogre_1_1_gpu_program_manager.html#a8b08a9cf68859ad0f7c6b723487fd118", null ],
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_gpu_program_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1_gpu_program_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1_gpu_program_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1_gpu_program_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1_gpu_program_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
-      [ "SharedParametersMap", "class_ogre_1_1_gpu_program_manager.html#ad38b305538ea5574fff333e420843711", null ],
-      [ "SyntaxCodes", "class_ogre_1_1_gpu_program_manager.html#a39cb435674c75c8e6b5f9e8aeebe6ec9", null ],
+      [ "Microcode", "class_ogre_1_1_gpu_program_manager.html#a08993fe81f18cb41f3e32a4c6c802cbc", null ],
+      [ "MicrocodeMap", "class_ogre_1_1_gpu_program_manager.html#a24deb034811ba3fe65bb1c20ac99e447", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_gpu_program_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1_gpu_program_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1_gpu_program_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1_gpu_program_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1_gpu_program_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
+      [ "SharedParametersMap", "class_ogre_1_1_gpu_program_manager.html#a94e091e01e0cbbfe45add52efc21722d", null ],
+      [ "SyntaxCodes", "class_ogre_1_1_gpu_program_manager.html#acb492b988d2eccf4d83d40a1e77e1287", null ],
       [ "GpuProgramManager", "class_ogre_1_1_gpu_program_manager.html#acc12e02986aa586eaedc0b10a623117e", null ],
       [ "~GpuProgramManager", "class_ogre_1_1_gpu_program_manager.html#a85152e35703c0f4854231d7b9309596d", null ],
       [ "_notifyResourceLoaded", "class_ogre_1_1_gpu_program_manager.html#af1a871ac005af0be0b8c1857a4f8eea9", null ],
@@ -1576,12 +1576,12 @@ var group___resources =
       [ "operator new[]", "class_ogre_1_1_high_level_gpu_program_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
     ] ],
     [ "Ogre::HighLevelGpuProgramManager", "class_ogre_1_1_high_level_gpu_program_manager.html", [
-      [ "FactoryMap", "class_ogre_1_1_high_level_gpu_program_manager.html#a350cd47b10995cac75ab1c4f570da41b", null ],
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_high_level_gpu_program_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1_high_level_gpu_program_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1_high_level_gpu_program_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1_high_level_gpu_program_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1_high_level_gpu_program_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+      [ "FactoryMap", "class_ogre_1_1_high_level_gpu_program_manager.html#a78b3bbb627a40e705a97e813abbe767e", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_high_level_gpu_program_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1_high_level_gpu_program_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1_high_level_gpu_program_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1_high_level_gpu_program_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1_high_level_gpu_program_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
       [ "HighLevelGpuProgramManager", "class_ogre_1_1_high_level_gpu_program_manager.html#a4fc12d0a6460a6a86ccf26c74fefbf9f", null ],
       [ "~HighLevelGpuProgramManager", "class_ogre_1_1_high_level_gpu_program_manager.html#a04d94cd96f9a6ea563f2f88290a68203", null ],
       [ "_notifyResourceLoaded", "class_ogre_1_1_high_level_gpu_program_manager.html#af1a871ac005af0be0b8c1857a4f8eea9", null ],
@@ -1655,8 +1655,8 @@ var group___resources =
         [ "dataFolder", "struct_ogre_1_1_hlms_1_1_library.html#ac48e5a70051a24f865ba6db757facca7", null ],
         [ "pieceFiles", "struct_ogre_1_1_hlms_1_1_library.html#a525351657880681c451681951ae9d7d1", null ]
       ] ],
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-      [ "LibraryVec", "class_ogre_1_1_hlms.html#a6515668f13ae08887b8104c7133e5c29", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+      [ "LibraryVec", "class_ogre_1_1_hlms.html#a50341583e32c59496e9b11391c3db824", null ],
       [ "LightGatheringMode", "class_ogre_1_1_hlms.html#a6e629e7a87a40040e12d2bfb4ff80d58", [
         [ "LightGatherForward", "class_ogre_1_1_hlms.html#a6e629e7a87a40040e12d2bfb4ff80d58a6461fe4856b648eb0bc6ec35df2e4712", null ],
         [ "LightGatherForwardPlus", "class_ogre_1_1_hlms.html#a6e629e7a87a40040e12d2bfb4ff80d58a792d2cdce23b4018b9c149540ebb1a93", null ],
@@ -1979,8 +1979,8 @@ var group___resources =
         [ "mergedCache", "struct_ogre_1_1_hlms_disk_cache_1_1_source_code.html#a4603f25c924bf42db27a4c617b93908b", null ],
         [ "sourceFile", "struct_ogre_1_1_hlms_disk_cache_1_1_source_code.html#a31d614eae75d705a2e4c81b1dc9aa7fd", null ]
       ] ],
-      [ "PsoVec", "class_ogre_1_1_hlms_disk_cache.html#af8fa1f4d66f6a50812c86914679178dc", null ],
-      [ "SourceCodeVec", "class_ogre_1_1_hlms_disk_cache.html#afba4875fb3b00ceffe4781474f8a87b0", null ],
+      [ "PsoVec", "class_ogre_1_1_hlms_disk_cache.html#a0498b93902365666b2373787c751dfb4", null ],
+      [ "SourceCodeVec", "class_ogre_1_1_hlms_disk_cache.html#a1af5a8f82dcbc49b4f5f10bd5f26207a", null ],
       [ "HlmsDiskCache", "class_ogre_1_1_hlms_disk_cache.html#a50047d59e56d978a4374faf8c01cadc8", null ],
       [ "~HlmsDiskCache", "class_ogre_1_1_hlms_disk_cache.html#aff7bf04d41d41e9b1a96b3236da1fcbc", null ],
       [ "applyTo", "class_ogre_1_1_hlms_disk_cache.html#a730367b3c5eae7a21ae42a632d79932f", null ],
@@ -2105,9 +2105,9 @@ var group___resources =
       [ "mScissorTestEnabled", "struct_ogre_1_1_hlms_macroblock.html#a6992c372553d3cf1045f403bdd1a488c", null ]
     ] ],
     [ "Ogre::HlmsManager", "class_ogre_1_1_hlms_manager.html", [
-      [ "BlockIdxVec", "class_ogre_1_1_hlms_manager.html#a8a2d293e9ccbaf4da452c4cab3bf9a67", null ],
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_manager.html#afc2984534f1d52fe054541ee798c80c2", null ],
-      [ "ResourceToTexExtensionMap", "class_ogre_1_1_hlms_manager.html#aaf389a4d1d62b5493ed9b544486a9544", null ],
+      [ "BlockIdxVec", "class_ogre_1_1_hlms_manager.html#ad96de1fd3056bb53d77eb165d3912df2", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_manager.html#aade29ecdc1e3e93e265c91aa9ad89873", null ],
+      [ "ResourceToTexExtensionMap", "class_ogre_1_1_hlms_manager.html#a18058d5b128efa3b7bcc843c76d5f15a", null ],
       [ "HlmsManager", "class_ogre_1_1_hlms_manager.html#a1f6b12ef40fc0d93ac57b71f838fbc83", null ],
       [ "~HlmsManager", "class_ogre_1_1_hlms_manager.html#a252584e81202dc9987325b13e20b41f9", null ],
       [ "_changeRenderSystem", "class_ogre_1_1_hlms_manager.html#af8b291ff4c71f90410cead7e426c0f27", null ],
@@ -2320,8 +2320,8 @@ var group___resources =
       [ "operator new[]", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
       [ "preload", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a2bdfaaee402c04a5db850af5382af2c3", null ],
       [ "saveTextures", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a3f0826a189eec659051ce6513eafaa57", null ],
-      [ "setAlphaTest", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a76dcfbf1c4510d7bc5568fa2b6bc15e7", null ],
       [ "setAlphaTest", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a4c5bc6488a0f67fa0838f41352172b4d", null ],
+      [ "setAlphaTest", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#a76dcfbf1c4510d7bc5568fa2b6bc15e7", null ],
       [ "setAlphaTestThreshold", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#ad3d3bf7a46ec8f8321e149089c50782f", null ],
       [ "setBlendblock", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#ae98b240d749de133737090afd9912df8", null ],
       [ "setBlendblock", "class_ogre_1_1_hlms_pbs_mobile_datablock.html#af1eceea7ae2d0610b0b2f8a0ec025015", null ],
@@ -2448,8 +2448,8 @@ var group___resources =
         [ "maxTexturesPerArray", "struct_ogre_1_1_hlms_texture_manager_1_1_threshold.html#a916183a5b413292d5f4280a4a8215c7d", null ],
         [ "minTextureSize", "struct_ogre_1_1_hlms_texture_manager_1_1_threshold.html#a3ff79d62ca95b1c0dc4cae9c55b959ec", null ]
       ] ],
-      [ "MetadataCacheMap", "class_ogre_1_1_hlms_texture_manager.html#a7b3977b9fb03736f6ca502663c28aa09", null ],
-      [ "ThresholdVec", "class_ogre_1_1_hlms_texture_manager.html#af745c356168ccf555f7d563591e8bec9", null ],
+      [ "MetadataCacheMap", "class_ogre_1_1_hlms_texture_manager.html#a4f78952da573700b95711bed660487a6", null ],
+      [ "ThresholdVec", "class_ogre_1_1_hlms_texture_manager.html#a9bbfb6f9ec604f69f7a0eef70fd2880f", null ],
       [ "PackingMethod", "class_ogre_1_1_hlms_texture_manager.html#a81fae92def0f944479999b84e01b7b60", [
         [ "TextureArrays", "class_ogre_1_1_hlms_texture_manager.html#a81fae92def0f944479999b84e01b7b60a4b05666bac375f4eac50d2ab01d8459d", null ],
         [ "Atlas", "class_ogre_1_1_hlms_texture_manager.html#a81fae92def0f944479999b84e01b7b60a600e4ff0438a7a3d14a1acdbb3a849ad", null ]
@@ -2502,7 +2502,7 @@ var group___resources =
         [ "name", "struct_ogre_1_1_hlms_texture_pack_1_1_texture_entry.html#ac83c2a22f767e23e0ff84f01c23e0db1", null ],
         [ "paths", "struct_ogre_1_1_hlms_texture_pack_1_1_texture_entry.html#a9d0050c27470bec21b0a960151a4bfd9", null ]
       ] ],
-      [ "TextureEntryVec", "struct_ogre_1_1_hlms_texture_pack.html#abe03b079ad2ba0a5c7ae519ca17aea29", null ],
+      [ "TextureEntryVec", "struct_ogre_1_1_hlms_texture_pack.html#ad3705ee5ed454aa75f663c99afb97ed1", null ],
       [ "HlmsTexturePack", "struct_ogre_1_1_hlms_texture_pack.html#a46305e4cfc1ac40abb6a53a6470aac3b", null ],
       [ "atlasNamesPerMip", "struct_ogre_1_1_hlms_texture_pack.html#a56f5f710b07a0e9d8c1fa7e9b40557b2", null ],
       [ "exportLocation", "struct_ogre_1_1_hlms_texture_pack.html#a60468bc4cd9cffabdbb855f4a4a34cdb", null ],
@@ -2597,8 +2597,8 @@ var group___resources =
       [ "write", "class_ogre_1_1_memory_data_stream.html#accd65733ea1317c49c5fdf7263ff4cc7", null ]
     ] ],
     [ "Ogre::Mesh", "class_ogre_1_1_mesh.html", [
-      [ "LodValueArray", "class_ogre_1_1_mesh.html#a755ff206ec856db92062df2669a0b6d1", null ],
-      [ "SubMeshVec", "class_ogre_1_1_mesh.html#aedc2da9047ca813ce16f657e7f0b3a2a", null ],
+      [ "LodValueArray", "class_ogre_1_1_mesh.html#a21cdd7d06edac8dc91a342060cdea7fa", null ],
+      [ "SubMeshVec", "class_ogre_1_1_mesh.html#a31ad548c6d86ec1d16b2749a135e5a3b", null ],
       [ "LoadingFlags", "class_ogre_1_1_mesh.html#a1aa750a4b994f2b1066220936cdfdb94", [
         [ "LF_DEFAULT", "class_ogre_1_1_mesh.html#a1aa750a4b994f2b1066220936cdfdb94ab49695ac949df3a7d2e2f9a03267097c", null ],
         [ "LF_INCLUDE_NON_RELOADABLE", "class_ogre_1_1_mesh.html#a1aa750a4b994f2b1066220936cdfdb94a6ee542226e1cf18df28ab88426be6809", null ],
@@ -2720,11 +2720,11 @@ var group___resources =
       [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_mesh.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
     ] ],
     [ "Ogre::MeshManager", "class_ogre_1_1_mesh_manager.html", [
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_mesh_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1_mesh_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1_mesh_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1_mesh_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1_mesh_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_mesh_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1_mesh_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1_mesh_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1_mesh_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1_mesh_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
       [ "MeshManager", "class_ogre_1_1_mesh_manager.html#a02e6d60df44151ca1e36b77c4260cef6", null ],
       [ "~MeshManager", "class_ogre_1_1_mesh_manager.html#a0bf52548e5c54f3cd9ce325dd355d7a1", null ],
       [ "_initialise", "class_ogre_1_1_mesh_manager.html#ac37cc73db16b7202456b49e08cb9e7e7", null ],
@@ -2735,8 +2735,8 @@ var group___resources =
       [ "create", "class_ogre_1_1_mesh_manager.html#acd142135740c3298d88efdcd81b127e8", null ],
       [ "createByImportingV1", "class_ogre_1_1_mesh_manager.html#a8d26f4a0b59172e9045faa1134ef50a0", null ],
       [ "createManual", "class_ogre_1_1_mesh_manager.html#ad99f5f2e2d045e5a4af301974e45c918", null ],
-      [ "createOrRetrieve", "class_ogre_1_1_mesh_manager.html#a48c565d0e63b286c6388439ae73417df", null ],
       [ "createOrRetrieve", "class_ogre_1_1_mesh_manager.html#a6599e38a1f398edf12b56fa0627bcae2", null ],
+      [ "createOrRetrieve", "class_ogre_1_1_mesh_manager.html#a48c565d0e63b286c6388439ae73417df", null ],
       [ "createResource", "class_ogre_1_1_mesh_manager.html#acd4223279e97a7687e2f9994f05e2491", null ],
       [ "destroyAllResourcePools", "class_ogre_1_1_mesh_manager.html#a7913c36c02ef03007ff1a1c76ddf7710", null ],
       [ "destroyResourcePool", "class_ogre_1_1_mesh_manager.html#a00a7fe59aaaa4acdfda07edc704516ee", null ],
@@ -2948,8 +2948,8 @@ var group___resources =
       [ "performLoadActions", "class_ogre_1_1_metal_render_pass_descriptor.html#a22e20dbfe209171b363b5329c8d619f6", null ],
       [ "performStoreActions", "class_ogre_1_1_metal_render_pass_descriptor.html#a403155af3ab3c6447f6ef2cc5f81e7a3", null ],
       [ "requiresTextureFlipping", "class_ogre_1_1_metal_render_pass_descriptor.html#a2161eb1a36506a1a6d3dbe50299c5130", null ],
-      [ "setClearColour", "class_ogre_1_1_metal_render_pass_descriptor.html#a362bc09082a320d70530f8a05802ea9f", null ],
       [ "setClearColour", "class_ogre_1_1_metal_render_pass_descriptor.html#a3b2f67e2fb6aa87c6310183306b66cdb", null ],
+      [ "setClearColour", "class_ogre_1_1_metal_render_pass_descriptor.html#a362bc09082a320d70530f8a05802ea9f", null ],
       [ "setClearDepth", "class_ogre_1_1_metal_render_pass_descriptor.html#aba64ef1e7f46d833cb32714e921568c8", null ],
       [ "setClearStencil", "class_ogre_1_1_metal_render_pass_descriptor.html#a673f34f159954a7062ef72efb7abb0b9", null ],
       [ "willSwitchTo", "class_ogre_1_1_metal_render_pass_descriptor.html#aee64f26457eb8bc6a5251285cca55065", null ],
@@ -2965,9 +2965,9 @@ var group___resources =
       [ "textures", "struct_ogre_1_1_metal_tex_region.html#a73e95922d328cb80049b2e5f79244b2a", null ]
     ] ],
     [ "Ogre::MetalTextureGpuManager", "class_ogre_1_1_metal_texture_gpu_manager.html", [
-      [ "BudgetEntryVec", "class_ogre_1_1_metal_texture_gpu_manager.html#a243112239378b673ba9f1df5e7abdbf3", null ],
-      [ "MetadataCacheMap", "class_ogre_1_1_metal_texture_gpu_manager.html#a75e42d75a1eae1a28e52e4613832edb3", null ],
-      [ "ResourceEntryMap", "class_ogre_1_1_metal_texture_gpu_manager.html#ad657330e7020f561860d24366460271c", null ],
+      [ "BudgetEntryVec", "class_ogre_1_1_metal_texture_gpu_manager.html#af62ba2e7914448756265ad421d59e093", null ],
+      [ "MetadataCacheMap", "class_ogre_1_1_metal_texture_gpu_manager.html#a36e610eef744569c8aaea9ea4874df99", null ],
+      [ "ResourceEntryMap", "class_ogre_1_1_metal_texture_gpu_manager.html#a0026780a9be7db6f2e97baf5fbdf42b2", null ],
       [ "Reason", "class_ogre_1_1_metal_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7d", [
         [ "Unknown", "class_ogre_1_1_metal_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da2b732a317de0915527e291485ca42e82", null ],
         [ "FromStorageToSysRam", "class_ogre_1_1_metal_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da58fd07194714679ed3ba9857d7656f27", null ],
@@ -3180,9 +3180,9 @@ var group___resources =
       [ "msMsaaTextureBuffer", "class_ogre_1_1_n_u_l_l_texture_gpu.html#a43888e98f84f5c9eb9ded14dd0deb34d", null ]
     ] ],
     [ "Ogre::NULLTextureGpuManager", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html", [
-      [ "BudgetEntryVec", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#a243112239378b673ba9f1df5e7abdbf3", null ],
-      [ "MetadataCacheMap", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#a75e42d75a1eae1a28e52e4613832edb3", null ],
-      [ "ResourceEntryMap", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#ad657330e7020f561860d24366460271c", null ],
+      [ "BudgetEntryVec", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#af62ba2e7914448756265ad421d59e093", null ],
+      [ "MetadataCacheMap", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#a36e610eef744569c8aaea9ea4874df99", null ],
+      [ "ResourceEntryMap", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#a0026780a9be7db6f2e97baf5fbdf42b2", null ],
       [ "Reason", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7d", [
         [ "Unknown", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da2b732a317de0915527e291485ca42e82", null ],
         [ "FromStorageToSysRam", "class_ogre_1_1_n_u_l_l_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da58fd07194714679ed3ba9857d7656f27", null ],
@@ -3809,10 +3809,10 @@ var group___resources =
         [ "archive", "struct_ogre_1_1_resource_group_manager_1_1_resource_location.html#a6c67405ce5274cbf9e7ecefc1840539b", null ],
         [ "recursive", "struct_ogre_1_1_resource_group_manager_1_1_resource_location.html#a89980295496fa459796c2561d0a40f3f", null ]
       ] ],
-      [ "LocationList", "class_ogre_1_1_resource_group_manager.html#a039c42be59f29534c5883888c969a1c2", null ],
-      [ "ResourceDeclarationList", "class_ogre_1_1_resource_group_manager.html#a995494b3213135be428eef21990744e5", null ],
-      [ "ResourceManagerIterator", "class_ogre_1_1_resource_group_manager.html#af875db11dc5aba6ab72ec40296af9a5c", null ],
-      [ "ResourceManagerMap", "class_ogre_1_1_resource_group_manager.html#a96a52ac064c1c12a1c5156a0b2dd2d65", null ],
+      [ "LocationList", "class_ogre_1_1_resource_group_manager.html#a595512d421a5799cf4d11127e1384e67", null ],
+      [ "ResourceDeclarationList", "class_ogre_1_1_resource_group_manager.html#af22ecad128d66aaa2f2ea6c825c5e72e", null ],
+      [ "ResourceManagerIterator", "class_ogre_1_1_resource_group_manager.html#ab8c13d88ead5cb8b29bcf99d3e65b0e6", null ],
+      [ "ResourceManagerMap", "class_ogre_1_1_resource_group_manager.html#abc57809a2f08454bc549d1f4b452bfd3", null ],
       [ "ResourceGroupManager", "class_ogre_1_1_resource_group_manager.html#ad843c3889b80ebd8e01aed9cf81b3769", null ],
       [ "~ResourceGroupManager", "class_ogre_1_1_resource_group_manager.html#a5287a0923df2c8c4363d5527b81c7cd4", null ],
       [ "_findScriptLoader", "class_ogre_1_1_resource_group_manager.html#a1f5d87b4113269d5f479bb91bde227c3", null ],
@@ -3921,11 +3921,11 @@ var group___resources =
         [ "operator new[]", "class_ogre_1_1_resource_manager_1_1_resource_pool.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
         [ "removeItem", "class_ogre_1_1_resource_manager_1_1_resource_pool.html#a31c74c47be2a3c8e5abe93a8ac061bc7", null ]
       ] ],
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_resource_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1_resource_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1_resource_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1_resource_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1_resource_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_resource_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1_resource_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1_resource_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1_resource_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1_resource_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
       [ "ResourceManager", "class_ogre_1_1_resource_manager.html#aef35da7d45100ccdb828962b58e50adf", null ],
       [ "~ResourceManager", "class_ogre_1_1_resource_manager.html#a2b2b134c38b4ead5ef13bd157fe2329a", null ],
       [ "_notifyResourceLoaded", "class_ogre_1_1_resource_manager.html#af1a871ac005af0be0b8c1857a4f8eea9", null ],
@@ -4142,9 +4142,9 @@ var group___resources =
         [ "data", "struct_ogre_1_1_sub_mesh_1_1_source_data.html#aad58ff5a10de64d9102c01124f5897ab", null ],
         [ "element", "struct_ogre_1_1_sub_mesh_1_1_source_data.html#accf328d8dec95a35255094258852d8b7", null ]
       ] ],
-      [ "IndexMap", "class_ogre_1_1_sub_mesh.html#a96f16aa21a9ed331f82957057af27248", null ],
-      [ "SourceDataArray", "class_ogre_1_1_sub_mesh.html#ab4fa9187dd2a96ec0f90ebfe4a90d10c", null ],
-      [ "VertexBoneAssignmentVec", "class_ogre_1_1_sub_mesh.html#af2ca759beb92c9fc8a42b22d14b71f32", null ],
+      [ "IndexMap", "class_ogre_1_1_sub_mesh.html#a6d5f635264d3ff8e9f25dd30994a88a5", null ],
+      [ "SourceDataArray", "class_ogre_1_1_sub_mesh.html#aaf1b24a220bcc652dbbe9b2ac95c8dcc", null ],
+      [ "VertexBoneAssignmentVec", "class_ogre_1_1_sub_mesh.html#a39eb4a61fe065a950e17a39bd8373e09", null ],
       [ "SubMesh", "class_ogre_1_1_sub_mesh.html#aa5e04097716119c5cfed229c8425fc60", null ],
       [ "~SubMesh", "class_ogre_1_1_sub_mesh.html#ad0a51b024271c2042968e9e967dd39e8", null ],
       [ "_arrangeEfficient", "class_ogre_1_1_sub_mesh.html#abef0947bb29f195d87d822b5b2f8ee8a", null ],
@@ -4493,9 +4493,9 @@ var group___resources =
         [ "resourceGroup", "struct_ogre_1_1_texture_gpu_manager_1_1_resource_entry.html#ae6479fe6bf6fcaaec2eabbcb166baab9", null ],
         [ "texture", "struct_ogre_1_1_texture_gpu_manager_1_1_resource_entry.html#aa1b41c6e4b90d1428bdef5a7afc4cafb", null ]
       ] ],
-      [ "BudgetEntryVec", "class_ogre_1_1_texture_gpu_manager.html#a243112239378b673ba9f1df5e7abdbf3", null ],
-      [ "MetadataCacheMap", "class_ogre_1_1_texture_gpu_manager.html#a75e42d75a1eae1a28e52e4613832edb3", null ],
-      [ "ResourceEntryMap", "class_ogre_1_1_texture_gpu_manager.html#ad657330e7020f561860d24366460271c", null ],
+      [ "BudgetEntryVec", "class_ogre_1_1_texture_gpu_manager.html#af62ba2e7914448756265ad421d59e093", null ],
+      [ "MetadataCacheMap", "class_ogre_1_1_texture_gpu_manager.html#a36e610eef744569c8aaea9ea4874df99", null ],
+      [ "ResourceEntryMap", "class_ogre_1_1_texture_gpu_manager.html#a0026780a9be7db6f2e97baf5fbdf42b2", null ],
       [ "Reason", "class_ogre_1_1_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7d", [
         [ "Unknown", "class_ogre_1_1_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da2b732a317de0915527e291485ca42e82", null ],
         [ "FromStorageToSysRam", "class_ogre_1_1_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da58fd07194714679ed3ba9857d7656f27", null ],
@@ -4606,11 +4606,11 @@ var group___resources =
       [ "shouldStayLoaded", "class_ogre_1_1_texture_gpu_manager_listener.html#a1427f0b635a4186cd6083a9bab879fa2", null ]
     ] ],
     [ "Ogre::TextureManager", "class_ogre_1_1_texture_manager.html", [
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_texture_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1_texture_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1_texture_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1_texture_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1_texture_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1_texture_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1_texture_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1_texture_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1_texture_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1_texture_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
       [ "TextureManager", "class_ogre_1_1_texture_manager.html#a41551412b46da954467432ec9955a2ba", null ],
       [ "~TextureManager", "class_ogre_1_1_texture_manager.html#a158398370212d5f7d00a1794b50cd9b5", null ],
       [ "_notifyResourceLoaded", "class_ogre_1_1_texture_manager.html#af1a871ac005af0be0b8c1857a4f8eea9", null ],
@@ -4846,16 +4846,16 @@ var group___resources =
       [ "operator new[]", "class_ogre_1_1_unified_high_level_gpu_program_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
     ] ],
     [ "Ogre::v1::Mesh", "class_ogre_1_1v1_1_1_mesh.html", [
-      [ "BoneAssignmentIterator", "class_ogre_1_1v1_1_1_mesh.html#a8815f21e8a1dbd3656bf28dcd761d1b2", null ],
-      [ "ConstPoseIterator", "class_ogre_1_1v1_1_1_mesh.html#a2ca1308b99ce63acc221fa142997d6a4", null ],
-      [ "IndexMap", "class_ogre_1_1v1_1_1_mesh.html#a7afe3adfb675f484e7237eeaf3661987", null ],
-      [ "LodValueArray", "class_ogre_1_1v1_1_1_mesh.html#ab66af3474321456dcdbc75c2c67b489b", null ],
-      [ "MeshLodUsageList", "class_ogre_1_1v1_1_1_mesh.html#af2253eb8fefd1dace58c6f0d52fedd39", null ],
-      [ "PoseIterator", "class_ogre_1_1v1_1_1_mesh.html#a619c89e36bfc6e7bc31705d9d82578de", null ],
-      [ "SubMeshIterator", "class_ogre_1_1v1_1_1_mesh.html#a5eb6c33c4e087932f175fcc6659500d6", null ],
-      [ "SubMeshList", "class_ogre_1_1v1_1_1_mesh.html#a60a552ffe97ad7ec2eda607ad0289ecc", null ],
-      [ "SubMeshNameMap", "class_ogre_1_1v1_1_1_mesh.html#a209e46c13c2889cd49c7e3c948b130bb", null ],
-      [ "VertexBoneAssignmentList", "class_ogre_1_1v1_1_1_mesh.html#a59873f32e0d8544ec0e91198559da0c1", null ],
+      [ "BoneAssignmentIterator", "class_ogre_1_1v1_1_1_mesh.html#a1a3f0ef463fae92094730a74069f2450", null ],
+      [ "ConstPoseIterator", "class_ogre_1_1v1_1_1_mesh.html#a85d7ec947da5ba387618d7eb5b46845a", null ],
+      [ "IndexMap", "class_ogre_1_1v1_1_1_mesh.html#a4833fd3e383708d972db0052ce5ea993", null ],
+      [ "LodValueArray", "class_ogre_1_1v1_1_1_mesh.html#a4d274966eaa158382d57ece7996a2043", null ],
+      [ "MeshLodUsageList", "class_ogre_1_1v1_1_1_mesh.html#abc5a9777e30ccaef386cd691d143ff42", null ],
+      [ "PoseIterator", "class_ogre_1_1v1_1_1_mesh.html#ac67aea0310b751e01e42dcdff66675f6", null ],
+      [ "SubMeshIterator", "class_ogre_1_1v1_1_1_mesh.html#a20eb1efb9154e3c3281be7b8766acb7f", null ],
+      [ "SubMeshList", "class_ogre_1_1v1_1_1_mesh.html#a6988c4ffbbc5a7561971337eb7d2abc0", null ],
+      [ "SubMeshNameMap", "class_ogre_1_1v1_1_1_mesh.html#a3b4ab437fab49b9bae05dbc816b3964f", null ],
+      [ "VertexBoneAssignmentList", "class_ogre_1_1v1_1_1_mesh.html#adb45f9003407662db004fccffe6854e0", null ],
       [ "LoadingFlags", "class_ogre_1_1v1_1_1_mesh.html#a1aa750a4b994f2b1066220936cdfdb94", [
         [ "LF_DEFAULT", "class_ogre_1_1v1_1_1_mesh.html#a1aa750a4b994f2b1066220936cdfdb94ab49695ac949df3a7d2e2f9a03267097c", null ],
         [ "LF_INCLUDE_NON_RELOADABLE", "class_ogre_1_1v1_1_1_mesh.html#a1aa750a4b994f2b1066220936cdfdb94a6ee542226e1cf18df28ab88426be6809", null ],
@@ -5055,11 +5055,11 @@ var group___resources =
       [ "value", "struct_ogre_1_1v1_1_1_mesh_lod_usage.html#afcf6073ebac32962009b1a5c62d409f4", null ]
     ] ],
     [ "Ogre::v1::MeshManager", "class_ogre_1_1v1_1_1_mesh_manager.html", [
-      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1v1_1_1_mesh_manager.html#af484f2b60c8d9bc87f37fa8af8e630c5", null ],
-      [ "ResourceHandleMap", "class_ogre_1_1v1_1_1_mesh_manager.html#a2a3ef36f60dc007920eb9bba20ef9125", null ],
-      [ "ResourceMap", "class_ogre_1_1v1_1_1_mesh_manager.html#a2883e5999ded4031bd421fc5d045aaf7", null ],
-      [ "ResourceMapIterator", "class_ogre_1_1v1_1_1_mesh_manager.html#a4f7da59507a5a8550ea97615ff9afff0", null ],
-      [ "ResourceWithGroupMap", "class_ogre_1_1v1_1_1_mesh_manager.html#a117a3887bbf9e83e0585777beb0501dc", null ],
+      [ "ResourceCreateOrRetrieveResult", "class_ogre_1_1v1_1_1_mesh_manager.html#aaf0404e63b54d9333ed0e4193d265a26", null ],
+      [ "ResourceHandleMap", "class_ogre_1_1v1_1_1_mesh_manager.html#a0c051aa919bea241783952982ad4967d", null ],
+      [ "ResourceMap", "class_ogre_1_1v1_1_1_mesh_manager.html#a62032fcaa1050fd20ecd14e42c89b05f", null ],
+      [ "ResourceMapIterator", "class_ogre_1_1v1_1_1_mesh_manager.html#a5955c25987f910c790ac219f6fe82a44", null ],
+      [ "ResourceWithGroupMap", "class_ogre_1_1v1_1_1_mesh_manager.html#aa21ea0a357ff19df627dd7597737e9a8", null ],
       [ "MeshManager", "class_ogre_1_1v1_1_1_mesh_manager.html#ac1f82c97e204e3dc35f258bf4edc0e7e", null ],
       [ "~MeshManager", "class_ogre_1_1v1_1_1_mesh_manager.html#ab9916183945de53ebbbe3762d22651da", null ],
       [ "_initialise", "class_ogre_1_1v1_1_1_mesh_manager.html#a69cc244938898d87d80fe7746ebcfcba", null ],
@@ -5094,8 +5094,8 @@ var group___resources =
       [ "getSingleton", "class_ogre_1_1v1_1_1_mesh_manager.html#a894aed12a45c23a3df38c04d287c8ef0", null ],
       [ "getSingletonPtr", "class_ogre_1_1v1_1_1_mesh_manager.html#a965e16b75eedcd43560a78787bf3e562", null ],
       [ "getVerbose", "class_ogre_1_1v1_1_1_mesh_manager.html#af96b58b31c152a8ae3c6152ee3ea12e7", null ],
-      [ "load", "class_ogre_1_1v1_1_1_mesh_manager.html#ad323b9f48c58861f219ad41bbda0f62e", null ],
       [ "load", "class_ogre_1_1v1_1_1_mesh_manager.html#ad6d63fe7126510bf10fd337705cb0b29", null ],
+      [ "load", "class_ogre_1_1v1_1_1_mesh_manager.html#ad323b9f48c58861f219ad41bbda0f62e", null ],
       [ "loadResource", "class_ogre_1_1v1_1_1_mesh_manager.html#a8965c671ef076d100ef74f40bbb6752a", null ],
       [ "operator delete", "class_ogre_1_1v1_1_1_mesh_manager.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
       [ "operator delete", "class_ogre_1_1v1_1_1_mesh_manager.html#acb46d4b0a597156d9ba5abc39d127792", null ],
@@ -5108,8 +5108,8 @@ var group___resources =
       [ "operator new[]", "class_ogre_1_1v1_1_1_mesh_manager.html#adce32528577d71b228692df906ecd17c", null ],
       [ "operator new[]", "class_ogre_1_1v1_1_1_mesh_manager.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
       [ "parseScript", "class_ogre_1_1v1_1_1_mesh_manager.html#a8240f6bbf3449b1f2acdd476efbde821", null ],
-      [ "prepare", "class_ogre_1_1v1_1_1_mesh_manager.html#ae9d3b1b0cd6042a17866f207ed9ea2d3", null ],
       [ "prepare", "class_ogre_1_1v1_1_1_mesh_manager.html#ae26b6ecd722f3e24b52de8b4ac9bba0d", null ],
+      [ "prepare", "class_ogre_1_1v1_1_1_mesh_manager.html#ae9d3b1b0cd6042a17866f207ed9ea2d3", null ],
       [ "prepareResource", "class_ogre_1_1v1_1_1_mesh_manager.html#a7b4afd007622d165efbcc362e5566922", null ],
       [ "reloadAll", "class_ogre_1_1v1_1_1_mesh_manager.html#aa9608544a7beb1b0e43835877ab62788", null ],
       [ "reloadAll", "class_ogre_1_1v1_1_1_mesh_manager.html#a84e25cc5ad09ff7567d1fed7429433a3", null ],
@@ -5338,11 +5338,11 @@ var group___resources =
       [ "createPrefab", "class_ogre_1_1v1_1_1_prefab_factory.html#abace8a39d457300328af502e4e8f00f2", null ]
     ] ],
     [ "Ogre::v1::SubMesh", "class_ogre_1_1v1_1_1_sub_mesh.html", [
-      [ "AliasTextureIterator", "class_ogre_1_1v1_1_1_sub_mesh.html#a1a315bc7726c6186db3dc13438df2033", null ],
-      [ "BoneAssignmentIterator", "class_ogre_1_1v1_1_1_sub_mesh.html#a595188b02b790749c4f8670a17414d02", null ],
-      [ "IndexMap", "class_ogre_1_1v1_1_1_sub_mesh.html#ab64479e1b7741b9eae2a8dae3b10ac5d", null ],
-      [ "LODFaceList", "class_ogre_1_1v1_1_1_sub_mesh.html#ac34749bfe67473be2be42646be0218a6", null ],
-      [ "VertexBoneAssignmentList", "class_ogre_1_1v1_1_1_sub_mesh.html#a6b8f6cb72d7605303d804dd70bf44fce", null ],
+      [ "AliasTextureIterator", "class_ogre_1_1v1_1_1_sub_mesh.html#aba8f57d74316c0ddaabc9356541b9275", null ],
+      [ "BoneAssignmentIterator", "class_ogre_1_1v1_1_1_sub_mesh.html#ad6ba67e2fa6287b9cd728a8d58e6faa8", null ],
+      [ "IndexMap", "class_ogre_1_1v1_1_1_sub_mesh.html#aa26e682a4474f5d6550846dd890938b1", null ],
+      [ "LODFaceList", "class_ogre_1_1v1_1_1_sub_mesh.html#a763c4b21c6077e2dc696c7e3aa5383fa", null ],
+      [ "VertexBoneAssignmentList", "class_ogre_1_1v1_1_1_sub_mesh.html#aebba36e92eb03e62348a42dc86acceae", null ],
       [ "SubMesh", "class_ogre_1_1v1_1_1_sub_mesh.html#a361bef92e802fdd948477282047a4a52", null ],
       [ "~SubMesh", "class_ogre_1_1v1_1_1_sub_mesh.html#ab4a72fc56e9e97f025275f0b87055440", null ],
       [ "_compileBoneAssignments", "class_ogre_1_1v1_1_1_sub_mesh.html#aac5988310bc6521fbe93c1350188a3cb", null ],
@@ -5629,9 +5629,9 @@ var group___resources =
       [ "msMsaaTextureBuffer", "class_ogre_1_1_vulkan_texture_gpu.html#a43888e98f84f5c9eb9ded14dd0deb34d", null ]
     ] ],
     [ "Ogre::VulkanTextureGpuManager", "class_ogre_1_1_vulkan_texture_gpu_manager.html", [
-      [ "BudgetEntryVec", "class_ogre_1_1_vulkan_texture_gpu_manager.html#a243112239378b673ba9f1df5e7abdbf3", null ],
-      [ "MetadataCacheMap", "class_ogre_1_1_vulkan_texture_gpu_manager.html#a75e42d75a1eae1a28e52e4613832edb3", null ],
-      [ "ResourceEntryMap", "class_ogre_1_1_vulkan_texture_gpu_manager.html#ad657330e7020f561860d24366460271c", null ],
+      [ "BudgetEntryVec", "class_ogre_1_1_vulkan_texture_gpu_manager.html#af62ba2e7914448756265ad421d59e093", null ],
+      [ "MetadataCacheMap", "class_ogre_1_1_vulkan_texture_gpu_manager.html#a36e610eef744569c8aaea9ea4874df99", null ],
+      [ "ResourceEntryMap", "class_ogre_1_1_vulkan_texture_gpu_manager.html#a0026780a9be7db6f2e97baf5fbdf42b2", null ],
       [ "Reason", "class_ogre_1_1_vulkan_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7d", [
         [ "Unknown", "class_ogre_1_1_vulkan_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da2b732a317de0915527e291485ca42e82", null ],
         [ "FromStorageToSysRam", "class_ogre_1_1_vulkan_texture_gpu_manager.html#afe11bd546cf7315f4526488e7078cc7da58fd07194714679ed3ba9857d7656f27", null ],

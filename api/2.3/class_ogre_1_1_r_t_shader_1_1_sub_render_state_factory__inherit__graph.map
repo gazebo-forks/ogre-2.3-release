@@ -22,10 +22,10 @@
 <area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="321,434,370,499,402,533,438,562,462,575,459,579,436,567,398,537,366,503,317,437"/>
 <area shape="rect" id="Node000013" href="$class_ogre_1_1_r_t_shader_1_1_per_pixel_lighting_factory.html" title="A factory that enables creation of PerPixelLighting instances." alt="" coords="461,643,628,683"/>
 <area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="313,435,332,479,359,531,394,583,439,628,462,642,459,646,435,632,390,587,354,534,327,482,308,438"/>
-<area shape="rect" id="Node000014" href="$class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html" title="A factory that enables creation of TextureAtlasSampler instances." alt="" coords="449,708,641,749"/>
+<area shape="rect" id="Node000014" href="$class_ogre_1_1_r_t_shader_1_1_texture_atlas_sampler_factory.html" title="A factory that enables creation of TextureAtlasSampler instances." alt="" coords="448,708,641,749"/>
 <area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="308,437,323,493,349,562,387,633,411,665,439,693,457,705,454,710,435,697,407,668,382,635,344,564,318,495,303,438"/>
 <area shape="rect" id="Node000015" href="$class_ogre_1_1_r_t_shader_1_1_triplanar_texturing_factory.html" title="A factory that enables creation of TriplanarMapping instances." alt="" coords="460,773,629,814"/>
 <area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="305,437,316,505,340,592,357,637,379,681,406,722,439,758,461,774,458,778,435,762,402,725,375,684,353,639,335,593,311,506,300,438"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,389,158,415"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,389,158,414"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,399,205,399,205,404,173,404"/>
 </map>

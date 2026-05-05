@@ -52,8 +52,8 @@ var group___scene =
         [ "cameraPostRenderScene", "class_ogre_1_1_camera_1_1_listener.html#a9359c80e745123e503311edbfc1d829a", null ],
         [ "cameraPreRenderScene", "class_ogre_1_1_camera_1_1_listener.html#a118a99ab616bd2e1648c335afda174c9", null ]
       ] ],
-      [ "CustomParameterMap", "class_ogre_1_1_camera.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-      [ "MovableObjectArray", "class_ogre_1_1_camera.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "CustomParameterMap", "class_ogre_1_1_camera.html#a20353a0495f93d3a065081809ba105bd", null ],
+      [ "MovableObjectArray", "class_ogre_1_1_camera.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "CameraSortMode", "class_ogre_1_1_camera.html#a206f478311219fe2f78037b4eeb5ad6f", [
         [ "SortModeDistance", "class_ogre_1_1_camera.html#a206f478311219fe2f78037b4eeb5ad6fa77de59cc4cbdcdb8e880cc17d6cf8703", null ],
         [ "SortModeDepth", "class_ogre_1_1_camera.html#a206f478311219fe2f78037b4eeb5ad6fa438d26ef77d3461e79200c901858916c", null ],
@@ -222,8 +222,8 @@ var group___scene =
       [ "getUserAny", "class_ogre_1_1_camera.html#a3bee104c7359ba6c41d65d88cfc3d418", null ],
       [ "getUseRenderingDistance", "class_ogre_1_1_camera.html#a7886967570a02d7f69bec6505a767714", null ],
       [ "getUserObjectBindings", "class_ogre_1_1_camera.html#aa6ae8d976be50b007ba1e87732a6397d", null ],
-      [ "getUserObjectBindings", "class_ogre_1_1_camera.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1_camera.html#a27eb8980ee187b42ea619c582eaebf73", null ],
+      [ "getUserObjectBindings", "class_ogre_1_1_camera.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1_camera.html#af85238872bb197dea36acf21a578ecec", null ],
       [ "getVaos", "class_ogre_1_1_camera.html#a02e8c5cc62dadc7db0ead1cccdefdb65", null ],
       [ "getViewMatrix", "class_ogre_1_1_camera.html#a8b8b9ef61a1d6642acb908fad285b4a1", null ],
@@ -369,7 +369,7 @@ var group___scene =
       [ "renderingCamera", "struct_ogre_1_1_cameras_in_progress.html#a567376f824c9bbbb31f0f0981f0b605b", null ]
     ] ],
     [ "Ogre::CompositorManager2", "class_ogre_1_1_compositor_manager2.html", [
-      [ "CompositorNodeDefMap", "class_ogre_1_1_compositor_manager2.html#a1d2f7fc1690d221471c3e5056f1e6586", null ],
+      [ "CompositorNodeDefMap", "class_ogre_1_1_compositor_manager2.html#ad714ee5fadc03e8d83e37464f3a68d81", null ],
       [ "CompositorManager2", "class_ogre_1_1_compositor_manager2.html#af0102241744aaab9ee5d4e5d5724c96e", null ],
       [ "~CompositorManager2", "class_ogre_1_1_compositor_manager2.html#a81f0b3adf16141f0ef8e6da0595b5977", null ],
       [ "_notifyBarriersDirty", "class_ogre_1_1_compositor_manager2.html#af8d052b403373dbb1e2c18bbb85e03e8", null ],
@@ -459,7 +459,7 @@ var group___scene =
       [ "setUseEsm", "class_ogre_1_1_concentric_shadow_camera.html#a64ec2cc49a15be1446603390cf2d5536", null ]
     ] ],
     [ "Ogre::CullFrustumRequest", "struct_ogre_1_1_cull_frustum_request.html", [
-      [ "ObjectMemoryManagerVec", "struct_ogre_1_1_cull_frustum_request.html#a284f5d9b223893111d554206d4908ffe", null ],
+      [ "ObjectMemoryManagerVec", "struct_ogre_1_1_cull_frustum_request.html#a416e86e823ddaa6aead2f29d6949c835", null ],
       [ "CullFrustumRequest", "struct_ogre_1_1_cull_frustum_request.html#a24d96b129c1cf2bf3d6adc81b2950132", null ],
       [ "CullFrustumRequest", "struct_ogre_1_1_cull_frustum_request.html#a58758429b59d8cd22b310cfdece4e9c6", null ],
       [ "addToRenderQueue", "struct_ogre_1_1_cull_frustum_request.html#aeeff72fea003054d702406641ec70616", null ],
@@ -633,11 +633,11 @@ var group___scene =
       [ "setSceneFlags", "class_ogre_1_1_default_scene_format_listener.html#aa7611935807a1b85f8c061185244d975", null ]
     ] ],
     [ "Ogre::DefaultSceneManager", "class_ogre_1_1_default_scene_manager.html", [
-      [ "AnimationIterator", "class_ogre_1_1_default_scene_manager.html#a3a720414f68274bb9c5026911e27135d", null ],
-      [ "CameraIterator", "class_ogre_1_1_default_scene_manager.html#a460e50da4b97d1beaef1a64bfa039928", null ],
-      [ "MovableObjectIterator", "class_ogre_1_1_default_scene_manager.html#af5348867645ff727d1ca25dd89795376", null ],
-      [ "MovableObjectVec", "class_ogre_1_1_default_scene_manager.html#a6d8f5f81e262b6347f5066da27d6fe70", null ],
-      [ "SceneNodeList", "class_ogre_1_1_default_scene_manager.html#a8f87c38314b272fff95da3065f3740ee", null ],
+      [ "AnimationIterator", "class_ogre_1_1_default_scene_manager.html#a7b45ae03efd2ee5aa81a2680c81559b2", null ],
+      [ "CameraIterator", "class_ogre_1_1_default_scene_manager.html#a1d06850edc8e7c1af9711a959d1bf061", null ],
+      [ "MovableObjectIterator", "class_ogre_1_1_default_scene_manager.html#a4d981f39bbcb08f48e14bfe1b06df6b4", null ],
+      [ "MovableObjectVec", "class_ogre_1_1_default_scene_manager.html#a0da9d4a2f2acbccd606124f2432b50d5", null ],
+      [ "SceneNodeList", "class_ogre_1_1_default_scene_manager.html#a10fd82580b3a1cc781c6af8a5aec5be8", null ],
       [ "EnvFeatures", "class_ogre_1_1_default_scene_manager.html#a4f9ec83967af47028ae2731ccf9884af", [
         [ "EnvFeatures_DiffuseGiFromReflectionProbe", "class_ogre_1_1_default_scene_manager.html#a4f9ec83967af47028ae2731ccf9884afac3479b832ae356b1073e1bd3fb5370b6", null ]
       ] ],
@@ -1084,7 +1084,7 @@ var group___scene =
       [ "movables2world", "struct_ogre_1_1_intersection_scene_query_result.html#a7f5b38d7ff668a368bcef9886fff1941", null ]
     ] ],
     [ "Ogre::Item", "class_ogre_1_1_item.html", [
-      [ "MovableObjectArray", "class_ogre_1_1_item.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "MovableObjectArray", "class_ogre_1_1_item.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "~Item", "class_ogre_1_1_item.html#a467587f43ff2aa8774347050cc4fc5cc", null ],
       [ "_deinitialise", "class_ogre_1_1_item.html#adeaba7cd215a0d2af0be9fb73510730d", null ],
       [ "_getLightList", "class_ogre_1_1_item.html#a862e7d3af40ee31de2f95a626207f96d", null ],
@@ -1219,7 +1219,7 @@ var group___scene =
       [ "FACTORY_TYPE_NAME", "class_ogre_1_1_item_factory.html#a1cdd699a38533ce4e26bb0f886c4c3a9", null ]
     ] ],
     [ "Ogre::Light", "class_ogre_1_1_light.html", [
-      [ "MovableObjectArray", "class_ogre_1_1_light.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "MovableObjectArray", "class_ogre_1_1_light.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "LightTypes", "class_ogre_1_1_light.html#a4f1dea084d1497c6f49e802ade940dbc", [
         [ "LT_DIRECTIONAL", "class_ogre_1_1_light.html#a4f1dea084d1497c6f49e802ade940dbca4c5582d28848ce40c2b652488494b4a3", null ],
         [ "LT_POINT", "class_ogre_1_1_light.html#a4f1dea084d1497c6f49e802ade940dbca0d59bfdcfeb338dbfe06e2e2999e752f", null ],
@@ -1428,7 +1428,7 @@ var group___scene =
         [ "objectDestroyed", "class_ogre_1_1_movable_object_1_1_listener.html#a0cc50a90dbeb3d1049e923ee5866a636", null ],
         [ "objectDetached", "class_ogre_1_1_movable_object_1_1_listener.html#aa2a6f73325a1609a522a9d6dce5168cf", null ]
       ] ],
-      [ "MovableObjectArray", "class_ogre_1_1_movable_object.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "MovableObjectArray", "class_ogre_1_1_movable_object.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "MovableObject", "class_ogre_1_1_movable_object.html#ae02e5bd3b1d7496831db07d2913146c3", null ],
       [ "MovableObject", "class_ogre_1_1_movable_object.html#abb265c65ded0523d7466ea2f03815c53", null ],
       [ "~MovableObject", "class_ogre_1_1_movable_object.html#a1157924b0023b8d6e126723d27bd3774", null ],
@@ -1544,7 +1544,7 @@ var group___scene =
       [ "operator new[]", "class_ogre_1_1_movable_object_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
     ] ],
     [ "Ogre::MovablePlane", "class_ogre_1_1_movable_plane.html", [
-      [ "MovableObjectArray", "class_ogre_1_1_movable_plane.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "MovableObjectArray", "class_ogre_1_1_movable_plane.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "Side", "class_ogre_1_1_movable_plane.html#aa5d44b14d6f032f3e0a26e83589180bc", [
         [ "NO_SIDE", "class_ogre_1_1_movable_plane.html#aa5d44b14d6f032f3e0a26e83589180bcaad112821a6c39f0097136ba5df53052a", null ],
         [ "POSITIVE_SIDE", "class_ogre_1_1_movable_plane.html#aa5d44b14d6f032f3e0a26e83589180bcac5f2b56ac439b77aad6dfc4031891be5", null ],
@@ -1673,9 +1673,9 @@ var group___scene =
         [ "nodeDetached", "class_ogre_1_1_node_1_1_listener.html#a2d8d30e7eb00989dc97aa0c2e1c94d36", null ],
         [ "nodeUpdated", "class_ogre_1_1_node_1_1_listener.html#a4038dce943694bf4577fc99aa76c99ec", null ]
       ] ],
-      [ "ConstNodeVecIterator", "class_ogre_1_1_node.html#a84efd2062a90048361e94e4db7bc79bc", null ],
-      [ "NodeVec", "class_ogre_1_1_node.html#ac781fd1e67dee5a278fa08a43e40c402", null ],
-      [ "NodeVecIterator", "class_ogre_1_1_node.html#a21d127688e5dbfb0eeca46f34e2e1017", null ],
+      [ "ConstNodeVecIterator", "class_ogre_1_1_node.html#a120364a384cadd5afe448708b8252dec", null ],
+      [ "NodeVec", "class_ogre_1_1_node.html#af82c98ae28164cea0a462daeb50b0515", null ],
+      [ "NodeVecIterator", "class_ogre_1_1_node.html#ad4566e5b224bd00021cfc203c01fe22b", null ],
       [ "TransformSpace", "class_ogre_1_1_node.html#ac42e2063379286eb673eaffff6ca5e99", [
         [ "TS_LOCAL", "class_ogre_1_1_node.html#ac42e2063379286eb673eaffff6ca5e99afcc5f69a4f8962eec29c8b57c1a675a2", null ],
         [ "TS_PARENT", "class_ogre_1_1_node.html#ac42e2063379286eb673eaffff6ca5e99a34e6c3ebabc2e9fa00de4f62be0ce7ce", null ],
@@ -1784,7 +1784,7 @@ var group___scene =
       [ "mParentIndex", "class_ogre_1_1_node.html#af133224a62eb73055298c3e2a889f6f5", null ]
     ] ],
     [ "Ogre::NullEntity", "class_ogre_1_1_null_entity.html", [
-      [ "MovableObjectArray", "class_ogre_1_1_null_entity.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "MovableObjectArray", "class_ogre_1_1_null_entity.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "NullEntity", "class_ogre_1_1_null_entity.html#a0efc0ee1fcd2df9a328265ea5457d8dd", null ],
       [ "~NullEntity", "class_ogre_1_1_null_entity.html#accf9fba5aba3ab7aea29b726cc3275d2", null ],
       [ "_getLightList", "class_ogre_1_1_null_entity.html#a862e7d3af40ee31de2f95a626207f96d", null ],
@@ -1934,7 +1934,7 @@ var group___scene =
       [ "setUseEsm", "class_ogre_1_1_plane_optimal_shadow_camera_setup.html#a64ec2cc49a15be1446603390cf2d5536", null ]
     ] ],
     [ "Ogre::PSSMShadowCameraSetup", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html", [
-      [ "SplitPointList", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#aad0d2ebd7081a0916ba725a109f7219a", null ],
+      [ "SplitPointList", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#a965d4b2c7407d0421e49a49337fff940", null ],
       [ "PSSMShadowCameraSetup", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#ad19943dab4695c37674eedcd574a4844", null ],
       [ "~PSSMShadowCameraSetup", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#aea92d3872f6f0f8bbab04eb8f0474fa2", null ],
       [ "calculateSplitPoints", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#a9cf6fe9aa7709668f3404b5ed9575975", null ],
@@ -2050,7 +2050,7 @@ var group___scene =
       [ "mLastRq", "class_ogre_1_1_region_scene_query.html#a3eadff3663a1c862a6de073041157bc0", null ]
     ] ],
     [ "Ogre::Renderable", "class_ogre_1_1_renderable.html", [
-      [ "CustomParameterMap", "class_ogre_1_1_renderable.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
+      [ "CustomParameterMap", "class_ogre_1_1_renderable.html#a20353a0495f93d3a065081809ba105bd", null ],
       [ "Renderable", "class_ogre_1_1_renderable.html#aed186856b59bf967f3188bfa70546957", null ],
       [ "~Renderable", "class_ogre_1_1_renderable.html#ae5a6101851f1e45229f7b4bc20a69815", null ],
       [ "_setHlmsHashes", "class_ogre_1_1_renderable.html#aa48f836bea94634f8e6f60755b2d1bb1", null ],
@@ -2111,8 +2111,8 @@ var group___scene =
       [ "mRenderableVisible", "class_ogre_1_1_renderable.html#ac511b8fdb7fc312f6d763fae3bbfa842", null ]
     ] ],
     [ "Ogre::RenderableAnimated", "class_ogre_1_1_renderable_animated.html", [
-      [ "CustomParameterMap", "class_ogre_1_1_renderable_animated.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-      [ "IndexMap", "class_ogre_1_1_renderable_animated.html#a95441b99bdec221d2fdb800c651a11e1", null ],
+      [ "CustomParameterMap", "class_ogre_1_1_renderable_animated.html#a20353a0495f93d3a065081809ba105bd", null ],
+      [ "IndexMap", "class_ogre_1_1_renderable_animated.html#a9f143f6623616987bc47a68c4e4e0fb2", null ],
       [ "RenderableAnimated", "class_ogre_1_1_renderable_animated.html#a8663d8708a12239da2d62593c167045e", null ],
       [ "_setHlmsHashes", "class_ogre_1_1_renderable_animated.html#aa48f836bea94634f8e6f60755b2d1bb1", null ],
       [ "_setNullDatablock", "class_ogre_1_1_renderable_animated.html#a040f6de2d0aa0b483acac3e69608c47c", null ],
@@ -2245,11 +2245,11 @@ var group___scene =
         [ "rsContext", "struct_ogre_1_1_scene_manager_1_1_render_context.html#a25d8314d6131f2b7ef384ecc06277a83", null ],
         [ "viewport", "struct_ogre_1_1_scene_manager_1_1_render_context.html#ad1d1f610d32b468c9cb97f197b04f064", null ]
       ] ],
-      [ "AnimationIterator", "class_ogre_1_1_scene_manager.html#a3a720414f68274bb9c5026911e27135d", null ],
-      [ "CameraIterator", "class_ogre_1_1_scene_manager.html#a460e50da4b97d1beaef1a64bfa039928", null ],
-      [ "MovableObjectIterator", "class_ogre_1_1_scene_manager.html#af5348867645ff727d1ca25dd89795376", null ],
-      [ "MovableObjectVec", "class_ogre_1_1_scene_manager.html#a6d8f5f81e262b6347f5066da27d6fe70", null ],
-      [ "SceneNodeList", "class_ogre_1_1_scene_manager.html#a8f87c38314b272fff95da3065f3740ee", null ],
+      [ "AnimationIterator", "class_ogre_1_1_scene_manager.html#a7b45ae03efd2ee5aa81a2680c81559b2", null ],
+      [ "CameraIterator", "class_ogre_1_1_scene_manager.html#a1d06850edc8e7c1af9711a959d1bf061", null ],
+      [ "MovableObjectIterator", "class_ogre_1_1_scene_manager.html#a4d981f39bbcb08f48e14bfe1b06df6b4", null ],
+      [ "MovableObjectVec", "class_ogre_1_1_scene_manager.html#a0da9d4a2f2acbccd606124f2432b50d5", null ],
+      [ "SceneNodeList", "class_ogre_1_1_scene_manager.html#a10fd82580b3a1cc781c6af8a5aec5be8", null ],
       [ "EnvFeatures", "class_ogre_1_1_scene_manager.html#a4f9ec83967af47028ae2731ccf9884af", [
         [ "EnvFeatures_DiffuseGiFromReflectionProbe", "class_ogre_1_1_scene_manager.html#a4f9ec83967af47028ae2731ccf9884afac3479b832ae356b1073e1bd3fb5370b6", null ]
       ] ],
@@ -2550,10 +2550,10 @@ var group___scene =
       [ "QUERY_STATICGEOMETRY_DEFAULT_MASK", "class_ogre_1_1_scene_manager.html#a09844d40f3b7404e591224b814067e63", null ]
     ] ],
     [ "Ogre::SceneManagerEnumerator", "class_ogre_1_1_scene_manager_enumerator.html", [
-      [ "Instances", "class_ogre_1_1_scene_manager_enumerator.html#a5e6ba67f2bf741283f459ed954772926", null ],
-      [ "MetaDataIterator", "class_ogre_1_1_scene_manager_enumerator.html#aba1ede3f8195a234c286f372ef181ce0", null ],
-      [ "MetaDataList", "class_ogre_1_1_scene_manager_enumerator.html#a3dca6e07a0bf90e965ba78b6a5b2f7ca", null ],
-      [ "SceneManagerIterator", "class_ogre_1_1_scene_manager_enumerator.html#ad27d358bd89b7b44a8b360ce36df3aaa", null ],
+      [ "Instances", "class_ogre_1_1_scene_manager_enumerator.html#a9c072df5fc8cbe5298a273ffeafe8e84", null ],
+      [ "MetaDataIterator", "class_ogre_1_1_scene_manager_enumerator.html#acba6bae444e04223f5469dbb7c768780", null ],
+      [ "MetaDataList", "class_ogre_1_1_scene_manager_enumerator.html#aa9b16a7ae37584e69ffe8ee78e3db628", null ],
+      [ "SceneManagerIterator", "class_ogre_1_1_scene_manager_enumerator.html#a46038ae648ceb6747871692cdfb586f0", null ],
       [ "SceneManagerEnumerator", "class_ogre_1_1_scene_manager_enumerator.html#ae9f329de24a59f62fc305723f6fbde46", null ],
       [ "~SceneManagerEnumerator", "class_ogre_1_1_scene_manager_enumerator.html#ae0b6596c1aa9ca66b44b9db6c5781526", null ],
       [ "addFactory", "class_ogre_1_1_scene_manager_enumerator.html#ac73478338f38ccf1e5779ef173759111", null ],
@@ -2605,12 +2605,12 @@ var group___scene =
       [ "worldGeometrySupported", "struct_ogre_1_1_scene_manager_meta_data.html#a4ca0d9cbb34639bf1032f34607e3d3bd", null ]
     ] ],
     [ "Ogre::SceneNode", "class_ogre_1_1_scene_node.html", [
-      [ "ConstNodeVecIterator", "class_ogre_1_1_scene_node.html#a84efd2062a90048361e94e4db7bc79bc", null ],
-      [ "ConstObjectIterator", "class_ogre_1_1_scene_node.html#abb509726b3e96301eb5fcb3b5977a236", null ],
-      [ "NodeVec", "class_ogre_1_1_scene_node.html#ac781fd1e67dee5a278fa08a43e40c402", null ],
-      [ "NodeVecIterator", "class_ogre_1_1_scene_node.html#a21d127688e5dbfb0eeca46f34e2e1017", null ],
-      [ "ObjectIterator", "class_ogre_1_1_scene_node.html#a20e3d329929dda096ae10ac469289c90", null ],
-      [ "ObjectVec", "class_ogre_1_1_scene_node.html#a26962cbb48314baa7c2e20445b52c6f1", null ],
+      [ "ConstNodeVecIterator", "class_ogre_1_1_scene_node.html#a120364a384cadd5afe448708b8252dec", null ],
+      [ "ConstObjectIterator", "class_ogre_1_1_scene_node.html#a7b2ebb602fb94dce633bcf37b944a247", null ],
+      [ "NodeVec", "class_ogre_1_1_scene_node.html#af82c98ae28164cea0a462daeb50b0515", null ],
+      [ "NodeVecIterator", "class_ogre_1_1_scene_node.html#ad4566e5b224bd00021cfc203c01fe22b", null ],
+      [ "ObjectIterator", "class_ogre_1_1_scene_node.html#ab4d6e3b901abea2690afcaa116f71eee", null ],
+      [ "ObjectVec", "class_ogre_1_1_scene_node.html#a3b640d5166521ffbf7d2afdaeaff01cc", null ],
       [ "TransformSpace", "class_ogre_1_1_scene_node.html#ac42e2063379286eb673eaffff6ca5e99", [
         [ "TS_LOCAL", "class_ogre_1_1_scene_node.html#ac42e2063379286eb673eaffff6ca5e99afcc5f69a4f8962eec29c8b57c1a675a2", null ],
         [ "TS_PARENT", "class_ogre_1_1_scene_node.html#ac42e2063379286eb673eaffff6ca5e99a34e6c3ebabc2e9fa00de4f62be0ce7ce", null ],
@@ -2933,8 +2933,8 @@ var group___scene =
       [ "vertexStart", "struct_ogre_1_1_static_face_group.html#a09215495af768e8a68b20cf1a937af3a", null ]
     ] ],
     [ "Ogre::SubItem", "class_ogre_1_1_sub_item.html", [
-      [ "CustomParameterMap", "class_ogre_1_1_sub_item.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-      [ "IndexMap", "class_ogre_1_1_sub_item.html#a95441b99bdec221d2fdb800c651a11e1", null ],
+      [ "CustomParameterMap", "class_ogre_1_1_sub_item.html#a20353a0495f93d3a065081809ba105bd", null ],
+      [ "IndexMap", "class_ogre_1_1_sub_item.html#a9f143f6623616987bc47a68c4e4e0fb2", null ],
       [ "~SubItem", "class_ogre_1_1_sub_item.html#a9ea8c7833f3cdb031e9dae7cccf1413f", null ],
       [ "_setHlmsHashes", "class_ogre_1_1_sub_item.html#a7209f6be28cb30aa397dd7791e78c773", null ],
       [ "_setNullDatablock", "class_ogre_1_1_sub_item.html#a040f6de2d0aa0b483acac3e69608c47c", null ],
@@ -3011,7 +3011,7 @@ var group___scene =
       [ "mRenderableVisible", "class_ogre_1_1_sub_item.html#ac511b8fdb7fc312f6d763fae3bbfa842", null ]
     ] ],
     [ "Ogre::UpdateLodRequest", "struct_ogre_1_1_update_lod_request.html", [
-      [ "ObjectMemoryManagerVec", "struct_ogre_1_1_update_lod_request.html#a284f5d9b223893111d554206d4908ffe", null ],
+      [ "ObjectMemoryManagerVec", "struct_ogre_1_1_update_lod_request.html#a416e86e823ddaa6aead2f29d6949c835", null ],
       [ "UpdateLodRequest", "struct_ogre_1_1_update_lod_request.html#abdefd4fa8abbcfc6dec4dc1f03e1ec8b", null ],
       [ "UpdateLodRequest", "struct_ogre_1_1_update_lod_request.html#a785836c919376a0e04aa8a424dc66a50", null ],
       [ "addToRenderQueue", "struct_ogre_1_1_update_lod_request.html#aeeff72fea003054d702406641ec70616", null ],
@@ -3053,9 +3053,9 @@ var group___scene =
       [ "setUserAny", "class_ogre_1_1_user_object_bindings.html#a3c01d7c2b562b39487fff224e89bf4b6", null ]
     ] ],
     [ "Ogre::v1::Entity", "class_ogre_1_1v1_1_1_entity.html", [
-      [ "EntitySet", "class_ogre_1_1v1_1_1_entity.html#a67ed4bd23c04b2d2bd5ebe19966cc1da", null ],
-      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_entity.html#afb58624fb567bb790c55d8a716b472da", null ],
-      [ "SchemeHardwareAnimMap", "class_ogre_1_1v1_1_1_entity.html#a52d82cc5db6472d79b0a1180f146c5f2", null ],
+      [ "EntitySet", "class_ogre_1_1v1_1_1_entity.html#a7494c081e47a8325969b98e472b43a88", null ],
+      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_entity.html#a317b125b7fabcad7c8a344164455e08d", null ],
+      [ "SchemeHardwareAnimMap", "class_ogre_1_1v1_1_1_entity.html#a8c9b1a805e3183825e4f841ac40c5565", null ],
       [ "VertexDataBindChoice", "class_ogre_1_1v1_1_1_entity.html#a494afb0b1f584e43cd807fdedcbe2b7c", [
         [ "BIND_ORIGINAL", "class_ogre_1_1v1_1_1_entity.html#a494afb0b1f584e43cd807fdedcbe2b7ca0b1d3ac2746fba5d8b1f5da8ff2789ed", null ],
         [ "BIND_SOFTWARE_SKELETAL", "class_ogre_1_1v1_1_1_entity.html#a494afb0b1f584e43cd807fdedcbe2b7ca9d94fc5803816739dbab6f7cf51ac390", null ],
@@ -3239,7 +3239,7 @@ var group___scene =
     ] ],
     [ "Ogre::v1::ManualObject", "class_ogre_1_1v1_1_1_manual_object.html", [
       [ "ManualObjectSection", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html", [
-        [ "CustomParameterMap", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
+        [ "CustomParameterMap", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html#a20353a0495f93d3a065081809ba105bd", null ],
         [ "ManualObjectSection", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html#a59695f7cbac2e07d8c25b802f7245005", null ],
         [ "~ManualObjectSection", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html#aca4a611fc1362dfff8bd219dd590a045", null ],
         [ "_setHlmsHashes", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html#aa48f836bea94634f8e6f60755b2d1bb1", null ],
@@ -3314,8 +3314,8 @@ var group___scene =
         [ "mHlmsGlobalIndex", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html#a4af66c22373c90b388d2117ee904a92b", null ],
         [ "mRenderableVisible", "class_ogre_1_1v1_1_1_manual_object_1_1_manual_object_section.html#ac511b8fdb7fc312f6d763fae3bbfa842", null ]
       ] ],
-      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_manual_object.html#afb58624fb567bb790c55d8a716b472da", null ],
-      [ "SectionList", "class_ogre_1_1v1_1_1_manual_object.html#a57e986c779f94db589a4e87e6dec5d53", null ],
+      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_manual_object.html#a317b125b7fabcad7c8a344164455e08d", null ],
+      [ "SectionList", "class_ogre_1_1v1_1_1_manual_object.html#ac72ce5d6b20ea7e0e4f9a1806fd2cf8c", null ],
       [ "ManualObject", "class_ogre_1_1v1_1_1_manual_object.html#a174786272c9fb66ab71d86ed8a498a17", null ],
       [ "~ManualObject", "class_ogre_1_1v1_1_1_manual_object.html#af9c00d90845665ff5ee219bc804fa0f9", null ],
       [ "_getLightList", "class_ogre_1_1v1_1_1_manual_object.html#a862e7d3af40ee31de2f95a626207f96d", null ],
@@ -3480,9 +3480,9 @@ var group___scene =
         [ "OldNodeDetached", "class_ogre_1_1v1_1_1_old_node_1_1_listener.html#a03fdebaeb6664a9c269c5b40bf66b4aa", null ],
         [ "OldNodeUpdated", "class_ogre_1_1v1_1_1_old_node_1_1_listener.html#a826d0ea656703d4a67c6a9c4d6802682", null ]
       ] ],
-      [ "ChildOldNodeIterator", "class_ogre_1_1v1_1_1_old_node.html#aa07e088aeac0a960cfc9b89f28036591", null ],
-      [ "ChildOldNodeMap", "class_ogre_1_1v1_1_1_old_node.html#ab8ee650e5c340e9ac8fd7f9323300652", null ],
-      [ "ConstChildOldNodeIterator", "class_ogre_1_1v1_1_1_old_node.html#a29c493e2b4cd70ecffca8e27f2f472b4", null ],
+      [ "ChildOldNodeIterator", "class_ogre_1_1v1_1_1_old_node.html#a0d81b4caec8093aa93bb6e3201f180e4", null ],
+      [ "ChildOldNodeMap", "class_ogre_1_1v1_1_1_old_node.html#a553735cef4ea0ead946955ba96d60919", null ],
+      [ "ConstChildOldNodeIterator", "class_ogre_1_1v1_1_1_old_node.html#adfc7be3fd52d5da38b1ee8d9bc8f7bcb", null ],
       [ "TransformSpace", "class_ogre_1_1v1_1_1_old_node.html#a0244945288b15d4b8fa79cedf162c84c", [
         [ "TS_LOCAL", "class_ogre_1_1v1_1_1_old_node.html#a0244945288b15d4b8fa79cedf162c84ca574ea07da94ee5a6dcfd93020eb0f17e", null ],
         [ "TS_PARENT", "class_ogre_1_1v1_1_1_old_node.html#a0244945288b15d4b8fa79cedf162c84cab30c0d3446450dbbe8ed4194880dae93", null ],
@@ -3571,12 +3571,12 @@ var group___scene =
       [ "yaw", "class_ogre_1_1v1_1_1_old_node.html#a16b76b8b85817822365a871400936253", null ]
     ] ],
     [ "Ogre::v1::OldSkeletonInstance", "class_ogre_1_1v1_1_1_old_skeleton_instance.html", [
-      [ "BoneHandleMap", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a5143df141afa2327f7cd2f96783c5db5", null ],
-      [ "BoneIterator", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#ad67b0ae2df3eb1aaf0ba2571af1e13da", null ],
-      [ "BoneList", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#ad8ce92e1906da29a3c88bf6eac51b8a1", null ],
-      [ "ConstBoneIterator", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#af39ab762efce530e4a8783ba622082b9", null ],
-      [ "LinkedSkeletonAnimSourceIterator", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#ae38d5ae67a12f752ed2e54501a977c82", null ],
-      [ "LinkedSkeletonAnimSourceList", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a5130ea4fe3c4941b1efa0e3688d10ed9", null ],
+      [ "BoneHandleMap", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a67caf72b61a41e36421a200ee1934d27", null ],
+      [ "BoneIterator", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#aeb9f58863cc011dccf7544256e3abb5b", null ],
+      [ "BoneList", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a54da8d75e0c5bd707cb2c006901491a1", null ],
+      [ "ConstBoneIterator", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a6bd8efdc9076390053f4da665e7f5672", null ],
+      [ "LinkedSkeletonAnimSourceIterator", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a75f005a9cd9879ee0b2e343634215234", null ],
+      [ "LinkedSkeletonAnimSourceList", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#af3fec6ffa2b34e7cf1c82fd800bfabd2", null ],
       [ "LoadingFlags", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a1aa750a4b994f2b1066220936cdfdb94", [
         [ "LF_DEFAULT", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a1aa750a4b994f2b1066220936cdfdb94ab49695ac949df3a7d2e2f9a03267097c", null ],
         [ "LF_INCLUDE_NON_RELOADABLE", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a1aa750a4b994f2b1066220936cdfdb94a6ee542226e1cf18df28ab88426be6809", null ],
@@ -3624,9 +3624,9 @@ var group___scene =
       [ "createTagPointOnBone", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#aa3a800c753eb8f794ee2e764e4888823", null ],
       [ "escalateLoading", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a367f6fe60bb211cb4c32e3825ca67e4c", null ],
       [ "freeTagPoint", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#ac06822b82992c46e9476b02fced10b34", null ],
-      [ "getAnimation", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#af53c638ed3712176ce27161da2b4bdad", null ],
       [ "getAnimation", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#abfdb1b72123ff7deb5bb3c625eca2454", null ],
       [ "getAnimation", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#aeb2a53d9933e1fa9cdd44538ecbef280", null ],
+      [ "getAnimation", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#af53c638ed3712176ce27161da2b4bdad", null ],
       [ "getBlendMode", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a3380c0b6cf2c24bf62c6450fd590cf3a", null ],
       [ "getBone", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a777eae6cb43f238760df276076ae9155", null ],
       [ "getBone", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#abc3622f0bedf6746379e011bbbe34c78", null ],
@@ -3691,8 +3691,8 @@ var group___scene =
       [ "OGRE_AUTO_MUTEX", "class_ogre_1_1v1_1_1_old_skeleton_instance.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
     ] ],
     [ "Ogre::v1::Rectangle2D", "class_ogre_1_1v1_1_1_rectangle2_d.html", [
-      [ "CustomParameterMap", "class_ogre_1_1v1_1_1_rectangle2_d.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_rectangle2_d.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "CustomParameterMap", "class_ogre_1_1v1_1_1_rectangle2_d.html#a20353a0495f93d3a065081809ba105bd", null ],
+      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_rectangle2_d.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "Rectangle2D", "class_ogre_1_1v1_1_1_rectangle2_d.html#aa7c9b6e3bc5da53689d73b6dd091c46b", null ],
       [ "~Rectangle2D", "class_ogre_1_1v1_1_1_rectangle2_d.html#af3387cf10594cb9970bc40c8acac8b5d", null ],
       [ "_getLightList", "class_ogre_1_1v1_1_1_rectangle2_d.html#a862e7d3af40ee31de2f95a626207f96d", null ],
@@ -3770,8 +3770,8 @@ var group___scene =
       [ "getUseIdentityWorldMatrix", "class_ogre_1_1v1_1_1_rectangle2_d.html#a73de2dd2cc45eee54c7a9262ff6da180", null ],
       [ "getUserAny", "class_ogre_1_1v1_1_1_rectangle2_d.html#a3bee104c7359ba6c41d65d88cfc3d418", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_rectangle2_d.html#aa6ae8d976be50b007ba1e87732a6397d", null ],
-      [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_rectangle2_d.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_rectangle2_d.html#a27eb8980ee187b42ea619c582eaebf73", null ],
+      [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_rectangle2_d.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_rectangle2_d.html#af85238872bb197dea36acf21a578ecec", null ],
       [ "getVaos", "class_ogre_1_1v1_1_1_rectangle2_d.html#a02e8c5cc62dadc7db0ead1cccdefdb65", null ],
       [ "getVisibilityFlags", "class_ogre_1_1v1_1_1_rectangle2_d.html#a19bf2951b97744064509c13068143f3d", null ],
@@ -3864,8 +3864,8 @@ var group___scene =
       [ "FACTORY_TYPE_NAME", "class_ogre_1_1v1_1_1_rectangle2_d_factory.html#ae28881b46519848303a39bcd0db046a6", null ]
     ] ],
     [ "Ogre::v1::SimpleRenderable", "class_ogre_1_1v1_1_1_simple_renderable.html", [
-      [ "CustomParameterMap", "class_ogre_1_1v1_1_1_simple_renderable.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_simple_renderable.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "CustomParameterMap", "class_ogre_1_1v1_1_1_simple_renderable.html#a20353a0495f93d3a065081809ba105bd", null ],
+      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_simple_renderable.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "SimpleRenderable", "class_ogre_1_1v1_1_1_simple_renderable.html#ae51e3a7abf5f2015a73abdca69485e72", null ],
       [ "~SimpleRenderable", "class_ogre_1_1v1_1_1_simple_renderable.html#a7ac040d449f747bede8dc4fc46e90b3f", null ],
       [ "_getLightList", "class_ogre_1_1v1_1_1_simple_renderable.html#a862e7d3af40ee31de2f95a626207f96d", null ],
@@ -3943,8 +3943,8 @@ var group___scene =
       [ "getUseIdentityWorldMatrix", "class_ogre_1_1v1_1_1_simple_renderable.html#a73de2dd2cc45eee54c7a9262ff6da180", null ],
       [ "getUserAny", "class_ogre_1_1v1_1_1_simple_renderable.html#a3bee104c7359ba6c41d65d88cfc3d418", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_simple_renderable.html#aa6ae8d976be50b007ba1e87732a6397d", null ],
-      [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_simple_renderable.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_simple_renderable.html#a27eb8980ee187b42ea619c582eaebf73", null ],
+      [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_simple_renderable.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_simple_renderable.html#af85238872bb197dea36acf21a578ecec", null ],
       [ "getVaos", "class_ogre_1_1v1_1_1_simple_renderable.html#a02e8c5cc62dadc7db0ead1cccdefdb65", null ],
       [ "getVisibilityFlags", "class_ogre_1_1v1_1_1_simple_renderable.html#a19bf2951b97744064509c13068143f3d", null ],
@@ -4022,7 +4022,7 @@ var group___scene =
     ] ],
     [ "Ogre::v1::StaticGeometry", "class_ogre_1_1v1_1_1_static_geometry.html", [
       [ "GeometryBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_geometry_bucket.html", [
-        [ "CustomParameterMap", "class_ogre_1_1v1_1_1_static_geometry_1_1_geometry_bucket.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
+        [ "CustomParameterMap", "class_ogre_1_1v1_1_1_static_geometry_1_1_geometry_bucket.html#a20353a0495f93d3a065081809ba105bd", null ],
         [ "GeometryBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_geometry_bucket.html#a68edc554cd070e31fbfb8c8dde7a98a7", null ],
         [ "~GeometryBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_geometry_bucket.html#ad905446a8c8f35d372a5572e88b56264", null ],
         [ "_setHlmsHashes", "class_ogre_1_1v1_1_1_static_geometry_1_1_geometry_bucket.html#aa48f836bea94634f8e6f60755b2d1bb1", null ],
@@ -4100,8 +4100,8 @@ var group___scene =
         [ "mRenderableVisible", "class_ogre_1_1v1_1_1_static_geometry_1_1_geometry_bucket.html#ac511b8fdb7fc312f6d763fae3bbfa842", null ]
       ] ],
       [ "LODBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html", [
-        [ "MaterialBucketMap", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#afea16190c321deed70f8f017f55a2f99", null ],
-        [ "MaterialIterator", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#afd97fbe6b58285b8adb1418337546316", null ],
+        [ "MaterialBucketMap", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#afd1c3ab13754905b780e1ad688f9b4b8", null ],
+        [ "MaterialIterator", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#a8fe2bb65b42f5ba3f4590f19e81d50bd", null ],
         [ "LODBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#ab8958e70cb0b5d50f5fcde9153bf2cf2", null ],
         [ "~LODBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#a9a092c47b0c58306f7ec3dfabb22038b", null ],
         [ "addRenderables", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#a9ebf3ea48266665d1a1f07b2bca79359", null ],
@@ -4127,8 +4127,8 @@ var group___scene =
         [ "operator new[]", "class_ogre_1_1v1_1_1_static_geometry_1_1_l_o_d_bucket.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ]
       ] ],
       [ "MaterialBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_material_bucket.html", [
-        [ "GeometryBucketList", "class_ogre_1_1v1_1_1_static_geometry_1_1_material_bucket.html#a47061bf02c161a37707a55d0a1b93860", null ],
-        [ "GeometryIterator", "class_ogre_1_1v1_1_1_static_geometry_1_1_material_bucket.html#a22d4b1a164220f5ee06d13e4acd8bb5d", null ],
+        [ "GeometryBucketList", "class_ogre_1_1v1_1_1_static_geometry_1_1_material_bucket.html#ac60c56d4e8b24fbe03fd71b70d71e05b", null ],
+        [ "GeometryIterator", "class_ogre_1_1v1_1_1_static_geometry_1_1_material_bucket.html#ad5e226e30b243784b173154d19a4792d", null ],
         [ "MaterialBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_material_bucket.html#a186f5b7a42943188152dd0e3b0207aab", null ],
         [ "~MaterialBucket", "class_ogre_1_1v1_1_1_static_geometry_1_1_material_bucket.html#a6e5129fbc94975b04de34ddfa517f854", null ],
         [ "addRenderables", "class_ogre_1_1v1_1_1_static_geometry_1_1_material_bucket.html#a242466c23cdaf8ec6889ac2ade5478a1", null ],
@@ -4203,9 +4203,9 @@ var group___scene =
         [ "worldBounds", "struct_ogre_1_1v1_1_1_static_geometry_1_1_queued_sub_mesh.html#a3a7ab75f525d4510bed0174fe8f92043", null ]
       ] ],
       [ "Region", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html", [
-        [ "LODBucketList", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a97a1d88fc67d2d881621c55316dd2492", null ],
-        [ "LODIterator", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#aab0abbfaff168c579a2a53d5e78a03e5", null ],
-        [ "MovableObjectArray", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#afb58624fb567bb790c55d8a716b472da", null ],
+        [ "LODBucketList", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#aefa40c2fb270108f9ba024bb1cf93721", null ],
+        [ "LODIterator", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a08e1357f99121e96a13066ea46e78d96", null ],
+        [ "MovableObjectArray", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a317b125b7fabcad7c8a344164455e08d", null ],
         [ "Region", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a075e36c5c7069e1effa63f3b650cd4df", null ],
         [ "~Region", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a98ff873a4736bcaebcfff2eea6ef8617", null ],
         [ "_getLightList", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a862e7d3af40ee31de2f95a626207f96d", null ],
@@ -4241,8 +4241,8 @@ var group___scene =
         [ "getDefaultQueryFlags", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a01f48775e48b672d7796311f3ffe2930", null ],
         [ "getDefaultVisibilityFlags", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a2eb94fea5944cf0d33702a75cfa14a74", null ],
         [ "getEdgeList", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a56600a929bdc15d24d5bcc776e5a92df", null ],
-        [ "getId", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#ab152c8f646a835c2f88585ad4fe0413a", null ],
         [ "getID", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a9285730189b0eb90f0a0c6740c15394c", null ],
+        [ "getId", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#ab152c8f646a835c2f88585ad4fe0413a", null ],
         [ "getLightMask", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a54fc365f16014359d23cecf859da5510", null ],
         [ "getListener", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a6944af26e8944b13756ade50cd1092d8", null ],
         [ "getLocalAabb", "class_ogre_1_1v1_1_1_static_geometry_1_1_region.html#a30acf249cd312d9eed03a0f3ad618067", null ],
@@ -4316,13 +4316,13 @@ var group___scene =
         [ "indexData", "struct_ogre_1_1v1_1_1_static_geometry_1_1_sub_mesh_lod_geometry_link.html#a5d6dcd6d28bc61187ac8fb54d303f3a1", null ],
         [ "vertexData", "struct_ogre_1_1v1_1_1_static_geometry_1_1_sub_mesh_lod_geometry_link.html#a219a2476d505075793706deb756251b8", null ]
       ] ],
-      [ "OptimisedSubMeshGeometryList", "class_ogre_1_1v1_1_1_static_geometry.html#a811576c6c8e69c3f602eede4c2d5e14a", null ],
-      [ "QueuedGeometryList", "class_ogre_1_1v1_1_1_static_geometry.html#ac0a3f3787adff70c1b9c0b962ae81e2d", null ],
-      [ "QueuedSubMeshList", "class_ogre_1_1v1_1_1_static_geometry.html#abe8bfa4b9c0ea30acd64500e41bf8348", null ],
-      [ "RegionIterator", "class_ogre_1_1v1_1_1_static_geometry.html#a150067d7674a4d4f37bc2df8e9048847", null ],
-      [ "RegionMap", "class_ogre_1_1v1_1_1_static_geometry.html#ad3a97be855e9973f75a3a0ae22af56fc", null ],
-      [ "SubMeshGeometryLookup", "class_ogre_1_1v1_1_1_static_geometry.html#a648684ab6839148370fcb97a641ae014", null ],
-      [ "SubMeshLodGeometryLinkList", "class_ogre_1_1v1_1_1_static_geometry.html#a80d4e00d5b2b4931f942fe0aef6ee3e6", null ],
+      [ "OptimisedSubMeshGeometryList", "class_ogre_1_1v1_1_1_static_geometry.html#a19b0c519ce25e51cda1d7cde95b15157", null ],
+      [ "QueuedGeometryList", "class_ogre_1_1v1_1_1_static_geometry.html#af35b740005e45a1d58ea94c8013a4318", null ],
+      [ "QueuedSubMeshList", "class_ogre_1_1v1_1_1_static_geometry.html#af22aaeba76fe13ea4c1bd01d3325a71e", null ],
+      [ "RegionIterator", "class_ogre_1_1v1_1_1_static_geometry.html#a6185e9932c6581ea5a058949eaedada6", null ],
+      [ "RegionMap", "class_ogre_1_1v1_1_1_static_geometry.html#ab850adff527abdc139ee77751b5809fc", null ],
+      [ "SubMeshGeometryLookup", "class_ogre_1_1v1_1_1_static_geometry.html#a1daeffce45bf294f12d2b61dadcb1889", null ],
+      [ "SubMeshLodGeometryLinkList", "class_ogre_1_1v1_1_1_static_geometry.html#a3edb5704bc7e317b617f1b8dde5f925c", null ],
       [ "StaticGeometry", "class_ogre_1_1v1_1_1_static_geometry.html#ab66a5392a4fbb61803a580670e1f495e", null ],
       [ "~StaticGeometry", "class_ogre_1_1v1_1_1_static_geometry.html#a2ecbcd0a8c05148f35d2311e70310d91", null ],
       [ "addEntity", "class_ogre_1_1v1_1_1_static_geometry.html#a6e3850fdc2328c5031941e26902e4718", null ],
@@ -4360,7 +4360,7 @@ var group___scene =
       [ "setVisible", "class_ogre_1_1v1_1_1_static_geometry.html#a7c197ce4743bffb2926a2c7f762d8ff7", null ]
     ] ],
     [ "Ogre::v1::SubEntity", "class_ogre_1_1v1_1_1_sub_entity.html", [
-      [ "CustomParameterMap", "class_ogre_1_1v1_1_1_sub_entity.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
+      [ "CustomParameterMap", "class_ogre_1_1v1_1_1_sub_entity.html#a20353a0495f93d3a065081809ba105bd", null ],
       [ "~SubEntity", "class_ogre_1_1v1_1_1_sub_entity.html#a02c7cafea9d59f401da0fe9d728185d0", null ],
       [ "_getBuffersMarkedForAnimation", "class_ogre_1_1v1_1_1_sub_entity.html#a420ea7b78c6463f74f3a43c5c753742b", null ],
       [ "_getHardwareVertexAnimVertexData", "class_ogre_1_1v1_1_1_sub_entity.html#a0e007ea8d537bf199c256d7af42f0f74", null ],
@@ -4429,7 +4429,6 @@ var group___scene =
       [ "removeCustomParameter", "class_ogre_1_1v1_1_1_sub_entity.html#a0c726a0326e8a7d9e80d030541b6bddf", null ],
       [ "resetIndexDataStartEndIndex", "class_ogre_1_1v1_1_1_sub_entity.html#a6d360ab14c6165a9491312126fbe3be4", null ],
       [ "setCustomParameter", "class_ogre_1_1v1_1_1_sub_entity.html#a572c0331ef2ec650d56063fdc17435f5", null ],
-      [ "setDatablock", "class_ogre_1_1v1_1_1_sub_entity.html#a21d95904b985b26f99f88696958891c3", null ],
       [ "setDatablock", "class_ogre_1_1v1_1_1_sub_entity.html#af38093671a97c9e9d9ff02a181f5f162", null ],
       [ "setDatablock", "class_ogre_1_1v1_1_1_sub_entity.html#a8096988a16728c8b7e32495146111c62", null ],
       [ "setDatablockOrMaterialName", "class_ogre_1_1v1_1_1_sub_entity.html#a592f12018dc19e2022c839cb5fffa3a1", null ],
@@ -4451,8 +4450,8 @@ var group___scene =
       [ "mRenderableVisible", "class_ogre_1_1v1_1_1_sub_entity.html#ac511b8fdb7fc312f6d763fae3bbfa842", null ]
     ] ],
     [ "Ogre::v1::WireBoundingBox", "class_ogre_1_1v1_1_1_wire_bounding_box.html", [
-      [ "CustomParameterMap", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_wire_bounding_box.html#afb58624fb567bb790c55d8a716b472da", null ],
+      [ "CustomParameterMap", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a20353a0495f93d3a065081809ba105bd", null ],
+      [ "MovableObjectArray", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a317b125b7fabcad7c8a344164455e08d", null ],
       [ "WireBoundingBox", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a74293d38760984a8545eb3d8e5fc5f9b", null ],
       [ "~WireBoundingBox", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a2c35a0fedfdf0ccc86a8a2e819120d9c", null ],
       [ "_getLightList", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a862e7d3af40ee31de2f95a626207f96d", null ],
@@ -4531,8 +4530,8 @@ var group___scene =
       [ "getUseIdentityWorldMatrix", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a73de2dd2cc45eee54c7a9262ff6da180", null ],
       [ "getUserAny", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a3bee104c7359ba6c41d65d88cfc3d418", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_wire_bounding_box.html#aa6ae8d976be50b007ba1e87732a6397d", null ],
-      [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a27eb8980ee187b42ea619c582eaebf73", null ],
+      [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
       [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_wire_bounding_box.html#af85238872bb197dea36acf21a578ecec", null ],
       [ "getVaos", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a02e8c5cc62dadc7db0ead1cccdefdb65", null ],
       [ "getVisibilityFlags", "class_ogre_1_1v1_1_1_wire_bounding_box.html#a19bf2951b97744064509c13068143f3d", null ],

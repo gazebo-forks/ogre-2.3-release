@@ -1,8 +1,8 @@
 var class_ogre_1_1_compositor_pass_quad_def =
 [
     [ "QuadTextureSource", "struct_ogre_1_1_compositor_pass_quad_def_1_1_quad_texture_source.html", "struct_ogre_1_1_compositor_pass_quad_def_1_1_quad_texture_source" ],
-    [ "TextureSources", "class_ogre_1_1_compositor_pass_quad_def.html#a658068e1e197ca8f93ff4f98acbc08c1", null ],
-    [ "UavDependencyVec", "class_ogre_1_1_compositor_pass_quad_def.html#a114c9c278a29353ebe78cc7d7e3fce6f", null ],
+    [ "TextureSources", "class_ogre_1_1_compositor_pass_quad_def.html#a4cce022502f622cbe9bcae2e59cae092", null ],
+    [ "UavDependencyVec", "class_ogre_1_1_compositor_pass_quad_def.html#aec52e0a35fa518680417b08c975793bc", null ],
     [ "FrustumCorners", "class_ogre_1_1_compositor_pass_quad_def.html#ad8aef1ad03925bb5348dd6b0c008c0d9", [
       [ "NO_CORNERS", "class_ogre_1_1_compositor_pass_quad_def.html#ad8aef1ad03925bb5348dd6b0c008c0d9ab3b1383fb726c7e84da6b51d8ece1b5d", null ],
       [ "VIEW_SPACE_CORNERS", "class_ogre_1_1_compositor_pass_quad_def.html#ad8aef1ad03925bb5348dd6b0c008c0d9ae5c58ec954fdd48002b374a815ebe56e", null ],

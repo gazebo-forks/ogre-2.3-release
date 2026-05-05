@@ -1,7 +1,7 @@
 var class_ogre_1_1v1_1_1_vertex_buffer_binding =
 [
-    [ "BindingIndexMap", "class_ogre_1_1v1_1_1_vertex_buffer_binding.html#af2406446fa3c141843bd190a9f2602c9", null ],
-    [ "VertexBufferBindingMap", "class_ogre_1_1v1_1_1_vertex_buffer_binding.html#aa3d4249b39f9910d0a84b5b17d09bb6c", null ],
+    [ "BindingIndexMap", "class_ogre_1_1v1_1_1_vertex_buffer_binding.html#a6c051d31ba8a27e691782ce4053cc889", null ],
+    [ "VertexBufferBindingMap", "class_ogre_1_1v1_1_1_vertex_buffer_binding.html#a6cd915fe06b56b98ecfb73909d31cb65", null ],
     [ "VertexBufferBinding", "class_ogre_1_1v1_1_1_vertex_buffer_binding.html#a8590d4c220a3968e594b9b4fe55a0e28", null ],
     [ "~VertexBufferBinding", "class_ogre_1_1v1_1_1_vertex_buffer_binding.html#ac72c6a85fedd9d22cd7bf7c080ab36f9", null ],
     [ "closeGaps", "class_ogre_1_1v1_1_1_vertex_buffer_binding.html#aaf35db6d7858883f97547833d8c3c206", null ],

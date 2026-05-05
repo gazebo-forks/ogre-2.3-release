@@ -4,9 +4,9 @@
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="525,100,570,69,624,40,655,29,657,34,626,45,573,73,528,104"/>
 <area shape="rect" id="Node000006" href="$class_ogre_1_1_d3_d9_multi_render_target.html" title=" " alt="" coords="630,55,823,80"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="565,105,671,78,672,84,566,110"/>
-<area shape="rect" id="Node000007" href="$class_ogre_1_1_g_l3_plus_f_b_o_multi_render_target.html" title="MultiRenderTarget for OpenGL." alt="" coords="625,105,828,145"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1_g_l3_plus_f_b_o_multi_render_target.html" title="MultiRenderTarget for OpenGL." alt="" coords="625,104,828,145"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="592,122,625,122,625,128,592,128"/>
-<area shape="rect" id="Node000008" href="$class_ogre_1_1_g_l_e_s2_f_b_o_multi_render_target.html" title="MultiRenderTarget for GL ES 2.x." alt="" coords="630,170,823,211"/>
+<area shape="rect" id="Node000008" href="$class_ogre_1_1_g_l_e_s2_f_b_o_multi_render_target.html" title="MultiRenderTarget for GL ES 2.x." alt="" coords="630,170,823,210"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="560,140,653,167,652,172,558,145"/>
 <area shape="rect" id="Node000009" href="$class_ogre_1_1_metal_multi_render_target.html" title=" " alt="" coords="630,235,823,260"/>
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="524,146,570,184,627,220,658,232,656,237,624,225,566,188,521,150"/>

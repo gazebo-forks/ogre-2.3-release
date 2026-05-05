@@ -1,5 +1,5 @@
 <map id="Ogre::v1::TextAreaOverlayElement" name="Ogre::v1::TextAreaOverlayElement">
-<area shape="rect" id="Node000001" title="This class implements an overlay element which contains simple unformatted text." alt="" coords="145,153,316,193"/>
+<area shape="rect" id="Node000001" title="This class implements an overlay element which contains simple unformatted text." alt="" coords="144,153,316,193"/>
 <area shape="rect" id="Node000002" href="$class_ogre_1_1v1_1_1_overlay_element.html" title="Abstract definition of a 2D element to be displayed in an Overlay." alt="" coords="147,79,313,105"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,120,233,152,228,152,228,120"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_string_interface.html" title="Class defining the common interface which classes can use to present a reflection&#45;style,..." alt="" coords="5,5,146,31"/>

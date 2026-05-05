@@ -1,8 +1,8 @@
 var class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test_factory =
 [
+    [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test_factory.html#a133ec7acdb0ebd196a8403424cf61b86", null ],
     [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
     [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test_factory.html#ad449bb3ec441e90c5b76b8ea0f2a0f86", null ],
-    [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test_factory.html#a133ec7acdb0ebd196a8403424cf61b86", null ],
     [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
     [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
     [ "destroyInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_alpha_test_factory.html#a23839e5fc35257e4ffb9076e2aaf9409", null ],

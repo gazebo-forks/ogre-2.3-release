@@ -1,7 +1,7 @@
 var class_ogre_1_1_property_set =
 [
-    [ "PropertyIterator", "class_ogre_1_1_property_set.html#a7f4ea40ca663fd32e4833801323033df", null ],
-    [ "PropertyMap", "class_ogre_1_1_property_set.html#aa85526c6b31e3616f984be318a1d8b65", null ],
+    [ "PropertyIterator", "class_ogre_1_1_property_set.html#a4e2e708dbd8d73d319087ba2c60be3b5", null ],
+    [ "PropertyMap", "class_ogre_1_1_property_set.html#ac7344306448681061ecc4c6a4375eb5c", null ],
     [ "PropertySet", "class_ogre_1_1_property_set.html#a95cb8be54dee5698a4918dd26366b954", null ],
     [ "~PropertySet", "class_ogre_1_1_property_set.html#aa1890e8ea2cd4d2006bba05deb780d3d", null ],
     [ "addProperty", "class_ogre_1_1_property_set.html#a6a96a84c9d133c98681f860c7d6565b0", null ],

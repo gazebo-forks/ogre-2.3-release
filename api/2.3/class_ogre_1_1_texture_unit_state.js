@@ -1,7 +1,7 @@
 var class_ogre_1_1_texture_unit_state =
 [
     [ "TextureEffect", "struct_ogre_1_1_texture_unit_state_1_1_texture_effect.html", "struct_ogre_1_1_texture_unit_state_1_1_texture_effect" ],
-    [ "EffectMap", "class_ogre_1_1_texture_unit_state.html#a34fc8b60505dce134d07d441849df4cb", null ],
+    [ "EffectMap", "class_ogre_1_1_texture_unit_state.html#a38516b99491abc74c3c257a775546d7d", null ],
     [ "BindingType", "class_ogre_1_1_texture_unit_state.html#a411bcf3e69280ce146f09ddc73d9e7e8", [
       [ "BT_FRAGMENT", "class_ogre_1_1_texture_unit_state.html#a411bcf3e69280ce146f09ddc73d9e7e8a39c5f87a9b1c5873ece87f48cba19970", null ],
       [ "BT_VERTEX", "class_ogre_1_1_texture_unit_state.html#a411bcf3e69280ce146f09ddc73d9e7e8a857de1fa5e307a5a5b0df779ad4a470e", null ],

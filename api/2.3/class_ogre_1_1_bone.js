@@ -1,7 +1,7 @@
 var class_ogre_1_1_bone =
 [
-    [ "BoneVec", "class_ogre_1_1_bone.html#a1bf9edc137803668416a296bd1e92683", null ],
-    [ "TagPointVec", "class_ogre_1_1_bone.html#acf337040209b1221baa1333b6600d27f", null ],
+    [ "BoneVec", "class_ogre_1_1_bone.html#acc7c3b5a67f84c5412a1a962a848c76a", null ],
+    [ "TagPointVec", "class_ogre_1_1_bone.html#a2bfcab44281bee4ac75bec626a93d537", null ],
     [ "Bone", "class_ogre_1_1_bone.html#a2d481ad6008265351c727cddfa6c5850", null ],
     [ "~Bone", "class_ogre_1_1_bone.html#aa83714c8cb965617b8ac6290bf9a6fdb", null ],
     [ "_deinitialize", "class_ogre_1_1_bone.html#a74797e5e891071719c35d104ede940fb", null ],

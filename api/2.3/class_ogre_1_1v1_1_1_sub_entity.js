@@ -1,6 +1,6 @@
 var class_ogre_1_1v1_1_1_sub_entity =
 [
-    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_sub_entity.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
+    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_sub_entity.html#a20353a0495f93d3a065081809ba105bd", null ],
     [ "~SubEntity", "class_ogre_1_1v1_1_1_sub_entity.html#a02c7cafea9d59f401da0fe9d728185d0", null ],
     [ "_getBuffersMarkedForAnimation", "class_ogre_1_1v1_1_1_sub_entity.html#a420ea7b78c6463f74f3a43c5c753742b", null ],
     [ "_getHardwareVertexAnimVertexData", "class_ogre_1_1v1_1_1_sub_entity.html#a0e007ea8d537bf199c256d7af42f0f74", null ],
@@ -69,7 +69,6 @@ var class_ogre_1_1v1_1_1_sub_entity =
     [ "removeCustomParameter", "class_ogre_1_1v1_1_1_sub_entity.html#a0c726a0326e8a7d9e80d030541b6bddf", null ],
     [ "resetIndexDataStartEndIndex", "class_ogre_1_1v1_1_1_sub_entity.html#a6d360ab14c6165a9491312126fbe3be4", null ],
     [ "setCustomParameter", "class_ogre_1_1v1_1_1_sub_entity.html#a572c0331ef2ec650d56063fdc17435f5", null ],
-    [ "setDatablock", "class_ogre_1_1v1_1_1_sub_entity.html#a21d95904b985b26f99f88696958891c3", null ],
     [ "setDatablock", "class_ogre_1_1v1_1_1_sub_entity.html#af38093671a97c9e9d9ff02a181f5f162", null ],
     [ "setDatablock", "class_ogre_1_1v1_1_1_sub_entity.html#a8096988a16728c8b7e32495146111c62", null ],
     [ "setDatablockOrMaterialName", "class_ogre_1_1v1_1_1_sub_entity.html#a592f12018dc19e2022c839cb5fffa3a1", null ],

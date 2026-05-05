@@ -1,8 +1,8 @@
 var class_ogre_1_1_o_i_t_d_codec =
 [
-    [ "CodecDataPtr", "class_ogre_1_1_o_i_t_d_codec.html#a29e31ad112b08ea7fb648b63f426ff1f", null ],
-    [ "CodecIterator", "class_ogre_1_1_o_i_t_d_codec.html#a21f4b8a16d070793d576f827c9fee218", null ],
-    [ "DecodeResult", "class_ogre_1_1_o_i_t_d_codec.html#a8cc81c85bd7d4e25393aa153c5e01454", null ],
+    [ "CodecDataPtr", "class_ogre_1_1_o_i_t_d_codec.html#a00c6f94e9d2392aaff52f8e23d199b51", null ],
+    [ "CodecIterator", "class_ogre_1_1_o_i_t_d_codec.html#a58dc852023813264e3adb4e91201d52c", null ],
+    [ "DecodeResult", "class_ogre_1_1_o_i_t_d_codec.html#a119fe09a28c80877a9f9da55b5d1eb56", null ],
     [ "OITDCodec", "class_ogre_1_1_o_i_t_d_codec.html#ab85ecc791fdb298cd0718173187b4601", null ],
     [ "~OITDCodec", "class_ogre_1_1_o_i_t_d_codec.html#aa578c36146c5e5779720738e503e1708", null ],
     [ "decode", "class_ogre_1_1_o_i_t_d_codec.html#a3a760d5e5b11afcaf65263f15b562485", null ],

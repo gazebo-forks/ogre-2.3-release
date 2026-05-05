@@ -8,7 +8,7 @@ var class_ogre_1_1v1_1_1_text_area_overlay_element =
     [ "CmdColourTop", "class_ogre_1_1v1_1_1_text_area_overlay_element_1_1_cmd_colour_top.html", "class_ogre_1_1v1_1_1_text_area_overlay_element_1_1_cmd_colour_top" ],
     [ "CmdFontName", "class_ogre_1_1v1_1_1_text_area_overlay_element_1_1_cmd_font_name.html", "class_ogre_1_1v1_1_1_text_area_overlay_element_1_1_cmd_font_name" ],
     [ "CmdSpaceWidth", "class_ogre_1_1v1_1_1_text_area_overlay_element_1_1_cmd_space_width.html", "class_ogre_1_1v1_1_1_text_area_overlay_element_1_1_cmd_space_width" ],
-    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
+    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#a20353a0495f93d3a065081809ba105bd", null ],
     [ "Alignment", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#ae892bffffe7a54b2a4c6368d0344ecd0", [
       [ "Left", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#ae892bffffe7a54b2a4c6368d0344ecd0ac32d1eda6697ee730b4c209ad0106909", null ],
       [ "Right", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#ae892bffffe7a54b2a4c6368d0344ecd0af18dd3c30cd6a628a08346aedc4165ec", null ],
@@ -145,8 +145,8 @@ var class_ogre_1_1v1_1_1_text_area_overlay_element =
     [ "setHorizontalAlignment", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#a82ffa73dd4cd2aaaff532429e5e26e14", null ],
     [ "setLeft", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#a23dff15fe9ead167e2a0441014947302", null ],
     [ "setMaterial", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#a173800458c92ecefcff9d037be54afea", null ],
-    [ "setMaterialName", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#af95fb7ecbef65c9eba3e0ded9ff8148b", null ],
     [ "setMaterialName", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#adf2a2570b7d6c5dbdb80d8f98e620cbd", null ],
+    [ "setMaterialName", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#af95fb7ecbef65c9eba3e0ded9ff8148b", null ],
     [ "setMetricsMode", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#ab992ff02f6926b1a932883ce593b3450", null ],
     [ "setParameter", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#ace884b65b722ead9b920b9abf27bf815", null ],
     [ "setParameterList", "class_ogre_1_1v1_1_1_text_area_overlay_element.html#ae356913ccefbebc4f0119a0599a406fc", null ],

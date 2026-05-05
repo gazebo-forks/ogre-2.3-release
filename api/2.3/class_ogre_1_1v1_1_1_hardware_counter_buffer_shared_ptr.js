@@ -1,6 +1,6 @@
 var class_ogre_1_1v1_1_1_hardware_counter_buffer_shared_ptr =
 [
-    [ "unspecified_bool_type", "class_ogre_1_1v1_1_1_hardware_counter_buffer_shared_ptr.html#a0d782aa6b8e566367c6178732813fa9f", null ],
+    [ "unspecified_bool_type", "class_ogre_1_1v1_1_1_hardware_counter_buffer_shared_ptr.html#a8859c152c5e41f914c1b753d887ea93a", null ],
     [ "HardwareCounterBufferSharedPtr", "group___render_system.html#gae8db6c926f1f36da92271e16f3ed5fa0", null ],
     [ "HardwareCounterBufferSharedPtr", "group___render_system.html#ga1381d0550abf5436894b8e3cb6e6a698", null ],
     [ "bind", "class_ogre_1_1v1_1_1_hardware_counter_buffer_shared_ptr.html#ac8d90e023455dc3299f48722e6068e4a", null ],

@@ -22,7 +22,7 @@
 <area shape="poly" id="edge44_Node000001_Node000053" title=" " alt="" coords="67,1221,78,1260,96,1306,123,1351,140,1372,159,1389,187,1404,218,1411,217,1417,185,1409,156,1394,136,1376,119,1355,92,1308,73,1261,62,1222"/>
 <area shape="rect" id="Node000054" href="$class_ogre_1_1_vct_voxelizer_source_base.html" title="This class contains shared functionality between voxelizer; and is used by VctLighting to source its ..." alt="" coords="180,1476,378,1502"/>
 <area shape="poly" id="edge45_Node000001_Node000054" title=" " alt="" coords="65,1222,75,1268,93,1326,120,1386,138,1414,159,1439,187,1459,219,1473,217,1478,185,1464,156,1443,134,1417,115,1389,88,1328,70,1269,60,1223"/>
-<area shape="rect" id="Node000057" href="$class_ogre_1_1_voxelized_mesh_cache.html" title="Uses a VctVoxelizer to convert a single mesh made up of triangles into a voxel 3D texture representat..." alt="" coords="189,1525,369,1551"/>
+<area shape="rect" id="Node000057" href="$class_ogre_1_1_voxelized_mesh_cache.html" title="Uses a VctVoxelizer to convert a single mesh made up of triangles into a voxel 3D texture representat..." alt="" coords="189,1525,368,1551"/>
 <area shape="poly" id="edge48_Node000001_Node000057" title=" " alt="" coords="61,1223,65,1284,79,1362,91,1404,108,1444,131,1480,159,1512,190,1529,187,1534,156,1516,127,1484,104,1446,86,1405,74,1364,60,1284,56,1223"/>
 <area shape="rect" id="Node000004" href="$class_ogre_1_1_compositor_shadow_node.html" title="Shadow Nodes are special nodes (not to be confused with." alt="" coords="468,5,667,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="369,530,385,522,398,511,420,482,434,453,442,424,445,396,437,337,421,278,405,219,398,160,401,130,409,100,423,70,446,40,466,25,469,29,450,44,428,73,414,102,406,131,403,160,411,218,427,277,443,336,450,395,447,425,439,455,425,485,402,515,388,526,371,534"/>
@@ -42,7 +42,7 @@
 <area shape="poly" id="edge15_Node000007_Node000018" title=" " alt="" coords="364,679,382,671,398,659,421,626,429,593,428,559,421,525,415,490,414,455,422,420,446,386,471,369,499,361,500,366,473,374,450,389,427,422,419,455,420,489,427,524,433,559,434,594,426,628,402,663,385,675,366,684"/>
 <area shape="rect" id="Node000019" href="$class_ogre_1_1_movable_plane.html" title="Definition of a Plane that may be attached to a node, and the derived details of it retrieved simply." alt="" coords="499,400,636,426"/>
 <area shape="poly" id="edge16_Node000007_Node000019" title=" " alt="" coords="364,678,382,671,398,659,418,632,425,605,425,578,421,549,417,520,418,492,426,463,446,435,470,419,498,411,499,416,472,424,450,439,431,465,423,492,423,520,427,549,431,577,431,606,422,635,402,663,385,675,366,683"/>
-<area shape="rect" id="Node000020" href="$class_ogre_1_1_null_entity.html" title=" " alt="" coords="513,449,623,475"/>
+<area shape="rect" id="Node000020" href="$class_ogre_1_1_null_entity.html" title=" " alt="" coords="512,449,623,475"/>
 <area shape="poly" id="edge17_Node000007_Node000020" title=" " alt="" coords="364,678,382,670,398,659,414,639,421,618,423,596,421,574,420,551,421,528,429,506,446,484,477,466,512,459,513,464,479,471,450,488,434,508,427,529,425,551,427,573,428,596,427,619,419,641,402,663,385,675,366,683"/>
 <area shape="rect" id="Node000021" href="$class_ogre_1_1_particle_system.html" title="Class defining particle system based special effects." alt="" coords="496,499,639,524"/>
 <area shape="poly" id="edge18_Node000007_Node000021" title=" " alt="" coords="364,677,382,669,398,659,411,645,418,630,421,598,425,565,433,549,446,533,469,520,495,512,496,517,471,524,450,538,437,552,430,567,427,598,423,631,416,647,402,663,385,674,366,682"/>
@@ -54,7 +54,7 @@
 <area shape="poly" id="edge23_Node000007_Node000026" title=" " alt="" coords="365,675,496,663,496,668,366,680"/>
 <area shape="rect" id="Node000027" href="$class_ogre_1_1_wire_aabb.html" title="Helper class to display the Aabb of a MovableObject as lines." alt="" coords="512,696,623,722"/>
 <area shape="poly" id="edge24_Node000007_Node000027" title=" " alt="" coords="366,689,512,702,511,707,365,695"/>
-<area shape="rect" id="Node000028" href="$class_ogre_1_1v1_1_1_billboard_chain.html" title="Allows the rendering of a chain of connected billboards." alt="" coords="489,745,647,771"/>
+<area shape="rect" id="Node000028" href="$class_ogre_1_1v1_1_1_billboard_chain.html" title="Allows the rendering of a chain of connected billboards." alt="" coords="488,745,647,771"/>
 <area shape="poly" id="edge25_Node000007_Node000028" title=" " alt="" coords="338,700,449,732,495,742,494,747,447,737,336,705"/>
 <area shape="rect" id="Node000030" href="$class_ogre_1_1v1_1_1_billboard_set.html" title="A collection of billboards (faces which are always facing the given direction) with the same (default..." alt="" coords="495,795,640,820"/>
 <area shape="poly" id="edge26_Node000007_Node000030" title=" " alt="" coords="312,705,373,744,449,781,495,794,494,799,447,786,371,749,309,709"/>

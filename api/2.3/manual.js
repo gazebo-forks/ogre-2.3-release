@@ -293,7 +293,7 @@ var manual =
       [ "Grouping textures by type", "_tuning_memory_resources.html#GroupingTexturesByType", null ],
       [ "Dynamic vs Default buffers", "_tuning_memory_resources.html#DynamicVsDefaultBuffers", null ],
       [ "Tweaking default memory consumption by VaoManager", "_tuning_memory_resources.html#TweakingVaoManager", [
-        [ "Vulkan and <tt>TEXTURES_OPTIMAL</tt>", "_tuning_memory_resources.html#autotoc_md27", null ]
+        [ "Vulkan and TEXTURES_OPTIMAL", "_tuning_memory_resources.html#autotoc_md27", null ]
       ] ]
     ] ],
     [ "What's new in Ogre 2.2", "_ogre22_changes.html", [

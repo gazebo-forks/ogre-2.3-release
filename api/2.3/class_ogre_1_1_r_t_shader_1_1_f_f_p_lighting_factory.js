@@ -1,7 +1,7 @@
 var class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory =
 [
-    [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
     [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#aa6f240508f46fa150679c08f6d6046d2", null ],
+    [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
     [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
     [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
     [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -17,6 +17,6 @@ var class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory =
     [ "operator new", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a63fc6bdc2eb6aeac24898a77ec5e2023", null ],
     [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#adce32528577d71b228692df906ecd17c", null ],
     [ "operator new[]", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#aed1464ac3de21ff20db8f9f1f8608dc7", null ],
-    [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-    [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a7bd66ed4824b4330bb02ae06f552cf43", null ]
+    [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a7bd66ed4824b4330bb02ae06f552cf43", null ],
+    [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_f_f_p_lighting_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
 ];

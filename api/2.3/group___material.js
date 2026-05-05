@@ -28,8 +28,8 @@ var group___material =
       [ "Uav", "struct_ogre_1_1_compute_property.html#a5503ecbcbeee97d79ef0b14c2cac9e85", null ]
     ] ],
     [ "Ogre::HlmsBufferManager", "class_ogre_1_1_hlms_buffer_manager.html", [
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_buffer_manager.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-      [ "LibraryVec", "class_ogre_1_1_hlms_buffer_manager.html#a6515668f13ae08887b8104c7133e5c29", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_buffer_manager.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+      [ "LibraryVec", "class_ogre_1_1_hlms_buffer_manager.html#a50341583e32c59496e9b11391c3db824", null ],
       [ "LightGatheringMode", "class_ogre_1_1_hlms_buffer_manager.html#a6e629e7a87a40040e12d2bfb4ff80d58", [
         [ "LightGatherForward", "class_ogre_1_1_hlms_buffer_manager.html#a6e629e7a87a40040e12d2bfb4ff80d58a6461fe4856b648eb0bc6ec35df2e4712", null ],
         [ "LightGatherForwardPlus", "class_ogre_1_1_hlms_buffer_manager.html#a6e629e7a87a40040e12d2bfb4ff80d58a792d2cdce23b4018b9c149540ebb1a93", null ],
@@ -107,8 +107,8 @@ var group___material =
       [ "setTextureBufferDefaultSize", "class_ogre_1_1_hlms_buffer_manager.html#a6dff4f91d5b7833aec870f30ae381ccc", null ]
     ] ],
     [ "Ogre::HlmsCompute", "class_ogre_1_1_hlms_compute.html", [
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_compute.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-      [ "LibraryVec", "class_ogre_1_1_hlms_compute.html#a6515668f13ae08887b8104c7133e5c29", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_compute.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+      [ "LibraryVec", "class_ogre_1_1_hlms_compute.html#a50341583e32c59496e9b11391c3db824", null ],
       [ "LightGatheringMode", "class_ogre_1_1_hlms_compute.html#a6e629e7a87a40040e12d2bfb4ff80d58", [
         [ "LightGatherForward", "class_ogre_1_1_hlms_compute.html#a6e629e7a87a40040e12d2bfb4ff80d58a6461fe4856b648eb0bc6ec35df2e4712", null ],
         [ "LightGatherForwardPlus", "class_ogre_1_1_hlms_compute.html#a6e629e7a87a40040e12d2bfb4ff80d58a792d2cdce23b4018b9c149540ebb1a93", null ],
@@ -293,8 +293,8 @@ var group___material =
       [ "saveMaterial", "class_ogre_1_1_hlms_json_unlit.html#a2ba41725589046c93f8ffd420f913be9", null ]
     ] ],
     [ "Ogre::HlmsLowLevel", "class_ogre_1_1_hlms_low_level.html", [
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_low_level.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-      [ "LibraryVec", "class_ogre_1_1_hlms_low_level.html#a6515668f13ae08887b8104c7133e5c29", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_low_level.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+      [ "LibraryVec", "class_ogre_1_1_hlms_low_level.html#a50341583e32c59496e9b11391c3db824", null ],
       [ "LightGatheringMode", "class_ogre_1_1_hlms_low_level.html#a6e629e7a87a40040e12d2bfb4ff80d58", [
         [ "LightGatherForward", "class_ogre_1_1_hlms_low_level.html#a6e629e7a87a40040e12d2bfb4ff80d58a6461fe4856b648eb0bc6ec35df2e4712", null ],
         [ "LightGatherForwardPlus", "class_ogre_1_1_hlms_low_level.html#a6e629e7a87a40040e12d2bfb4ff80d58a792d2cdce23b4018b9c149540ebb1a93", null ],
@@ -422,8 +422,8 @@ var group___material =
       [ "mType", "class_ogre_1_1_hlms_low_level_datablock.html#aeabeb1aca625e7c98b5ad36217dc2ad4", null ]
     ] ],
     [ "Ogre::HlmsPbs", "class_ogre_1_1_hlms_pbs.html", [
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_pbs.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-      [ "LibraryVec", "class_ogre_1_1_hlms_pbs.html#a6515668f13ae08887b8104c7133e5c29", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_pbs.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+      [ "LibraryVec", "class_ogre_1_1_hlms_pbs.html#a50341583e32c59496e9b11391c3db824", null ],
       [ "AmbientLightMode", "class_ogre_1_1_hlms_pbs.html#a5fed9e596a4ec91b729d9fdbfc054c67", [
         [ "AmbientAuto", "class_ogre_1_1_hlms_pbs.html#a5fed9e596a4ec91b729d9fdbfc054c67a3bfb356813bf7725ccbae6fd23af36b2", null ],
         [ "AmbientFixed", "class_ogre_1_1_hlms_pbs.html#a5fed9e596a4ec91b729d9fdbfc054c67a22cf2cf1dafcb142a6a8d9ffab2cc3df", null ],
@@ -567,8 +567,8 @@ var group___material =
       [ "setVctLighting", "class_ogre_1_1_hlms_pbs.html#aabcbb76605bde800b84597ab4ccf5901", null ]
     ] ],
     [ "Ogre::HlmsPbsMobile", "class_ogre_1_1_hlms_pbs_mobile.html", [
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_pbs_mobile.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-      [ "LibraryVec", "class_ogre_1_1_hlms_pbs_mobile.html#a6515668f13ae08887b8104c7133e5c29", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_pbs_mobile.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+      [ "LibraryVec", "class_ogre_1_1_hlms_pbs_mobile.html#a50341583e32c59496e9b11391c3db824", null ],
       [ "LightGatheringMode", "class_ogre_1_1_hlms_pbs_mobile.html#a6e629e7a87a40040e12d2bfb4ff80d58", [
         [ "LightGatherForward", "class_ogre_1_1_hlms_pbs_mobile.html#a6e629e7a87a40040e12d2bfb4ff80d58a6461fe4856b648eb0bc6ec35df2e4712", null ],
         [ "LightGatherForwardPlus", "class_ogre_1_1_hlms_pbs_mobile.html#a6e629e7a87a40040e12d2bfb4ff80d58a792d2cdce23b4018b9c149540ebb1a93", null ],
@@ -646,8 +646,8 @@ var group___material =
       [ "setProperty", "class_ogre_1_1_hlms_pbs_mobile.html#a85c00acdba7c9a0bcab3c6a0a48d587f", null ]
     ] ],
     [ "Ogre::HlmsUnlit", "class_ogre_1_1_hlms_unlit.html", [
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_unlit.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-      [ "LibraryVec", "class_ogre_1_1_hlms_unlit.html#a6515668f13ae08887b8104c7133e5c29", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_unlit.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+      [ "LibraryVec", "class_ogre_1_1_hlms_unlit.html#a50341583e32c59496e9b11391c3db824", null ],
       [ "DirtyFlags", "class_ogre_1_1_hlms_unlit.html#a4dc8f3f46667d44648238e9c396fd9a7", [
         [ "DirtyNone", "class_ogre_1_1_hlms_unlit.html#a4dc8f3f46667d44648238e9c396fd9a7a301241051482fed014ff5553f6c2ac38", null ],
         [ "DirtyConstBuffer", "class_ogre_1_1_hlms_unlit.html#a4dc8f3f46667d44648238e9c396fd9a7a8c28fc09ec9008631054b52064cc4165", null ],
@@ -746,8 +746,8 @@ var group___material =
       [ "setTextureBufferDefaultSize", "class_ogre_1_1_hlms_unlit.html#a6dff4f91d5b7833aec870f30ae381ccc", null ]
     ] ],
     [ "Ogre::HlmsUnlitMobile", "class_ogre_1_1_hlms_unlit_mobile.html", [
-      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_unlit_mobile.html#ab38ae89227591ab06dac2f033300e7c0", null ],
-      [ "LibraryVec", "class_ogre_1_1_hlms_unlit_mobile.html#a6515668f13ae08887b8104c7133e5c29", null ],
+      [ "HlmsDatablockMap", "class_ogre_1_1_hlms_unlit_mobile.html#a8b61e67ce8cf06399c9b9cb1d6fbb0b7", null ],
+      [ "LibraryVec", "class_ogre_1_1_hlms_unlit_mobile.html#a50341583e32c59496e9b11391c3db824", null ],
       [ "LightGatheringMode", "class_ogre_1_1_hlms_unlit_mobile.html#a6e629e7a87a40040e12d2bfb4ff80d58", [
         [ "LightGatherForward", "class_ogre_1_1_hlms_unlit_mobile.html#a6e629e7a87a40040e12d2bfb4ff80d58a6461fe4856b648eb0bc6ec35df2e4712", null ],
         [ "LightGatherForwardPlus", "class_ogre_1_1_hlms_unlit_mobile.html#a6e629e7a87a40040e12d2bfb4ff80d58a792d2cdce23b4018b9c149540ebb1a93", null ],
@@ -896,7 +896,7 @@ var group___material =
         [ "aabb", "struct_ogre_1_1_instant_radiosity_1_1_area_of_interest.html#aac84518f8d8108d7f7875516128b3474", null ],
         [ "sphereRadius", "struct_ogre_1_1_instant_radiosity_1_1_area_of_interest.html#acd53cb3f6a58dbf08f1baa12bcb03033", null ]
       ] ],
-      [ "AreaOfInterestVec", "class_ogre_1_1_instant_radiosity.html#a16a3209a9581179699c754cbaafded49", null ],
+      [ "AreaOfInterestVec", "class_ogre_1_1_instant_radiosity.html#a5d104907799a26dd571b957add28712e", null ],
       [ "InstantRadiosity", "class_ogre_1_1_instant_radiosity.html#a8ac4a5fd36c41fae9bcd8fe59fefd954", null ],
       [ "~InstantRadiosity", "class_ogre_1_1_instant_radiosity.html#a9f8f8701a7c1bbf9a68b6dac504db7d9", null ],
       [ "build", "class_ogre_1_1_instant_radiosity.html#a640111ec340efb2b4a0e6f67002596c2", null ],
@@ -1268,7 +1268,7 @@ var group___material =
         [ "mpEx", "struct_ogre_1_1_shader_params_1_1_param.html#a3b874d31c951ff796727ef1d85e9ea74", null ],
         [ "name", "struct_ogre_1_1_shader_params_1_1_param.html#a7f3e1c3d619e62d1c4067063bb38c9de", null ]
       ] ],
-      [ "ParamVec", "class_ogre_1_1_shader_params.html#a32bd59e412c4d5caf320bd4d0c97debe", null ],
+      [ "ParamVec", "class_ogre_1_1_shader_params.html#a3a3759f5cdc73b66054467f535850a78", null ],
       [ "ElementType", "class_ogre_1_1_shader_params.html#a2eeaceb51d472b719762ad4b8b9b5d97", [
         [ "ElementInt", "class_ogre_1_1_shader_params.html#a2eeaceb51d472b719762ad4b8b9b5d97a78aa8cfbb5e6ac220c67b9311953d718", null ],
         [ "ElementUInt", "class_ogre_1_1_shader_params.html#a2eeaceb51d472b719762ad4b8b9b5d97a72e2d35f8eefca40bae065126930a7d6", null ],

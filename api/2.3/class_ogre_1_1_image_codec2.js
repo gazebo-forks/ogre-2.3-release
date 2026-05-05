@@ -1,9 +1,9 @@
 var class_ogre_1_1_image_codec2 =
 [
     [ "ImageData2", "class_ogre_1_1_image_codec2_1_1_image_data2.html", "class_ogre_1_1_image_codec2_1_1_image_data2" ],
-    [ "CodecDataPtr", "class_ogre_1_1_image_codec2.html#a29e31ad112b08ea7fb648b63f426ff1f", null ],
-    [ "CodecIterator", "class_ogre_1_1_image_codec2.html#a21f4b8a16d070793d576f827c9fee218", null ],
-    [ "DecodeResult", "class_ogre_1_1_image_codec2.html#a8cc81c85bd7d4e25393aa153c5e01454", null ],
+    [ "CodecDataPtr", "class_ogre_1_1_image_codec2.html#a00c6f94e9d2392aaff52f8e23d199b51", null ],
+    [ "CodecIterator", "class_ogre_1_1_image_codec2.html#a58dc852023813264e3adb4e91201d52c", null ],
+    [ "DecodeResult", "class_ogre_1_1_image_codec2.html#a119fe09a28c80877a9f9da55b5d1eb56", null ],
     [ "~ImageCodec2", "class_ogre_1_1_image_codec2.html#a25e63a8d8837ad075cccfb8ce7464992", null ],
     [ "decode", "class_ogre_1_1_image_codec2.html#a63f306b8171a0ea5cf319824044958e4", null ],
     [ "encode", "class_ogre_1_1_image_codec2.html#ac2d5b19075d7c38a0e7c351838242bff", null ],

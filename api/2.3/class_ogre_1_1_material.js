@@ -1,8 +1,8 @@
 var class_ogre_1_1_material =
 [
-    [ "LodValueArray", "class_ogre_1_1_material.html#a7726f446442e5df77f29e2fd91af1633", null ],
-    [ "LodValueIterator", "class_ogre_1_1_material.html#aefc64a391f751ffb3cb5153c3d81bc1b", null ],
-    [ "TechniqueIterator", "class_ogre_1_1_material.html#a4969168248bff6aea70eafcf75497689", null ],
+    [ "LodValueArray", "class_ogre_1_1_material.html#a78bc4e9a02e998a3174080e3c6d5c0ee", null ],
+    [ "LodValueIterator", "class_ogre_1_1_material.html#aa84de033775a678b244f5f1c228f8bcd", null ],
+    [ "TechniqueIterator", "class_ogre_1_1_material.html#ad11f7b446e37cebe6e472240f68f6cc8", null ],
     [ "LoadingFlags", "class_ogre_1_1_material.html#a1aa750a4b994f2b1066220936cdfdb94", [
       [ "LF_DEFAULT", "class_ogre_1_1_material.html#a1aa750a4b994f2b1066220936cdfdb94ab49695ac949df3a7d2e2f9a03267097c", null ],
       [ "LF_INCLUDE_NON_RELOADABLE", "class_ogre_1_1_material.html#a1aa750a4b994f2b1066220936cdfdb94a6ee542226e1cf18df28ab88426be6809", null ],

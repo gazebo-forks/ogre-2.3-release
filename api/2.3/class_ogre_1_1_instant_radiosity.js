@@ -1,7 +1,7 @@
 var class_ogre_1_1_instant_radiosity =
 [
     [ "AreaOfInterest", "struct_ogre_1_1_instant_radiosity_1_1_area_of_interest.html", "struct_ogre_1_1_instant_radiosity_1_1_area_of_interest" ],
-    [ "AreaOfInterestVec", "class_ogre_1_1_instant_radiosity.html#a16a3209a9581179699c754cbaafded49", null ],
+    [ "AreaOfInterestVec", "class_ogre_1_1_instant_radiosity.html#a5d104907799a26dd571b957add28712e", null ],
     [ "InstantRadiosity", "class_ogre_1_1_instant_radiosity.html#a8ac4a5fd36c41fae9bcd8fe59fefd954", null ],
     [ "~InstantRadiosity", "class_ogre_1_1_instant_radiosity.html#a9f8f8701a7c1bbf9a68b6dac504db7d9", null ],
     [ "build", "class_ogre_1_1_instant_radiosity.html#a640111ec340efb2b4a0e6f67002596c2", null ],

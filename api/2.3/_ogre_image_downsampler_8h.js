@@ -1,9 +1,9 @@
 var _ogre_image_downsampler_8h =
 [
-    [ "ImageBlur2D", "_ogre_image_downsampler_8h.html#ga5f98d74e5f971ea088a19ee5dad3cff1", null ],
-    [ "ImageDownsampler2D", "_ogre_image_downsampler_8h.html#ga7e9e127e2cdc58e6fec40c2e0eef449d", null ],
-    [ "ImageDownsampler3D", "_ogre_image_downsampler_8h.html#ga0f0797f7e5fb70ae61b2d68147572fe7", null ],
-    [ "ImageDownsamplerCube", "_ogre_image_downsampler_8h.html#ga02085c7007d82b652f31bcd124a07a06", null ],
+    [ "ImageBlur2D", "_ogre_image_downsampler_8h.html#ga2f75b9e2b7c75ebeefb230c53d520046", null ],
+    [ "ImageDownsampler2D", "_ogre_image_downsampler_8h.html#gaaf731ba1414f0635f2b910a416a12e7d", null ],
+    [ "ImageDownsampler3D", "_ogre_image_downsampler_8h.html#ga460ca74e07dff72e85b9f02925476d6f", null ],
+    [ "ImageDownsamplerCube", "_ogre_image_downsampler_8h.html#ga4be1039bad96f9ce2408f50f37515d8d", null ],
     [ "c_filterKernels", "_ogre_image_downsampler_8h.html#ga76e36f90fcf6359c560098f2c93a5d32", null ],
     [ "c_filterSeparableKernels", "_ogre_image_downsampler_8h.html#ga62e0757448eaf7acab7eb310462427e4", null ],
     [ "downscale2x_A8", "_ogre_image_downsampler_8h.html#ga38d0af4c4fa4c46dffd554e112bb6039", null ],

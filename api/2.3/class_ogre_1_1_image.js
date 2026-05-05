@@ -1,7 +1,7 @@
 var class_ogre_1_1_image =
 [
-    [ "Box", "class_ogre_1_1_image.html#abd443d16124b2b012b77a282f2af909a", null ],
-    [ "Rect", "class_ogre_1_1_image.html#aacf1f2552048b7c6d5e94d6746d9186b", null ],
+    [ "Box", "class_ogre_1_1_image.html#ad05ad30a6eee745d5763d8f865e8478f", null ],
+    [ "Rect", "class_ogre_1_1_image.html#a14c9ae7f555d56759153af12bc607ba5", null ],
     [ "Filter", "class_ogre_1_1_image.html#aa1d0fe80507583b39161736e4be198d5", [
       [ "FILTER_NEAREST", "class_ogre_1_1_image.html#aa1d0fe80507583b39161736e4be198d5a7ef2addab7f4ada3d9892979c0b309ca", null ],
       [ "FILTER_LINEAR", "class_ogre_1_1_image.html#aa1d0fe80507583b39161736e4be198d5a4bd7e862129bad718a43406a38716a46", null ],

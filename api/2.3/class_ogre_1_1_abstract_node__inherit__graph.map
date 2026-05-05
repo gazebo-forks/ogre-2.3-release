@@ -6,7 +6,7 @@
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,97,366,89,416,78,417,83,368,94,329,103"/>
 <area shape="rect" id="Node000005" href="$class_ogre_1_1_object_abstract_node.html" title="This specific abstract node represents a script object." alt="" coords="394,104,567,130"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="334,114,393,114,393,120,334,120"/>
-<area shape="rect" id="Node000006" href="$class_ogre_1_1_property_abstract_node.html" title="This abstract node represents a script property." alt="" coords="389,153,572,179"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_property_abstract_node.html" title="This abstract node represents a script property." alt="" coords="388,153,572,179"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="329,131,368,140,417,150,416,155,366,145,328,136"/>
 <area shape="rect" id="Node000007" href="$class_ogre_1_1_variable_access_abstract_node.html" title="This abstract node represents a variable assignment." alt="" coords="367,203,593,228"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="282,137,322,165,368,189,400,200,398,205,366,194,319,169,279,142"/>

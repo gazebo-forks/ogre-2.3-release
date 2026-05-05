@@ -1,8 +1,8 @@
 var class_ogre_1_1v1_1_1_tag_point =
 [
-    [ "ChildOldNodeIterator", "class_ogre_1_1v1_1_1_tag_point.html#aa07e088aeac0a960cfc9b89f28036591", null ],
-    [ "ChildOldNodeMap", "class_ogre_1_1v1_1_1_tag_point.html#ab8ee650e5c340e9ac8fd7f9323300652", null ],
-    [ "ConstChildOldNodeIterator", "class_ogre_1_1v1_1_1_tag_point.html#a29c493e2b4cd70ecffca8e27f2f472b4", null ],
+    [ "ChildOldNodeIterator", "class_ogre_1_1v1_1_1_tag_point.html#a0d81b4caec8093aa93bb6e3201f180e4", null ],
+    [ "ChildOldNodeMap", "class_ogre_1_1v1_1_1_tag_point.html#a553735cef4ea0ead946955ba96d60919", null ],
+    [ "ConstChildOldNodeIterator", "class_ogre_1_1v1_1_1_tag_point.html#adfc7be3fd52d5da38b1ee8d9bc8f7bcb", null ],
     [ "TransformSpace", "class_ogre_1_1v1_1_1_tag_point.html#a0244945288b15d4b8fa79cedf162c84c", [
       [ "TS_LOCAL", "class_ogre_1_1v1_1_1_tag_point.html#a0244945288b15d4b8fa79cedf162c84ca574ea07da94ee5a6dcfd93020eb0f17e", null ],
       [ "TS_PARENT", "class_ogre_1_1v1_1_1_tag_point.html#a0244945288b15d4b8fa79cedf162c84cab30c0d3446450dbbe8ed4194880dae93", null ],
@@ -28,9 +28,9 @@ var class_ogre_1_1v1_1_1_tag_point =
     [ "convertLocalToWorldPosition", "class_ogre_1_1v1_1_1_tag_point.html#add5d696bba25609295a3f218baa0e16c", null ],
     [ "convertWorldToLocalOrientation", "class_ogre_1_1v1_1_1_tag_point.html#a1eff1a0d0601cd2717456535cb6d00ad", null ],
     [ "convertWorldToLocalPosition", "class_ogre_1_1v1_1_1_tag_point.html#ad82589f40410e62b714a89741394302d", null ],
+    [ "createChild", "class_ogre_1_1v1_1_1_tag_point.html#a210b9ea97c9ed20b9972d5b32c5a871e", null ],
     [ "createChild", "class_ogre_1_1v1_1_1_tag_point.html#a82b2917a844ccb9fd43b63027934f78e", null ],
     [ "createChild", "class_ogre_1_1v1_1_1_tag_point.html#a153b87514ac504fc5f5c5cf0dfd194a1", null ],
-    [ "createChild", "class_ogre_1_1v1_1_1_tag_point.html#a210b9ea97c9ed20b9972d5b32c5a871e", null ],
     [ "getChild", "class_ogre_1_1v1_1_1_tag_point.html#afd8ce2a5f90678e2b549d4cf5c65c8d1", null ],
     [ "getChild", "class_ogre_1_1v1_1_1_tag_point.html#ac87a0731f591799149729f7be4c1bc26", null ],
     [ "getChildIterator", "class_ogre_1_1v1_1_1_tag_point.html#a2053b39140ba377748d36cd8ff26cb1a", null ],

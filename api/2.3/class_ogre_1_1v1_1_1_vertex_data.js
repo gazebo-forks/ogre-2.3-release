@@ -2,8 +2,8 @@ var class_ogre_1_1v1_1_1_vertex_data =
 [
     [ "HardwareAnimationData", "struct_ogre_1_1v1_1_1_vertex_data_1_1_hardware_animation_data.html", "struct_ogre_1_1v1_1_1_vertex_data_1_1_hardware_animation_data" ],
     [ "ReadRequests", "struct_ogre_1_1v1_1_1_vertex_data_1_1_read_requests.html", "struct_ogre_1_1v1_1_1_vertex_data_1_1_read_requests" ],
-    [ "HardwareAnimationDataList", "class_ogre_1_1v1_1_1_vertex_data.html#a3f69f73941822b5d34858c74007644af", null ],
-    [ "ReadRequestsArray", "class_ogre_1_1v1_1_1_vertex_data.html#a6b6fc02592866abcc89cf0d82fb26188", null ],
+    [ "HardwareAnimationDataList", "class_ogre_1_1v1_1_1_vertex_data.html#a0f62e494831f6bbf7dfc5d34949a9a27", null ],
+    [ "ReadRequestsArray", "class_ogre_1_1v1_1_1_vertex_data.html#acfc1c9e25e542fc3cb0c4ac2ea078362", null ],
     [ "VertexData", "class_ogre_1_1v1_1_1_vertex_data.html#a8eb0ac281efd031558700ebcb75391d5", null ],
     [ "VertexData", "class_ogre_1_1v1_1_1_vertex_data.html#a8812b67003b5365b13fe4fb9e1fbbea8", null ],
     [ "~VertexData", "class_ogre_1_1v1_1_1_vertex_data.html#a38197e68a64d58e4df1d3de006f11c33", null ],

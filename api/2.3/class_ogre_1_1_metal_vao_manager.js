@@ -2,9 +2,9 @@ var class_ogre_1_1_metal_vao_manager =
 [
     [ "Block", "struct_ogre_1_1_metal_vao_manager_1_1_block.html", "struct_ogre_1_1_metal_vao_manager_1_1_block" ],
     [ "StrideChanger", "struct_ogre_1_1_metal_vao_manager_1_1_stride_changer.html", "struct_ogre_1_1_metal_vao_manager_1_1_stride_changer" ],
-    [ "BlockVec", "class_ogre_1_1_metal_vao_manager.html#a0d05c6584bed8b2d00a6429d3815ae49", null ],
-    [ "MemoryStatsEntryVec", "class_ogre_1_1_metal_vao_manager.html#a8a984ae987b00e95b35198131a4e9a6b", null ],
-    [ "StrideChangerVec", "class_ogre_1_1_metal_vao_manager.html#a9ab4fc87cbd471535839f60c498551cb", null ],
+    [ "BlockVec", "class_ogre_1_1_metal_vao_manager.html#a462778308ec80145c43b88606cdae7e6", null ],
+    [ "MemoryStatsEntryVec", "class_ogre_1_1_metal_vao_manager.html#a9af50e0b3cfbdde01f6f4478e8311737", null ],
+    [ "StrideChangerVec", "class_ogre_1_1_metal_vao_manager.html#a61d704012f9ad75dc6072ea94b2e2e7a", null ],
     [ "MetalVaoManager", "class_ogre_1_1_metal_vao_manager.html#ae6508607d043e42c7c2a548a35fe3113", null ],
     [ "~MetalVaoManager", "class_ogre_1_1_metal_vao_manager.html#afc3283627b07e625d3287d619e2a4c3e", null ],
     [ "_beginFrame", "class_ogre_1_1_metal_vao_manager.html#ad255ed9aad893f120f6a29e172052ccd", null ],

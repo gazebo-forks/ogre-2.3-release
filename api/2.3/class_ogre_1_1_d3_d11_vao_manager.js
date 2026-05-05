@@ -2,9 +2,9 @@ var class_ogre_1_1_d3_d11_vao_manager =
 [
     [ "Block", "struct_ogre_1_1_d3_d11_vao_manager_1_1_block.html", "struct_ogre_1_1_d3_d11_vao_manager_1_1_block" ],
     [ "StrideChanger", "struct_ogre_1_1_d3_d11_vao_manager_1_1_stride_changer.html", "struct_ogre_1_1_d3_d11_vao_manager_1_1_stride_changer" ],
-    [ "BlockVec", "class_ogre_1_1_d3_d11_vao_manager.html#a974a228e11b496201d0c76d77fc2a93c", null ],
-    [ "MemoryStatsEntryVec", "class_ogre_1_1_d3_d11_vao_manager.html#a8a984ae987b00e95b35198131a4e9a6b", null ],
-    [ "StrideChangerVec", "class_ogre_1_1_d3_d11_vao_manager.html#a0aa1930c42f0277b03ad5bbb20413dd6", null ],
+    [ "BlockVec", "class_ogre_1_1_d3_d11_vao_manager.html#a7405fdecc42fcd66c9abe1e54f35e501", null ],
+    [ "MemoryStatsEntryVec", "class_ogre_1_1_d3_d11_vao_manager.html#a9af50e0b3cfbdde01f6f4478e8311737", null ],
+    [ "StrideChangerVec", "class_ogre_1_1_d3_d11_vao_manager.html#aef0e6ce93624b3e24a0f8f675250c1d7", null ],
     [ "D3D11VaoManager", "class_ogre_1_1_d3_d11_vao_manager.html#aa097e132b8f7f9629bc99f7863b8fbe2", null ],
     [ "~D3D11VaoManager", "class_ogre_1_1_d3_d11_vao_manager.html#a8cad431f1214c3b8b20cc5406c56edde", null ],
     [ "_beginFrame", "class_ogre_1_1_d3_d11_vao_manager.html#a67f9ba423c008c11341ad9b1bb3921dc", null ],

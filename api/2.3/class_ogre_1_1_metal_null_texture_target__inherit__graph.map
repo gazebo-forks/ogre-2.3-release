@@ -1,5 +1,5 @@
 <map id="Ogre::MetalNullTextureTarget" name="Ogre::MetalNullTextureTarget">
-<area shape="rect" id="Node000001" title=" " alt="" coords="86,226,277,252"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="86,226,276,252"/>
 <area shape="rect" id="Node000002" href="$class_ogre_1_1_render_texture.html" title="This class represents a RenderTarget that renders to a Texture." alt="" coords="112,153,251,178"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,194,184,226,179,226,179,194"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_render_target.html" title="A &#39;canvas&#39; which can receive the results of a rendering operation." alt="" coords="115,79,248,105"/>

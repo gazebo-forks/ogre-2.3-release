@@ -1,8 +1,8 @@
 var class_ogre_1_1_compositor_node_def =
 [
-    [ "BufferDefinitionVec", "class_ogre_1_1_compositor_node_def.html#a7c2e6e1337065e18f6bc0abe8cd6428a", null ],
-    [ "PixelFormatGpuVec", "class_ogre_1_1_compositor_node_def.html#ae3960c5889208ca2c38c96796d403a52", null ],
-    [ "TextureDefinitionVec", "class_ogre_1_1_compositor_node_def.html#aef33c6f04104697fc6ffc789c1f0f2f5", null ],
+    [ "BufferDefinitionVec", "class_ogre_1_1_compositor_node_def.html#a6545b762e2453252d83ad4e654b9132d", null ],
+    [ "PixelFormatGpuVec", "class_ogre_1_1_compositor_node_def.html#adf4af13e878f695797e7c4ed6dc61d20", null ],
+    [ "TextureDefinitionVec", "class_ogre_1_1_compositor_node_def.html#a5d552fc4008bf72e094b308126303c33", null ],
     [ "TextureSource", "class_ogre_1_1_compositor_node_def.html#ae70fe8c6c0e24395c1f94647c04fb079", [
       [ "TEXTURE_INPUT", "class_ogre_1_1_compositor_node_def.html#ae70fe8c6c0e24395c1f94647c04fb079aae112a35ef4e95c9044d2dca489907f7", null ],
       [ "TEXTURE_LOCAL", "class_ogre_1_1_compositor_node_def.html#ae70fe8c6c0e24395c1f94647c04fb079a50e816451020212231ab555eb44b070c", null ],

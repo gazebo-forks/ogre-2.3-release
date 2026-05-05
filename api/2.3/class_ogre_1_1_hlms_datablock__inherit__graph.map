@@ -6,7 +6,7 @@
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="293,80,327,76,328,82,293,86"/>
 <area shape="rect" id="Node000005" href="$class_ogre_1_1_hlms_unlit_mobile_datablock.html" title="Contains information needed by the UI (2D) for OpenGL ES 2.0." alt="" coords="326,104,535,130"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="294,99,326,103,325,108,293,105"/>
-<area shape="rect" id="Node000006" href="$class_ogre_1_1_o_g_r_e___h_l_m_s___t_e_x_t_u_r_e___b_a_s_e___c_l_a_s_s.html" title="This is not a regular header, therefore it has no include guards." alt="" coords="329,154,533,195"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_o_g_r_e___h_l_m_s___t_e_x_t_u_r_e___b_a_s_e___c_l_a_s_s.html" title="This is not a regular header, therefore it has no include guards." alt="" coords="328,154,533,194"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="252,110,327,140,359,151,358,156,325,145,250,115"/>
 <area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,80,86,106"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,90,133,90,133,96,101,96"/>

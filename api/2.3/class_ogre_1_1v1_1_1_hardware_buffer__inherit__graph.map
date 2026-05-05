@@ -1,19 +1,19 @@
 <map id="Ogre::v1::HardwareBuffer" name="Ogre::v1::HardwareBuffer">
-<area shape="rect" id="Node000001" title="Abstract class defining common features of hardware buffers." alt="" coords="138,666,303,692"/>
+<area shape="rect" id="Node000001" title="Abstract class defining common features of hardware buffers." alt="" coords="138,733,303,758"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_buffer.html" title="Base implementation of a D3D11 buffer, dealing with all the common aspects." alt="" coords="351,86,555,112"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,651,235,536,261,378,278,297,298,224,322,164,349,123,365,110,369,115,353,126,327,166,303,226,283,298,266,379,241,537,227,651"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,717,233,590,256,412,273,321,294,238,319,169,334,143,349,122,365,110,368,114,353,126,338,146,324,171,299,239,279,322,262,413,238,591,226,717"/>
 <area shape="rect" id="Node000004" href="$class_ogre_1_1v1_1_1_hardware_counter_buffer.html" title="Specialisation of HardwareBuffer for a counter buffer." alt="" coords="365,136,541,177"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="231,651,440,176,445,178,236,653"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="230,717,441,176,446,178,235,719"/>
 <area shape="rect" id="Node000008" href="$class_ogre_1_1v1_1_1_hardware_index_buffer.html" title="Specialisation of HardwareBuffer for vertex index buffers, still abstract." alt="" coords="355,438,551,464"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="243,654,437,462,440,466,247,657"/>
-<area shape="rect" id="Node000016" href="$class_ogre_1_1v1_1_1_hardware_pixel_buffer.html" title="Specialisation of HardwareBuffer for a pixel buffer." alt="" coords="357,862,550,888"/>
-<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="250,700,438,860,435,864,247,704"/>
-<area shape="rect" id="Node000030" href="$class_ogre_1_1v1_1_1_hardware_uniform_buffer.html" title="Specialisation of HardwareBuffer for a uniform buffer." alt="" coords="365,1345,542,1386"/>
-<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="233,706,447,1344,442,1346,228,707"/>
-<area shape="rect" id="Node000038" href="$class_ogre_1_1v1_1_1_hardware_vertex_buffer.html" title="Specialisation of HardwareBuffer for a vertex buffer." alt="" coords="369,1801,537,1842"/>
-<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="229,707,276,988,354,1397,408,1634,449,1800,444,1802,402,1635,348,1398,271,989,224,708"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,666,90,692"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,676,137,676,137,682,105,682"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="239,719,439,463,444,466,244,722"/>
+<area shape="rect" id="Node000016" href="$class_ogre_1_1v1_1_1_hardware_pixel_buffer.html" title="Specialisation of HardwareBuffer for a pixel buffer." alt="" coords="356,1026,550,1052"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="244,769,443,1024,439,1027,239,773"/>
+<area shape="rect" id="Node000035" href="$class_ogre_1_1v1_1_1_hardware_uniform_buffer.html" title="Specialisation of HardwareBuffer for a uniform buffer." alt="" coords="364,1672,542,1713"/>
+<area shape="poly" id="edge33_Node000001_Node000035" title=" " alt="" coords="231,773,449,1671,444,1672,226,774"/>
+<area shape="rect" id="Node000043" href="$class_ogre_1_1v1_1_1_hardware_vertex_buffer.html" title="Specialisation of HardwareBuffer for a vertex buffer." alt="" coords="369,2128,537,2169"/>
+<area shape="poly" id="edge41_Node000001_Node000043" title=" " alt="" coords="227,774,269,1153,306,1435,354,1724,378,1844,406,1961,449,2127,444,2128,401,1963,373,1845,348,1725,301,1435,263,1154,222,774"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,733,90,758"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,743,137,743,137,748,105,748"/>
 <area shape="rect" id="Node000005" href="$class_ogre_1_1v1_1_1_default_hardware_counter_buffer.html" title="Specialisation of HardwareCounterBuffer for emulation." alt="" coords="627,5,799,46"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="548,126,554,122,569,107,577,90,585,74,602,57,625,44,628,48,605,61,590,77,582,93,573,110,557,126,551,130"/>
 <area shape="rect" id="Node000006" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_counter_buffer.html" title="Specialisation of HardwareCounterBuffer for emulation." alt="" coords="629,71,797,111"/>
@@ -35,57 +35,65 @@
 <area shape="rect" id="Node000015" href="$class_ogre_1_1v1_1_1_vulkan_hardware_index_buffer.html" title=" " alt="" coords="627,593,799,634"/>
 <area shape="poly" id="edge14_Node000008_Node000015" title=" " alt="" coords="478,474,533,526,567,554,605,578,631,590,629,595,602,583,564,558,529,530,475,477"/>
 <area shape="rect" id="Node000017" href="$class_ogre_1_1v1_1_1_d3_d11_depth_pixel_buffer.html" title=" " alt="" coords="625,659,801,699"/>
-<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="469,848,523,779,560,742,602,710,626,698,629,702,605,715,564,746,527,783,473,851"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="457,1010,471,949,498,868,517,825,541,783,569,745,602,710,623,696,626,700,605,714,573,748,545,786,522,828,503,870,476,950,462,1012"/>
 <area shape="rect" id="Node000018" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_pixel_buffer.html" title=" " alt="" coords="614,724,812,765"/>
-<area shape="poly" id="edge17_Node000016_Node000018" title=" " alt="" coords="482,850,536,813,602,775,633,763,635,768,604,780,539,817,485,855"/>
+<area shape="poly" id="edge17_Node000016_Node000018" title=" " alt="" coords="460,1010,478,960,508,897,548,832,573,802,602,776,622,763,624,767,605,780,577,805,553,835,512,899,483,962,465,1012"/>
 <area shape="rect" id="Node000019" href="$class_ogre_1_1v1_1_1_d3_d11_null_pixel_buffer.html" title=" " alt="" coords="630,789,796,830"/>
-<area shape="poly" id="edge18_Node000016_Node000019" title=" " alt="" coords="521,855,629,828,630,833,522,860"/>
-<area shape="rect" id="Node000020" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_pixel_buffer.html" title=" " alt="" coords="622,855,804,895"/>
-<area shape="poly" id="edge19_Node000016_Node000020" title=" " alt="" coords="565,872,621,872,621,878,565,878"/>
-<area shape="rect" id="Node000023" href="$class_ogre_1_1v1_1_1_g_l_e_s2_hardware_pixel_buffer.html" title=" " alt="" coords="612,920,814,961"/>
-<area shape="poly" id="edge22_Node000016_Node000023" title=" " alt="" coords="522,889,630,917,629,922,521,895"/>
-<area shape="rect" id="Node000026" href="$class_ogre_1_1v1_1_1_metal_hardware_pixel_buffer.html" title=" " alt="" coords="617,985,809,1026"/>
-<area shape="poly" id="edge25_Node000016_Node000026" title=" " alt="" coords="485,895,539,933,604,970,635,982,633,987,602,975,536,937,482,900"/>
-<area shape="rect" id="Node000028" href="$class_ogre_1_1v1_1_1_metal_null_pixel_buffer.html" title=" " alt="" coords="634,1051,792,1091"/>
-<area shape="poly" id="edge27_Node000016_Node000028" title=" " alt="" coords="473,899,527,967,564,1004,605,1035,635,1050,632,1055,602,1040,560,1008,523,971,469,902"/>
-<area shape="rect" id="Node000029" href="$class_ogre_1_1v1_1_1_n_u_l_l_hardware_pixel_buffer.html" title=" " alt="" coords="615,1116,811,1157"/>
-<area shape="poly" id="edge28_Node000016_Node000029" title=" " alt="" coords="467,901,487,945,517,999,556,1054,579,1079,605,1101,626,1113,623,1118,602,1105,576,1083,552,1057,512,1002,482,947,462,903"/>
-<area shape="rect" id="Node000021" href="$class_ogre_1_1v1_1_1_g_l3_plus_render_buffer.html" title="Renderbuffer surface." alt="" coords="871,805,1072,831"/>
-<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="819,849,909,829,911,834,820,854"/>
-<area shape="rect" id="Node000022" href="$class_ogre_1_1v1_1_1_g_l3_plus_texture_buffer.html" title="Texture surface." alt="" coords="887,855,1056,895"/>
-<area shape="poly" id="edge21_Node000020_Node000022" title=" " alt="" coords="820,872,886,872,886,878,820,878"/>
-<area shape="rect" id="Node000024" href="$class_ogre_1_1v1_1_1_g_l_e_s2_render_buffer.html" title="Renderbuffer surface." alt="" coords="875,920,1068,945"/>
-<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="829,934,875,933,875,938,829,939"/>
-<area shape="rect" id="Node000025" href="$class_ogre_1_1v1_1_1_g_l_e_s2_texture_buffer.html" title="Texture surface." alt="" coords="874,969,1069,995"/>
-<area shape="poly" id="edge24_Node000023_Node000025" title=" " alt="" coords="829,956,887,966,886,971,829,962"/>
-<area shape="rect" id="Node000027" href="$class_ogre_1_1v1_1_1_metal_texture_buffer.html" title="Texture surface." alt="" coords="879,1018,1064,1044"/>
-<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="825,1014,879,1019,878,1025,824,1019"/>
-<area shape="rect" id="Node000031" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_uniform_buffer.html" title="Specialisation of HardwareBuffer for D3D11." alt="" coords="605,1181,821,1222"/>
-<area shape="poly" id="edge30_Node000030_Node000031" title=" " alt="" coords="481,1332,534,1281,567,1255,602,1233,629,1220,631,1225,605,1237,570,1260,538,1285,485,1336"/>
-<area shape="rect" id="Node000032" href="$class_ogre_1_1v1_1_1_default_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for emulation." alt="" coords="627,1247,799,1287"/>
-<area shape="poly" id="edge31_Node000030_Node000032" title=" " alt="" coords="511,1336,602,1298,639,1285,640,1290,604,1303,513,1341"/>
-<area shape="rect" id="Node000033" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for emulation." alt="" coords="629,1312,797,1353"/>
-<area shape="poly" id="edge32_Node000030_Node000033" title=" " alt="" coords="557,1350,629,1340,629,1346,558,1355"/>
-<area shape="rect" id="Node000034" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_shader_storage_buffer.html" title="Specialisation of HardwareUniformBuffer for the OpenGL Shader Storage Buffer." alt="" coords="622,1377,804,1418"/>
-<area shape="poly" id="edge33_Node000030_Node000034" title=" " alt="" coords="558,1376,622,1384,621,1389,557,1381"/>
-<area shape="rect" id="Node000035" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for OpenGL." alt="" coords="622,1443,804,1483"/>
-<area shape="poly" id="edge34_Node000030_Node000035" title=" " alt="" coords="515,1390,604,1427,640,1439,639,1445,602,1432,513,1395"/>
-<area shape="rect" id="Node000036" href="$class_ogre_1_1v1_1_1_g_l_e_s2_default_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for emulation." alt="" coords="606,1508,820,1549"/>
-<area shape="poly" id="edge35_Node000030_Node000036" title=" " alt="" coords="485,1396,538,1445,570,1471,605,1493,631,1505,629,1510,602,1497,567,1475,535,1449,482,1399"/>
-<area shape="rect" id="Node000037" href="$class_ogre_1_1v1_1_1_g_l_e_s2_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for OpenGL." alt="" coords="603,1573,823,1614"/>
-<area shape="poly" id="edge36_Node000030_Node000037" title=" " alt="" coords="474,1398,496,1436,526,1479,562,1522,605,1558,627,1571,625,1575,602,1563,559,1525,522,1482,492,1438,469,1401"/>
-<area shape="rect" id="Node000039" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for D3D11." alt="" coords="609,1639,817,1679"/>
-<area shape="poly" id="edge38_Node000038_Node000039" title=" " alt="" coords="482,1788,535,1738,567,1712,602,1690,629,1678,631,1682,605,1695,570,1717,538,1742,485,1792"/>
-<area shape="rect" id="Node000040" href="$class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="627,1704,799,1745"/>
-<area shape="poly" id="edge39_Node000038_Node000040" title=" " alt="" coords="513,1792,602,1755,639,1743,640,1748,604,1760,515,1797"/>
-<area shape="rect" id="Node000041" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="629,1769,797,1810"/>
-<area shape="poly" id="edge40_Node000038_Node000041" title=" " alt="" coords="553,1807,629,1797,629,1803,553,1812"/>
-<area shape="rect" id="Node000042" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for OpenGL." alt="" coords="622,1835,804,1875"/>
-<area shape="poly" id="edge41_Node000038_Node000042" title=" " alt="" coords="553,1832,622,1841,621,1846,552,1837"/>
-<area shape="rect" id="Node000043" href="$class_ogre_1_1v1_1_1_g_l_e_s2_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="606,1900,820,1941"/>
-<area shape="poly" id="edge42_Node000038_Node000043" title=" " alt="" coords="513,1846,604,1885,640,1897,639,1902,602,1889,511,1851"/>
-<area shape="rect" id="Node000044" href="$class_ogre_1_1v1_1_1_metal_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for Metal." alt="" coords="613,1965,813,2006"/>
-<area shape="poly" id="edge43_Node000038_Node000044" title=" " alt="" coords="485,1851,538,1902,570,1928,605,1950,631,1962,629,1967,602,1955,567,1932,534,1906,481,1855"/>
-<area shape="rect" id="Node000045" href="$class_ogre_1_1v1_1_1_vulkan_hardware_vertex_buffer.html" title=" " alt="" coords="627,2031,799,2071"/>
-<area shape="poly" id="edge44_Node000038_Node000045" title=" " alt="" coords="474,1854,496,1892,526,1936,562,1979,605,2015,628,2028,626,2033,602,2020,558,1982,521,1939,491,1895,469,1857"/>
+<area shape="poly" id="edge18_Node000016_Node000019" title=" " alt="" coords="465,1011,487,973,518,927,556,881,602,841,629,826,631,831,605,845,560,884,522,930,492,976,470,1013"/>
+<area shape="rect" id="Node000020" href="$class_ogre_1_1v1_1_1_g_l3_plus_depth_pixel_buffer.html" title=" " alt="" coords="619,855,807,895"/>
+<area shape="poly" id="edge19_Node000016_Node000020" title=" " alt="" coords="474,1013,529,959,564,931,602,906,629,893,631,898,605,911,567,935,532,963,478,1017"/>
+<area shape="rect" id="Node000021" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_pixel_buffer.html" title=" " alt="" coords="622,920,804,961"/>
+<area shape="poly" id="edge20_Node000016_Node000021" title=" " alt="" coords="495,1017,602,971,639,959,640,964,604,976,497,1022"/>
+<area shape="rect" id="Node000024" href="$class_ogre_1_1v1_1_1_g_l3_plus_null_pixel_buffer.html" title=" " alt="" coords="624,985,802,1026"/>
+<area shape="poly" id="edge23_Node000016_Node000024" title=" " alt="" coords="565,1022,624,1014,624,1020,565,1027"/>
+<area shape="rect" id="Node000025" href="$class_ogre_1_1v1_1_1_g_l_e_s2_depth_pixel_buffer.html" title=" " alt="" coords="623,1051,803,1091"/>
+<area shape="poly" id="edge24_Node000016_Node000025" title=" " alt="" coords="565,1050,623,1057,623,1063,565,1055"/>
+<area shape="rect" id="Node000026" href="$class_ogre_1_1v1_1_1_g_l_e_s2_hardware_pixel_buffer.html" title=" " alt="" coords="612,1116,814,1157"/>
+<area shape="poly" id="edge25_Node000016_Node000026" title=" " alt="" coords="498,1056,604,1101,640,1113,639,1118,602,1105,496,1061"/>
+<area shape="rect" id="Node000029" href="$class_ogre_1_1v1_1_1_g_l_e_s2_null_pixel_buffer.html" title=" " alt="" coords="629,1181,797,1222"/>
+<area shape="poly" id="edge28_Node000016_Node000029" title=" " alt="" coords="478,1062,533,1114,567,1142,605,1166,631,1178,629,1183,602,1171,564,1146,529,1118,475,1065"/>
+<area shape="rect" id="Node000030" href="$class_ogre_1_1v1_1_1_metal_depth_pixel_buffer.html" title=" " alt="" coords="628,1247,798,1287"/>
+<area shape="poly" id="edge29_Node000016_Node000030" title=" " alt="" coords="470,1064,492,1102,522,1147,560,1193,605,1231,629,1245,627,1250,602,1236,556,1196,518,1150,487,1105,466,1067"/>
+<area shape="rect" id="Node000031" href="$class_ogre_1_1v1_1_1_metal_hardware_pixel_buffer.html" title=" " alt="" coords="617,1312,809,1353"/>
+<area shape="poly" id="edge30_Node000016_Node000031" title=" " alt="" coords="465,1066,483,1115,512,1178,553,1242,577,1271,605,1297,624,1309,622,1314,602,1301,573,1275,548,1245,508,1180,478,1118,460,1068"/>
+<area shape="rect" id="Node000033" href="$class_ogre_1_1v1_1_1_metal_null_pixel_buffer.html" title=" " alt="" coords="634,1377,792,1418"/>
+<area shape="poly" id="edge31_Node000016_Node000033" title=" " alt="" coords="462,1067,477,1128,504,1208,522,1250,545,1291,573,1329,605,1362,635,1380,632,1385,602,1366,569,1332,541,1294,518,1252,499,1210,471,1130,457,1068"/>
+<area shape="rect" id="Node000034" href="$class_ogre_1_1v1_1_1_n_u_l_l_hardware_pixel_buffer.html" title=" " alt="" coords="615,1443,811,1483"/>
+<area shape="poly" id="edge32_Node000016_Node000034" title=" " alt="" coords="460,1067,470,1140,495,1237,514,1288,538,1339,568,1386,605,1428,622,1440,619,1444,602,1432,564,1390,533,1342,509,1290,490,1238,465,1141,454,1068"/>
+<area shape="rect" id="Node000022" href="$class_ogre_1_1v1_1_1_g_l3_plus_render_buffer.html" title="Renderbuffer surface." alt="" coords="871,900,1072,925"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="820,926,870,921,870,926,820,931"/>
+<area shape="rect" id="Node000023" href="$class_ogre_1_1v1_1_1_g_l3_plus_texture_buffer.html" title="Texture surface." alt="" coords="887,949,1056,990"/>
+<area shape="poly" id="edge22_Node000021_Node000023" title=" " alt="" coords="820,950,886,957,886,963,820,955"/>
+<area shape="rect" id="Node000027" href="$class_ogre_1_1v1_1_1_g_l_e_s2_render_buffer.html" title="Renderbuffer surface." alt="" coords="875,1100,1068,1125"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="829,1123,874,1119,875,1124,830,1128"/>
+<area shape="rect" id="Node000028" href="$class_ogre_1_1v1_1_1_g_l_e_s2_texture_buffer.html" title="Texture surface." alt="" coords="874,1149,1068,1174"/>
+<area shape="poly" id="edge27_Node000026_Node000028" title=" " alt="" coords="829,1145,874,1149,874,1155,829,1150"/>
+<area shape="rect" id="Node000036" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_uniform_buffer.html" title="Specialisation of HardwareBuffer for D3D11." alt="" coords="605,1508,821,1549"/>
+<area shape="poly" id="edge34_Node000035_Node000036" title=" " alt="" coords="481,1659,534,1608,567,1582,602,1559,629,1547,631,1552,605,1564,570,1586,538,1612,485,1663"/>
+<area shape="rect" id="Node000037" href="$class_ogre_1_1v1_1_1_default_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for emulation." alt="" coords="627,1573,799,1614"/>
+<area shape="poly" id="edge35_Node000035_Node000037" title=" " alt="" coords="511,1663,602,1625,639,1612,640,1617,604,1629,513,1668"/>
+<area shape="rect" id="Node000038" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for emulation." alt="" coords="629,1639,797,1679"/>
+<area shape="poly" id="edge36_Node000035_Node000038" title=" " alt="" coords="557,1676,629,1667,629,1672,558,1682"/>
+<area shape="rect" id="Node000039" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_shader_storage_buffer.html" title="Specialisation of HardwareUniformBuffer for the OpenGL Shader Storage Buffer." alt="" coords="622,1704,804,1745"/>
+<area shape="poly" id="edge37_Node000035_Node000039" title=" " alt="" coords="558,1702,622,1710,621,1716,557,1708"/>
+<area shape="rect" id="Node000040" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for OpenGL." alt="" coords="622,1769,804,1810"/>
+<area shape="poly" id="edge38_Node000035_Node000040" title=" " alt="" coords="515,1717,604,1754,640,1766,639,1771,602,1759,513,1722"/>
+<area shape="rect" id="Node000041" href="$class_ogre_1_1v1_1_1_g_l_e_s2_default_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for emulation." alt="" coords="606,1835,820,1875"/>
+<area shape="poly" id="edge39_Node000035_Node000041" title=" " alt="" coords="485,1722,538,1772,570,1797,605,1819,631,1832,629,1836,602,1824,567,1802,535,1776,482,1726"/>
+<area shape="rect" id="Node000042" href="$class_ogre_1_1v1_1_1_g_l_e_s2_hardware_uniform_buffer.html" title="Specialisation of HardwareUniformBuffer for OpenGL." alt="" coords="603,1900,823,1941"/>
+<area shape="poly" id="edge40_Node000035_Node000042" title=" " alt="" coords="474,1725,496,1762,526,1805,562,1848,605,1885,627,1897,625,1902,602,1889,559,1852,522,1809,492,1765,469,1728"/>
+<area shape="rect" id="Node000044" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for D3D11." alt="" coords="609,1965,817,2006"/>
+<area shape="poly" id="edge42_Node000043_Node000044" title=" " alt="" coords="482,2115,535,2065,567,2039,602,2017,629,2004,631,2009,605,2021,570,2043,538,2069,485,2118"/>
+<area shape="rect" id="Node000045" href="$class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="627,2031,799,2071"/>
+<area shape="poly" id="edge43_Node000043_Node000045" title=" " alt="" coords="513,2119,602,2082,639,2069,640,2075,604,2087,515,2124"/>
+<area shape="rect" id="Node000046" href="$class_ogre_1_1v1_1_1_g_l3_plus_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="629,2096,797,2137"/>
+<area shape="poly" id="edge44_Node000043_Node000046" title=" " alt="" coords="553,2133,629,2124,629,2129,553,2139"/>
+<area shape="rect" id="Node000047" href="$class_ogre_1_1v1_1_1_g_l3_plus_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for OpenGL." alt="" coords="622,2161,804,2202"/>
+<area shape="poly" id="edge45_Node000043_Node000047" title=" " alt="" coords="553,2158,622,2167,621,2173,552,2164"/>
+<area shape="rect" id="Node000048" href="$class_ogre_1_1v1_1_1_g_l_e_s2_default_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for emulation." alt="" coords="606,2227,820,2267"/>
+<area shape="poly" id="edge46_Node000043_Node000048" title=" " alt="" coords="513,2173,604,2211,640,2224,639,2229,602,2216,511,2178"/>
+<area shape="rect" id="Node000049" href="$class_ogre_1_1v1_1_1_metal_hardware_vertex_buffer.html" title="Specialisation of HardwareVertexBuffer for Metal." alt="" coords="613,2292,813,2333"/>
+<area shape="poly" id="edge47_Node000043_Node000049" title=" " alt="" coords="485,2178,538,2229,570,2254,605,2277,631,2289,629,2294,602,2281,567,2259,534,2233,481,2182"/>
+<area shape="rect" id="Node000050" href="$class_ogre_1_1v1_1_1_vulkan_hardware_vertex_buffer.html" title=" " alt="" coords="627,2357,799,2398"/>
+<area shape="poly" id="edge48_Node000043_Node000050" title=" " alt="" coords="474,2181,496,2219,526,2262,562,2305,605,2342,628,2355,626,2360,602,2347,558,2309,521,2265,491,2222,469,2184"/>
 </map>

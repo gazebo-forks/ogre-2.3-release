@@ -1,6 +1,6 @@
 <map id="Ogre::D3D11Texture" name="Ogre::D3D11Texture">
 <area shape="rect" id="Node000001" title=" " alt="" coords="164,226,302,252"/>
-<area shape="rect" id="Node000007" href="$class_ogre_1_1_d3_d11_depth_texture.html" title=" " alt="" coords="53,300,224,326"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1_d3_d11_depth_texture.html" title=" " alt="" coords="52,300,224,326"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="206,264,156,302,152,298,203,260"/>
 <area shape="rect" id="Node000008" href="$class_ogre_1_1_d3_d11_null_texture.html" title=" " alt="" coords="247,300,408,326"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="263,260,313,298,310,302,260,264"/>

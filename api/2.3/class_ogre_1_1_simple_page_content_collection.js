@@ -1,6 +1,6 @@
 var class_ogre_1_1_simple_page_content_collection =
 [
-    [ "ContentList", "group___optional.html#gab2bba46c537debed82c678c066257a46", null ],
+    [ "ContentList", "group___optional.html#gab487aaaa7518e468b11fa853f9fb4ac0", null ],
     [ "SimplePageContentCollection", "group___optional.html#gaf7c7c261d679b97e76e29ead8be3bd17", null ],
     [ "~SimplePageContentCollection", "group___optional.html#ga72fc689a31a6df0a2f647e8fd015ffba", null ],
     [ "_notifyAttached", "class_ogre_1_1_simple_page_content_collection.html#a774c75c12ecd87171424be83226d6c45", null ],

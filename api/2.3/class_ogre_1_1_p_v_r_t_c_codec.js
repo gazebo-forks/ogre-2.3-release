@@ -1,8 +1,8 @@
 var class_ogre_1_1_p_v_r_t_c_codec =
 [
-    [ "CodecDataPtr", "class_ogre_1_1_p_v_r_t_c_codec.html#a29e31ad112b08ea7fb648b63f426ff1f", null ],
-    [ "CodecIterator", "class_ogre_1_1_p_v_r_t_c_codec.html#a21f4b8a16d070793d576f827c9fee218", null ],
-    [ "DecodeResult", "class_ogre_1_1_p_v_r_t_c_codec.html#a8cc81c85bd7d4e25393aa153c5e01454", null ],
+    [ "CodecDataPtr", "class_ogre_1_1_p_v_r_t_c_codec.html#a00c6f94e9d2392aaff52f8e23d199b51", null ],
+    [ "CodecIterator", "class_ogre_1_1_p_v_r_t_c_codec.html#a58dc852023813264e3adb4e91201d52c", null ],
+    [ "DecodeResult", "class_ogre_1_1_p_v_r_t_c_codec.html#a119fe09a28c80877a9f9da55b5d1eb56", null ],
     [ "PVRTCCodec", "class_ogre_1_1_p_v_r_t_c_codec.html#a6bd4ffa897d98a88839a693f00f9601e", null ],
     [ "~PVRTCCodec", "class_ogre_1_1_p_v_r_t_c_codec.html#a5ce8a89e2e6cab4536b4273b87518fec", null ],
     [ "decode", "class_ogre_1_1_p_v_r_t_c_codec.html#a839c01a137e0c72abd646a9a80461799", null ],

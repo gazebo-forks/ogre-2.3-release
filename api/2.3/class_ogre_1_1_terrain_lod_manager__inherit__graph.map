@@ -4,6 +4,6 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,49,270,91,268,96,159,54"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_work_queue_1_1_response_handler.html" title="Interface definition for a handler of responses." alt="" coords="207,5,394,46"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="303,62,303,93,298,93,298,62"/>
-<area shape="rect" id="Node000004" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="418,13,509,39"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="418,13,508,38"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="426,48,327,96,324,91,423,43"/>
 </map>

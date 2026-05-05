@@ -1,6 +1,6 @@
 <map id="Ogre::MeshManager" name="Ogre::MeshManager">
 <area shape="rect" id="Node000001" title="Handles the management of mesh resources." alt="" coords="283,153,420,178"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1_resource_manager.html" title="Defines a generic resource handler." alt="" coords="61,79,221,105"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_resource_manager.html" title="Defines a generic resource handler." alt="" coords="60,79,221,105"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,108,316,150,315,155,190,113"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_script_loader.html" title="Abstract class defining the interface used by classes which wish to perform script loading to define ..." alt="" coords="5,5,135,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,40,131,77,127,80,90,44"/>

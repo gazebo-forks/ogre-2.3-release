@@ -1,5 +1,5 @@
 <map id="Ogre::v1::PanelOverlayElement" name="Ogre::v1::PanelOverlayElement">
-<area shape="rect" id="Node000001" title="OverlayElement representing a flat, single&#45;material (or transparent) panel which can contain other el..." alt="" coords="131,226,330,252"/>
+<area shape="rect" id="Node000001" title="OverlayElement representing a flat, single&#45;material (or transparent) panel which can contain other el..." alt="" coords="130,226,330,252"/>
 <area shape="rect" id="Node000007" href="$class_ogre_1_1v1_1_1_border_panel_overlay_element.html" title="A specialisation of the PanelOverlayElement to provide a panel with a border." alt="" coords="135,300,325,341"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="233,267,233,300,228,300,228,267"/>
 <area shape="rect" id="Node000002" href="$class_ogre_1_1v1_1_1_overlay_container.html" title="A 2D element which contains other OverlayElement instances." alt="" coords="143,153,317,178"/>

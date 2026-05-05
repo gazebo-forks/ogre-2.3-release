@@ -1,6 +1,6 @@
 var class_ogre_1_1_shared_ptr =
 [
-    [ "unspecified_bool_type", "class_ogre_1_1_shared_ptr.html#a0d782aa6b8e566367c6178732813fa9f", null ],
+    [ "unspecified_bool_type", "class_ogre_1_1_shared_ptr.html#a8859c152c5e41f914c1b753d887ea93a", null ],
     [ "SharedPtr", "class_ogre_1_1_shared_ptr.html#a6dc65b8171394624d1bb43fd9d54a8f6", null ],
     [ "SharedPtr", "class_ogre_1_1_shared_ptr.html#a9daf742e1f2c363bdcaccff255f2dd2d", null ],
     [ "SharedPtr", "class_ogre_1_1_shared_ptr.html#ab1fae2b13ec9cb470b4616c56cb599d8", null ],

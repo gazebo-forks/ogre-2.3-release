@@ -1,7 +1,7 @@
 var class_ogre_1_1_array_memory_manager =
 [
     [ "RebaseListener", "class_ogre_1_1_array_memory_manager_1_1_rebase_listener.html", "class_ogre_1_1_array_memory_manager_1_1_rebase_listener" ],
-    [ "PtrdiffVec", "class_ogre_1_1_array_memory_manager.html#aac88868dab1629f0becfe78f25f27426", null ],
+    [ "PtrdiffVec", "class_ogre_1_1_array_memory_manager.html#ab3e9b6d359477b152a642f46d7ebc53e", null ],
     [ "ArrayMemoryManager", "class_ogre_1_1_array_memory_manager.html#a9d4cefc1bbe7c9016496e60f7ceb6bcd", null ],
     [ "~ArrayMemoryManager", "class_ogre_1_1_array_memory_manager.html#ac39c1d7b610c181e4c9b5baeef0097cc", null ],
     [ "defragment", "class_ogre_1_1_array_memory_manager.html#a81ef5397bd517180f3f0e88f9a78633f", null ],

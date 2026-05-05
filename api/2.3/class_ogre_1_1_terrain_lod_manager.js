@@ -2,8 +2,8 @@ var class_ogre_1_1_terrain_lod_manager =
 [
     [ "LoadLodRequest", "struct_ogre_1_1_terrain_lod_manager_1_1_load_lod_request.html", "struct_ogre_1_1_terrain_lod_manager_1_1_load_lod_request" ],
     [ "LodInfo", "struct_ogre_1_1_terrain_lod_manager_1_1_lod_info.html", "struct_ogre_1_1_terrain_lod_manager_1_1_lod_info" ],
-    [ "LodData", "class_ogre_1_1_terrain_lod_manager.html#aec765a99ffa77be2c237d802e37a6cb5", null ],
-    [ "LodsData", "class_ogre_1_1_terrain_lod_manager.html#a7d26d51b9497371fc3fc420eb0bd5ebf", null ],
+    [ "LodData", "class_ogre_1_1_terrain_lod_manager.html#a8cce2e489010b9ea5f95fd3d527a90af", null ],
+    [ "LodsData", "class_ogre_1_1_terrain_lod_manager.html#a5c75de596f05360d6b08f144047e0d7a", null ],
     [ "TerrainLodManager", "class_ogre_1_1_terrain_lod_manager.html#ab5f4ef928bce023bc3ac359191e8c379", null ],
     [ "TerrainLodManager", "class_ogre_1_1_terrain_lod_manager.html#a9a14a5692b839d0c0a68c0111fb9192a", null ],
     [ "~TerrainLodManager", "class_ogre_1_1_terrain_lod_manager.html#adb27b3785755085b8aadf0c46a35bc27", null ],

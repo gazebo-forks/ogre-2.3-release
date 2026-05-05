@@ -31,7 +31,7 @@ var class_ogre_1_1_emscripten_e_g_l_support =
     [ "setShaderLibraryPath", "class_ogre_1_1_emscripten_e_g_l_support.html#aee9a5957c98ac70592dc9ec82a862d68", null ],
     [ "start", "class_ogre_1_1_emscripten_e_g_l_support.html#a47ed5f3e606d96a913494b7831a4db0c", null ],
     [ "stop", "class_ogre_1_1_emscripten_e_g_l_support.html#ac8559d5d6fbb007a30774351e3eb0741", null ],
-    [ "switchMode", "class_ogre_1_1_emscripten_e_g_l_support.html#a5e73ea509dea2778aa69d40e8857502f", null ],
     [ "switchMode", "class_ogre_1_1_emscripten_e_g_l_support.html#a43d180a4897f40c624a7213fadb15798", null ],
+    [ "switchMode", "class_ogre_1_1_emscripten_e_g_l_support.html#a5e73ea509dea2778aa69d40e8857502f", null ],
     [ "validateConfig", "class_ogre_1_1_emscripten_e_g_l_support.html#a5812077a3463f0ad9ca639a9ec768d6d", null ]
 ];

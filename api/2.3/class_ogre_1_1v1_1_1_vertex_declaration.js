@@ -1,6 +1,6 @@
 var class_ogre_1_1v1_1_1_vertex_declaration =
 [
-    [ "VertexElementList", "class_ogre_1_1v1_1_1_vertex_declaration.html#a9ba03ed95df3ef0b9119f371c6d9652d", null ],
+    [ "VertexElementList", "class_ogre_1_1v1_1_1_vertex_declaration.html#a45058a47098277b870301cf868298dcb", null ],
     [ "VertexDeclaration", "class_ogre_1_1v1_1_1_vertex_declaration.html#ae7288267485c59ceb8c889a0ad3cbe56", null ],
     [ "~VertexDeclaration", "class_ogre_1_1v1_1_1_vertex_declaration.html#a91c6dd83b8b7eec7fa9283c84fa6ce34", null ],
     [ "_getInputLayoutId", "class_ogre_1_1v1_1_1_vertex_declaration.html#a4aa40b314c50be0d9bf8bc0cbd5b5f1a", null ],

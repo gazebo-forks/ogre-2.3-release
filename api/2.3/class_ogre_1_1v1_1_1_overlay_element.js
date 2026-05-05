@@ -1,6 +1,6 @@
 var class_ogre_1_1v1_1_1_overlay_element =
 [
-    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_overlay_element.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
+    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_overlay_element.html#a20353a0495f93d3a065081809ba105bd", null ],
     [ "OverlayElement", "class_ogre_1_1v1_1_1_overlay_element.html#a53cf978397d1ea1790375ea6455deeda", null ],
     [ "~OverlayElement", "class_ogre_1_1v1_1_1_overlay_element.html#a6d7bc1999151de9b1cf077b85114d327", null ],
     [ "_getClippingRegion", "class_ogre_1_1v1_1_1_overlay_element.html#a016bd427d981a25477e787157809d034", null ],
@@ -121,8 +121,8 @@ var class_ogre_1_1v1_1_1_overlay_element =
     [ "setHorizontalAlignment", "class_ogre_1_1v1_1_1_overlay_element.html#a82ffa73dd4cd2aaaff532429e5e26e14", null ],
     [ "setLeft", "class_ogre_1_1v1_1_1_overlay_element.html#a23dff15fe9ead167e2a0441014947302", null ],
     [ "setMaterial", "class_ogre_1_1v1_1_1_overlay_element.html#a173800458c92ecefcff9d037be54afea", null ],
-    [ "setMaterialName", "class_ogre_1_1v1_1_1_overlay_element.html#a3b59edf9cf8710a284e8197730ae4bee", null ],
     [ "setMaterialName", "class_ogre_1_1v1_1_1_overlay_element.html#adf2a2570b7d6c5dbdb80d8f98e620cbd", null ],
+    [ "setMaterialName", "class_ogre_1_1v1_1_1_overlay_element.html#a3b59edf9cf8710a284e8197730ae4bee", null ],
     [ "setMetricsMode", "class_ogre_1_1v1_1_1_overlay_element.html#afb9d2825a08734d4cdb04985209027a7", null ],
     [ "setParameter", "class_ogre_1_1v1_1_1_overlay_element.html#ace884b65b722ead9b920b9abf27bf815", null ],
     [ "setParameterList", "class_ogre_1_1v1_1_1_overlay_element.html#ae356913ccefbebc4f0119a0599a406fc", null ],

@@ -1,10 +1,10 @@
 var class_ogre_1_1v1_1_1_ribbon_trail =
 [
-    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_ribbon_trail.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-    [ "ElementList", "class_ogre_1_1v1_1_1_ribbon_trail.html#a90c460ad76d2bd279440f83a2a412b1c", null ],
-    [ "MovableObjectArray", "class_ogre_1_1v1_1_1_ribbon_trail.html#afb58624fb567bb790c55d8a716b472da", null ],
-    [ "NodeIterator", "class_ogre_1_1v1_1_1_ribbon_trail.html#a18b2e4449b1b3541cafa3c66ea7930ea", null ],
-    [ "NodeList", "class_ogre_1_1v1_1_1_ribbon_trail.html#a985450dd79daa8223506ba6dd1e46399", null ],
+    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_ribbon_trail.html#a20353a0495f93d3a065081809ba105bd", null ],
+    [ "ElementList", "class_ogre_1_1v1_1_1_ribbon_trail.html#ad34fd441d1a8e05701f25d3c5140cbfa", null ],
+    [ "MovableObjectArray", "class_ogre_1_1v1_1_1_ribbon_trail.html#a317b125b7fabcad7c8a344164455e08d", null ],
+    [ "NodeIterator", "class_ogre_1_1v1_1_1_ribbon_trail.html#a86dc44173c0c849689cfe499cadca21d", null ],
+    [ "NodeList", "class_ogre_1_1v1_1_1_ribbon_trail.html#a4a703e4ccec3a6e868ca1e9e82c57ae4", null ],
     [ "TexCoordDirection", "class_ogre_1_1v1_1_1_ribbon_trail.html#a527b030123e50e894d8e61578bd45e10", [
       [ "TCD_U", "class_ogre_1_1v1_1_1_ribbon_trail.html#a527b030123e50e894d8e61578bd45e10a68a650bc07cef9638bbbc7d26f350cca", null ],
       [ "TCD_V", "class_ogre_1_1v1_1_1_ribbon_trail.html#a527b030123e50e894d8e61578bd45e10ab3594637d321de0e6e0d722c43c31977", null ]
@@ -105,8 +105,8 @@ var class_ogre_1_1v1_1_1_ribbon_trail =
     [ "getUseIdentityWorldMatrix", "class_ogre_1_1v1_1_1_ribbon_trail.html#a73de2dd2cc45eee54c7a9262ff6da180", null ],
     [ "getUserAny", "class_ogre_1_1v1_1_1_ribbon_trail.html#a3bee104c7359ba6c41d65d88cfc3d418", null ],
     [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_ribbon_trail.html#aa6ae8d976be50b007ba1e87732a6397d", null ],
-    [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_ribbon_trail.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
     [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_ribbon_trail.html#a27eb8980ee187b42ea619c582eaebf73", null ],
+    [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_ribbon_trail.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
     [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_ribbon_trail.html#af85238872bb197dea36acf21a578ecec", null ],
     [ "getUseTextureCoords", "class_ogre_1_1v1_1_1_ribbon_trail.html#a0e31006cd57e56a0e7814623adba5681", null ],
     [ "getUseVertexColours", "class_ogre_1_1v1_1_1_ribbon_trail.html#a035061b16a70820db153d58d63cfcc2c", null ],

@@ -10,27 +10,27 @@
 <area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="161,549,219,549,219,554,161,554"/>
 <area shape="rect" id="Node000022" href="$class_ogre_1_1_particle_system_renderer.html" title="Abstract class defining the interface required to be implemented by classes which provide rendering c..." alt="" coords="194,588,389,614"/>
 <area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="151,566,232,585,231,590,149,571"/>
-<area shape="rect" id="Node000024" href="$class_ogre_1_1_resource.html" title="Abstract class representing a loadable resource (e.g." alt="" coords="236,793,347,819"/>
+<area shape="rect" id="Node000024" href="$class_ogre_1_1_resource.html" title="Abstract class representing a loadable resource (e.g." alt="" coords="236,793,346,819"/>
 <area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="100,575,281,791,277,795,96,578"/>
-<area shape="rect" id="Node000056" href="$class_ogre_1_1v1_1_1_overlay_element.html" title="Abstract definition of a 2D element to be displayed in an Overlay." alt="" coords="208,1083,375,1108"/>
+<area shape="rect" id="Node000056" href="$class_ogre_1_1v1_1_1_overlay_element.html" title="Abstract definition of a 2D element to be displayed in an Overlay." alt="" coords="208,1083,374,1108"/>
 <area shape="poly" id="edge45_Node000001_Node000056" title=" " alt="" coords="90,578,287,1081,282,1083,85,580"/>
 <area shape="rect" id="Node000004" href="$class_ogre_1_1_colour_fader_affector.html" title="This plugin subclass of ParticleAffector allows you to alter the colour of particles." alt="" coords="444,5,614,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="376,272,387,263,406,236,414,209,414,182,411,154,407,126,407,97,415,69,435,40,449,29,452,34,439,44,420,71,413,98,412,125,416,153,419,182,419,210,411,239,391,267,379,276"/>
-<area shape="rect" id="Node000005" href="$class_ogre_1_1_colour_fader_affector2.html" title="This plugin subclass of ParticleAffector allows you to alter the colour of particles." alt="" coords="441,55,618,80"/>
+<area shape="rect" id="Node000005" href="$class_ogre_1_1_colour_fader_affector2.html" title="This plugin subclass of ParticleAffector allows you to alter the colour of particles." alt="" coords="440,55,618,80"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="376,271,387,263,403,242,410,222,410,178,411,134,419,112,435,90,450,79,453,83,439,93,423,114,416,135,416,178,415,223,408,245,391,267,379,276"/>
-<area shape="rect" id="Node000006" href="$class_ogre_1_1_colour_image_affector.html" title=" " alt="" coords="443,104,616,130"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_colour_image_affector.html" title=" " alt="" coords="442,104,616,130"/>
 <area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="376,271,387,263,400,249,406,234,411,203,415,172,422,156,435,140,454,128,457,132,439,144,427,159,420,173,416,204,412,236,404,252,391,267,379,275"/>
-<area shape="rect" id="Node000007" href="$class_ogre_1_1_colour_interpolator_affector.html" title=" " alt="" coords="451,154,608,195"/>
+<area shape="rect" id="Node000007" href="$class_ogre_1_1_colour_interpolator_affector.html" title=" " alt="" coords="450,154,608,194"/>
 <area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="376,269,387,263,403,249,411,235,420,219,435,204,455,193,458,197,439,208,424,223,416,237,407,252,391,267,379,273"/>
 <area shape="rect" id="Node000008" href="$class_ogre_1_1_deflector_plane_affector.html" title="This class defines a ParticleAffector which deflects particles." alt="" coords="437,219,621,244"/>
 <area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="362,269,472,242,473,248,363,274"/>
-<area shape="rect" id="Node000009" href="$class_ogre_1_1_direction_randomiser_affector.html" title="This class defines a ParticleAffector which applies randomness to the movement of the particles." alt="" coords="442,269,617,309"/>
+<area shape="rect" id="Node000009" href="$class_ogre_1_1_direction_randomiser_affector.html" title="This class defines a ParticleAffector which applies randomness to the movement of the particles." alt="" coords="442,268,617,309"/>
 <area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="379,286,441,286,441,292,379,292"/>
-<area shape="rect" id="Node000010" href="$class_ogre_1_1_linear_force_affector.html" title="This class defines a ParticleAffector which applies a linear force to particles in a system." alt="" coords="445,333,614,359"/>
+<area shape="rect" id="Node000010" href="$class_ogre_1_1_linear_force_affector.html" title="This class defines a ParticleAffector which applies a linear force to particles in a system." alt="" coords="444,333,614,359"/>
 <area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="363,303,473,330,472,335,362,308"/>
 <area shape="rect" id="Node000011" href="$class_ogre_1_1_rotation_affector.html" title="This plugin subclass of ParticleAffector allows you to alter the rotation of particles." alt="" coords="455,383,603,408"/>
 <area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="326,308,378,339,438,369,469,380,467,385,436,374,375,344,323,313"/>
-<area shape="rect" id="Node000012" href="$class_ogre_1_1_scale_affector.html" title="This plugin subclass of ParticleAffector allows you to alter the scale of particles." alt="" coords="463,432,596,458"/>
+<area shape="rect" id="Node000012" href="$class_ogre_1_1_scale_affector.html" title="This plugin subclass of ParticleAffector allows you to alter the scale of particles." alt="" coords="462,432,596,458"/>
 <area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="315,312,367,366,401,394,438,418,463,429,461,434,436,423,398,399,364,370,311,315"/>
 <area shape="rect" id="Node000014" href="$class_ogre_1_1_area_emitter.html" title="Particle emitter which emits particles randomly from points inside an area (box, sphere,..." alt="" coords="468,481,591,507"/>
 <area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="377,497,467,494,467,499,377,502"/>
@@ -44,17 +44,17 @@
 <area shape="poly" id="edge16_Node000014_Node000017" title=" " alt="" coords="606,500,697,509,696,515,606,505"/>
 <area shape="rect" id="Node000019" href="$class_ogre_1_1_ring_emitter.html" title="Particle emitter which emits particles randomly from points inside a ring (e.g." alt="" coords="708,556,830,582"/>
 <area shape="poly" id="edge18_Node000014_Node000019" title=" " alt="" coords="605,509,622,516,647,529,670,542,708,554,707,559,668,547,644,534,620,521,603,515"/>
-<area shape="rect" id="Node000018" href="$class_ogre_1_1_hollow_ellipsoid_emitter.html" title="Particle emitter which emits particles randomly from points inside a hollow ellipsoid." alt="" coords="932,507,1117,532"/>
+<area shape="rect" id="Node000018" href="$class_ogre_1_1_hollow_ellipsoid_emitter.html" title="Particle emitter which emits particles randomly from points inside a hollow ellipsoid." alt="" coords="932,507,1116,532"/>
 <area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="857,517,932,517,932,522,857,522"/>
-<area shape="rect" id="Node000023" href="$class_ogre_1_1v1_1_1_billboard_particle_renderer.html" title="Specialisation of ParticleSystemRenderer to render particles using a BillboardSet." alt="" coords="445,581,614,621"/>
+<area shape="rect" id="Node000023" href="$class_ogre_1_1v1_1_1_billboard_particle_renderer.html" title="Specialisation of ParticleSystemRenderer to render particles using a BillboardSet." alt="" coords="444,580,614,621"/>
 <area shape="poly" id="edge22_Node000022_Node000023" title=" " alt="" coords="404,598,444,598,444,604,404,604"/>
 <area shape="rect" id="Node000025" href="$class_ogre_1_1_bsp_level.html" title="Holds all the data associated with a Binary Space Parition (BSP) based indoor level." alt="" coords="474,645,584,671"/>
 <area shape="poly" id="edge24_Node000024_Node000025" title=" " alt="" coords="313,780,366,729,399,702,436,680,473,666,474,671,438,685,402,707,369,733,316,783"/>
-<area shape="rect" id="Node000026" href="$class_ogre_1_1_font.html" title="Class representing a font in the system." alt="" coords="489,695,570,720"/>
+<area shape="rect" id="Node000026" href="$class_ogre_1_1_font.html" title="Class representing a font in the system." alt="" coords="488,695,570,720"/>
 <area shape="poly" id="edge25_Node000024_Node000026" title=" " alt="" coords="327,783,377,755,436,729,487,713,489,719,438,734,380,760,329,788"/>
 <area shape="rect" id="Node000027" href="$class_ogre_1_1_gpu_program.html" title="Defines a program which runs on the GPU such as a vertex or fragment program." alt="" coords="465,744,593,770"/>
 <area shape="poly" id="edge26_Node000024_Node000027" title=" " alt="" coords="361,789,464,767,465,773,362,794"/>
-<area shape="rect" id="Node000038" href="$class_ogre_1_1_material.html" title="Class encapsulates rendering properties of an object." alt="" coords="479,793,580,819"/>
+<area shape="rect" id="Node000038" href="$class_ogre_1_1_material.html" title="Class encapsulates rendering properties of an object." alt="" coords="478,793,580,819"/>
 <area shape="poly" id="edge33_Node000024_Node000038" title=" " alt="" coords="362,804,478,804,478,809,362,809"/>
 <area shape="rect" id="Node000039" href="$class_ogre_1_1_mesh.html" title="Resource holding data about 3D mesh." alt="" coords="486,843,573,868"/>
 <area shape="poly" id="edge34_Node000024_Node000039" title=" " alt="" coords="362,818,486,844,485,849,361,823"/>
@@ -92,7 +92,7 @@
 <area shape="poly" id="edge44_Node000054_Node000055" title=" " alt="" coords="604,1036,710,1061,709,1066,603,1042"/>
 <area shape="rect" id="Node000057" href="$class_ogre_1_1v1_1_1_overlay_container.html" title="A 2D element which contains other OverlayElement instances." alt="" coords="442,1083,616,1108"/>
 <area shape="poly" id="edge46_Node000056_Node000057" title=" " alt="" coords="390,1093,442,1093,442,1098,390,1098"/>
-<area shape="rect" id="Node000060" href="$class_ogre_1_1v1_1_1_text_area_overlay_element.html" title="This class implements an overlay element which contains simple unformatted text." alt="" coords="444,1133,615,1173"/>
+<area shape="rect" id="Node000060" href="$class_ogre_1_1v1_1_1_text_area_overlay_element.html" title="This class implements an overlay element which contains simple unformatted text." alt="" coords="444,1132,615,1173"/>
 <area shape="poly" id="edge48_Node000056_Node000060" title=" " alt="" coords="363,1110,444,1130,442,1135,362,1115"/>
 <area shape="rect" id="Node000058" href="$class_ogre_1_1v1_1_1_panel_overlay_element.html" title="OverlayElement representing a flat, single&#45;material (or transparent) panel which can contain other el..." alt="" coords="669,1113,869,1139"/>
 <area shape="poly" id="edge47_Node000057_Node000058" title=" " alt="" coords="632,1106,669,1111,669,1116,631,1111"/>

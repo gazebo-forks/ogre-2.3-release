@@ -1,8 +1,8 @@
 var class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory =
 [
     [ "HardwareSkinningFactory", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a3475a3c6970fa475a23df8fbeec8a295", null ],
-    [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
     [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a4e8c5ce729c1c8e7a76314121d41908b", null ],
+    [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#adbc886fee2e4369520aaed1ce7592e62", null ],
     [ "createInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a4d3207a77a6c8c295f20b0e348b2e10c", null ],
     [ "createOrRetrieveInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a25e2d4314ce2e1c2dc95a39f3daf8f18", null ],
     [ "destroyAllInstances", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#ab89670718152dcb35f2428cf5909ed99", null ],
@@ -27,6 +27,6 @@ var class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory =
     [ "setCustomShadowCasterMaterials", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#ab22415d71a22c1b10191c3f089ab1437", null ],
     [ "setCustomShadowReceiverMaterials", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#af4d9f984b5af5e50c841ed0a03a4678c", null ],
     [ "setMaxCalculableBoneCount", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a4e0233a6a8a7482b8b3b5278029354bd", null ],
-    [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ],
-    [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#af5695d48c4d58f91f0939b49a2bbd4cb", null ]
+    [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#af5695d48c4d58f91f0939b49a2bbd4cb", null ],
+    [ "writeInstance", "class_ogre_1_1_r_t_shader_1_1_hardware_skinning_factory.html#a10b565ec536c0539e44fb1147ef777a4", null ]
 ];

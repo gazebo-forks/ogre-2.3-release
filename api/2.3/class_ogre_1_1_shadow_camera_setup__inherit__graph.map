@@ -6,7 +6,7 @@
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="357,112,407,150,404,154,354,116"/>
 <area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="265,5,390,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="330,46,330,79,325,79,325,46"/>
-<area shape="rect" id="Node000004" href="$class_ogre_1_1_concentric_shadow_camera.html" title="Implements the concentric shadow mapping algorithm." alt="" coords="5,249,215,275"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1_concentric_shadow_camera.html" title="Implements the concentric shadow mapping algorithm." alt="" coords="5,249,215,274"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="187,205,127,251,124,246,184,201"/>
 <area shape="rect" id="Node000005" href="$class_ogre_1_1_focused_shadow_camera_setup.html" title="Implements the uniform shadow mapping algorithm in focused mode." alt="" coords="239,241,437,282"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="263,201,314,239,310,243,260,205"/>

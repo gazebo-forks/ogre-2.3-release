@@ -1,5 +1,5 @@
 <map id="Ogre::GL3PlusRenderTexture" name="Ogre::GL3PlusRenderTexture">
-<area shape="rect" id="Node000001" title="Base class for GL Render Textures." alt="" coords="86,226,277,252"/>
+<area shape="rect" id="Node000001" title="Base class for GL Render Textures." alt="" coords="86,226,276,252"/>
 <area shape="rect" id="Node000006" href="$class_ogre_1_1_g_l3_plus_f_b_o_render_texture.html" title="RenderTexture for GL FBO." alt="" coords="73,300,290,326"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="184,267,184,300,179,300,179,267"/>
 <area shape="rect" id="Node000002" href="$class_ogre_1_1_render_texture.html" title="This class represents a RenderTarget that renders to a Texture." alt="" coords="112,153,251,178"/>

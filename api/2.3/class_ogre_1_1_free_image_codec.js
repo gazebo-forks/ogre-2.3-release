@@ -1,8 +1,8 @@
 var class_ogre_1_1_free_image_codec =
 [
-    [ "CodecDataPtr", "class_ogre_1_1_free_image_codec.html#a29e31ad112b08ea7fb648b63f426ff1f", null ],
-    [ "CodecIterator", "class_ogre_1_1_free_image_codec.html#a21f4b8a16d070793d576f827c9fee218", null ],
-    [ "DecodeResult", "class_ogre_1_1_free_image_codec.html#a8cc81c85bd7d4e25393aa153c5e01454", null ],
+    [ "CodecDataPtr", "class_ogre_1_1_free_image_codec.html#a00c6f94e9d2392aaff52f8e23d199b51", null ],
+    [ "CodecIterator", "class_ogre_1_1_free_image_codec.html#a58dc852023813264e3adb4e91201d52c", null ],
+    [ "DecodeResult", "class_ogre_1_1_free_image_codec.html#a119fe09a28c80877a9f9da55b5d1eb56", null ],
     [ "FreeImageCodec", "class_ogre_1_1_free_image_codec.html#accaa8c1d00cc4e3287ae770b96068f60", null ],
     [ "~FreeImageCodec", "class_ogre_1_1_free_image_codec.html#ae74575c79ccc668087d8d9a4f837db87", null ],
     [ "decode", "class_ogre_1_1_free_image_codec.html#acc995233d6e67bbdda8627d209db51c8", null ],

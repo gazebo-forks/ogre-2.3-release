@@ -1,6 +1,6 @@
 <map id="Ogre::GL3PlusSupport" name="Ogre::GL3PlusSupport">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,179,157,204"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1_e_g_l_g_l_support.html" title=" " alt="" coords="222,5,367,31"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_e_g_l_g_l_support.html" title=" " alt="" coords="222,5,366,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,164,138,101,168,68,203,40,225,29,227,34,206,44,172,72,142,105,99,167"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_egl_p_buffer_support.html" title=" " alt="" coords="214,55,375,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,165,148,126,203,89,229,78,231,83,206,94,151,130,107,169"/>
@@ -12,7 +12,7 @@
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="173,199,205,203,205,208,172,204"/>
 <area shape="rect" id="Node000007" href="$class_ogre_1_1_o_s_x_g_l3_plus_support.html" title=" " alt="" coords="205,252,384,278"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="127,208,206,238,240,249,239,254,204,243,125,213"/>
-<area shape="rect" id="Node000008" href="$class_ogre_1_1_s_d_l_g_l_support.html" title=" " alt="" coords="222,301,367,327"/>
+<area shape="rect" id="Node000008" href="$class_ogre_1_1_s_d_l_g_l_support.html" title=" " alt="" coords="222,301,366,327"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="107,213,151,252,206,288,231,298,229,303,203,293,148,256,104,217"/>
 <area shape="rect" id="Node000009" href="$class_ogre_1_1_win32_g_l_support.html" title=" " alt="" coords="217,351,372,376"/>
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="99,216,142,278,172,310,206,337,227,348,225,352,203,342,168,314,138,281,95,220"/>

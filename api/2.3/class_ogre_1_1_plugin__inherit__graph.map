@@ -2,11 +2,11 @@
 <area shape="rect" id="Node000001" title="Class defining a generic OGRE plugin." alt="" coords="140,277,231,303"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_bsp_scene_manager_plugin.html" title="Plugin instance for BSPSceneManager." alt="" coords="279,5,480,31"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,261,193,213,209,154,236,93,254,65,277,40,293,29,296,34,281,44,259,68,240,95,214,155,199,214,191,262"/>
-<area shape="rect" id="Node000004" href="$class_ogre_1_1_d3_d11_plugin.html" title="Plugin instance for D3D11 Manager." alt="" coords="315,55,445,80"/>
+<area shape="rect" id="Node000004" href="$class_ogre_1_1_d3_d11_plugin.html" title="Plugin instance for D3D11 Manager." alt="" coords="314,55,445,80"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,261,199,223,216,176,242,129,258,108,277,89,294,79,313,72,315,77,297,84,281,94,262,112,246,132,221,178,204,224,194,263"/>
 <area shape="rect" id="Node000005" href="$class_ogre_1_1_d3_d9_plugin.html" title="Plugin instance for D3D9 Manager." alt="" coords="318,104,441,130"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="194,262,224,199,248,166,277,139,296,128,317,121,319,126,299,133,281,143,252,170,229,202,198,264"/>
-<area shape="rect" id="Node000006" href="$class_ogre_1_1_g_l3_plus_plugin.html" title="Plugin instance for GL3Plus Manager." alt="" coords="309,153,451,179"/>
+<area shape="rect" id="Node000006" href="$class_ogre_1_1_g_l3_plus_plugin.html" title="Plugin instance for GL3Plus Manager." alt="" coords="308,153,451,179"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="201,263,234,224,254,204,278,188,307,175,309,180,280,192,258,208,238,228,206,266"/>
 <area shape="rect" id="Node000007" href="$class_ogre_1_1_g_l_e_s2_plugin.html" title="Plugin instance for GL ES 2 Manager." alt="" coords="313,203,446,228"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="219,267,278,237,312,226,313,231,280,242,221,272"/>
@@ -14,7 +14,7 @@
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="246,280,317,270,318,276,247,285"/>
 <area shape="rect" id="Node000009" href="$class_ogre_1_1_n_u_l_l_plugin.html" title="Plugin instance for NULL Manager." alt="" coords="316,301,443,327"/>
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="247,295,316,304,315,309,246,300"/>
-<area shape="rect" id="Node000010" href="$class_ogre_1_1_octree_plugin.html" title="Plugin instance for Octree Manager." alt="" coords="315,351,445,376"/>
+<area shape="rect" id="Node000010" href="$class_ogre_1_1_octree_plugin.html" title="Plugin instance for Octree Manager." alt="" coords="314,351,445,376"/>
 <area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="222,309,280,337,315,348,313,353,278,342,220,314"/>
 <area shape="rect" id="Node000011" href="$class_ogre_1_1_octree_zone_plugin.html" title="Plugin instance for OctreeZone." alt="" coords="300,400,459,426"/>
 <area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="206,314,238,352,258,371,280,387,303,397,301,402,278,391,255,375,234,356,202,317"/>

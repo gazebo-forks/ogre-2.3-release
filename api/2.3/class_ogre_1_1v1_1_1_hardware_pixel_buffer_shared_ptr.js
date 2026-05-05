@@ -1,6 +1,6 @@
 var class_ogre_1_1v1_1_1_hardware_pixel_buffer_shared_ptr =
 [
-    [ "unspecified_bool_type", "class_ogre_1_1v1_1_1_hardware_pixel_buffer_shared_ptr.html#a0d782aa6b8e566367c6178732813fa9f", null ],
+    [ "unspecified_bool_type", "class_ogre_1_1v1_1_1_hardware_pixel_buffer_shared_ptr.html#a8859c152c5e41f914c1b753d887ea93a", null ],
     [ "HardwarePixelBufferSharedPtr", "class_ogre_1_1v1_1_1_hardware_pixel_buffer_shared_ptr.html#abbd0320ac6375c6606277aeb87646e8c", null ],
     [ "HardwarePixelBufferSharedPtr", "class_ogre_1_1v1_1_1_hardware_pixel_buffer_shared_ptr.html#a30e2623151a9d58cd6b2659871ace3c4", null ],
     [ "bind", "class_ogre_1_1v1_1_1_hardware_pixel_buffer_shared_ptr.html#ac8d90e023455dc3299f48722e6068e4a", null ],

@@ -1,6 +1,6 @@
 var class_ogre_1_1_portal_base =
 [
-    [ "MovableObjectArray", "class_ogre_1_1_portal_base.html#afb58624fb567bb790c55d8a716b472da", null ],
+    [ "MovableObjectArray", "class_ogre_1_1_portal_base.html#a317b125b7fabcad7c8a344164455e08d", null ],
     [ "PORTAL_TYPE", "class_ogre_1_1_portal_base.html#a6f401ef1fa0213f68cfd5706c26bdc69", [
       [ "PORTAL_TYPE_QUAD", "class_ogre_1_1_portal_base.html#a6f401ef1fa0213f68cfd5706c26bdc69a406ea7e75464164cb9227c29872f072f", null ],
       [ "PORTAL_TYPE_AABB", "class_ogre_1_1_portal_base.html#a6f401ef1fa0213f68cfd5706c26bdc69ac82b2db8007314e8f6cb45923defbe71", null ],
@@ -26,8 +26,8 @@ var class_ogre_1_1_portal_base =
     [ "_notifyStaticDirty", "class_ogre_1_1_portal_base.html#ab3fe0289fbcabb17897c53445fa29339", null ],
     [ "_releaseManualHardwareResources", "class_ogre_1_1_portal_base.html#a57123ae4fec1b472f25270c1dd6abe59", null ],
     [ "_restoreManualHardwareResources", "class_ogre_1_1_portal_base.html#abd5561a07f78291e327351fe83e64a9b", null ],
-    [ "_updateRenderQueue", "class_ogre_1_1_portal_base.html#a40b176a7a8ce0b25d8b129e3e4b632b4", null ],
     [ "_updateRenderQueue", "class_ogre_1_1_portal_base.html#a8561b8de767cf64740c37eb1aeddd529", null ],
+    [ "_updateRenderQueue", "class_ogre_1_1_portal_base.html#a40b176a7a8ce0b25d8b129e3e4b632b4", null ],
     [ "addQueryFlags", "class_ogre_1_1_portal_base.html#a98fe88f82f86eafa19308074495db809", null ],
     [ "addVisibilityFlags", "class_ogre_1_1_portal_base.html#a6b823b52684730302908ecfd1a8e6d54", null ],
     [ "adjustNodeToMatch", "class_ogre_1_1_portal_base.html#a80803987d260940345427116dcbc9574", null ],

@@ -9,7 +9,7 @@
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_particle.html" title="Class representing a single particle instance." alt="" coords="400,79,500,105"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="429,117,392,154,388,150,425,114"/>
 <area shape="rect" id="Node000004" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="416,5,484,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="453,46,453,79,447,79,447,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="452,46,452,79,447,79,447,46"/>
 <area shape="rect" id="Node000006" href="$class_ogre_1_1_box_emitter.html" title="Particle emitter which emits particles randomly from points inside a box." alt="" coords="5,300,124,326"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="249,259,106,302,104,297,247,254"/>
 <area shape="rect" id="Node000007" href="$class_ogre_1_1_cylinder_emitter.html" title="Particle emitter which emits particles randomly from points inside a cylinder." alt="" coords="148,300,290,326"/>
@@ -19,5 +19,5 @@
 <area shape="rect" id="Node000010" href="$class_ogre_1_1_ring_emitter.html" title="Particle emitter which emits particles randomly from points inside a ring (e.g." alt="" coords="483,300,606,326"/>
 <area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="359,254,504,297,503,302,358,259"/>
 <area shape="rect" id="Node000009" href="$class_ogre_1_1_hollow_ellipsoid_emitter.html" title="Particle emitter which emits particles randomly from points inside a hollow ellipsoid." alt="" coords="295,374,479,399"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="390,341,390,373,385,373,385,341"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="390,341,390,373,384,373,384,341"/>
 </map>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['uavbufferpackedvec_0',['UavBufferPackedVec',['../group___effects.html#ga7502fc233f843b0f0c1b0fc2aa26099b',1,'Ogre']]],
-  ['uavdependencyvec_1',['UavDependencyVec',['../class_ogre_1_1_compositor_pass_def.html#a114c9c278a29353ebe78cc7d7e3fce6f',1,'Ogre::CompositorPassDef']]],
+  ['uavdependencyvec_1',['UavDependencyVec',['../class_ogre_1_1_compositor_pass_def.html#aec52e0a35fa518680417b08c975793bc',1,'Ogre::CompositorPassDef']]],
   ['uchar_2',['uchar',['../namespace_ogre.html#a07f1f7c1d84d58c9beae02e1ebb945e4',1,'Ogre']]],
   ['uint_3',['uint',['../namespace_ogre.html#ab6e842a18caf062ed73a5d3badd0dd4c',1,'Ogre']]],
   ['uint16_4',['uint16',['../namespace_ogre.html#aa8263b218e7d187ad5ef03a73a6ad7fd',1,'Ogre']]],
@@ -14,11 +14,11 @@ var searchData=
   ['uniformparameteriterator_11',['UniformParameterIterator',['../group___r_t_shader.html#ga63652385aee34f38c33f8aed62b6f948',1,'Ogre::RTShader']]],
   ['uniformparameterlist_12',['UniformParameterList',['../group___r_t_shader.html#ga76848ed6c023c3fe0a5e9f25f87b78a8',1,'Ogre::RTShader']]],
   ['uniformparameterptr_13',['UniformParameterPtr',['../namespace_ogre_1_1_r_t_shader.html#ae0e6b89f6ed3986b0a87e2472e3ff7f1',1,'Ogre::RTShader']]],
-  ['uniquevertexset_14',['UniqueVertexSet',['../struct_ogre_1_1_lod_data.html#a9e26fcf32eabb9261a14ff8b90cf9d63',1,'Ogre::LodData']]],
-  ['unsafeblockvec_15',['unsafeblockvec',['../class_ogre_1_1_vulkan_discard_buffer_manager.html#ab1c67584902d5c96beac8796eeb98c1e',1,'Ogre::VulkanDiscardBufferManager::UnsafeBlockVec'],['../class_ogre_1_1_metal_discard_buffer_manager.html#a3651ee834a507f877021ffcdebc01734',1,'Ogre::MetalDiscardBufferManager::UnsafeBlockVec']]],
+  ['uniquevertexset_14',['UniqueVertexSet',['../struct_ogre_1_1_lod_data.html#a3a0fbf5bc1db6deb1d9a91912bae4816',1,'Ogre::LodData']]],
+  ['unsafeblockvec_15',['UnsafeBlockVec',['../class_ogre_1_1_metal_discard_buffer_manager.html#a687a005397f2dc637518bb9b7e81cf1b',1,'Ogre::MetalDiscardBufferManager::UnsafeBlockVec'],['../class_ogre_1_1_vulkan_discard_buffer_manager.html#a3c0fb1f39e24d62a2b29e67a6f657474',1,'Ogre::VulkanDiscardBufferManager::UnsafeBlockVec']]],
   ['unsignedintconstantlist_16',['UnsignedIntConstantList',['../group___materials.html#gab353aaf9b52a6f32e2f81985364b2426',1,'Ogre']]],
-  ['unspecified_5fbool_5ftype_17',['unspecified_bool_type',['../class_ogre_1_1_shared_ptr.html#a0d782aa6b8e566367c6178732813fa9f',1,'Ogre::SharedPtr']]],
+  ['unspecified_5fbool_5ftype_17',['unspecified_bool_type',['../class_ogre_1_1_shared_ptr.html#a8859c152c5e41f914c1b753d887ea93a',1,'Ogre::SharedPtr']]],
   ['ushort_18',['ushort',['../namespace_ogre.html#af851e71354d841df7138f9877c6f5931',1,'Ogre']]],
   ['utilityalloc_19',['UtilityAlloc',['../namespace_ogre.html#af1b4f61252337a39768b2e8963551198',1,'Ogre']]],
-  ['uvrect_20',['UVRect',['../class_ogre_1_1_font.html#a17ebc3668a45365c1243a83f36a512ef',1,'Ogre::Font']]]
+  ['uvrect_20',['UVRect',['../class_ogre_1_1_font.html#a0fe3b8c5ee5faae063b3ec21da004b78',1,'Ogre::Font']]]
 ];

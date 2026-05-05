@@ -1,7 +1,7 @@
 var class_ogre_1_1_vulkan_discard_buffer_manager =
 [
     [ "UnsafeBlock", "struct_ogre_1_1_vulkan_discard_buffer_manager_1_1_unsafe_block.html", "struct_ogre_1_1_vulkan_discard_buffer_manager_1_1_unsafe_block" ],
-    [ "UnsafeBlockVec", "class_ogre_1_1_vulkan_discard_buffer_manager.html#ab1c67584902d5c96beac8796eeb98c1e", null ],
+    [ "UnsafeBlockVec", "class_ogre_1_1_vulkan_discard_buffer_manager.html#a3c0fb1f39e24d62a2b29e67a6f657474", null ],
     [ "VulkanDiscardBufferManager", "class_ogre_1_1_vulkan_discard_buffer_manager.html#a2d144ca837c29108dfdc82daea54e887", null ],
     [ "~VulkanDiscardBufferManager", "class_ogre_1_1_vulkan_discard_buffer_manager.html#a31cc71ce6861395f03d97e76d644436f", null ],
     [ "_getBlock", "class_ogre_1_1_vulkan_discard_buffer_manager.html#a2e4b4853c8d7ab81c678db4d3e7db658", null ],

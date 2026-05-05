@@ -4,6 +4,6 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,116,110,154,107,150,160,112"/>
 <area shape="rect" id="Node000004" href="$class_ogre_1_1_grid3_d_page_strategy.html" title="Page strategy which loads new pages based on a regular 3D grid." alt="" coords="203,153,376,178"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="221,112,274,150,271,154,218,116"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="151,5,231,31"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="150,5,231,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,46,193,79,188,79,188,46"/>
 </map>

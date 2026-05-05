@@ -1,6 +1,6 @@
 var class_ogre_1_1_item =
 [
-    [ "MovableObjectArray", "class_ogre_1_1_item.html#afb58624fb567bb790c55d8a716b472da", null ],
+    [ "MovableObjectArray", "class_ogre_1_1_item.html#a317b125b7fabcad7c8a344164455e08d", null ],
     [ "~Item", "class_ogre_1_1_item.html#a467587f43ff2aa8774347050cc4fc5cc", null ],
     [ "_deinitialise", "class_ogre_1_1_item.html#adeaba7cd215a0d2af0be9fb73510730d", null ],
     [ "_getLightList", "class_ogre_1_1_item.html#a862e7d3af40ee31de2f95a626207f96d", null ],

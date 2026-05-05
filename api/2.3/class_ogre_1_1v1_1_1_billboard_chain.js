@@ -1,9 +1,9 @@
 var class_ogre_1_1v1_1_1_billboard_chain =
 [
     [ "Element", "class_ogre_1_1v1_1_1_billboard_chain_1_1_element.html", "class_ogre_1_1v1_1_1_billboard_chain_1_1_element" ],
-    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_billboard_chain.html#a117563eda1d3affcd4a64c6bf4f8663a", null ],
-    [ "ElementList", "class_ogre_1_1v1_1_1_billboard_chain.html#a90c460ad76d2bd279440f83a2a412b1c", null ],
-    [ "MovableObjectArray", "class_ogre_1_1v1_1_1_billboard_chain.html#afb58624fb567bb790c55d8a716b472da", null ],
+    [ "CustomParameterMap", "class_ogre_1_1v1_1_1_billboard_chain.html#a20353a0495f93d3a065081809ba105bd", null ],
+    [ "ElementList", "class_ogre_1_1v1_1_1_billboard_chain.html#ad34fd441d1a8e05701f25d3c5140cbfa", null ],
+    [ "MovableObjectArray", "class_ogre_1_1v1_1_1_billboard_chain.html#a317b125b7fabcad7c8a344164455e08d", null ],
     [ "TexCoordDirection", "class_ogre_1_1v1_1_1_billboard_chain.html#a527b030123e50e894d8e61578bd45e10", [
       [ "TCD_U", "class_ogre_1_1v1_1_1_billboard_chain.html#a527b030123e50e894d8e61578bd45e10a68a650bc07cef9638bbbc7d26f350cca", null ],
       [ "TCD_V", "class_ogre_1_1v1_1_1_billboard_chain.html#a527b030123e50e894d8e61578bd45e10ab3594637d321de0e6e0d722c43c31977", null ]
@@ -96,8 +96,8 @@ var class_ogre_1_1v1_1_1_billboard_chain =
     [ "getUseIdentityWorldMatrix", "class_ogre_1_1v1_1_1_billboard_chain.html#a73de2dd2cc45eee54c7a9262ff6da180", null ],
     [ "getUserAny", "class_ogre_1_1v1_1_1_billboard_chain.html#a3bee104c7359ba6c41d65d88cfc3d418", null ],
     [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_billboard_chain.html#aa6ae8d976be50b007ba1e87732a6397d", null ],
-    [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_billboard_chain.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
     [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_billboard_chain.html#a27eb8980ee187b42ea619c582eaebf73", null ],
+    [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_billboard_chain.html#a13f1bbc23e57df9084bed76acb3b5500", null ],
     [ "getUserObjectBindings", "class_ogre_1_1v1_1_1_billboard_chain.html#af85238872bb197dea36acf21a578ecec", null ],
     [ "getUseTextureCoords", "class_ogre_1_1v1_1_1_billboard_chain.html#a0e31006cd57e56a0e7814623adba5681", null ],
     [ "getUseVertexColours", "class_ogre_1_1v1_1_1_billboard_chain.html#a035061b16a70820db153d58d63cfcc2c", null ],

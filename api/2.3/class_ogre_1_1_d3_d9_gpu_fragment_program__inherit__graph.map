@@ -1,5 +1,5 @@
 <map id="Ogre::D3D9GpuFragmentProgram" name="Ogre::D3D9GpuFragmentProgram">
-<area shape="rect" id="Node000001" title="Direct3D implementation of low&#45;level fragment programs." alt="" coords="121,300,337,326"/>
+<area shape="rect" id="Node000001" title="Direct3D implementation of low&#45;level fragment programs." alt="" coords="121,300,336,326"/>
 <area shape="rect" id="Node000002" href="$class_ogre_1_1_d3_d9_gpu_program.html" title="Direct3D implementation of a few things common to low&#45;level vertex &amp; fragment programs." alt="" coords="149,226,309,252"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,267,232,300,226,300,226,267"/>
 <area shape="rect" id="Node000003" href="$class_ogre_1_1_gpu_program.html" title="Defines a program which runs on the GPU such as a vertex or fragment program." alt="" coords="85,153,213,178"/>

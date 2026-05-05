@@ -7,5 +7,5 @@ var searchData=
   ['setting_20up_20ogre_4',['Setting Up Ogre',['../_setting_up_ogre.html',1,'']]],
   ['stagingtexture_20in_20d3d11_5',['Behavor of StagingTexture in D3D11',['../_behavor_staging_texture_d3_d11.html',1,'manual']]],
   ['start_20page_6',['API Reference Start Page',['../index.html',1,'']]],
-  ['system_7',['system',['../hlms.html',1,'HLMS: High Level Material System'],['../_terra_system.html',1,'Terra System']]]
+  ['system_7',['System',['../hlms.html',1,'HLMS: High Level Material System'],['../_terra_system.html',1,'Terra System']]]
 ];

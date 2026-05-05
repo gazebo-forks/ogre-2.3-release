@@ -1,7 +1,7 @@
 var class_ogre_1_1_quake3_shader =
 [
     [ "Pass", "struct_ogre_1_1_quake3_shader_1_1_pass.html", "struct_ogre_1_1_quake3_shader_1_1_pass" ],
-    [ "PassList", "class_ogre_1_1_quake3_shader.html#a9c2257d9fc482e910452407667d8ce00", null ],
+    [ "PassList", "class_ogre_1_1_quake3_shader.html#a2795f1a974e22a268d595e5ec29189be", null ],
     [ "Quake3Shader", "class_ogre_1_1_quake3_shader.html#ac0b6f67499f46ba23725a05a0e60d17d", null ],
     [ "~Quake3Shader", "class_ogre_1_1_quake3_shader.html#a3efafbb73d988f264688b9717f27ce88", null ],
     [ "createAsMaterial", "class_ogre_1_1_quake3_shader.html#a4f1c3ec931337a69a7edcb2fa62cb0ee", null ],

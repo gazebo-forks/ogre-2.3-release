@@ -1,7 +1,7 @@
 var class_ogre_1_1_forward_plus_base =
 [
     [ "CachedGridBuffer", "struct_ogre_1_1_forward_plus_base_1_1_cached_grid_buffer.html", "struct_ogre_1_1_forward_plus_base_1_1_cached_grid_buffer" ],
-    [ "CachedGridBufferVec", "class_ogre_1_1_forward_plus_base.html#a0fad7b0861595972abd72288f2742549", null ],
+    [ "CachedGridBufferVec", "class_ogre_1_1_forward_plus_base.html#a9d7153697a9481a9aa62fef13a94c63d", null ],
     [ "ForwardPlusMethods", "class_ogre_1_1_forward_plus_base.html#aa439cebd12e355190a361d06fe9486e2", [
       [ "MethodForward3D", "class_ogre_1_1_forward_plus_base.html#aa439cebd12e355190a361d06fe9486e2a764d1a4f051d1b411a48ea2d69963ff9", null ],
       [ "MethodForwardClustered", "class_ogre_1_1_forward_plus_base.html#aa439cebd12e355190a361d06fe9486e2a98c8d76dea9b04102dc00bb463bdc3e9", null ],

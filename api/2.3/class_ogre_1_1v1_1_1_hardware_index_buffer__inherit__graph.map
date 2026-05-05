@@ -1,5 +1,5 @@
 <map id="Ogre::v1::HardwareIndexBuffer" name="Ogre::v1::HardwareIndexBuffer">
-<area shape="rect" id="Node000001" title="Specialisation of HardwareBuffer for vertex index buffers, still abstract." alt="" coords="351,209,547,235"/>
+<area shape="rect" id="Node000001" title="Specialisation of HardwareBuffer for vertex index buffers, still abstract." alt="" coords="351,209,547,234"/>
 <area shape="rect" id="Node000004" href="$class_ogre_1_1v1_1_1_d3_d11_hardware_index_buffer.html" title=" " alt="" coords="602,5,803,46"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="465,194,517,126,553,89,594,57,618,44,621,49,597,61,557,93,521,130,469,198"/>
 <area shape="rect" id="Node000005" href="$class_ogre_1_1v1_1_1_default_hardware_index_buffer.html" title="Specialisation of HardwareIndexBuffer for emulation." alt="" coords="616,71,789,111"/>
@@ -14,8 +14,8 @@
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="481,242,533,280,597,317,627,329,625,334,594,321,530,284,477,247"/>
 <area shape="rect" id="Node000010" href="$class_ogre_1_1v1_1_1_vulkan_hardware_index_buffer.html" title=" " alt="" coords="617,397,788,438"/>
 <area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="469,246,521,314,557,351,597,382,621,395,618,399,594,387,553,354,517,317,465,249"/>
-<area shape="rect" id="Node000002" href="$class_ogre_1_1v1_1_1_hardware_buffer.html" title="Abstract class defining common features of hardware buffers." alt="" coords="138,209,303,235"/>
+<area shape="rect" id="Node000002" href="$class_ogre_1_1v1_1_1_hardware_buffer.html" title="Abstract class defining common features of hardware buffers." alt="" coords="138,209,303,234"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,219,351,219,351,224,319,224"/>
-<area shape="rect" id="Node000003" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,209,90,235"/>
+<area shape="rect" id="Node000003" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="5,209,90,234"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,219,137,219,137,224,105,224"/>
 </map>

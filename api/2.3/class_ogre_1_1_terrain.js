@@ -4,8 +4,8 @@ var class_ogre_1_1_terrain =
     [ "GpuBufferAllocator", "class_ogre_1_1_terrain_1_1_gpu_buffer_allocator.html", "class_ogre_1_1_terrain_1_1_gpu_buffer_allocator" ],
     [ "ImportData", "struct_ogre_1_1_terrain_1_1_import_data.html", "struct_ogre_1_1_terrain_1_1_import_data" ],
     [ "LayerInstance", "struct_ogre_1_1_terrain_1_1_layer_instance.html", "struct_ogre_1_1_terrain_1_1_layer_instance" ],
-    [ "LayerInstanceList", "class_ogre_1_1_terrain.html#a7f4f256f962849538b8e46eebd6da94c", null ],
-    [ "RealVector", "class_ogre_1_1_terrain.html#aa2b09fef0fe773201df2e55cc995d312", null ],
+    [ "LayerInstanceList", "class_ogre_1_1_terrain.html#a0efccd00111cf07fadf9e9bdf1ce334b", null ],
+    [ "RealVector", "class_ogre_1_1_terrain.html#ac5551c11d5350aab48807b429dd5567c", null ],
     [ "Alignment", "class_ogre_1_1_terrain.html#aca4fcebfb7ed4684682347d325477e91", [
       [ "ALIGN_X_Z", "class_ogre_1_1_terrain.html#aca4fcebfb7ed4684682347d325477e91ac4699c4f99bea344a309d5544b33c140", null ],
       [ "ALIGN_X_Y", "class_ogre_1_1_terrain.html#aca4fcebfb7ed4684682347d325477e91adfc96b5a388b3e48709d56b899098508", null ],
