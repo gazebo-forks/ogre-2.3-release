@@ -4,6 +4,7 @@ ogre-next-2.3 (2.3.3+osrf1-3) resolute; urgency=medium
   * debian: add DEP-3 STLAllocator patch
   * New upstream version 2.3.3
   * debian: drop ogre-next-rename.patch, integrated upstream in 2.3.3
+  * debian: rework versioned-header-dir.patch to override OGRE_NEXT_PREFIX
 
  -- Jose Luis Rivero <jrivero@honurobotics.com>  Wed, 06 May 2026 21:30:00 +0000
 
