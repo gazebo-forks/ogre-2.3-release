@@ -9,6 +9,10 @@ ogre-next-2.3 (2.3.3+osrf1-3) resolute; urgency=medium
   * debian: rework install-pc-files-to-lib-multiarch.patch (OGRE_PC_NAME
     is gone; use OGRE_NEXT_PREFIX-derived filenames)
   * debian: drop fix-gpu-in-wsl.patch, integrated upstream in 2.3.3
+  * Align master_resolute with upstream/2.3.3+osrf1 (drop 116 files brought
+    in by an accidental merge from upstream/2.3.3 — Win32 sources, 3dsmax
+    and Milkshape exporters; not built on Linux and not present in the
+    +osrf1 source tarball)
 
  -- Jose Luis Rivero <jrivero@honurobotics.com>  Wed, 06 May 2026 21:30:00 +0000
 
