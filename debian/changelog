@@ -1,21 +1,17 @@
 ogre-next-2.3 (2.3.3+osrf1-3) resolute; urgency=medium
 
-  * Forced OGRE DEBUG to be off
-  * debian: add DEP-3 STLAllocator patch
   * New upstream version 2.3.3
-  * debian: drop ogre-next-rename.patch, integrated upstream in 2.3.3
-  * debian: rework versioned-header-dir.patch to override OGRE_NEXT_PREFIX
-  * debian: drop versioned-pc-files.patch, integrated upstream in 2.3.3
-  * debian: rework install-pc-files-to-lib-multiarch.patch (OGRE_PC_NAME
+  * Forced OGRE DEBUG to be off
+  * patch: add DEP-3 STLAllocator patch
+  * patch: drop ogre-next-rename.patch, integrated upstream in 2.3.3
+  * patch: drop versioned-pc-files.patch, integrated upstream in 2.3.3
+  * patch: drop fix-gpu-in-wsl.patch, integrated upstream in 2.3.3
+  * patch: rework versioned-header-dir.patch to override OGRE_NEXT_PREFIX
+  * patch: rework install-pc-files-to-lib-multiarch.patch (OGRE_PC_NAME
     is gone; use OGRE_NEXT_PREFIX-derived filenames)
-  * debian: drop fix-gpu-in-wsl.patch, integrated upstream in 2.3.3
-  * Align master_resolute with upstream/2.3.3+osrf1 (drop 116 files brought
-    in by an accidental merge from upstream/2.3.3 — Win32 sources, 3dsmax
-    and Milkshape exporters; not built on Linux and not present in the
-    +osrf1 source tarball)
-  * debian: relax install globs to OGRE*/ for plugin and cmake subdirs
+  * patch: relax install globs to OGRE*/ for plugin and cmake subdirs
     (upstream now installs under OGRE-Next/ and OGRE-Next-2.3/, not OGRE/)
-  * debian: pin OGRE_NEXT_PREFIX to OGRE-2.3 (not OGRE-Next-2.3) and
+  * patch: pin OGRE_NEXT_PREFIX to OGRE-2.3 (not OGRE-Next-2.3) and
     refresh OGRE_PLUGIN_PATH/OGRE_SAMPLE_PATH so headers, plugins, cmake
     helpers and the .pc file all carry the versioned, "Next"-less prefix
     that gz-cmake's FindGzOGRE2 looks up via pkg-config name "OGRE-2.3"
