@@ -1,26 +1,44 @@
-Description: Install headers under a versioned directory
- Override OGRE_NEXT_PREFIX with a version-suffixed value so headers land in
- include/OGRE-2.3 (or include/OGRE-Next-2.3 when OGRE_USE_NEW_PROJECT_NAME
- is on). This lets multiple Ogre/Ogre-Next branches coexist on the system.
+Description: Install under a versioned, "Next"-less OGRE-MAJOR.MINOR prefix
+ Pin OGRE_NEXT_PREFIX to "OGRE-${MAJOR}.${MINOR}" so every install path
+ derived from it (headers, plugins, .pc filenames, cmake helpers) lands
+ under "OGRE-2.3" — the layout that 2.3.x downstream consumers, in
+ particular gz-cmake's FindGzOGRE2 (which calls pkg_check_modules with
+ module name "OGRE-2.3"), already search for.
  .
- The original 2.3.x patch rewrote every install(... DESTINATION include/OGRE/...)
- line; that became unnecessary after upstream centralised those paths on the
- OGRE_NEXT_PREFIX variable in 2.3.3, so this rework just changes the variable.
+ OGRE_PLUGIN_PATH and OGRE_SAMPLE_PATH are evaluated when
+ include(OgreConfigTargets) runs, before this override would normally
+ take effect; refresh them so the runtime plugin directory matches the
+ plugindir variable advertised by the generated .pc files.
+ .
+ The original 2.3.x patch rewrote every install(... DESTINATION
+ include/OGRE/...) line; that became unnecessary after upstream
+ centralised those paths on the OGRE_NEXT_PREFIX variable in 2.3.3, so
+ this rework just changes the variable (and the two cached paths).
 Author: Jose Luis Rivero <jrivero@honurobotics.com>
 Forwarded: not-needed
-Last-Update: 2026-05-06
+Last-Update: 2026-05-07
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -100,6 +100,10 @@
+@@ -100,6 +100,20 @@
  include(OgreGetVersion)
  ogre_get_version(${OGRE_SOURCE_DIR}/OgreMain/include/OgrePrerequisites.h)
  message(STATUS "Configuring OGRE ${OGRE_VERSION}")
 +
-+# Debian: install headers under a versioned directory (e.g. OGRE-2.3) so
-+# multiple Ogre/Ogre-Next branches can coexist on the system.
-+set(OGRE_NEXT_PREFIX "${OGRE_NEXT_PREFIX}-${OGRE_VERSION_MAJOR}.${OGRE_VERSION_MINOR}")
++# Debian: pin OGRE_NEXT_PREFIX to the versioned, "Next"-less form
++# (e.g. OGRE-2.3) so headers, plugins, cmake helpers and the .pc file all
++# match the historical 2.3.x layout that downstream consumers — notably
++# gz-cmake's FindGzOGRE2 — search for via pkg-config.
++# This lets multiple Ogre-Next branches coexist on the system.
++set(OGRE_NEXT_PREFIX "OGRE-${OGRE_VERSION_MAJOR}.${OGRE_VERSION_MINOR}")
++# OGRE_PLUGIN_PATH and OGRE_SAMPLE_PATH were cached at
++# include(OgreConfigTargets) time using the pre-override OGRE_NEXT_PREFIX;
++# refresh them so plugins land where the .pc files advertise plugindir.
++if(UNIX AND NOT APPLE)
++  set(OGRE_PLUGIN_PATH "/${OGRE_NEXT_PREFIX}")
++  set(OGRE_SAMPLE_PATH "/${OGRE_NEXT_PREFIX}/Samples")
++endif()
  # Configure version file for use by scripts
  configure_file("${OGRE_TEMPLATES_DIR}/version.txt.in" "${OGRE_BINARY_DIR}/version.txt" @ONLY)
  

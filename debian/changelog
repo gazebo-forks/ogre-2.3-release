@@ -15,8 +15,12 @@ ogre-next-2.3 (2.3.3+osrf1-3) resolute; urgency=medium
     +osrf1 source tarball)
   * debian: relax install globs to OGRE*/ for plugin and cmake subdirs
     (upstream now installs under OGRE-Next/ and OGRE-Next-2.3/, not OGRE/)
+  * debian: pin OGRE_NEXT_PREFIX to OGRE-2.3 (not OGRE-Next-2.3) and
+    refresh OGRE_PLUGIN_PATH/OGRE_SAMPLE_PATH so headers, plugins, cmake
+    helpers and the .pc file all carry the versioned, "Next"-less prefix
+    that gz-cmake's FindGzOGRE2 looks up via pkg-config name "OGRE-2.3"
 
- -- Jose Luis Rivero <jrivero@honurobotics.com>  Wed, 06 May 2026 21:30:00 +0000
+ -- Jose Luis Rivero <jrivero@honurobotics.com>  Thu, 07 May 2026 12:30:00 +0000
 
 ogre-next-2.3 (2.3.1-9) resolute; urgency=medium
 
