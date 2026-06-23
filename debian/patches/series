@@ -1,7 +1,6 @@
 disable-samples-directory.patch
 riscv64-support.patch
 vulkan-remove-sharedrc.patch
-vulkan-look-for-validationlayers.patch
 versioned-header-dir.patch
 install-pc-files-to-lib-multiarch.patch
 vulkan_needs_glslang_spirv.diff
