@@ -35,7 +35,8 @@ Build-Depends: debhelper (>= 11),
                zlib1g-dev,
                glslang-dev,
                libvulkan-dev,
-               vulkan-utility-libraries-dev
+               vulkan-utility-libraries-dev,
+               vulkan-validationlayers
 Build-Depends-Indep: doxygen,
                      graphviz,
                      texinfo
