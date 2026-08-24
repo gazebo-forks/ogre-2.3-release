@@ -1,3 +1,10 @@
+ogre-next-2.3 (2.3.3+osrf2-1) resolute; urgency=medium
+
+  * patch: Fix STBIImageCodec to work without FreeImage
+  * rules: set cmake flags to use STBI and disable FreeImage
+
+ -- Steve Peters <scpeters@intrinsic.ai>  Mon, 26 Aug 2026 21:13:00 +0000
+
 ogre-next-2.3 (2.3.3+osrf1-3) resolute; urgency=medium
 
   * New upstream version 2.3.3
