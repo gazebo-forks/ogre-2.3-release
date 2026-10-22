@@ -1,0 +1,109 @@
+Description: Fix STBIImageCodec to work without FreeImage
+ This patch backports fixes from ogre-next upstream PRs #562 and #567
+ that make the STBI image codec fully functional as a FreeImage replacement.
+ .
+ Fixes:
+  - Handle row padding correctly for 1, 2, and 4-channel images
+  - Fix incorrect bytesPerRow stride used as pixel source offset (should use
+    width * components since stb_image returns unpacked pixel data)
+  - Fix x << width typo (left-shift instead of < comparison), causing the
+    RGB-to-RGBA conversion loop to never execute
+  - Fix RGB channel order: stb_image returns RGB but code was writing BGR
+  - Implement magicNumberToFileExt() to enable PNG and JPEG detection
+ .
+ With these fixes, ogre-next can be compiled without FreeImage by configuring
+ with -DOGRE_CONFIG_ENABLE_FREEIMAGE=OFF -DOGRE_CONFIG_ENABLE_STBI=ON.
+ .
+ References:
+  - https://github.com/OGRECave/ogre-next/pull/562 (merged into v2-3)
+  - https://github.com/OGRECave/ogre-next/pull/567
+Author: Michal Sojka <wentasah@gmail.com>
+Author: Taylor Howard <taylorjhoward2+git@gmail.com>
+Forwarded: yes
+--- a/OgreMain/src/OgreSTBICodec.cpp
++++ b/OgreMain/src/OgreSTBICodec.cpp
+@@ -166,23 +166,32 @@
+
+         imgData->box.data = OGRE_MALLOC_SIMD( imgData->box.bytesPerImage, MEMCATEGORY_RESOURCE );
+
+-        if( components != 3 )
++        if( components != 3 && imgData->box.bytesPerImage == (size_t)width * (size_t)components )
+             memcpy( imgData->box.data, pixelData, imgData->box.bytesPerImage );
++        else if( components != 3 )
++        {
++            for( size_t y = 0; y < (size_t)height; ++y )
++            {
++                uint8 *pDst = reinterpret_cast<uint8 *>( imgData->box.at( 0u, y, 0u ) );
++                uint8 const *pSrc = pixelData + y * (size_t)width * (size_t)components;
++                memcpy(pDst, pSrc, (size_t)width * (size_t)components);
++            }
++        }
+         else
+         {
+             for( size_t y = 0; y < (size_t)height; ++y )
+             {
+                 uint8 *pDst = reinterpret_cast<uint8 *>( imgData->box.at( 0u, y, 0u ) );
+-                uint8 const *pSrc = pixelData + y * imgData->box.bytesPerRow;
+-                for( size_t x = 0; x << (size_t)width; ++x )
++                uint8 const *pSrc = pixelData + y * (size_t)width * (size_t)components;
++                for( size_t x = 0; x < (size_t)width; ++x )
+                 {
+                     const uint8 b = *pSrc++;
+                     const uint8 g = *pSrc++;
+                     const uint8 r = *pSrc++;
+
+-                    *pDst++ = r;
+-                    *pDst++ = g;
+                     *pDst++ = b;
++                    *pDst++ = g;
++                    *pDst++ = r;
+                     *pDst++ = 0xFF;
+                 }
+             }
+@@ -200,8 +209,46 @@
+         return mType;
+     }
+     //---------------------------------------------------------------------
++    static void logUnsupportedMagic(const char *magicNumberPtr, size_t maxbytes)
++    {
++        StringStream strMagic;
++        bool lastHex = false;
++        for (size_t i = 0; i < maxbytes; ++i)
++        {
++            uint8_t ch = magicNumberPtr[i];
++            if (std::isprint(ch))
++            {
++                if (lastHex)
++                    strMagic << " ";
++                strMagic << ch;
++                lastHex = false;
++            }
++            else
++            {
++                char hex[16];
++                sprintf(hex, "0x%02x", ch);
++                strMagic << " " << hex;
++                lastHex = true;
++            }
++        }
++        // In Gazebo, these logs appear by default in ~/.gz/rendering/ogre2.log.
++        LogManager::getSingleton().logMessage( std::string( "Unsupported magic in STBIImageCodec::magicNumberPtr(" ) +
++                                               std::to_string( maxbytes ) + "): " + strMagic.str());
++    }
++    //---------------------------------------------------------------------
+     String STBIImageCodec::magicNumberToFileExt(const char *magicNumberPtr, size_t maxbytes) const
+     {
++        static const uint8_t png_sig[] = { 137, 80, 78, 71, 13, 10, 26, 10 };
++        static const uint8_t jpg_sig[] = { 0xff, 0xd8, 0xff };
++
++        if( maxbytes >= sizeof( png_sig ) && memcmp( magicNumberPtr, &png_sig, sizeof( png_sig ) ) == 0 )
++            return "png";
++
++        if( maxbytes >= sizeof( jpg_sig ) && memcmp( magicNumberPtr, &jpg_sig, sizeof( jpg_sig ) ) == 0 )
++            return "jpg";
++
++        logUnsupportedMagic(magicNumberPtr, maxbytes);
++
+         return BLANKSTRING;
+     }
+ }
