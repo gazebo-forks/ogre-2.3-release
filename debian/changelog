@@ -1,3 +1,14 @@
+ogre-next-2.3 (2.3.1-10) noble; urgency=medium
+
+  * Enable the Vulkan RenderSystem: drop
+    vulkan-look-for-validationlayers.patch. It requires
+    vulkan/vk_layer_config.h, which no Noble package ships, so CMake
+    silently disabled Vulkan and RenderSystem_Vulkan was not built
+  * patch: refresh vulkan_needs_glslang_spirv.diff after dropping the
+    validationlayers patch
+
+ -- Jose Luis Rivero <jrivero@honurobotics.com>  Thu, 22 Oct 2026 12:48:56 +0200
+
 ogre-next-2.3 (2.3.1-9) noble; urgency=medium
 
   * First noble release in master_noble branch
