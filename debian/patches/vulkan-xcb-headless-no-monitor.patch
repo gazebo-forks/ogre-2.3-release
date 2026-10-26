@@ -1,0 +1,38 @@
+Description: Vulkan: do not fail to load when no monitor is connected
+ With zero connected monitors (a headless server, or a remote session whose
+ screen has been switched off) the X11/XCB backend finds no video modes, so
+ "Video Mode" stays empty while "Full Screen" defaults to "Yes".
+ refreshConfig() then throws "Malformed resolution string" and the Vulkan
+ RenderSystem fails to load. Default to windowed mode in that case so the
+ render system initialises and offscreen rendering works.
+Author: Jose Luis Rivero <jrivero@honurobotics.com>
+Forwarded: https://github.com/OGRECave/ogre-next/pull/597
+Last-Update: 2026-10-26
+
+--- a/RenderSystems/Vulkan/src/Windowing/X11/OgreVulkanXcbSupport.cpp
++++ b/RenderSystems/Vulkan/src/Windowing/X11/OgreVulkanXcbSupport.cpp
+@@ -148,7 +148,23 @@
+             ++itor;
+         }
+         if( !optVideoMode.possibleValues.empty() )
++        {
+             optVideoMode.currentValue = optVideoMode.possibleValues.front();
++        }
++        else
++        {
++            // No video modes are available -- e.g. a headless server or a
++            // remote session whose screen has suspended, leaving zero connected
++            // monitors. Fullscreen is impossible without a known resolution,
++            // and refreshConfig() would otherwise abort with a "Malformed
++            // resolution string" exception, causing the whole Vulkan render
++            // system to fail to load (it is registered as an optional plugin,
++            // so the failure is silently swallowed and rendering falls back to
++            // OpenGL). Default to windowed so the render system still
++            // initialises; headless consumers can then select the NULL window
++            // interface for offscreen rendering.
++            optFullScreen.currentValue = "No";
++        }
+ 
+         optDisplayFrequency.name = "Display Frequency";
+         optDisplayFrequency.immutable = false;
+

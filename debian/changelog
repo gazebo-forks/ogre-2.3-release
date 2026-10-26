@@ -1,3 +1,11 @@
+ogre-next-2.3 (2.3.1-10) jammy; urgency=medium
+
+  * patch: vulkan-xcb-headless-no-monitor.patch. With no monitor
+    connected the Vulkan RenderSystem failed to load with "Malformed
+    resolution string"; default to windowed mode so it initialises
+
+ -- Jose Luis Rivero <jrivero@honurobotics.com>  Mon, 26 Oct 2026 12:13:10 +0100
+
 ogre-next-2.3 (2.3.1-9) jammy; urgency=medium
 
   [ Jose Luis Rivero ]
