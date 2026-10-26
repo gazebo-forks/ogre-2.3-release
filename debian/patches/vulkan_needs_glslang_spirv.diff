@@ -1,7 +1,7 @@
 Vulkan RenderingSystem needs to be statically linked to glslang and spirv libraries
 --- a/CMake/Packages/FindVulkan.cmake
 +++ b/CMake/Packages/FindVulkan.cmake
-@@ -99,6 +99,22 @@ else()
+@@ -99,9 +99,25 @@
  			"${OGRE_VULKAN_SDK}/${VK_ARCH}/lib"
  			"$ENV{VULKAN_SDK}/lib"
  		)
@@ -23,19 +23,8 @@ Vulkan RenderingSystem needs to be statically linked to glslang and spirv librar
 +  endif()
  endif()
  
- # Skip vulkan support in the building enviroments wihtout validationlayers
-@@ -108,7 +124,7 @@ endif()
- find_path(VulkanLayers_INCLUDE_DIR
-   NAMES vulkan/vk_layer_config.h)
- 
 -set(Vulkan_LIBRARIES ${Vulkan_LIBRARY})
 +set(Vulkan_LIBRARIES ${Vulkan_LIBRARY} ${glslang_LIBRARIES} ${spirv_LIBRARIES})
  set(Vulkan_INCLUDE_DIRS ${Vulkan_INCLUDE_DIR})
  
  include(FindPackageHandleStandardArgs)
-@@ -134,5 +150,3 @@ if (NOT VulkanLayers_INCLUDE_DIR)
-   message(STATUS "VulkanLayers not found. Disabling Vulkan support")
-   set(Vulkan_FOUND FALSE)
- endif()
--
--
