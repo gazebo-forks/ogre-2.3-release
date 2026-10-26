@@ -9,3 +9,4 @@ install-pc-files-to-lib-multiarch.patch
 vulkan_needs_glslang_spirv.diff
 vulkan-fix-cast.patch
 fix-gpu-in-wsl.patch
+vulkan-xcb-headless-no-monitor.patch
