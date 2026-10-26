@@ -6,7 +6,7 @@ Description: Vulkan: do not fail to load when no monitor is connected
  RenderSystem fails to load. Default to windowed mode in that case so the
  render system initialises and offscreen rendering works.
 Author: Jose Luis Rivero <jrivero@honurobotics.com>
-Forwarded: no
+Forwarded: https://github.com/OGRECave/ogre-next/pull/597
 Last-Update: 2026-10-26
 
 --- a/RenderSystems/Vulkan/src/Windowing/X11/OgreVulkanXcbSupport.cpp
