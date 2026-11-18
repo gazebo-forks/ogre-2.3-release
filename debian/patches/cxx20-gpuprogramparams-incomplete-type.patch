@@ -1,0 +1,43 @@
+Description: Fix GpuProgramParameters compile error with Clang in C++20 mode
+ The destructor and getAutoConstantCount() were defined inline while
+ GpuProgramParameters_AutoConstantEntry was still incomplete. In C++20 the
+ std::vector members are constexpr, so Clang instantiates them there and fails.
+Author: Carlos Agüero <caguero@honurobotics.com>
+Origin: backport, https://github.com/OGRECave/ogre-next/commit/5de331dc5f497d83bc6b1ac9c876e4597577a96b
+Forwarded: https://github.com/OGRECave/ogre-next/pull/596
+Last-Update: 2026-11-18
+
+diff --git a/OgreMain/include/OgreGpuProgramParams.h b/OgreMain/include/OgreGpuProgramParams.h
+index f8205a68d8..2138a86afa 100644
+--- a/OgreMain/include/OgreGpuProgramParams.h
++++ b/OgreMain/include/OgreGpuProgramParams.h
+@@ -1504,7 +1504,7 @@ namespace Ogre {
+ 
+     public:
+         GpuProgramParameters();
+-        ~GpuProgramParameters() {}
++        ~GpuProgramParameters() = default;
+ 
+         /// Copy constructor
+         GpuProgramParameters(const GpuProgramParameters& oth);
+@@ -1963,7 +1963,7 @@ namespace Ogre {
+         /** Gets an iterator over the automatic constant bindings currently in place. */
+         AutoConstantIterator getAutoConstantIterator(void) const;
+         /// Gets the number of int constants that have been set
+-        size_t getAutoConstantCount(void) const { return mAutoConstants.size(); }
++        size_t getAutoConstantCount( void ) const;
+         /** Gets a specific Auto Constant entry if index is in valid range
+             otherwise returns a NULL
+             @param index which entry is to be retrieved
+@@ -2494,6 +2494,11 @@ namespace Ogre {
+         }
+     };
+ 
++    inline size_t GpuProgramParameters::getAutoConstantCount( void ) const
++    {
++        return mAutoConstants.size();
++    }
++
+     /** @} */
+     /** @} */
+ }
