@@ -1,3 +1,10 @@
+ogre-next-2.3 (2.3.3+osrf1-6) resolute; urgency=medium
+
+  * patch: Fix GpuProgramParameters compile error with Clang in C++20
+    mode (OGRECave/ogre-next#596)
+
+ -- Carlos Agüero <caguero@honurobotics.com>  Wed, 18 Nov 2026 07:08:09 +0100
+
 ogre-next-2.3 (2.3.3+osrf1-5) resolute; urgency=medium
 
   * Enable the Vulkan RenderSystem: drop
